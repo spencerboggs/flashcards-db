@@ -1,0 +1,18 @@
+{
+  "id": "api",
+  "term": "API",
+  "aliases": [
+    "Application Programming Interface"
+  ],
+  "difficulty": "fundamental",
+  "definition": "An API is the set of operations a piece of software offers its callers, and the rules for using them. It may be functions in a library or requests sent to a service. Callers rely on that surface staying stable when the internals change.",
+  "categories": [
+    "programming",
+    "software-engineering",
+    "web"
+  ],
+  "examples": [
+    "The public functions of a library",
+    "An HTTP API for creating and listing orders"
+  ]
+}

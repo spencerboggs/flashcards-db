@@ -1,0 +1,16 @@
+{
+  "id": "minimum-spanning-tree",
+  "term": "Minimum Spanning Tree",
+  "aliases": [
+    "MST"
+  ],
+  "difficulty": "intermediate",
+  "definition": "A minimum spanning tree is a subset of a connected, weighted, undirected graph that connects every vertex, has no cycles, and has the smallest total edge weight. It has exactly one fewer edge than there are vertices. Kruskal's algorithm and Prim's algorithm both construct one.",
+  "categories": [
+    "algorithms"
+  ],
+  "examples": [
+    "Connecting sites with the least total cable",
+    "A cheapest set of links that keeps a network connected"
+  ]
+}

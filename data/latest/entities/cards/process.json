@@ -1,0 +1,18 @@
+{
+  "id": "process",
+  "term": "Process",
+  "aliases": [],
+  "difficulty": "fundamental",
+  "definition": "A process is a running program with its own address space, open files, and at least one thread of execution. The operating system isolates processes from each other. Creating a process copies or builds that environment; ending it releases it.",
+  "categories": [
+    "infrastructure",
+    "operating-systems"
+  ],
+  "details": [
+    "A process is the isolation boundary. Threads inside one process share its memory."
+  ],
+  "examples": [
+    "A web server process and a database process on the same machine",
+    "A shell starting a command as a child process"
+  ]
+}

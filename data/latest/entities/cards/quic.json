@@ -1,0 +1,15 @@
+{
+  "id": "quic",
+  "term": "QUIC",
+  "aliases": [],
+  "difficulty": "intermediate",
+  "definition": "QUIC is a transport protocol that runs over UDP and provides reliable streams plus encryption in the protocol itself. Several streams share one connection, so a loss on one stream does not stall the others the way TCP head-of-line blocking does. HTTP/3 uses QUIC.",
+  "categories": [
+    "networking",
+    "web"
+  ],
+  "examples": [
+    "HTTP/3 connections",
+    "A multiplexed connection that keeps moving when one stream loses a packet"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "id": "refactoring",
+  "term": "Refactoring",
+  "aliases": [],
+  "difficulty": "fundamental",
+  "definition": "Refactoring is changing the structure of code without changing its observable behavior. The point is to make a later change easier or to make the code clearer. Tests that already describe the behavior are what make the rewrite safe.",
+  "categories": [
+    "software-engineering"
+  ],
+  "examples": [
+    "Extracting a function from a long method",
+    "Renaming a misleading variable and updating every use"
+  ]
+}

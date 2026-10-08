@@ -1,0 +1,16 @@
+{
+  "id": "environment-variable",
+  "term": "Environment Variable",
+  "aliases": [],
+  "difficulty": "fundamental",
+  "definition": "An environment variable is a named string in a process's environment, inherited by the processes it starts. Programs read configuration such as paths and modes from it. Secrets are sometimes passed this way, and then they are visible to anything that can inspect the process.",
+  "categories": [
+    "infrastructure",
+    "operating-systems",
+    "programming"
+  ],
+  "examples": [
+    "A variable naming the port a server should listen on",
+    "A path list the shell searches for programs"
+  ]
+}

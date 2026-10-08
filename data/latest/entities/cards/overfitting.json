@@ -1,0 +1,14 @@
+{
+  "id": "overfitting",
+  "term": "Overfitting",
+  "aliases": [],
+  "difficulty": "fundamental",
+  "definition": "Overfitting is when a model fits the training data, including its noise, and does worse on new data. The training loss keeps falling while the validation loss rises. A simpler model, more data, or regularization are the usual responses.",
+  "categories": [
+    "machine-learning"
+  ],
+  "examples": [
+    "A model that memorizes training rows and misses on the test set",
+    "A widening gap between training accuracy and validation accuracy"
+  ]
+}

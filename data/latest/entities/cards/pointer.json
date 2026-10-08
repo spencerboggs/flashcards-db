@@ -1,0 +1,19 @@
+{
+  "id": "pointer",
+  "term": "Pointer",
+  "aliases": [],
+  "difficulty": "fundamental",
+  "definition": "A pointer is a value that stores the address of something in memory. Following it yields the bytes stored at that address. Pointers make sharing and dynamic structures possible, and they fail when the address is wrong or the target is already gone.",
+  "categories": [
+    "computer-architecture",
+    "programming"
+  ],
+  "details": [
+    "A null pointer does not point at an object. Using it is an error.",
+    "A dangling pointer refers to memory that has already been freed."
+  ],
+  "examples": [
+    "The address of the first element of an array",
+    "A link from one list node to the next"
+  ]
+}

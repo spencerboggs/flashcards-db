@@ -1,0 +1,16 @@
+{
+  "id": "end-to-end-test",
+  "term": "End-to-End Test",
+  "aliases": [
+    "E2E Test"
+  ],
+  "difficulty": "fundamental",
+  "definition": "An end-to-end test drives the system the way a user or a client would, through its outer interface. It checks a whole path, including the pieces in between. It is the slowest and the most brittle of the common test layers, and it covers the most ground per test.",
+  "categories": [
+    "testing"
+  ],
+  "examples": [
+    "A browser test that signs in and places an order",
+    "A test that sends an HTTP request and checks the stored result"
+  ]
+}

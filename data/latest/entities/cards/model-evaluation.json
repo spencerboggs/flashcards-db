@@ -1,0 +1,14 @@
+{
+  "id": "model-evaluation",
+  "term": "Model Evaluation",
+  "aliases": [],
+  "difficulty": "fundamental",
+  "definition": "Model evaluation measures how well a model does on a task, using data or criteria that were not used to fit it. A single accuracy number can hide failures on a slice of the inputs that matters. The metric has to match the decision the model will actually support.",
+  "categories": [
+    "machine-learning"
+  ],
+  "examples": [
+    "Accuracy on a held-out test set",
+    "An error rate broken down by a group the product cares about"
+  ]
+}

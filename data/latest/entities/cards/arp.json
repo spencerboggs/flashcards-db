@@ -1,0 +1,16 @@
+{
+  "id": "arp",
+  "term": "ARP",
+  "aliases": [
+    "Address Resolution Protocol"
+  ],
+  "difficulty": "intermediate",
+  "definition": "ARP resolves an IPv4 address to a MAC address on the local network. A host asks who has the IP address, and the owner answers with its MAC address. The result is cached so later frames can be addressed without asking again.",
+  "categories": [
+    "networking"
+  ],
+  "examples": [
+    "Finding the MAC address of the local router",
+    "A cached mapping used for the next packet to that host"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "id": "ahead-of-time-compilation",
+  "term": "Ahead-of-Time Compilation",
+  "aliases": [
+    "AOT"
+  ],
+  "difficulty": "fundamental",
+  "definition": "Ahead-of-time compilation translates the program to machine code before it runs. Startup does not include a compile step, and the compiler cannot use measurements from the current run. Traditional compiled languages work this way.",
+  "categories": [
+    "programming-languages"
+  ],
+  "examples": [
+    "A release binary produced by a C compiler",
+    "A build step that emits native code for a whole program"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "id": "scheduling",
+  "term": "Scheduling",
+  "aliases": [],
+  "difficulty": "intermediate",
+  "definition": "Scheduling is how the operating system chooses which runnable thread runs on a processor, and for how long. Preemptive scheduling can interrupt a running thread. Cooperative scheduling waits for the thread to give up the processor itself.",
+  "categories": [
+    "operating-systems"
+  ],
+  "examples": [
+    "A time slice that expires and lets another thread run",
+    "A priority scheduler that runs a high-priority thread first"
+  ]
+}

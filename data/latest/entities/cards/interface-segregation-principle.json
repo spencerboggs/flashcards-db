@@ -1,0 +1,16 @@
+{
+  "id": "interface-segregation-principle",
+  "term": "Interface Segregation Principle",
+  "aliases": [
+    "ISP"
+  ],
+  "difficulty": "intermediate",
+  "definition": "The interface segregation principle says a client should not be forced to depend on methods it does not use. Several small interfaces are preferable to one wide interface. A class can implement more than one of the small ones.",
+  "categories": [
+    "object-oriented-programming"
+  ],
+  "examples": [
+    "Splitting a Worker interface into Separate Eater and Sleeper interfaces when not every worker does both",
+    "A read-only client that depends only on a Reader interface"
+  ]
+}

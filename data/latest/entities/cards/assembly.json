@@ -1,0 +1,17 @@
+{
+  "id": "assembly",
+  "term": "Assembly",
+  "aliases": [
+    "Assembly Language"
+  ],
+  "difficulty": "fundamental",
+  "definition": "Assembly is a human-readable text form of machine code, with a mnemonic for each instruction. An assembler translates it to machine code almost one line per instruction. People use it to see what a compiler emitted, or to write a tiny piece of code the compiler cannot express.",
+  "categories": [
+    "computer-architecture",
+    "programming-languages"
+  ],
+  "examples": [
+    "A mnemonic add instruction with register operands",
+    "Compiler output inspected while chasing a bug"
+  ]
+}

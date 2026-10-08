@@ -1,0 +1,18 @@
+{
+  "id": "linear-search",
+  "term": "Linear Search",
+  "aliases": [],
+  "difficulty": "fundamental",
+  "definition": "Linear search checks elements one by one until it finds the target or runs out of elements. The input does not need to be sorted. In the worst case every element is examined.",
+  "categories": [
+    "algorithms"
+  ],
+  "complexity": {
+    "time": "O(n) in the worst case. O(1) if the target is first.",
+    "space": "O(1) extra space."
+  },
+  "examples": [
+    "Finding a name in an unsorted list",
+    "Scanning a log for the first error"
+  ]
+}

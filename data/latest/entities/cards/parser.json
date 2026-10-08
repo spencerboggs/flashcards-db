@@ -1,0 +1,14 @@
+{
+  "id": "parser",
+  "term": "Parser",
+  "aliases": [],
+  "difficulty": "intermediate",
+  "definition": "A parser reads tokens and builds a tree that reflects the grammar of the language. It is where operator precedence and nesting are decided. A syntax error is the parser rejecting a token sequence the grammar does not allow.",
+  "categories": [
+    "programming-languages"
+  ],
+  "examples": [
+    "Building a tree in which multiplication sits below addition",
+    "Rejecting a missing closing parenthesis"
+  ]
+}

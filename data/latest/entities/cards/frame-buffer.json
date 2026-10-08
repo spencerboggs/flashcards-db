@@ -1,0 +1,14 @@
+{
+  "id": "frame-buffer",
+  "term": "Frame Buffer",
+  "aliases": [],
+  "difficulty": "fundamental",
+  "definition": "A frame buffer is the memory that holds the image being drawn or the image most recently finished. Rendering writes pixels into it, and the display reads them out. A double buffer draws into one buffer while the screen shows the other, then swaps.",
+  "categories": [
+    "computer-graphics"
+  ],
+  "examples": [
+    "The color buffer a frame is drawn into",
+    "A depth buffer storing how far each pixel's surface is"
+  ]
+}

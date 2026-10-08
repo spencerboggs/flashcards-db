@@ -1,0 +1,15 @@
+{
+  "id": "linux",
+  "term": "Linux",
+  "aliases": [],
+  "difficulty": "fundamental",
+  "definition": "Linux is a kernel, and the usual name for the family of operating systems built around that kernel. It manages processes, memory, files, and devices on servers, phones, and embedded machines. A distribution packages the kernel with user-space tools and a package manager.",
+  "categories": [
+    "infrastructure",
+    "operating-systems"
+  ],
+  "examples": [
+    "A server running a Linux distribution",
+    "Containers sharing a Linux kernel with the host"
+  ]
+}

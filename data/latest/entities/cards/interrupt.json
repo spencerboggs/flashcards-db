@@ -1,0 +1,15 @@
+{
+  "id": "interrupt",
+  "term": "Interrupt",
+  "aliases": [],
+  "difficulty": "intermediate",
+  "definition": "An interrupt is a signal that makes the processor stop the current instruction stream and run a handler. Hardware interrupts come from devices, such as a disk or a timer. Software interrupts and exceptions come from the running program, including system calls and faults.",
+  "categories": [
+    "computer-architecture",
+    "operating-systems"
+  ],
+  "examples": [
+    "A timer interrupt that lets the scheduler run",
+    "A device signaling that a transfer has finished"
+  ]
+}

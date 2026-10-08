@@ -1,0 +1,14 @@
+{
+  "id": "denormalization",
+  "term": "Denormalization",
+  "aliases": [],
+  "difficulty": "intermediate",
+  "definition": "Denormalization stores a fact in more than one place on purpose, usually so a read can avoid a join or a second lookup. Writes become harder, because every copy must be updated. It is a performance trade against a normalized design, not the default starting point.",
+  "categories": [
+    "databases"
+  ],
+  "examples": [
+    "A copy of the author's name stored on each post",
+    "A counter maintained on a parent row instead of counted from children"
+  ]
+}

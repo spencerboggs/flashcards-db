@@ -1,0 +1,15 @@
+{
+  "id": "git-fetch",
+  "term": "Fetch",
+  "aliases": [],
+  "difficulty": "fundamental",
+  "definition": "Git fetch downloads commits, branches, and tags from a remote that the local repository does not have yet. It updates remote-tracking references and does not change the branch you have checked out. Integrating those commits is a separate step.",
+  "categories": [
+    "version-control"
+  ],
+  "prompt": "What does git fetch do?",
+  "examples": [
+    "Updating origin/main without touching the local main branch",
+    "Downloading a teammate's new branch"
+  ]
+}

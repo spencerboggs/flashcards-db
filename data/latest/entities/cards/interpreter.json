@@ -1,0 +1,14 @@
+{
+  "id": "interpreter",
+  "term": "Interpreter",
+  "aliases": [],
+  "difficulty": "fundamental",
+  "definition": "An interpreter runs a program by executing its source, or a close representation of it, directly. There is no separate translation step that produces a machine-code binary first. The interpreter has to be present whenever the program runs.",
+  "categories": [
+    "programming-languages"
+  ],
+  "examples": [
+    "A shell executing a command",
+    "An implementation that walks an abstract syntax tree and runs it"
+  ]
+}

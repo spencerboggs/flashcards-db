@@ -1,0 +1,14 @@
+{
+  "id": "method-overloading",
+  "term": "Method Overloading",
+  "aliases": [],
+  "difficulty": "fundamental",
+  "definition": "Method overloading defines several methods with the same name and different parameters. The language picks which one to call from the arguments at the call site, usually at compile time. It is not the same as overriding, which picks the method from the object's actual type at run time.",
+  "categories": [
+    "object-oriented-programming"
+  ],
+  "examples": [
+    "A draw method that accepts either a color or a color plus a line width",
+    "Several constructors with different parameter lists"
+  ]
+}

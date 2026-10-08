@@ -1,0 +1,14 @@
+{
+  "id": "machine-learning",
+  "term": "Machine Learning",
+  "aliases": [],
+  "difficulty": "fundamental",
+  "definition": "Machine learning builds a model by adjusting its parameters on data, instead of writing the decision rule by hand. The trained model then makes predictions on new inputs. The quality of those predictions depends on the data, the model, and the question being asked.",
+  "categories": [
+    "machine-learning"
+  ],
+  "examples": [
+    "A spam filter trained on labeled mail",
+    "A model that predicts the next word"
+  ]
+}

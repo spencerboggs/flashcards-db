@@ -1,0 +1,15 @@
+{
+  "id": "tool-calling",
+  "term": "Tool Calling",
+  "aliases": [],
+  "difficulty": "intermediate",
+  "definition": "Tool calling is when a model emits a structured request to run a named function, the program runs that function, and the result is given back to the model. The model chooses the call; the program performs it and keeps control of the effect. It is how a text model reaches a calculator, a database, or an API.",
+  "categories": [
+    "machine-learning",
+    "programming"
+  ],
+  "examples": [
+    "A model requesting a weather lookup by city",
+    "A program running the requested function and returning the JSON result"
+  ]
+}

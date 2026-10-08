@@ -1,0 +1,14 @@
+{
+  "id": "reinforcement-learning",
+  "term": "Reinforcement Learning",
+  "aliases": [],
+  "difficulty": "intermediate",
+  "definition": "Reinforcement learning trains a policy by trying actions and observing rewards, not by showing it the correct action. The learner has to balance trying new actions against repeating actions that have paid off. It fits settings where the quality of a sequence of actions is known, even when the best next step is not labeled.",
+  "categories": [
+    "machine-learning"
+  ],
+  "examples": [
+    "A game-playing agent rewarded for winning",
+    "A controller rewarded for staying upright"
+  ]
+}

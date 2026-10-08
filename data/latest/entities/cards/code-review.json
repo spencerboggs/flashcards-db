@@ -1,0 +1,14 @@
+{
+  "id": "code-review",
+  "term": "Code Review",
+  "aliases": [],
+  "difficulty": "fundamental",
+  "definition": "A code review is another person reading a change before it is merged, looking for defects, unclear design, and missing tests. The author keeps responsibility for the change. The review spreads knowledge of the code beyond the person who wrote it.",
+  "categories": [
+    "software-engineering"
+  ],
+  "examples": [
+    "Comments on a pull request before it is merged",
+    "A checklist that asks whether error paths were considered"
+  ]
+}

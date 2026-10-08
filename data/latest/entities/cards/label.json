@@ -1,0 +1,15 @@
+{
+  "id": "label",
+  "term": "Label",
+  "aliases": [],
+  "difficulty": "fundamental",
+  "definition": "A label is the target value paired with an example in supervised learning. The model is trained to predict it. Labels that are wrong or inconsistent become a ceiling on how well the model can do.",
+  "categories": [
+    "machine-learning"
+  ],
+  "prompt": "What is a label in supervised learning?",
+  "examples": [
+    "Spam or not spam",
+    "The price a house sold for"
+  ]
+}

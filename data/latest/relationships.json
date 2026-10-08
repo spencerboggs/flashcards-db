@@ -1,0 +1,2162 @@
+[
+  {
+    "from": "a-star",
+    "type": "based-on",
+    "to": "dijkstra"
+  },
+  {
+    "from": "a-star",
+    "type": "related-to",
+    "to": "breadth-first-search"
+  },
+  {
+    "from": "abi",
+    "type": "related-to",
+    "to": "calling-convention"
+  },
+  {
+    "from": "abstract-class",
+    "type": "contrasts",
+    "to": "interface"
+  },
+  {
+    "from": "abstract-syntax-tree",
+    "type": "related-to",
+    "to": "parser"
+  },
+  {
+    "from": "abstract-syntax-tree",
+    "type": "related-to",
+    "to": "semantic-analysis"
+  },
+  {
+    "from": "abstraction",
+    "type": "contrasts",
+    "to": "encapsulation"
+  },
+  {
+    "from": "accounting",
+    "type": "related-to",
+    "to": "authentication"
+  },
+  {
+    "from": "accounting",
+    "type": "related-to",
+    "to": "logging"
+  },
+  {
+    "from": "acid",
+    "type": "contrasts",
+    "to": "cap-theorem"
+  },
+  {
+    "from": "acid",
+    "type": "related-to",
+    "to": "transaction"
+  },
+  {
+    "from": "activation-function",
+    "type": "related-to",
+    "to": "neural-network"
+  },
+  {
+    "from": "adjacency-list",
+    "type": "contrasts",
+    "to": "adjacency-matrix"
+  },
+  {
+    "from": "adjacency-list",
+    "type": "related-to",
+    "to": "graph"
+  },
+  {
+    "from": "adjacency-matrix",
+    "type": "related-to",
+    "to": "graph"
+  },
+  {
+    "from": "agent",
+    "type": "related-to",
+    "to": "tool-calling"
+  },
+  {
+    "from": "aggregation",
+    "type": "contrasts",
+    "to": "composition"
+  },
+  {
+    "from": "ahead-of-time-compilation",
+    "type": "contrasts",
+    "to": "just-in-time-compilation"
+  },
+  {
+    "from": "ahead-of-time-compilation",
+    "type": "related-to",
+    "to": "machine-code"
+  },
+  {
+    "from": "alerting",
+    "type": "related-to",
+    "to": "monitoring"
+  },
+  {
+    "from": "algorithm",
+    "type": "related-to",
+    "to": "big-o"
+  },
+  {
+    "from": "algorithm",
+    "type": "related-to",
+    "to": "expected-value"
+  },
+  {
+    "from": "alu",
+    "type": "related-to",
+    "to": "cpu"
+  },
+  {
+    "from": "anti-aliasing",
+    "type": "related-to",
+    "to": "rasterization"
+  },
+  {
+    "from": "api",
+    "type": "related-to",
+    "to": "api-design"
+  },
+  {
+    "from": "api",
+    "type": "related-to",
+    "to": "documentation"
+  },
+  {
+    "from": "api",
+    "type": "related-to",
+    "to": "sdk"
+  },
+  {
+    "from": "api",
+    "type": "related-to",
+    "to": "service"
+  },
+  {
+    "from": "argument",
+    "type": "contrasts",
+    "to": "parameter"
+  },
+  {
+    "from": "arp",
+    "type": "related-to",
+    "to": "mac-address"
+  },
+  {
+    "from": "array",
+    "type": "contrasts",
+    "to": "linked-list"
+  },
+  {
+    "from": "array",
+    "type": "related-to",
+    "to": "prefix-sum"
+  },
+  {
+    "from": "assembly",
+    "type": "related-to",
+    "to": "machine-code"
+  },
+  {
+    "from": "asymmetric-encryption",
+    "type": "contrasts",
+    "to": "symmetric-encryption"
+  },
+  {
+    "from": "asymmetric-encryption",
+    "type": "uses",
+    "to": "public-key"
+  },
+  {
+    "from": "async-await",
+    "type": "prerequisite",
+    "to": "promise"
+  },
+  {
+    "from": "async-await",
+    "type": "related-to",
+    "to": "callback"
+  },
+  {
+    "from": "attack-surface",
+    "type": "related-to",
+    "to": "firewall"
+  },
+  {
+    "from": "attack-surface",
+    "type": "related-to",
+    "to": "threat-model"
+  },
+  {
+    "from": "attack-surface",
+    "type": "related-to",
+    "to": "vulnerability"
+  },
+  {
+    "from": "attention",
+    "type": "related-to",
+    "to": "transformer"
+  },
+  {
+    "from": "authentication",
+    "type": "contrasts",
+    "to": "authorization"
+  },
+  {
+    "from": "authentication",
+    "type": "related-to",
+    "to": "multi-factor-authentication"
+  },
+  {
+    "from": "authentication",
+    "type": "related-to",
+    "to": "session"
+  },
+  {
+    "from": "authorization",
+    "type": "related-to",
+    "to": "least-privilege"
+  },
+  {
+    "from": "availability",
+    "type": "contrasts",
+    "to": "reliability"
+  },
+  {
+    "from": "availability",
+    "type": "related-to",
+    "to": "cia-triad"
+  },
+  {
+    "from": "availability",
+    "type": "related-to",
+    "to": "health-check"
+  },
+  {
+    "from": "availability",
+    "type": "related-to",
+    "to": "rate-limiting"
+  },
+  {
+    "from": "avl-tree",
+    "type": "based-on",
+    "to": "binary-search-tree"
+  },
+  {
+    "from": "avl-tree",
+    "type": "related-to",
+    "to": "red-black-tree"
+  },
+  {
+    "from": "backend",
+    "type": "contrasts",
+    "to": "frontend"
+  },
+  {
+    "from": "backend",
+    "type": "related-to",
+    "to": "frontend"
+  },
+  {
+    "from": "backoff",
+    "type": "related-to",
+    "to": "retry"
+  },
+  {
+    "from": "backpropagation",
+    "type": "prerequisite",
+    "to": "gradient-descent"
+  },
+  {
+    "from": "backtracking",
+    "type": "related-to",
+    "to": "recursion"
+  },
+  {
+    "from": "backward-compatibility",
+    "type": "related-to",
+    "to": "semantic-versioning"
+  },
+  {
+    "from": "behavior-driven-development",
+    "type": "related-to",
+    "to": "test-driven-development"
+  },
+  {
+    "from": "bellman-ford",
+    "type": "based-on",
+    "to": "shortest-path"
+  },
+  {
+    "from": "big-o",
+    "type": "contrasts",
+    "to": "big-theta"
+  },
+  {
+    "from": "big-o",
+    "type": "related-to",
+    "to": "expected-value"
+  },
+  {
+    "from": "big-o",
+    "type": "related-to",
+    "to": "logarithm"
+  },
+  {
+    "from": "big-omega",
+    "type": "contrasts",
+    "to": "big-theta"
+  },
+  {
+    "from": "binary-search",
+    "type": "based-on",
+    "to": "divide-and-conquer"
+  },
+  {
+    "from": "binary-search",
+    "type": "contrasts",
+    "to": "linear-search"
+  },
+  {
+    "from": "binary-search",
+    "type": "prerequisite",
+    "to": "array"
+  },
+  {
+    "from": "binary-search",
+    "type": "related-to",
+    "to": "logarithm"
+  },
+  {
+    "from": "binary-search-tree",
+    "type": "based-on",
+    "to": "binary-tree"
+  },
+  {
+    "from": "binary-tree",
+    "type": "based-on",
+    "to": "tree"
+  },
+  {
+    "from": "bit-manipulation",
+    "type": "related-to",
+    "to": "boolean-logic"
+  },
+  {
+    "from": "bit-manipulation",
+    "type": "related-to",
+    "to": "modulo"
+  },
+  {
+    "from": "blue-green-deployment",
+    "type": "contrasts",
+    "to": "canary-deployment"
+  },
+  {
+    "from": "blue-green-deployment",
+    "type": "related-to",
+    "to": "deployment"
+  },
+  {
+    "from": "boolean",
+    "type": "related-to",
+    "to": "boolean-logic"
+  },
+  {
+    "from": "branch",
+    "type": "related-to",
+    "to": "commit"
+  },
+  {
+    "from": "branch",
+    "type": "related-to",
+    "to": "rebase"
+  },
+  {
+    "from": "branch-prediction",
+    "type": "related-to",
+    "to": "instruction-pipeline"
+  },
+  {
+    "from": "breadth-first-search",
+    "type": "contrasts",
+    "to": "depth-first-search"
+  },
+  {
+    "from": "breadth-first-search",
+    "type": "prerequisite",
+    "to": "graph"
+  },
+  {
+    "from": "breadth-first-search",
+    "type": "uses",
+    "to": "queue"
+  },
+  {
+    "from": "bubble-sort",
+    "type": "related-to",
+    "to": "insertion-sort"
+  },
+  {
+    "from": "buffer-overflow",
+    "type": "related-to",
+    "to": "pointer"
+  },
+  {
+    "from": "build-system",
+    "type": "related-to",
+    "to": "continuous-integration"
+  },
+  {
+    "from": "bytecode",
+    "type": "related-to",
+    "to": "just-in-time-compilation"
+  },
+  {
+    "from": "bytecode",
+    "type": "related-to",
+    "to": "virtual-machine-runtime"
+  },
+  {
+    "from": "cache",
+    "type": "related-to",
+    "to": "cdn"
+  },
+  {
+    "from": "cache",
+    "type": "related-to",
+    "to": "memory-hierarchy"
+  },
+  {
+    "from": "cache",
+    "type": "related-to",
+    "to": "ram"
+  },
+  {
+    "from": "call-stack",
+    "type": "based-on",
+    "to": "stack"
+  },
+  {
+    "from": "call-stack",
+    "type": "contrasts",
+    "to": "memory-heap"
+  },
+  {
+    "from": "callback",
+    "type": "related-to",
+    "to": "promise"
+  },
+  {
+    "from": "canary-deployment",
+    "type": "related-to",
+    "to": "deployment"
+  },
+  {
+    "from": "cap-theorem",
+    "type": "related-to",
+    "to": "strong-consistency"
+  },
+  {
+    "from": "certificate",
+    "type": "based-on",
+    "to": "public-key"
+  },
+  {
+    "from": "certificate",
+    "type": "related-to",
+    "to": "public-key"
+  },
+  {
+    "from": "cherry-pick",
+    "type": "related-to",
+    "to": "commit"
+  },
+  {
+    "from": "cia-triad",
+    "type": "related-to",
+    "to": "encryption"
+  },
+  {
+    "from": "cidr",
+    "type": "related-to",
+    "to": "subnet"
+  },
+  {
+    "from": "circuit-breaker",
+    "type": "related-to",
+    "to": "rate-limiting"
+  },
+  {
+    "from": "circuit-breaker",
+    "type": "related-to",
+    "to": "retry"
+  },
+  {
+    "from": "class",
+    "type": "contrasts",
+    "to": "instance"
+  },
+  {
+    "from": "class",
+    "type": "contrasts",
+    "to": "object"
+  },
+  {
+    "from": "class",
+    "type": "related-to",
+    "to": "constructor"
+  },
+  {
+    "from": "client",
+    "type": "contrasts",
+    "to": "server"
+  },
+  {
+    "from": "client",
+    "type": "related-to",
+    "to": "client-server"
+  },
+  {
+    "from": "client-server",
+    "type": "related-to",
+    "to": "http"
+  },
+  {
+    "from": "client-server",
+    "type": "related-to",
+    "to": "server"
+  },
+  {
+    "from": "closure",
+    "type": "based-on",
+    "to": "scope"
+  },
+  {
+    "from": "closure",
+    "type": "related-to",
+    "to": "scope"
+  },
+  {
+    "from": "code-coverage",
+    "type": "related-to",
+    "to": "unit-test"
+  },
+  {
+    "from": "code-review",
+    "type": "related-to",
+    "to": "pull-request"
+  },
+  {
+    "from": "code-smell",
+    "type": "related-to",
+    "to": "dry"
+  },
+  {
+    "from": "code-smell",
+    "type": "related-to",
+    "to": "refactoring"
+  },
+  {
+    "from": "cohesion",
+    "type": "contrasts",
+    "to": "coupling"
+  },
+  {
+    "from": "cohesion",
+    "type": "related-to",
+    "to": "single-responsibility-principle"
+  },
+  {
+    "from": "column",
+    "type": "related-to",
+    "to": "table"
+  },
+  {
+    "from": "command-injection",
+    "type": "contrasts",
+    "to": "sql-injection"
+  },
+  {
+    "from": "command-injection",
+    "type": "related-to",
+    "to": "sql-injection"
+  },
+  {
+    "from": "commit",
+    "type": "related-to",
+    "to": "git-stash"
+  },
+  {
+    "from": "commit",
+    "type": "related-to",
+    "to": "git-tag"
+  },
+  {
+    "from": "compiler",
+    "type": "contrasts",
+    "to": "interpreter"
+  },
+  {
+    "from": "compiler",
+    "type": "related-to",
+    "to": "intermediate-representation"
+  },
+  {
+    "from": "compiler",
+    "type": "related-to",
+    "to": "runtime"
+  },
+  {
+    "from": "composite-index",
+    "type": "related-to",
+    "to": "index"
+  },
+  {
+    "from": "composition",
+    "type": "contrasts",
+    "to": "inheritance"
+  },
+  {
+    "from": "concurrency",
+    "type": "contrasts",
+    "to": "parallelism"
+  },
+  {
+    "from": "concurrency",
+    "type": "related-to",
+    "to": "thread"
+  },
+  {
+    "from": "connection-pool",
+    "type": "related-to",
+    "to": "database"
+  },
+  {
+    "from": "consensus",
+    "type": "related-to",
+    "to": "leader-election"
+  },
+  {
+    "from": "consensus",
+    "type": "related-to",
+    "to": "strong-consistency"
+  },
+  {
+    "from": "constant",
+    "type": "related-to",
+    "to": "immutability"
+  },
+  {
+    "from": "constant",
+    "type": "related-to",
+    "to": "variable"
+  },
+  {
+    "from": "container",
+    "type": "contrasts",
+    "to": "virtualization"
+  },
+  {
+    "from": "container",
+    "type": "prerequisite",
+    "to": "process"
+  },
+  {
+    "from": "container",
+    "type": "related-to",
+    "to": "container-image"
+  },
+  {
+    "from": "container-image",
+    "type": "related-to",
+    "to": "container-registry"
+  },
+  {
+    "from": "context-switch",
+    "type": "related-to",
+    "to": "interrupt"
+  },
+  {
+    "from": "context-switch",
+    "type": "related-to",
+    "to": "scheduling"
+  },
+  {
+    "from": "context-window",
+    "type": "related-to",
+    "to": "prompt"
+  },
+  {
+    "from": "context-window",
+    "type": "related-to",
+    "to": "token"
+  },
+  {
+    "from": "continuous-delivery",
+    "type": "contrasts",
+    "to": "continuous-deployment"
+  },
+  {
+    "from": "continuous-delivery",
+    "type": "prerequisite",
+    "to": "continuous-integration"
+  },
+  {
+    "from": "continuous-deployment",
+    "type": "prerequisite",
+    "to": "continuous-delivery"
+  },
+  {
+    "from": "cookie",
+    "type": "related-to",
+    "to": "cors"
+  },
+  {
+    "from": "cookie",
+    "type": "related-to",
+    "to": "cross-site-request-forgery"
+  },
+  {
+    "from": "cookie",
+    "type": "related-to",
+    "to": "cross-site-scripting"
+  },
+  {
+    "from": "cookie",
+    "type": "related-to",
+    "to": "session"
+  },
+  {
+    "from": "cors",
+    "type": "related-to",
+    "to": "web-server"
+  },
+  {
+    "from": "cpu",
+    "type": "related-to",
+    "to": "instruction-pipeline"
+  },
+  {
+    "from": "cpu",
+    "type": "related-to",
+    "to": "register"
+  },
+  {
+    "from": "cross-site-request-forgery",
+    "type": "related-to",
+    "to": "cross-site-scripting"
+  },
+  {
+    "from": "cryptographic-hash",
+    "type": "contrasts",
+    "to": "hashing"
+  },
+  {
+    "from": "cryptographic-hash",
+    "type": "related-to",
+    "to": "password-hashing"
+  },
+  {
+    "from": "data-type",
+    "type": "related-to",
+    "to": "floating-point"
+  },
+  {
+    "from": "data-type",
+    "type": "related-to",
+    "to": "type-system"
+  },
+  {
+    "from": "data-type",
+    "type": "related-to",
+    "to": "unicode"
+  },
+  {
+    "from": "database",
+    "type": "related-to",
+    "to": "sql"
+  },
+  {
+    "from": "database-lock",
+    "type": "related-to",
+    "to": "transaction"
+  },
+  {
+    "from": "deadlock",
+    "type": "contrasts",
+    "to": "starvation"
+  },
+  {
+    "from": "deadlock",
+    "type": "related-to",
+    "to": "synchronization"
+  },
+  {
+    "from": "defense-in-depth",
+    "type": "related-to",
+    "to": "firewall"
+  },
+  {
+    "from": "defense-in-depth",
+    "type": "related-to",
+    "to": "least-privilege"
+  },
+  {
+    "from": "denormalization",
+    "type": "contrasts",
+    "to": "normalization"
+  },
+  {
+    "from": "dependency-injection",
+    "type": "related-to",
+    "to": "dependency-inversion-principle"
+  },
+  {
+    "from": "dependency-inversion-principle",
+    "type": "related-to",
+    "to": "solid"
+  },
+  {
+    "from": "dependency-management",
+    "type": "related-to",
+    "to": "package"
+  },
+  {
+    "from": "deployment",
+    "type": "related-to",
+    "to": "health-check"
+  },
+  {
+    "from": "deployment",
+    "type": "related-to",
+    "to": "infrastructure-as-code"
+  },
+  {
+    "from": "depth-first-search",
+    "type": "prerequisite",
+    "to": "graph"
+  },
+  {
+    "from": "depth-first-search",
+    "type": "uses",
+    "to": "stack"
+  },
+  {
+    "from": "deque",
+    "type": "related-to",
+    "to": "queue"
+  },
+  {
+    "from": "dhcp",
+    "type": "related-to",
+    "to": "ip"
+  },
+  {
+    "from": "digital-signature",
+    "type": "contrasts",
+    "to": "encryption"
+  },
+  {
+    "from": "digital-signature",
+    "type": "related-to",
+    "to": "private-key"
+  },
+  {
+    "from": "digital-signature",
+    "type": "uses",
+    "to": "private-key"
+  },
+  {
+    "from": "dijkstra",
+    "type": "based-on",
+    "to": "greedy-algorithm"
+  },
+  {
+    "from": "dijkstra",
+    "type": "based-on",
+    "to": "shortest-path"
+  },
+  {
+    "from": "dijkstra",
+    "type": "prerequisite",
+    "to": "weighted-graph"
+  },
+  {
+    "from": "dijkstra",
+    "type": "uses",
+    "to": "priority-queue"
+  },
+  {
+    "from": "directed-graph",
+    "type": "based-on",
+    "to": "graph"
+  },
+  {
+    "from": "distributed-system",
+    "type": "related-to",
+    "to": "network"
+  },
+  {
+    "from": "distributed-transaction",
+    "type": "related-to",
+    "to": "transaction"
+  },
+  {
+    "from": "dns",
+    "type": "related-to",
+    "to": "ip"
+  },
+  {
+    "from": "doubly-linked-list",
+    "type": "based-on",
+    "to": "linked-list"
+  },
+  {
+    "from": "dynamic-array",
+    "type": "based-on",
+    "to": "array"
+  },
+  {
+    "from": "dynamic-programming",
+    "type": "prerequisite",
+    "to": "recursion"
+  },
+  {
+    "from": "dynamic-programming",
+    "type": "related-to",
+    "to": "greedy-algorithm"
+  },
+  {
+    "from": "dynamic-programming",
+    "type": "related-to",
+    "to": "memoization"
+  },
+  {
+    "from": "dynamic-typing",
+    "type": "contrasts",
+    "to": "static-typing"
+  },
+  {
+    "from": "embedding",
+    "type": "related-to",
+    "to": "neural-network"
+  },
+  {
+    "from": "encryption",
+    "type": "related-to",
+    "to": "secrets-management"
+  },
+  {
+    "from": "encryption",
+    "type": "related-to",
+    "to": "tls"
+  },
+  {
+    "from": "end-to-end-test",
+    "type": "related-to",
+    "to": "smoke-test"
+  },
+  {
+    "from": "endianness",
+    "type": "related-to",
+    "to": "machine-code"
+  },
+  {
+    "from": "environment-variable",
+    "type": "related-to",
+    "to": "process"
+  },
+  {
+    "from": "error-handling",
+    "type": "related-to",
+    "to": "exception"
+  },
+  {
+    "from": "ethernet",
+    "type": "uses",
+    "to": "mac-address"
+  },
+  {
+    "from": "event-driven-architecture",
+    "type": "related-to",
+    "to": "message-queue"
+  },
+  {
+    "from": "event-driven-architecture",
+    "type": "related-to",
+    "to": "publish-subscribe"
+  },
+  {
+    "from": "eventual-consistency",
+    "type": "contrasts",
+    "to": "strong-consistency"
+  },
+  {
+    "from": "eventual-consistency",
+    "type": "related-to",
+    "to": "replication"
+  },
+  {
+    "from": "expression",
+    "type": "contrasts",
+    "to": "statement"
+  },
+  {
+    "from": "fault-tolerance",
+    "type": "related-to",
+    "to": "reliability"
+  },
+  {
+    "from": "fault-tolerance",
+    "type": "related-to",
+    "to": "replication"
+  },
+  {
+    "from": "feature",
+    "type": "related-to",
+    "to": "ml-dataset"
+  },
+  {
+    "from": "file-descriptor",
+    "type": "related-to",
+    "to": "file-system"
+  },
+  {
+    "from": "file-system",
+    "type": "related-to",
+    "to": "operating-system"
+  },
+  {
+    "from": "file-system",
+    "type": "related-to",
+    "to": "path-traversal"
+  },
+  {
+    "from": "fine-tuning",
+    "type": "based-on",
+    "to": "training"
+  },
+  {
+    "from": "fine-tuning",
+    "type": "prerequisite",
+    "to": "training"
+  },
+  {
+    "from": "fine-tuning",
+    "type": "related-to",
+    "to": "ml-model"
+  },
+  {
+    "from": "firewall",
+    "type": "related-to",
+    "to": "port"
+  },
+  {
+    "from": "firewall",
+    "type": "related-to",
+    "to": "server-side-request-forgery"
+  },
+  {
+    "from": "fixture",
+    "type": "related-to",
+    "to": "unit-test"
+  },
+  {
+    "from": "floyd-warshall",
+    "type": "based-on",
+    "to": "dynamic-programming"
+  },
+  {
+    "from": "floyd-warshall",
+    "type": "based-on",
+    "to": "shortest-path"
+  },
+  {
+    "from": "foreign-key",
+    "type": "contrasts",
+    "to": "primary-key"
+  },
+  {
+    "from": "foreign-key",
+    "type": "related-to",
+    "to": "primary-key"
+  },
+  {
+    "from": "frame",
+    "type": "contrasts",
+    "to": "packet"
+  },
+  {
+    "from": "frame-buffer",
+    "type": "related-to",
+    "to": "pixel"
+  },
+  {
+    "from": "frontend",
+    "type": "related-to",
+    "to": "server-side-rendering"
+  },
+  {
+    "from": "function",
+    "type": "related-to",
+    "to": "method"
+  },
+  {
+    "from": "function",
+    "type": "related-to",
+    "to": "parameter"
+  },
+  {
+    "from": "function",
+    "type": "related-to",
+    "to": "return-value"
+  },
+  {
+    "from": "fuzz-testing",
+    "type": "related-to",
+    "to": "property-based-testing"
+  },
+  {
+    "from": "garbage-collection",
+    "type": "related-to",
+    "to": "memory-allocation"
+  },
+  {
+    "from": "garbage-collection",
+    "type": "related-to",
+    "to": "memory-heap"
+  },
+  {
+    "from": "generic",
+    "type": "related-to",
+    "to": "type-system"
+  },
+  {
+    "from": "git",
+    "type": "related-to",
+    "to": "repository"
+  },
+  {
+    "from": "git-fetch",
+    "type": "contrasts",
+    "to": "git-pull"
+  },
+  {
+    "from": "git-lfs",
+    "type": "related-to",
+    "to": "repository"
+  },
+  {
+    "from": "git-merge",
+    "type": "contrasts",
+    "to": "rebase"
+  },
+  {
+    "from": "git-merge",
+    "type": "related-to",
+    "to": "merge-conflict"
+  },
+  {
+    "from": "git-merge",
+    "type": "related-to",
+    "to": "pull-request"
+  },
+  {
+    "from": "git-pull",
+    "type": "prerequisite",
+    "to": "git-fetch"
+  },
+  {
+    "from": "git-push",
+    "type": "related-to",
+    "to": "git-remote"
+  },
+  {
+    "from": "gitignore",
+    "type": "related-to",
+    "to": "repository"
+  },
+  {
+    "from": "gpu",
+    "type": "related-to",
+    "to": "rendering"
+  },
+  {
+    "from": "gpu",
+    "type": "related-to",
+    "to": "simd"
+  },
+  {
+    "from": "gradient-descent",
+    "type": "prerequisite",
+    "to": "loss-function"
+  },
+  {
+    "from": "graph",
+    "type": "related-to",
+    "to": "union-find"
+  },
+  {
+    "from": "graphql",
+    "type": "contrasts",
+    "to": "rest"
+  },
+  {
+    "from": "graphql",
+    "type": "related-to",
+    "to": "rest"
+  },
+  {
+    "from": "hardware-multithreading",
+    "type": "related-to",
+    "to": "thread"
+  },
+  {
+    "from": "hash-table",
+    "type": "related-to",
+    "to": "modulo"
+  },
+  {
+    "from": "hash-table",
+    "type": "related-to",
+    "to": "set"
+  },
+  {
+    "from": "hash-table",
+    "type": "uses",
+    "to": "hashing"
+  },
+  {
+    "from": "hashing",
+    "type": "related-to",
+    "to": "modulo"
+  },
+  {
+    "from": "health-check",
+    "type": "related-to",
+    "to": "load-balancer"
+  },
+  {
+    "from": "heap",
+    "type": "contrasts",
+    "to": "memory-heap"
+  },
+  {
+    "from": "heap-sort",
+    "type": "uses",
+    "to": "heap"
+  },
+  {
+    "from": "http",
+    "type": "related-to",
+    "to": "middleware"
+  },
+  {
+    "from": "http",
+    "type": "related-to",
+    "to": "proxy"
+  },
+  {
+    "from": "http",
+    "type": "related-to",
+    "to": "web-server"
+  },
+  {
+    "from": "http",
+    "type": "related-to",
+    "to": "webhook"
+  },
+  {
+    "from": "https",
+    "type": "uses",
+    "to": "http"
+  },
+  {
+    "from": "https",
+    "type": "uses",
+    "to": "tls"
+  },
+  {
+    "from": "hyperparameter",
+    "type": "contrasts",
+    "to": "model-parameter"
+  },
+  {
+    "from": "hyperparameter",
+    "type": "related-to",
+    "to": "validation-set"
+  },
+  {
+    "from": "idempotency",
+    "type": "related-to",
+    "to": "retry"
+  },
+  {
+    "from": "index",
+    "type": "related-to",
+    "to": "query-planner"
+  },
+  {
+    "from": "inference",
+    "type": "contrasts",
+    "to": "training"
+  },
+  {
+    "from": "inheritance",
+    "type": "prerequisite",
+    "to": "class"
+  },
+  {
+    "from": "insertion-sort",
+    "type": "related-to",
+    "to": "selection-sort"
+  },
+  {
+    "from": "instance",
+    "type": "related-to",
+    "to": "object"
+  },
+  {
+    "from": "instruction",
+    "type": "related-to",
+    "to": "instruction-set-architecture"
+  },
+  {
+    "from": "integration-test",
+    "type": "contrasts",
+    "to": "unit-test"
+  },
+  {
+    "from": "inter-process-communication",
+    "type": "related-to",
+    "to": "pipe"
+  },
+  {
+    "from": "interface",
+    "type": "related-to",
+    "to": "polymorphism"
+  },
+  {
+    "from": "interface-segregation-principle",
+    "type": "related-to",
+    "to": "solid"
+  },
+  {
+    "from": "interpreter",
+    "type": "related-to",
+    "to": "runtime"
+  },
+  {
+    "from": "ipv4",
+    "type": "based-on",
+    "to": "ip"
+  },
+  {
+    "from": "ipv4",
+    "type": "contrasts",
+    "to": "ipv6"
+  },
+  {
+    "from": "ipv6",
+    "type": "based-on",
+    "to": "ip"
+  },
+  {
+    "from": "isolation",
+    "type": "related-to",
+    "to": "transaction"
+  },
+  {
+    "from": "iteration",
+    "type": "contrasts",
+    "to": "recursion"
+  },
+  {
+    "from": "join",
+    "type": "related-to",
+    "to": "relational-database"
+  },
+  {
+    "from": "json",
+    "type": "related-to",
+    "to": "serialization"
+  },
+  {
+    "from": "kernel",
+    "type": "related-to",
+    "to": "operating-system"
+  },
+  {
+    "from": "kernel",
+    "type": "related-to",
+    "to": "system-call"
+  },
+  {
+    "from": "kiss",
+    "type": "related-to",
+    "to": "yagni"
+  },
+  {
+    "from": "kruskal",
+    "type": "based-on",
+    "to": "greedy-algorithm"
+  },
+  {
+    "from": "kruskal",
+    "type": "based-on",
+    "to": "minimum-spanning-tree"
+  },
+  {
+    "from": "kruskal",
+    "type": "uses",
+    "to": "union-find"
+  },
+  {
+    "from": "kubernetes",
+    "type": "prerequisite",
+    "to": "container"
+  },
+  {
+    "from": "kubernetes",
+    "type": "related-to",
+    "to": "load-balancer"
+  },
+  {
+    "from": "label",
+    "type": "related-to",
+    "to": "supervised-learning"
+  },
+  {
+    "from": "large-language-model",
+    "type": "prerequisite",
+    "to": "transformer"
+  },
+  {
+    "from": "large-language-model",
+    "type": "related-to",
+    "to": "prompt"
+  },
+  {
+    "from": "least-privilege",
+    "type": "related-to",
+    "to": "sandboxing"
+  },
+  {
+    "from": "lexer",
+    "type": "related-to",
+    "to": "parser"
+  },
+  {
+    "from": "lexer",
+    "type": "related-to",
+    "to": "tokenization"
+  },
+  {
+    "from": "library",
+    "type": "related-to",
+    "to": "module"
+  },
+  {
+    "from": "library",
+    "type": "related-to",
+    "to": "package"
+  },
+  {
+    "from": "linux",
+    "type": "related-to",
+    "to": "operating-system"
+  },
+  {
+    "from": "linux",
+    "type": "related-to",
+    "to": "shell"
+  },
+  {
+    "from": "liskov-substitution-principle",
+    "type": "related-to",
+    "to": "solid"
+  },
+  {
+    "from": "load-balancer",
+    "type": "related-to",
+    "to": "reverse-proxy"
+  },
+  {
+    "from": "load-balancer",
+    "type": "related-to",
+    "to": "scalability"
+  },
+  {
+    "from": "logging",
+    "type": "related-to",
+    "to": "observability"
+  },
+  {
+    "from": "logging",
+    "type": "related-to",
+    "to": "tracing"
+  },
+  {
+    "from": "loss-function",
+    "type": "related-to",
+    "to": "training"
+  },
+  {
+    "from": "maintainability",
+    "type": "related-to",
+    "to": "refactoring"
+  },
+  {
+    "from": "matrix",
+    "type": "related-to",
+    "to": "rendering"
+  },
+  {
+    "from": "matrix",
+    "type": "related-to",
+    "to": "shader"
+  },
+  {
+    "from": "memoization",
+    "type": "prerequisite",
+    "to": "recursion"
+  },
+  {
+    "from": "memory-allocation",
+    "type": "related-to",
+    "to": "memory-heap"
+  },
+  {
+    "from": "memory-allocation",
+    "type": "related-to",
+    "to": "pointer"
+  },
+  {
+    "from": "merge-sort",
+    "type": "based-on",
+    "to": "divide-and-conquer"
+  },
+  {
+    "from": "merge-sort",
+    "type": "related-to",
+    "to": "sort-stability"
+  },
+  {
+    "from": "message-queue",
+    "type": "related-to",
+    "to": "publish-subscribe"
+  },
+  {
+    "from": "method",
+    "type": "prerequisite",
+    "to": "function"
+  },
+  {
+    "from": "method-overloading",
+    "type": "contrasts",
+    "to": "method-overriding"
+  },
+  {
+    "from": "method-overriding",
+    "type": "prerequisite",
+    "to": "inheritance"
+  },
+  {
+    "from": "metrics",
+    "type": "related-to",
+    "to": "monitoring"
+  },
+  {
+    "from": "metrics",
+    "type": "related-to",
+    "to": "observability"
+  },
+  {
+    "from": "microservice",
+    "type": "based-on",
+    "to": "service"
+  },
+  {
+    "from": "microservice",
+    "type": "contrasts",
+    "to": "monolith"
+  },
+  {
+    "from": "microservice",
+    "type": "related-to",
+    "to": "monolith"
+  },
+  {
+    "from": "migration",
+    "type": "related-to",
+    "to": "schema"
+  },
+  {
+    "from": "minimum-spanning-tree",
+    "type": "related-to",
+    "to": "shortest-path"
+  },
+  {
+    "from": "ml-dataset",
+    "type": "related-to",
+    "to": "unsupervised-learning"
+  },
+  {
+    "from": "ml-model",
+    "type": "related-to",
+    "to": "model-parameter"
+  },
+  {
+    "from": "ml-model",
+    "type": "related-to",
+    "to": "underfitting"
+  },
+  {
+    "from": "mock",
+    "type": "contrasts",
+    "to": "stub"
+  },
+  {
+    "from": "mock",
+    "type": "related-to",
+    "to": "test-double"
+  },
+  {
+    "from": "model-evaluation",
+    "type": "related-to",
+    "to": "test-set"
+  },
+  {
+    "from": "modularity",
+    "type": "related-to",
+    "to": "separation-of-concerns"
+  },
+  {
+    "from": "module",
+    "type": "related-to",
+    "to": "package"
+  },
+  {
+    "from": "monitor",
+    "type": "related-to",
+    "to": "mutex"
+  },
+  {
+    "from": "monitoring",
+    "type": "related-to",
+    "to": "observability"
+  },
+  {
+    "from": "mutex",
+    "type": "contrasts",
+    "to": "semaphore"
+  },
+  {
+    "from": "mutex",
+    "type": "related-to",
+    "to": "semaphore"
+  },
+  {
+    "from": "mutex",
+    "type": "related-to",
+    "to": "synchronization"
+  },
+  {
+    "from": "nat",
+    "type": "related-to",
+    "to": "router"
+  },
+  {
+    "from": "network-switch",
+    "type": "contrasts",
+    "to": "router"
+  },
+  {
+    "from": "neural-network",
+    "type": "prerequisite",
+    "to": "activation-function"
+  },
+  {
+    "from": "nosql",
+    "type": "contrasts",
+    "to": "relational-database"
+  },
+  {
+    "from": "nosql",
+    "type": "related-to",
+    "to": "sharding"
+  },
+  {
+    "from": "null",
+    "type": "related-to",
+    "to": "pointer"
+  },
+  {
+    "from": "observability",
+    "type": "related-to",
+    "to": "tracing"
+  },
+  {
+    "from": "open-closed-principle",
+    "type": "related-to",
+    "to": "solid"
+  },
+  {
+    "from": "operating-system",
+    "type": "related-to",
+    "to": "virtualization"
+  },
+  {
+    "from": "orm",
+    "type": "related-to",
+    "to": "sql"
+  },
+  {
+    "from": "overfitting",
+    "type": "contrasts",
+    "to": "underfitting"
+  },
+  {
+    "from": "overfitting",
+    "type": "prerequisite",
+    "to": "training"
+  },
+  {
+    "from": "overfitting",
+    "type": "related-to",
+    "to": "regularization"
+  },
+  {
+    "from": "page",
+    "type": "related-to",
+    "to": "virtual-memory"
+  },
+  {
+    "from": "page-fault",
+    "type": "prerequisite",
+    "to": "virtual-memory"
+  },
+  {
+    "from": "parallelism",
+    "type": "related-to",
+    "to": "simd"
+  },
+  {
+    "from": "parser",
+    "type": "prerequisite",
+    "to": "lexer"
+  },
+  {
+    "from": "partitioning",
+    "type": "related-to",
+    "to": "sharding"
+  },
+  {
+    "from": "password-hashing",
+    "type": "based-on",
+    "to": "cryptographic-hash"
+  },
+  {
+    "from": "password-hashing",
+    "type": "related-to",
+    "to": "salt"
+  },
+  {
+    "from": "password-hashing",
+    "type": "uses",
+    "to": "salt"
+  },
+  {
+    "from": "pixel",
+    "type": "related-to",
+    "to": "resolution"
+  },
+  {
+    "from": "pixel",
+    "type": "related-to",
+    "to": "rgb"
+  },
+  {
+    "from": "pointer",
+    "type": "contrasts",
+    "to": "reference-type"
+  },
+  {
+    "from": "polymorphism",
+    "type": "prerequisite",
+    "to": "class"
+  },
+  {
+    "from": "port",
+    "type": "related-to",
+    "to": "socket"
+  },
+  {
+    "from": "prim",
+    "type": "based-on",
+    "to": "greedy-algorithm"
+  },
+  {
+    "from": "prim",
+    "type": "based-on",
+    "to": "minimum-spanning-tree"
+  },
+  {
+    "from": "prim",
+    "type": "uses",
+    "to": "priority-queue"
+  },
+  {
+    "from": "primitive-type",
+    "type": "related-to",
+    "to": "reference-type"
+  },
+  {
+    "from": "priority-queue",
+    "type": "uses",
+    "to": "heap"
+  },
+  {
+    "from": "private-key",
+    "type": "contrasts",
+    "to": "public-key"
+  },
+  {
+    "from": "process",
+    "type": "contrasts",
+    "to": "thread"
+  },
+  {
+    "from": "process",
+    "type": "related-to",
+    "to": "sandboxing"
+  },
+  {
+    "from": "process",
+    "type": "related-to",
+    "to": "signal"
+  },
+  {
+    "from": "proxy",
+    "type": "contrasts",
+    "to": "reverse-proxy"
+  },
+  {
+    "from": "public-key-infrastructure",
+    "type": "uses",
+    "to": "certificate"
+  },
+  {
+    "from": "query",
+    "type": "related-to",
+    "to": "sql"
+  },
+  {
+    "from": "queue",
+    "type": "contrasts",
+    "to": "stack"
+  },
+  {
+    "from": "quic",
+    "type": "related-to",
+    "to": "tls"
+  },
+  {
+    "from": "quic",
+    "type": "uses",
+    "to": "udp"
+  },
+  {
+    "from": "quick-sort",
+    "type": "based-on",
+    "to": "divide-and-conquer"
+  },
+  {
+    "from": "race-condition",
+    "type": "related-to",
+    "to": "synchronization"
+  },
+  {
+    "from": "radix-sort",
+    "type": "uses",
+    "to": "counting-sort"
+  },
+  {
+    "from": "ram",
+    "type": "related-to",
+    "to": "virtual-memory"
+  },
+  {
+    "from": "rasterization",
+    "type": "related-to",
+    "to": "rendering"
+  },
+  {
+    "from": "rasterization",
+    "type": "uses",
+    "to": "frame-buffer"
+  },
+  {
+    "from": "recursion",
+    "type": "prerequisite",
+    "to": "call-stack"
+  },
+  {
+    "from": "red-black-tree",
+    "type": "based-on",
+    "to": "binary-search-tree"
+  },
+  {
+    "from": "refactoring",
+    "type": "related-to",
+    "to": "technical-debt"
+  },
+  {
+    "from": "regression-test",
+    "type": "related-to",
+    "to": "unit-test"
+  },
+  {
+    "from": "reinforcement-learning",
+    "type": "related-to",
+    "to": "supervised-learning"
+  },
+  {
+    "from": "relational-database",
+    "type": "related-to",
+    "to": "schema"
+  },
+  {
+    "from": "replication",
+    "type": "related-to",
+    "to": "sharding"
+  },
+  {
+    "from": "requirements",
+    "type": "related-to",
+    "to": "software-development-lifecycle"
+  },
+  {
+    "from": "requirements",
+    "type": "related-to",
+    "to": "specification"
+  },
+  {
+    "from": "rest",
+    "type": "contrasts",
+    "to": "rpc"
+  },
+  {
+    "from": "retrieval-augmented-generation",
+    "type": "uses",
+    "to": "large-language-model"
+  },
+  {
+    "from": "retrieval-augmented-generation",
+    "type": "uses",
+    "to": "vector-database"
+  },
+  {
+    "from": "risk",
+    "type": "related-to",
+    "to": "threat-model"
+  },
+  {
+    "from": "risk",
+    "type": "related-to",
+    "to": "vulnerability"
+  },
+  {
+    "from": "row",
+    "type": "related-to",
+    "to": "table"
+  },
+  {
+    "from": "scheduling",
+    "type": "related-to",
+    "to": "starvation"
+  },
+  {
+    "from": "scheduling",
+    "type": "related-to",
+    "to": "thread"
+  },
+  {
+    "from": "semantic-analysis",
+    "type": "prerequisite",
+    "to": "parser"
+  },
+  {
+    "from": "semantic-analysis",
+    "type": "related-to",
+    "to": "type-checking"
+  },
+  {
+    "from": "serialization",
+    "type": "related-to",
+    "to": "unicode"
+  },
+  {
+    "from": "server-side-rendering",
+    "type": "contrasts",
+    "to": "static-generation"
+  },
+  {
+    "from": "shader",
+    "type": "related-to",
+    "to": "texture"
+  },
+  {
+    "from": "shader",
+    "type": "uses",
+    "to": "gpu"
+  },
+  {
+    "from": "single-responsibility-principle",
+    "type": "related-to",
+    "to": "solid"
+  },
+  {
+    "from": "sliding-window",
+    "type": "related-to",
+    "to": "two-pointers"
+  },
+  {
+    "from": "software-architecture",
+    "type": "related-to",
+    "to": "software-design"
+  },
+  {
+    "from": "sql-injection",
+    "type": "prerequisite",
+    "to": "sql"
+  },
+  {
+    "from": "static-generation",
+    "type": "related-to",
+    "to": "web-server"
+  },
+  {
+    "from": "strong-typing",
+    "type": "contrasts",
+    "to": "weak-typing"
+  },
+  {
+    "from": "stub",
+    "type": "related-to",
+    "to": "test-double"
+  },
+  {
+    "from": "supervised-learning",
+    "type": "contrasts",
+    "to": "unsupervised-learning"
+  },
+  {
+    "from": "symmetric-encryption",
+    "type": "related-to",
+    "to": "tls"
+  },
+  {
+    "from": "tcp",
+    "type": "contrasts",
+    "to": "udp"
+  },
+  {
+    "from": "tcp",
+    "type": "uses",
+    "to": "socket"
+  },
+  {
+    "from": "test-driven-development",
+    "type": "related-to",
+    "to": "unit-test"
+  },
+  {
+    "from": "test-set",
+    "type": "contrasts",
+    "to": "validation-set"
+  },
+  {
+    "from": "tls",
+    "type": "uses",
+    "to": "certificate"
+  },
+  {
+    "from": "tls",
+    "type": "uses",
+    "to": "symmetric-encryption"
+  },
+  {
+    "from": "tokenization",
+    "type": "prerequisite",
+    "to": "token"
+  },
+  {
+    "from": "topological-sort",
+    "type": "prerequisite",
+    "to": "directed-graph"
+  },
+  {
+    "from": "topological-sort",
+    "type": "uses",
+    "to": "depth-first-search"
+  },
+  {
+    "from": "transformer",
+    "type": "prerequisite",
+    "to": "attention"
+  },
+  {
+    "from": "tree",
+    "type": "related-to",
+    "to": "trie"
+  },
+  {
+    "from": "trie",
+    "type": "based-on",
+    "to": "tree"
+  },
+  {
+    "from": "type-checking",
+    "type": "prerequisite",
+    "to": "type-system"
+  },
+  {
+    "from": "udp",
+    "type": "uses",
+    "to": "socket"
+  },
+  {
+    "from": "undirected-graph",
+    "type": "based-on",
+    "to": "graph"
+  },
+  {
+    "from": "vector-database",
+    "type": "uses",
+    "to": "embedding"
+  },
+  {
+    "from": "virtual-memory",
+    "type": "uses",
+    "to": "page"
+  },
+  {
+    "from": "websocket",
+    "type": "based-on",
+    "to": "http"
+  },
+  {
+    "from": "weighted-graph",
+    "type": "based-on",
+    "to": "graph"
+  }
+]

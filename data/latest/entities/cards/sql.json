@@ -1,0 +1,17 @@
+{
+  "id": "sql",
+  "term": "SQL",
+  "aliases": [
+    "Structured Query Language"
+  ],
+  "difficulty": "fundamental",
+  "definition": "SQL is the language used to define, query, and change data in a relational database. A query describes the result, and the engine chooses a plan. Dialects differ, but the core of tables, filters, joins, and aggregates is shared.",
+  "categories": [
+    "databases"
+  ],
+  "examples": [
+    "A select with a where clause",
+    "An insert of one row",
+    "An update that changes every row matching a condition"
+  ]
+}

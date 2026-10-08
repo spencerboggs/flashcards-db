@@ -1,0 +1,17 @@
+{
+  "id": "heap-sort",
+  "term": "Heap Sort",
+  "aliases": [],
+  "difficulty": "fundamental",
+  "definition": "Heap sort builds a heap from the input and then repeatedly removes the root, which is the next extreme element, into the output order. Building the heap is linear and each removal is logarithmic, so the worst case is n log n. The usual in-place version is not stable.",
+  "categories": [
+    "algorithms"
+  ],
+  "complexity": {
+    "time": "O(n log n) in the best, average, and worst cases.",
+    "space": "O(1) extra space for the in-place version."
+  },
+  "examples": [
+    "A worst-case n log n sort that does not need a second array"
+  ]
+}

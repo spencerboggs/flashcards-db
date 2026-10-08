@@ -1,0 +1,17 @@
+{
+  "id": "cidr",
+  "term": "CIDR",
+  "aliases": [
+    "Classless Inter-Domain Routing"
+  ],
+  "difficulty": "fundamental",
+  "definition": "CIDR is the notation for an IP prefix: an address followed by the number of leading bits that identify the network. 10.0.0.0/8 means the first 8 bits are the network. Routing tables and firewall rules are written in that form.",
+  "categories": [
+    "networking"
+  ],
+  "examples": [
+    "10.0.0.0/8",
+    "2001:db8::/32",
+    "A firewall rule that allows one prefix"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "id": "monolith",
+  "term": "Monolith",
+  "aliases": [],
+  "difficulty": "fundamental",
+  "definition": "A monolith is an application built and deployed as one unit. Calls between its parts are in-process, and its data often lives in one database. It is simpler to operate than many services, until the codebase or the scaling needs push toward a split.",
+  "categories": [
+    "distributed-systems",
+    "software-engineering"
+  ],
+  "examples": [
+    "One web application that handles pages, API, and jobs",
+    "One deployable artifact for the whole product"
+  ]
+}

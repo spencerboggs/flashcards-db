@@ -1,0 +1,14 @@
+{
+  "id": "ethernet",
+  "term": "Ethernet",
+  "aliases": [],
+  "difficulty": "fundamental",
+  "definition": "Ethernet is the common family of link-layer technologies for local networks. It sends frames addressed by MAC address over a shared medium or a switched fabric. IP packets are carried inside those frames for one hop.",
+  "categories": [
+    "networking"
+  ],
+  "examples": [
+    "A wired local network",
+    "A frame switched between two machines on the same LAN"
+  ]
+}

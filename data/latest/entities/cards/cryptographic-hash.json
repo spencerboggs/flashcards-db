@@ -1,0 +1,21 @@
+{
+  "id": "cryptographic-hash",
+  "term": "Cryptographic Hash",
+  "aliases": [
+    "Cryptographic Hash Function"
+  ],
+  "difficulty": "fundamental",
+  "definition": "A cryptographic hash maps data to a fixed-size digest so that a change in the data changes the digest, and the data cannot practically be recovered from the digest. It is used to detect tampering and to identify content. A hash built for hash tables does not make these promises and is the wrong tool here.",
+  "categories": [
+    "cryptography",
+    "security"
+  ],
+  "details": [
+    "A collision is two inputs with the same digest. A cryptographic hash is designed so finding one is not feasible.",
+    "SHA-256 is a general cryptographic hash. Password storage wants a slow password hash instead."
+  ],
+  "examples": [
+    "A digest used to detect that a file changed",
+    "A commit id that is a hash of the commit's contents"
+  ]
+}

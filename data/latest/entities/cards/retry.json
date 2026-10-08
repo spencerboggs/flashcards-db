@@ -1,0 +1,15 @@
+{
+  "id": "retry",
+  "term": "Retry",
+  "aliases": [],
+  "difficulty": "fundamental",
+  "definition": "A retry repeats a request that failed because of a transient error, such as a timeout or an unavailable host. It helps only when the operation is safe to repeat, or when an idempotency key makes it so. Retrying a permanent error, or retrying immediately in a tight loop, makes an outage worse.",
+  "categories": [
+    "distributed-systems",
+    "web"
+  ],
+  "examples": [
+    "Repeating a timed-out read",
+    "Giving up after a few attempts and returning an error"
+  ]
+}

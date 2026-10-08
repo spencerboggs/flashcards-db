@@ -1,0 +1,16 @@
+{
+  "id": "matrix",
+  "term": "Matrix",
+  "aliases": [],
+  "difficulty": "intermediate",
+  "definition": "A matrix is a rectangular grid of numbers, arranged in rows and columns. Matrix multiplication combines linear transformations such as scaling, rotation, and translation. Machine-learning weights and batches of inputs are stored the same way.",
+  "categories": [
+    "computer-graphics",
+    "machine-learning",
+    "mathematics"
+  ],
+  "prompt": "What is a matrix in mathematics?",
+  "details": [
+    "Matrix multiplication is not commutative. The order of transformations matters."
+  ]
+}

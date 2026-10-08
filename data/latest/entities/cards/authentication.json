@@ -1,0 +1,15 @@
+{
+  "id": "authentication",
+  "term": "Authentication",
+  "aliases": [],
+  "difficulty": "fundamental",
+  "definition": "Authentication establishes who is making a request. The usual evidence is something the party knows, has, or is, checked against a stored record. A request that has not authenticated is anonymous, whatever it claims in an unsigned field.",
+  "categories": [
+    "security",
+    "web"
+  ],
+  "examples": [
+    "A password checked against a stored hash",
+    "A signed token that identifies the account"
+  ]
+}

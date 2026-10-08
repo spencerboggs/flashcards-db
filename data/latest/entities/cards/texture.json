@@ -1,0 +1,15 @@
+{
+  "id": "texture",
+  "term": "Texture",
+  "aliases": [],
+  "difficulty": "fundamental",
+  "definition": "A texture is an image, or other array of samples, mapped onto a surface during rendering. Texture coordinates say which point of the texture belongs at which point of the surface. Sampling it is how a plain triangle picks up detail.",
+  "categories": [
+    "computer-graphics"
+  ],
+  "prompt": "What is a texture in computer graphics?",
+  "examples": [
+    "A photograph wrapped onto a model",
+    "A normal map that changes how light appears to hit a surface"
+  ]
+}

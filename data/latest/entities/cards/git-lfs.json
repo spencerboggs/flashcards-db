@@ -1,0 +1,16 @@
+{
+  "id": "git-lfs",
+  "term": "Git LFS",
+  "aliases": [
+    "Git Large File Storage"
+  ],
+  "difficulty": "intermediate",
+  "definition": "Git LFS stores large files as small pointer files inside the repository and keeps the file bytes in a separate store. Clones download the bytes for the versions they check out instead of every historical copy inside Git's object database. It is for assets that do not diff or merge as text.",
+  "categories": [
+    "version-control"
+  ],
+  "examples": [
+    "Video or dataset files versioned alongside the code",
+    "A pointer file in the repository and the bytes on an LFS server"
+  ]
+}

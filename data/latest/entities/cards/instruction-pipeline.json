@@ -1,0 +1,16 @@
+{
+  "id": "instruction-pipeline",
+  "term": "Instruction Pipeline",
+  "aliases": [
+    "CPU Pipeline"
+  ],
+  "difficulty": "intermediate",
+  "definition": "An instruction pipeline overlaps the stages of execution, so one instruction can be decoded while an earlier one is still executing. A typical split is fetch, decode, execute, and write back. The overlap raises throughput, and a stall happens when a later instruction needs a result that is not ready.",
+  "categories": [
+    "computer-architecture"
+  ],
+  "examples": [
+    "Several instructions in different stages during one cycle",
+    "A stall while a load from memory completes"
+  ]
+}

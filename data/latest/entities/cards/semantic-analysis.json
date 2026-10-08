@@ -1,0 +1,14 @@
+{
+  "id": "semantic-analysis",
+  "term": "Semantic Analysis",
+  "aliases": [],
+  "difficulty": "intermediate",
+  "definition": "Semantic analysis checks the meaning of a program after it has parsed: that names refer to something, that types line up, and that the rules beyond the grammar hold. A program can be syntactically valid and still fail here. The result is often an annotated tree the code generator can trust.",
+  "categories": [
+    "programming-languages"
+  ],
+  "examples": [
+    "Rejecting the use of a variable that was never declared",
+    "Checking that the branches of a conditional return the same type"
+  ]
+}

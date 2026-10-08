@@ -1,0 +1,20 @@
+{
+  "id": "dynamic-programming",
+  "term": "Dynamic Programming",
+  "aliases": [
+    "DP"
+  ],
+  "difficulty": "intermediate",
+  "definition": "Dynamic programming solves a problem by solving overlapping subproblems and reusing those answers, relying on optimal substructure. Top-down, the program recurses and caches. Bottom-up, it fills a table from smaller subproblems to larger ones. Without overlapping subproblems, the cache does not pay for itself.",
+  "categories": [
+    "algorithms"
+  ],
+  "details": [
+    "Optimal substructure means a best solution contains best solutions of its subproblems.",
+    "The table's dimensions follow the parameters that identify a subproblem."
+  ],
+  "examples": [
+    "Edit distance between two strings",
+    "The 0-1 knapsack problem"
+  ]
+}

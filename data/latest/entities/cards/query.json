@@ -1,0 +1,15 @@
+{
+  "id": "query",
+  "term": "Query",
+  "aliases": [],
+  "difficulty": "fundamental",
+  "definition": "A query is a request to a database to read or change data. A read query describes the rows to return. A write query inserts, updates, or deletes rows. The text of the query is not the same thing as the plan the engine uses to run it.",
+  "categories": [
+    "databases"
+  ],
+  "prompt": "What is a database query?",
+  "examples": [
+    "A select that returns open orders",
+    "An update that marks an order paid"
+  ]
+}

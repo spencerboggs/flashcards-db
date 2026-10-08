@@ -1,0 +1,14 @@
+{
+  "id": "shortest-path",
+  "term": "Shortest Path",
+  "aliases": [],
+  "difficulty": "fundamental",
+  "definition": "A shortest-path problem asks for a path between vertices whose total edge weight is as small as possible. On an unweighted graph, fewest edges is the same question, and breadth-first search answers it. Weighted graphs need an algorithm that accounts for the weights, and negative weights rule some of those algorithms out.",
+  "categories": [
+    "algorithms"
+  ],
+  "examples": [
+    "The fastest route across a road network",
+    "The minimum delay through a series of network links"
+  ]
+}

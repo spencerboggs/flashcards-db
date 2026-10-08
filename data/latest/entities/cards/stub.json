@@ -1,0 +1,14 @@
+{
+  "id": "stub",
+  "term": "Stub",
+  "aliases": [],
+  "difficulty": "intermediate",
+  "definition": "A stub is a test double that returns canned answers and does not care how it was called. The test uses it to drive the unit down a particular path. Unlike a mock, the stub is not what the test is checking.",
+  "categories": [
+    "testing"
+  ],
+  "examples": [
+    "A stub that always returns a particular user",
+    "A stub that always fails, to exercise an error path"
+  ]
+}

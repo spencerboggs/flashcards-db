@@ -1,0 +1,15 @@
+{
+  "id": "class",
+  "term": "Class",
+  "aliases": [],
+  "difficulty": "fundamental",
+  "definition": "A class is a definition of a kind of object: the data it holds and the methods that operate on that data. It is the template. Creating an object from the class produces an instance with its own data.",
+  "categories": [
+    "object-oriented-programming"
+  ],
+  "prompt": "What is a class in object-oriented programming?",
+  "examples": [
+    "A User class with a name and a method that changes the password",
+    "A Shape class that declares an area method"
+  ]
+}

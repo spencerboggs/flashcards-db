@@ -1,0 +1,15 @@
+{
+  "id": "git-tag",
+  "term": "Tag",
+  "aliases": [],
+  "difficulty": "fundamental",
+  "definition": "A tag is a name attached to a particular commit, used to mark a point such as a release. Unlike a branch, a tag is not meant to move as new commits are added. An annotated tag also stores a message and a tagger.",
+  "categories": [
+    "version-control"
+  ],
+  "prompt": "What is a Git tag?",
+  "examples": [
+    "The tag v1.2.0 on the commit that was released",
+    "A lightweight tag marking a known-good build"
+  ]
+}

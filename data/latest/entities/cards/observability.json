@@ -1,0 +1,15 @@
+{
+  "id": "observability",
+  "term": "Observability",
+  "aliases": [],
+  "difficulty": "intermediate",
+  "definition": "Observability is how well you can understand a system's internal state from the signals it emits. Logs, metrics, and traces are the usual signals. Monitoring checks conditions you already thought of; observability is what lets you ask a new question during an incident.",
+  "categories": [
+    "infrastructure",
+    "software-engineering"
+  ],
+  "examples": [
+    "Tracing one slow request across several services",
+    "Breaking down an error rate by endpoint and by version"
+  ]
+}

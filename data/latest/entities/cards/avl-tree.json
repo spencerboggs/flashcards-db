@@ -1,0 +1,19 @@
+{
+  "id": "avl-tree",
+  "term": "AVL Tree",
+  "aliases": [
+    "AVL"
+  ],
+  "difficulty": "intermediate",
+  "definition": "An AVL tree is a binary search tree that rebalances after every insert and delete so the heights of a node's two subtrees differ by at most one. Rotations restore that balance. Search, insert, and delete are logarithmic in the worst case, at the cost of more rotations than a red-black tree.",
+  "categories": [
+    "data-structures"
+  ],
+  "complexity": {
+    "time": "Search, insert, and delete are O(log n) in the worst case.",
+    "space": "O(n) space for the elements themselves."
+  },
+  "examples": [
+    "An ordered index that must not degrade after sorted inserts"
+  ]
+}

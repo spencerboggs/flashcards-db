@@ -1,0 +1,14 @@
+{
+  "id": "page-fault",
+  "term": "Page Fault",
+  "aliases": [],
+  "difficulty": "intermediate",
+  "definition": "A page fault is the exception raised when a process touches a virtual page that is not currently mapped for that access. A valid fault loads the page from disk or allocates a frame and then resumes the process. An invalid fault, such as a bad address, is delivered to the process as an error.",
+  "categories": [
+    "operating-systems"
+  ],
+  "examples": [
+    "The first write to a freshly allocated page",
+    "A touch of an unmapped address that becomes a segmentation fault"
+  ]
+}

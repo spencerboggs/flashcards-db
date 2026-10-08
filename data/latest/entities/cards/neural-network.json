@@ -1,0 +1,14 @@
+{
+  "id": "neural-network",
+  "term": "Neural Network",
+  "aliases": [],
+  "difficulty": "fundamental",
+  "definition": "A neural network is a stack of layers that transform an input, each layer a weighted sum followed by a nonlinear activation. Training sets the weights by gradient descent. Without the nonlinearities, stacking layers would collapse into one linear transform.",
+  "categories": [
+    "machine-learning"
+  ],
+  "examples": [
+    "A network that classifies images",
+    "A network that maps text tokens to a next-token distribution"
+  ]
+}

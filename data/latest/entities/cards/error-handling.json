@@ -1,0 +1,17 @@
+{
+  "id": "error-handling",
+  "term": "Error Handling",
+  "aliases": [],
+  "difficulty": "fundamental",
+  "definition": "Error handling is how a program notices a failure and chooses what happens next. Common forms are exceptions, returned error values, and types that contain either a result or an error. The point is to fail in a defined way instead of continuing with a bad value.",
+  "categories": [
+    "programming"
+  ],
+  "details": [
+    "Ignoring an error and hoping for a usable value tends to move the failure somewhere harder to diagnose."
+  ],
+  "examples": [
+    "A function that returns an error when input is out of range",
+    "A handler that retries a timed-out request"
+  ]
+}

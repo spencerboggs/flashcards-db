@@ -1,0 +1,14 @@
+{
+  "id": "variable",
+  "term": "Variable",
+  "aliases": [],
+  "difficulty": "fundamental",
+  "definition": "A variable is a named binding to a value the program can use later. The name stays fixed while the stored value is replaced. When a language has types, the type limits what that binding may hold.",
+  "categories": [
+    "programming"
+  ],
+  "examples": [
+    "A counter that increases by one each time through a loop",
+    "A name bound to the current user"
+  ]
+}

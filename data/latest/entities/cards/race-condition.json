@@ -1,0 +1,15 @@
+{
+  "id": "race-condition",
+  "term": "Race Condition",
+  "aliases": [],
+  "difficulty": "intermediate",
+  "definition": "A race condition is a bug where the result depends on the uncontrolled timing of concurrent operations. The program is correct for some interleavings and wrong for others. Synchronization, or avoiding the shared mutable state, removes the race.",
+  "categories": [
+    "operating-systems",
+    "programming"
+  ],
+  "examples": [
+    "Two threads incrementing a shared counter and losing an update",
+    "Checking a file exists and then opening it, after another process deleted it"
+  ]
+}

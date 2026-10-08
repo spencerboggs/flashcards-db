@@ -1,0 +1,16 @@
+{
+  "id": "file-descriptor",
+  "term": "File Descriptor",
+  "aliases": [
+    "FD"
+  ],
+  "difficulty": "fundamental",
+  "definition": "A file descriptor is a small integer a process uses to refer to an open file, socket, or pipe. The kernel keeps the real open-file state in its own table, and the integer is an index into the process's table of handles. Reads and writes name the descriptor rather than the path.",
+  "categories": [
+    "operating-systems"
+  ],
+  "examples": [
+    "Standard input, output, and error as descriptors 0, 1, and 2",
+    "A socket referred to by a number after it is opened"
+  ]
+}

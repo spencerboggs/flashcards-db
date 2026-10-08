@@ -1,0 +1,14 @@
+{
+  "id": "ipv6",
+  "term": "IPv6",
+  "aliases": [],
+  "difficulty": "fundamental",
+  "definition": "IPv6 is the version of IP that uses 128-bit addresses, written in hexadecimal. The larger space removes the shortage that shaped IPv4 practice. A host can speak one or both versions, and they are not interchangeable on the wire.",
+  "categories": [
+    "networking"
+  ],
+  "examples": [
+    "A 128-bit address written in hexadecimal groups",
+    "A network that runs IPv4 and IPv6 side by side"
+  ]
+}

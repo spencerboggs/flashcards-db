@@ -1,0 +1,14 @@
+{
+  "id": "algorithm",
+  "term": "Algorithm",
+  "aliases": [],
+  "difficulty": "fundamental",
+  "definition": "An algorithm is a finite procedure that solves a class of problems. Each step is definite, and the procedure ends for the inputs it claims to handle. The same algorithm can be written in many languages; the steps, not the syntax, are the idea.",
+  "categories": [
+    "algorithms"
+  ],
+  "examples": [
+    "A recipe for finding an item in a sorted list",
+    "A procedure for scheduling tasks onto machines"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "id": "dependency-injection",
+  "term": "Dependency Injection",
+  "aliases": [],
+  "difficulty": "intermediate",
+  "definition": "Dependency injection means a unit receives the collaborators it needs instead of constructing them itself. The caller, or a container, passes them in through a constructor or a parameter. The unit stays focused on its job, and a test can pass a substitute.",
+  "categories": [
+    "object-oriented-programming",
+    "software-engineering",
+    "testing"
+  ],
+  "examples": [
+    "A service constructed with a repository argument",
+    "A test that passes a fake clock instead of the system clock"
+  ]
+}

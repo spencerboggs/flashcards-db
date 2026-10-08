@@ -1,0 +1,14 @@
+{
+  "id": "message-queue",
+  "term": "Message Queue",
+  "aliases": [],
+  "difficulty": "intermediate",
+  "definition": "A message queue stores messages from producers until consumers take them. It decouples the sender's timing from the receiver's and can absorb a burst. Consumers have to handle duplicates and failures, because a message may be delivered more than once if a consumer crashes after receiving it.",
+  "categories": [
+    "distributed-systems"
+  ],
+  "examples": [
+    "Orders placed on a queue for a worker to fulfill",
+    "A buffer between a web request and a slow email sender"
+  ]
+}

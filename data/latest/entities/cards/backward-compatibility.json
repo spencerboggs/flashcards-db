@@ -1,0 +1,15 @@
+{
+  "id": "backward-compatibility",
+  "term": "Backward Compatibility",
+  "aliases": [],
+  "difficulty": "fundamental",
+  "definition": "Backward compatibility means a new version still works for callers or data written against an older version. Adding an optional field is usually compatible; removing or redefining an existing one is not. It is what lets other people upgrade without changing their code at the same moment.",
+  "categories": [
+    "programming",
+    "software-engineering"
+  ],
+  "examples": [
+    "An API that still accepts the old request and also a new optional field",
+    "A file format a new version can still read"
+  ]
+}

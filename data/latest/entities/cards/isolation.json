@@ -1,0 +1,18 @@
+{
+  "id": "isolation",
+  "term": "Isolation",
+  "aliases": [],
+  "difficulty": "intermediate",
+  "definition": "Isolation is the degree to which concurrent transactions are prevented from seeing each other's intermediate state. Stronger isolation avoids more anomalies and allows less concurrency. From weaker to stronger, the standard levels are read uncommitted, read committed, repeatable read, and serializable.",
+  "categories": [
+    "databases"
+  ],
+  "prompt": "What is isolation in a database transaction?",
+  "details": [
+    "Read uncommitted can see another transaction's uncommitted writes. Serializable behaves as if transactions ran one at a time."
+  ],
+  "examples": [
+    "Read committed, which hides uncommitted work",
+    "Serializable, which prevents phantoms and other interleaving anomalies"
+  ]
+}

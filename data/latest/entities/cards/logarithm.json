@@ -1,0 +1,14 @@
+{
+  "id": "logarithm",
+  "term": "Logarithm",
+  "aliases": [],
+  "difficulty": "fundamental",
+  "definition": "A logarithm says how many times a base must be multiplied by itself to reach a number. In computing the usual base is 2, so log2 of n is how many times n can be cut in half. That count is the cost of binary search and of operations on a balanced tree.",
+  "categories": [
+    "algorithms",
+    "mathematics"
+  ],
+  "details": [
+    "Changing the base only multiplies the logarithm by a constant, so it does not change a Big-O class."
+  ]
+}

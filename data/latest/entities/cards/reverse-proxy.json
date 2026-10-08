@@ -1,0 +1,16 @@
+{
+  "id": "reverse-proxy",
+  "term": "Reverse Proxy",
+  "aliases": [],
+  "difficulty": "fundamental",
+  "definition": "A reverse proxy sits in front of servers and accepts incoming requests for them. Clients connect to the proxy, which forwards each request to a server behind it. It is where TLS is often terminated and where requests are routed or load balanced.",
+  "categories": [
+    "infrastructure",
+    "networking",
+    "web"
+  ],
+  "examples": [
+    "A proxy that terminates TLS and forwards plain requests to application processes",
+    "A single public address in front of several services"
+  ]
+}

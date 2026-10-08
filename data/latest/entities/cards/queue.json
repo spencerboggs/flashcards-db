@@ -1,0 +1,20 @@
+{
+  "id": "queue",
+  "term": "Queue",
+  "aliases": [
+    "FIFO"
+  ],
+  "difficulty": "fundamental",
+  "definition": "A queue is a collection that removes the element that has been waiting the longest. Enqueue adds at the back and dequeue removes from the front, both in constant time when implemented with a linked list or a circular buffer. It models work served in arrival order.",
+  "categories": [
+    "data-structures"
+  ],
+  "complexity": {
+    "time": "Enqueue and dequeue are O(1).",
+    "space": "O(n) space for the elements themselves."
+  },
+  "examples": [
+    "Print jobs served in the order they were submitted",
+    "The frontier of a breadth-first search"
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "id": "adjacency-list",
+  "term": "Adjacency List",
+  "aliases": [],
+  "difficulty": "fundamental",
+  "definition": "An adjacency list stores, for each vertex, the list of vertices it connects to. Space grows with the number of vertices plus edges, which suits sparse graphs. Finding whether one particular edge exists takes time proportional to that vertex's degree.",
+  "categories": [
+    "algorithms",
+    "data-structures"
+  ],
+  "complexity": {
+    "time": "Listing neighbors is proportional to the degree. Checking one edge is O(degree).",
+    "space": "O(V + E)."
+  },
+  "examples": [
+    "A social graph with few edges per person",
+    "A road map stored for breadth-first search"
+  ]
+}

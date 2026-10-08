@@ -1,0 +1,18 @@
+{
+  "id": "garbage-collection",
+  "term": "Garbage Collection",
+  "aliases": [],
+  "difficulty": "intermediate",
+  "definition": "Garbage collection automatically reclaims memory that the program can no longer reach. A tracing collector finds objects reachable from roots and frees the rest. The alternative is explicit freeing, which can free too early or not at all.",
+  "categories": [
+    "operating-systems",
+    "programming-languages"
+  ],
+  "details": [
+    "Reference counting frees an object when its last reference drops, and it needs a separate treatment of cycles. A tracing collector finds cycles and usually pauses the program briefly."
+  ],
+  "examples": [
+    "Objects freed after the last variable referring to them goes away",
+    "A generational collector that scans new objects more often"
+  ]
+}

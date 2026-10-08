@@ -1,0 +1,15 @@
+{
+  "id": "git-remote",
+  "term": "Remote",
+  "aliases": [],
+  "difficulty": "fundamental",
+  "definition": "A remote is a named pointer to another copy of the repository, usually on a server. Fetch, pull, and push name that copy with the remote's name. Origin is the conventional name of the remote a clone was taken from.",
+  "categories": [
+    "version-control"
+  ],
+  "prompt": "What is a Git remote?",
+  "examples": [
+    "origin, pointing at the repository the project was cloned from",
+    "A second remote pointing at a fork"
+  ]
+}

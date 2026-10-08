@@ -1,0 +1,16 @@
+{
+  "id": "kiss",
+  "term": "KISS",
+  "aliases": [
+    "Keep It Simple"
+  ],
+  "difficulty": "fundamental",
+  "definition": "KISS, keep it simple, says to prefer the simplest design that meets the need. Extra machinery has to be understood, tested, and changed later. Simplicity is judged by the reader of the code, not by how little time the first version took to type.",
+  "categories": [
+    "software-engineering"
+  ],
+  "examples": [
+    "A straightforward loop instead of a framework for three items",
+    "One code path instead of a configuration matrix nobody uses"
+  ]
+}

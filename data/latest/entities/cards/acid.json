@@ -1,0 +1,17 @@
+{
+  "id": "acid",
+  "term": "ACID",
+  "aliases": [],
+  "difficulty": "fundamental",
+  "definition": "ACID names the four properties of a reliable transaction: atomicity, consistency, isolation, and durability. Atomicity makes the group all-or-nothing. Consistency means committed data satisfies the database's constraints. Isolation limits how concurrent transactions see each other. Durability means a committed write survives a crash.",
+  "categories": [
+    "databases"
+  ],
+  "details": [
+    "Consistency here means constraints, not the distributed-systems meaning of 'every replica agrees'. Those are different words that share a spelling."
+  ],
+  "examples": [
+    "A transfer that cannot leave only one account changed",
+    "A commit that is still present after the database restarts"
+  ]
+}

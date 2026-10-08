@@ -1,0 +1,18 @@
+{
+  "id": "bellman-ford",
+  "term": "Bellman-Ford",
+  "aliases": [],
+  "difficulty": "intermediate",
+  "definition": "Bellman-Ford finds shortest paths from one source and allows negative edge weights. It relaxes every edge once per vertex, repeating that pass |V| - 1 times. A further pass that still improves a distance means the graph has a negative cycle reachable from the source.",
+  "categories": [
+    "algorithms"
+  ],
+  "complexity": {
+    "time": "O(V * E).",
+    "space": "O(V) for the distances."
+  },
+  "examples": [
+    "A currency graph where an exchange rate can act like a negative edge",
+    "Detecting a negative cycle that would make a 'shortest' path undefined"
+  ]
+}

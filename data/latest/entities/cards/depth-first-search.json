@@ -1,0 +1,26 @@
+{
+  "id": "depth-first-search",
+  "term": "Depth-First Search",
+  "aliases": [
+    "DFS"
+  ],
+  "difficulty": "fundamental",
+  "definition": "Depth-first search follows one path as far as it can, then backtracks and tries the next unused edge. It uses a stack, either an explicit one or the call stack of recursion. It classifies edges and finds structure such as finish times, which topological sort and cycle detection use.",
+  "categories": [
+    "algorithms",
+    "data-structures"
+  ],
+  "details": [
+    "A seen set, or a color for visiting versus finished, is required on graphs that may contain cycles.",
+    "The order of neighbors changes which path is followed first. It does not change the O(V + E) cost."
+  ],
+  "complexity": {
+    "time": "O(V + E) with an adjacency list.",
+    "space": "O(V) for the stack and the seen set."
+  },
+  "examples": [
+    "Detecting a cycle in a directed graph",
+    "Solving a maze by following one corridor until it ends"
+  ],
+  "sketch": "seen = {start}\nstack = [start]\nwhile stack is not empty:\n  node = stack.pop()\n  for next in neighbors(node):\n    if next not in seen:\n      seen.add(next)\n      stack.push(next)"
+}

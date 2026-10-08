@@ -1,0 +1,15 @@
+{
+  "id": "dependency-management",
+  "term": "Dependency Management",
+  "aliases": [],
+  "difficulty": "fundamental",
+  "definition": "Dependency management is declaring, resolving, and updating the libraries a project uses. A manifest names the dependencies, and a lockfile records the exact versions that were resolved. Updating is a deliberate change, because a new version can change behavior.",
+  "categories": [
+    "programming",
+    "software-engineering"
+  ],
+  "examples": [
+    "A manifest that requires a logging library and a lockfile that pins its version",
+    "A tool that reports a known-bad version of a dependency"
+  ]
+}

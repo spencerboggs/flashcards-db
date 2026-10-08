@@ -1,0 +1,16 @@
+{
+  "id": "nat",
+  "term": "NAT",
+  "aliases": [
+    "Network Address Translation"
+  ],
+  "difficulty": "intermediate",
+  "definition": "NAT rewrites packet addresses so several machines on a private network can share one public address. The router tracks each flow and translates between the private address and the public one. Inbound connections are not reachable unless a mapping was created for them.",
+  "categories": [
+    "networking"
+  ],
+  "examples": [
+    "A home router sharing one public address",
+    "A connection from a private host appearing to come from the router"
+  ]
+}

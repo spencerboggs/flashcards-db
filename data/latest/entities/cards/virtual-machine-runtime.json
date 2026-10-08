@@ -1,0 +1,15 @@
+{
+  "id": "virtual-machine-runtime",
+  "term": "Virtual Machine",
+  "aliases": [],
+  "difficulty": "fundamental",
+  "definition": "A virtual machine, in language implementation, is a program that executes bytecode and provides services such as memory management. The same bytecode can run anywhere the virtual machine runs. This is a different use of the term from a guest operating system under a hypervisor.",
+  "categories": [
+    "programming-languages"
+  ],
+  "prompt": "What is a virtual machine for a programming language?",
+  "examples": [
+    "The JVM executing Java bytecode",
+    "A stack machine inside a language runtime"
+  ]
+}

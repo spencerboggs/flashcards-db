@@ -1,0 +1,19 @@
+{
+  "id": "promise",
+  "term": "Promise",
+  "aliases": [
+    "Future"
+  ],
+  "difficulty": "intermediate",
+  "definition": "A promise stands for a value that is not available yet. It later becomes fulfilled with a value or rejected with a failure, and other code can attach work to run at that moment. Some languages call the same idea a future, and a few split the producer side from a read-only handle.",
+  "categories": [
+    "programming"
+  ],
+  "details": [
+    "A promise settles once. Attaching a callback after it has settled still runs the callback with the stored result."
+  ],
+  "examples": [
+    "The result of an HTTP request that has not finished",
+    "A file read that will either return bytes or fail"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "id": "greedy-algorithm",
+  "term": "Greedy Algorithm",
+  "aliases": [],
+  "difficulty": "intermediate",
+  "definition": "A greedy algorithm builds a solution by making the locally best choice at each step and never taking it back. That produces a best overall solution only when the problem has the greedy-choice property and optimal substructure. When those hold, the algorithm is simple; when they do not, the locally best step can ruin the global result.",
+  "categories": [
+    "algorithms"
+  ],
+  "examples": [
+    "Interval scheduling by always taking the job that ends soonest",
+    "Kruskal's algorithm adding the lightest safe edge"
+  ]
+}

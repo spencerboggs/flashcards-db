@@ -1,0 +1,17 @@
+{
+  "id": "constant",
+  "term": "Constant",
+  "aliases": [],
+  "difficulty": "fundamental",
+  "definition": "A constant is a named binding the program does not reassign. It gives one stable name to a value so the rest of the code does not repeat it or change it by accident. In some languages the binding is fixed, but the object it points at can still be modified.",
+  "categories": [
+    "programming"
+  ],
+  "details": [
+    "A constant binding and an immutable value are different promises. The first forbids reassignment; the second forbids changing the value itself."
+  ],
+  "examples": [
+    "A maximum retry count",
+    "The number of bytes in a kilobyte the program uses"
+  ]
+}

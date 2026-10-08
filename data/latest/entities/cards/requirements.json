@@ -1,0 +1,14 @@
+{
+  "id": "requirements",
+  "term": "Requirements",
+  "aliases": [],
+  "difficulty": "fundamental",
+  "definition": "Requirements are the statements of what the software must do and which constraints it must meet. They describe the need, from the point of view of the people who will use or operate the system. They are the input to design, and they are what acceptance is judged against.",
+  "categories": [
+    "software-engineering"
+  ],
+  "examples": [
+    "A user must be able to reset a password",
+    "The service must answer within a stated time"
+  ]
+}

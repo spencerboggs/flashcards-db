@@ -1,0 +1,14 @@
+{
+  "id": "boolean",
+  "term": "Boolean",
+  "aliases": [],
+  "difficulty": "fundamental",
+  "definition": "A boolean is a value that is either true or false. Comparisons and logical tests produce booleans, and conditionals use them to choose a branch. They combine with and, or, and not.",
+  "categories": [
+    "programming"
+  ],
+  "examples": [
+    "The result of checking whether a list is empty",
+    "A flag that records whether a user is signed in"
+  ]
+}

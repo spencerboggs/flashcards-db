@@ -1,0 +1,14 @@
+{
+  "id": "network",
+  "term": "Network",
+  "aliases": [],
+  "difficulty": "fundamental",
+  "definition": "A computer network is a set of machines that can exchange data over links. Addressing says which machine a message is for, and forwarding moves the message toward that machine. The internet is many networks connected together.",
+  "categories": [
+    "networking"
+  ],
+  "examples": [
+    "A home network of phones and a laptop",
+    "A data-center network between servers"
+  ]
+}

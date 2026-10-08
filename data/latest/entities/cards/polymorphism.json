@@ -1,0 +1,14 @@
+{
+  "id": "polymorphism",
+  "term": "Polymorphism",
+  "aliases": [],
+  "difficulty": "fundamental",
+  "definition": "Polymorphism lets one call run different implementations depending on the actual object. The caller programs against a shared type, such as a parent class or an interface, and each subtype supplies its own method. The caller does not need a branch for every subtype.",
+  "categories": [
+    "object-oriented-programming"
+  ],
+  "examples": [
+    "A draw call that paints a circle or a rectangle depending on the shape",
+    "A log call that writes to a file or to the network through the same interface"
+  ]
+}

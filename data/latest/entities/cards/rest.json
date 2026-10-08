@@ -1,0 +1,20 @@
+{
+  "id": "rest",
+  "term": "REST",
+  "aliases": [
+    "Representational State Transfer"
+  ],
+  "difficulty": "fundamental",
+  "definition": "REST is an architectural style for APIs built around resources, identified by URLs, manipulated with a small set of methods, and transferred in representations such as JSON. Interactions are stateless: each request carries what the server needs. Many APIs called REST are JSON over HTTP and do not follow every constraint of the style.",
+  "categories": [
+    "distributed-systems",
+    "web"
+  ],
+  "details": [
+    "The style also calls for cacheable responses and a uniform interface. Using HTTP and JSON does not by itself meet those constraints."
+  ],
+  "examples": [
+    "GET /orders/42 returning one order",
+    "DELETE /orders/42 removing that order"
+  ]
+}

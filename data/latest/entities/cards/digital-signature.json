@@ -1,0 +1,15 @@
+{
+  "id": "digital-signature",
+  "term": "Digital Signature",
+  "aliases": [],
+  "difficulty": "intermediate",
+  "definition": "A digital signature is produced with a private key so that anyone with the matching public key can check it. A valid signature means the data has not been altered and was signed by the holder of that private key. It provides integrity and authenticity, not confidentiality.",
+  "categories": [
+    "cryptography",
+    "security"
+  ],
+  "examples": [
+    "A signed software release",
+    "A signature on a token that a server verifies"
+  ]
+}

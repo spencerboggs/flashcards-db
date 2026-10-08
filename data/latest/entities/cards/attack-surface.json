@@ -1,0 +1,14 @@
+{
+  "id": "attack-surface",
+  "term": "Attack Surface",
+  "aliases": [],
+  "difficulty": "fundamental",
+  "definition": "The attack surface is the set of places an outsider can interact with a system: endpoints, parsers, accounts, and exposed services. A larger surface gives more places for a mistake to be reachable. Reducing it means exposing fewer entry points and fewer privileges behind each one.",
+  "categories": [
+    "security"
+  ],
+  "examples": [
+    "An administrative port reachable from the internet",
+    "A parser that accepts file uploads from anyone"
+  ]
+}

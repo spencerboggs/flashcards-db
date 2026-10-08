@@ -1,0 +1,16 @@
+{
+  "id": "least-privilege",
+  "term": "Least Privilege",
+  "aliases": [
+    "Principle of Least Privilege"
+  ],
+  "difficulty": "fundamental",
+  "definition": "Least privilege means granting only the access a task needs, and no more. A service account that only reads one table cannot wipe the database if it is misused. Privileges that are broad 'just in case' become the damage radius of a mistake.",
+  "categories": [
+    "security"
+  ],
+  "examples": [
+    "A deploy account that can ship a service and cannot read customer data",
+    "A process that can write only its own directory"
+  ]
+}

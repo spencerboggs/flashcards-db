@@ -1,0 +1,17 @@
+{
+  "id": "multi-factor-authentication",
+  "term": "Multi-Factor Authentication",
+  "aliases": [
+    "MFA",
+    "Two-Factor Authentication"
+  ],
+  "difficulty": "fundamental",
+  "definition": "Multi-factor authentication requires evidence from more than one category: something the person knows, something they have, or something they are. A password plus a code from a device is the common case of two factors. Stealing the password alone is then not enough to sign in.",
+  "categories": [
+    "security"
+  ],
+  "examples": [
+    "A password plus a code from an authenticator",
+    "A password plus a hardware security key"
+  ]
+}

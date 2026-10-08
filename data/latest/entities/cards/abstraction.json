@@ -1,0 +1,15 @@
+{
+  "id": "abstraction",
+  "term": "Abstraction",
+  "aliases": [],
+  "difficulty": "fundamental",
+  "definition": "Abstraction presents a simpler model of something and hides incidental detail. The caller sees the operations that matter and not the mechanism behind them. A file object offers read and write; the disk layout stays behind that model.",
+  "categories": [
+    "object-oriented-programming",
+    "software-engineering"
+  ],
+  "examples": [
+    "A list interface that does not reveal whether storage is an array or a tree",
+    "A payment method that does not expose the processor's protocol"
+  ]
+}

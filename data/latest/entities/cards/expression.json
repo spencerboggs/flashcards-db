@@ -1,0 +1,14 @@
+{
+  "id": "expression",
+  "term": "Expression",
+  "aliases": [],
+  "difficulty": "fundamental",
+  "definition": "An expression is a piece of code that produces a value, such as arithmetic, a comparison, or a function call. Expressions nest inside larger expressions. By itself, an expression does not describe a sequence of actions.",
+  "categories": [
+    "programming"
+  ],
+  "examples": [
+    "1 + 2",
+    "A call whose result is passed into another call"
+  ]
+}

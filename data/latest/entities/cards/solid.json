@@ -1,0 +1,15 @@
+{
+  "id": "solid",
+  "term": "SOLID",
+  "aliases": [],
+  "difficulty": "intermediate",
+  "definition": "SOLID is five design principles for classes and modules: single responsibility, open-closed, Liskov substitution, interface segregation, and dependency inversion. Together they push designs toward small units that depend on stable abstractions. They are guidelines, not rules that every change must satisfy mechanically.",
+  "categories": [
+    "object-oriented-programming",
+    "software-engineering"
+  ],
+  "examples": [
+    "A review comment that cites one of the five by name",
+    "A module split because it had two unrelated reasons to change"
+  ]
+}

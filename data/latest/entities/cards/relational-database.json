@@ -1,0 +1,14 @@
+{
+  "id": "relational-database",
+  "term": "Relational Database",
+  "aliases": [],
+  "difficulty": "fundamental",
+  "definition": "A relational database stores data in tables of rows and columns, related by keys. Queries say what to retrieve, and the engine decides how. Constraints such as keys and uniqueness are enforced by the database rather than only by application code.",
+  "categories": [
+    "databases"
+  ],
+  "examples": [
+    "Orders in one table and customers in another, joined by a customer id",
+    "A unique constraint on an email column"
+  ]
+}

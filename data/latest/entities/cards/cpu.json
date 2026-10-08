@@ -1,0 +1,16 @@
+{
+  "id": "cpu",
+  "term": "CPU",
+  "aliases": [
+    "Central Processing Unit"
+  ],
+  "difficulty": "fundamental",
+  "definition": "A CPU is the processor that fetches, decodes, and executes instructions. It performs arithmetic, makes branches, and moves data between registers and memory. A modern chip contains several cores, each able to run its own instruction stream.",
+  "categories": [
+    "computer-architecture"
+  ],
+  "examples": [
+    "A core executing a thread's instructions",
+    "A chip with several cores sharing one memory system"
+  ]
+}

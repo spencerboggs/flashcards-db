@@ -1,0 +1,16 @@
+{
+  "id": "simd",
+  "term": "SIMD",
+  "aliases": [
+    "Single Instruction, Multiple Data"
+  ],
+  "difficulty": "intermediate",
+  "definition": "SIMD applies one instruction to several data elements at the same time. A single add can add four pairs of numbers packed in wide registers. It speeds data-parallel loops and does nothing for control-heavy code.",
+  "categories": [
+    "computer-architecture"
+  ],
+  "examples": [
+    "Adding several audio samples with one instruction",
+    "A compiler vectorizing a numeric loop"
+  ]
+}

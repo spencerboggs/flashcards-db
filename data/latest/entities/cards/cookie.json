@@ -1,0 +1,15 @@
+{
+  "id": "cookie",
+  "term": "Cookie",
+  "aliases": [],
+  "difficulty": "fundamental",
+  "definition": "A cookie is a small value a server asks a browser to store and to send back on later requests to that site. It is the usual place a session identifier lives. Flags limit it: Secure sends it only over HTTPS, HttpOnly keeps script from reading it, and SameSite limits when it is sent on a request that came from another site.",
+  "categories": [
+    "security",
+    "web"
+  ],
+  "examples": [
+    "A session id cookie",
+    "A preference cookie that is not an authentication secret"
+  ]
+}

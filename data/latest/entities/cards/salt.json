@@ -1,0 +1,15 @@
+{
+  "id": "salt",
+  "term": "Salt",
+  "aliases": [],
+  "difficulty": "intermediate",
+  "definition": "A salt is a random value stored with a password hash and mixed into the hash. Identical passwords then produce different hashes, and a precomputed table of hashes does not apply to every user. The salt is not a secret; it exists to make each hash unique.",
+  "categories": [
+    "cryptography",
+    "security"
+  ],
+  "examples": [
+    "A different random salt for each user",
+    "A hash that cannot be matched against a single precomputed table"
+  ]
+}

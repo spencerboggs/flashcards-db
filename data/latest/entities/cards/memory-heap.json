@@ -1,0 +1,16 @@
+{
+  "id": "memory-heap",
+  "term": "Memory Heap",
+  "aliases": [],
+  "difficulty": "fundamental",
+  "definition": "The memory heap is the region where a process stores dynamically allocated objects. The program asks for a block, an allocator finds space, and the block remains until it is freed or collected. The name has nothing to do with the heap data structure.",
+  "categories": [
+    "operating-systems",
+    "programming-languages"
+  ],
+  "prompt": "What is the memory heap?",
+  "examples": [
+    "An object created with malloc or new",
+    "A buffer whose size is known only at run time"
+  ]
+}

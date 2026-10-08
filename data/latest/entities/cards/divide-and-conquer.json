@@ -1,0 +1,14 @@
+{
+  "id": "divide-and-conquer",
+  "term": "Divide and Conquer",
+  "aliases": [],
+  "difficulty": "fundamental",
+  "definition": "Divide and conquer splits a problem into smaller independent subproblems, solves those, and combines the results. The subproblems are usually the same problem on a smaller input. Merge sort, quick sort, and binary search are standard examples.",
+  "categories": [
+    "algorithms"
+  ],
+  "examples": [
+    "Sorting by sorting two halves and merging them",
+    "Finding a key by discarding half of a sorted array"
+  ]
+}

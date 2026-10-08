@@ -1,0 +1,16 @@
+{
+  "id": "availability",
+  "term": "Availability",
+  "aliases": [],
+  "difficulty": "fundamental",
+  "definition": "Availability is the fraction of time a system can accept and serve work. It is often stated in nines: three nines, 99.9 percent, is a bit under nine hours of downtime a year. A system can be available and still return wrong results, which is a reliability problem rather than an availability one.",
+  "categories": [
+    "distributed-systems",
+    "software-engineering"
+  ],
+  "prompt": "What is availability for a service?",
+  "examples": [
+    "A service that answers health checks and traffic",
+    "A failover that keeps the service answering while one node is down"
+  ]
+}

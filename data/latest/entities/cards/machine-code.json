@@ -1,0 +1,15 @@
+{
+  "id": "machine-code",
+  "term": "Machine Code",
+  "aliases": [],
+  "difficulty": "fundamental",
+  "definition": "Machine code is a program encoded as the bytes the processor executes. Each instruction is a binary pattern defined by the instruction set. It is the usual output of a compiler or an assembler, and it is not meant to be written by hand.",
+  "categories": [
+    "computer-architecture",
+    "programming-languages"
+  ],
+  "examples": [
+    "The bytes of a compiled executable",
+    "An instruction word the CPU decodes directly"
+  ]
+}

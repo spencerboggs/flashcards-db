@@ -1,0 +1,14 @@
+{
+  "id": "regularization",
+  "term": "Regularization",
+  "aliases": [],
+  "difficulty": "intermediate",
+  "definition": "Regularization discourages a model from fitting the training data too closely. A penalty on large weights, dropout, or early stopping are common forms. It trades a bit of training fit for better behavior on new data.",
+  "categories": [
+    "machine-learning"
+  ],
+  "examples": [
+    "A penalty added for large weights",
+    "Stopping training when validation loss stops improving"
+  ]
+}

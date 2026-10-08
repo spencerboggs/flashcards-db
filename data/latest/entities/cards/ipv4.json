@@ -1,0 +1,14 @@
+{
+  "id": "ipv4",
+  "term": "IPv4",
+  "aliases": [],
+  "difficulty": "fundamental",
+  "definition": "IPv4 is the version of IP that uses 32-bit addresses, usually written as four decimal numbers. That space holds about four billion addresses, which is why sharing techniques such as NAT became common. It is still the version many networks run.",
+  "categories": [
+    "networking"
+  ],
+  "examples": [
+    "An address such as 192.0.2.10",
+    "A packet with a 32-bit destination"
+  ]
+}

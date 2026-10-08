@@ -1,0 +1,15 @@
+{
+  "id": "eventual-consistency",
+  "term": "Eventual Consistency",
+  "aliases": [],
+  "difficulty": "intermediate",
+  "definition": "Eventual consistency means replicas may disagree for a while, and they converge once updates stop arriving. A read can return a stale value during that window. It is chosen when availability during a partition matters more than every read seeing the latest write.",
+  "categories": [
+    "databases",
+    "distributed-systems"
+  ],
+  "examples": [
+    "A profile update that appears on another region a moment later",
+    "A counter that briefly differs between replicas"
+  ]
+}

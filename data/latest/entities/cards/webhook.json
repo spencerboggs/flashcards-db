@@ -1,0 +1,15 @@
+{
+  "id": "webhook",
+  "term": "Webhook",
+  "aliases": [],
+  "difficulty": "fundamental",
+  "definition": "A webhook is an HTTP request that a system sends to a URL you registered, when an event happens. It is a callback over the network, so the receiver does not have to poll. The receiver should verify that the request really came from the sender.",
+  "categories": [
+    "distributed-systems",
+    "web"
+  ],
+  "examples": [
+    "A payment provider notifying an order service that a charge succeeded",
+    "A repository host notifying a CI system of a new push"
+  ]
+}

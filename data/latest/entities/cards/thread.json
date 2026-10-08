@@ -1,0 +1,14 @@
+{
+  "id": "thread",
+  "term": "Thread",
+  "aliases": [],
+  "difficulty": "fundamental",
+  "definition": "A thread is a single sequence of execution inside a process. Threads of the same process share the address space and open files, and each has its own stack and registers. Sharing memory makes communication cheap and makes unsynchronized writes into races.",
+  "categories": [
+    "operating-systems"
+  ],
+  "examples": [
+    "A server handling each connection on a worker thread",
+    "A background thread that saves a file while the UI thread stays responsive"
+  ]
+}

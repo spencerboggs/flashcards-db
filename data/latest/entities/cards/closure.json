@@ -1,0 +1,17 @@
+{
+  "id": "closure",
+  "term": "Closure",
+  "aliases": [],
+  "difficulty": "intermediate",
+  "definition": "A closure is a function together with the bindings from the scope where it was created. When the function runs later, it can still read those captured variables, even after the outer call has returned. That is how a callback remembers the context it was built in.",
+  "categories": [
+    "programming"
+  ],
+  "details": [
+    "If the captured variable is mutable, every closure that captured it sees later assignments, not a private copy from creation time. Languages differ on whether the loop variable in a closure is shared."
+  ],
+  "examples": [
+    "A function that returns another function which still sees a local counter",
+    "An event handler that remembers the button that created it"
+  ]
+}

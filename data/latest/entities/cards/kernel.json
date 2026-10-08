@@ -1,0 +1,17 @@
+{
+  "id": "kernel",
+  "term": "Kernel",
+  "aliases": [],
+  "difficulty": "fundamental",
+  "definition": "The kernel is the part of the operating system that runs with full access to the hardware. It schedules processes, manages memory, and performs I/O on behalf of programs. User programs ask it to act through system calls instead of touching the hardware themselves.",
+  "categories": [
+    "operating-systems"
+  ],
+  "details": [
+    "Kernel space is the privileged address region. User space is where ordinary processes run, isolated from the hardware and from each other."
+  ],
+  "examples": [
+    "The scheduler deciding which process runs next",
+    "The code that implements open, read, and write"
+  ]
+}

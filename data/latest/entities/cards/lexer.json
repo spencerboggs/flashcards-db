@@ -1,0 +1,17 @@
+{
+  "id": "lexer",
+  "term": "Lexer",
+  "aliases": [
+    "Tokenizer",
+    "Lexical Analyzer"
+  ],
+  "difficulty": "intermediate",
+  "definition": "A lexer reads source characters and groups them into tokens: identifiers, numbers, strings, and operators. It discards insignificant whitespace and comments in most languages. The parser consumes the token stream rather than the raw characters.",
+  "categories": [
+    "programming-languages"
+  ],
+  "examples": [
+    "Turning a + b into an identifier, a plus, and an identifier",
+    "Recognizing a string literal including its quotes"
+  ]
+}

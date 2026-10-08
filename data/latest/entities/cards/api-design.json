@@ -1,0 +1,16 @@
+{
+  "id": "api-design",
+  "term": "API Design",
+  "aliases": [],
+  "difficulty": "intermediate",
+  "definition": "API design is the practice of choosing the operations, names, errors, and compatibility rules that callers will depend on. A good API is small, consistent, and hard to misuse. Once it is published, changing it is expensive, so the design includes how it will evolve.",
+  "categories": [
+    "programming",
+    "software-engineering",
+    "web"
+  ],
+  "examples": [
+    "Choosing nouns and HTTP methods for a resource",
+    "Deciding that a missing resource is a not-found error rather than an empty success"
+  ]
+}

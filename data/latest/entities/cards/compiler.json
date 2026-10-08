@@ -1,0 +1,14 @@
+{
+  "id": "compiler",
+  "term": "Compiler",
+  "aliases": [],
+  "difficulty": "fundamental",
+  "definition": "A compiler translates a program from a source language into a lower-level form, usually machine code or bytecode. It checks the program and then generates the output a machine or a virtual machine can run. Once compiled, the program can run without the compiler.",
+  "categories": [
+    "programming-languages"
+  ],
+  "examples": [
+    "A C compiler emitting machine code",
+    "A compiler emitting bytecode for a virtual machine"
+  ]
+}

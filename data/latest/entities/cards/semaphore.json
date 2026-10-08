@@ -1,0 +1,17 @@
+{
+  "id": "semaphore",
+  "term": "Semaphore",
+  "aliases": [],
+  "difficulty": "intermediate",
+  "definition": "A semaphore is a counter that threads wait on and signal. Wait decrements the counter, blocking when it would go below zero; signal increments it and wakes a waiter. A counting semaphore allows a fixed number of threads into a section, not only one.",
+  "categories": [
+    "operating-systems"
+  ],
+  "details": [
+    "A binary semaphore looks like a mutex but has no owner. Any thread may signal it, which is also why it is easier to misuse."
+  ],
+  "examples": [
+    "Limiting a pool to ten concurrent users",
+    "Signaling that an item has been added to a queue"
+  ]
+}

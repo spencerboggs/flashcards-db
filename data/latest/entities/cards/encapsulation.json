@@ -1,0 +1,14 @@
+{
+  "id": "encapsulation",
+  "term": "Encapsulation",
+  "aliases": [],
+  "difficulty": "fundamental",
+  "definition": "Encapsulation hides an object's internal data behind a small set of methods. Callers use those methods and do not depend on how the data is stored. The object can change its representation later without forcing every caller to change.",
+  "categories": [
+    "object-oriented-programming"
+  ],
+  "examples": [
+    "A balance updated only through deposit and withdraw",
+    "A collection that never exposes the array it uses internally"
+  ]
+}

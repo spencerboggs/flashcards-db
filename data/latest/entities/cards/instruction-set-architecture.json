@@ -1,0 +1,16 @@
+{
+  "id": "instruction-set-architecture",
+  "term": "Instruction Set Architecture",
+  "aliases": [
+    "ISA"
+  ],
+  "difficulty": "intermediate",
+  "definition": "An instruction set architecture is the processor's contract with software: the instructions, registers, and execution behavior that programs may rely on. Machine code is written to an ISA, not to one particular chip's internal schedule. x86-64 and ARM are two ISAs.",
+  "categories": [
+    "computer-architecture"
+  ],
+  "examples": [
+    "x86-64 machine code",
+    "ARM machine code for a phone"
+  ]
+}

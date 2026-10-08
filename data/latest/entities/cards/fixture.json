@@ -1,0 +1,14 @@
+{
+  "id": "fixture",
+  "term": "Fixture",
+  "aliases": [],
+  "difficulty": "fundamental",
+  "definition": "A fixture is the known starting state a test relies on: data, files, or objects prepared before the assertion. Each test should be able to build the fixture it needs, or share one that no test mutates unexpectedly. A test that depends on leftover state from another test is not using a fixture; it is depending on order.",
+  "categories": [
+    "testing"
+  ],
+  "examples": [
+    "A user row inserted before the test runs",
+    "A temporary directory with a known file"
+  ]
+}

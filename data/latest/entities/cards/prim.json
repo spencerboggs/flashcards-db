@@ -1,0 +1,19 @@
+{
+  "id": "prim",
+  "term": "Prim's Algorithm",
+  "aliases": [
+    "Prim"
+  ],
+  "difficulty": "intermediate",
+  "definition": "Prim's algorithm builds a minimum spanning tree by growing one connected component. It repeatedly adds the lightest edge that leaves the component and reaches a new vertex, using a priority queue to find that edge. The result is a tree because each added edge reaches a vertex not yet included.",
+  "categories": [
+    "algorithms"
+  ],
+  "complexity": {
+    "time": "O((V + E) log V) with a binary heap.",
+    "space": "O(V) for the queue and the visited set."
+  },
+  "examples": [
+    "Growing a network outward from a starting site, always by the cheapest new link"
+  ]
+}

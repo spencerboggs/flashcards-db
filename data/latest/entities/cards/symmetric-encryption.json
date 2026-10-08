@@ -1,0 +1,15 @@
+{
+  "id": "symmetric-encryption",
+  "term": "Symmetric Encryption",
+  "aliases": [],
+  "difficulty": "fundamental",
+  "definition": "Symmetric encryption uses the same secret key to encrypt and to decrypt. It is fast and is what protects the bulk of a connection after the key is known to both sides. Anyone who has the key can both read and produce messages, so the key has to be kept from everyone else.",
+  "categories": [
+    "cryptography",
+    "security"
+  ],
+  "examples": [
+    "AES encrypting a file with a secret key",
+    "The data phase of a TLS connection"
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "id": "ml-model",
+  "term": "Model",
+  "aliases": [
+    "Machine Learning Model"
+  ],
+  "difficulty": "fundamental",
+  "definition": "A model is a parameterized function that maps inputs to a prediction. Training sets the parameters. Two models can share an architecture and differ only in the parameters they learned.",
+  "categories": [
+    "machine-learning"
+  ],
+  "prompt": "What is a model in machine learning?",
+  "examples": [
+    "A neural network with a particular set of weights",
+    "A linear model with a weight per feature"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "id": "liskov-substitution-principle",
+  "term": "Liskov Substitution Principle",
+  "aliases": [
+    "LSP"
+  ],
+  "difficulty": "intermediate",
+  "definition": "The Liskov substitution principle says a subtype must be usable anywhere the base type is expected, without breaking the caller's assumptions. Overridden methods should not demand more from callers or guarantee less in return. A square type that cannot change width and height independently is the classic violation of a rectangle base.",
+  "categories": [
+    "object-oriented-programming"
+  ],
+  "examples": [
+    "A read-only file subtype that throws on write, where the base type promised write",
+    "A subtype that strengthens a precondition the caller was not required to meet"
+  ]
+}

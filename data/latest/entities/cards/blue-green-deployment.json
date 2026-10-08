@@ -1,0 +1,14 @@
+{
+  "id": "blue-green-deployment",
+  "term": "Blue-Green Deployment",
+  "aliases": [],
+  "difficulty": "intermediate",
+  "definition": "A blue-green deployment keeps two complete environments, one serving traffic and one idle with the new version. The switch sends traffic to the new environment once it is ready. Switching back sends traffic to the old environment if the new one misbehaves.",
+  "categories": [
+    "infrastructure"
+  ],
+  "examples": [
+    "Two identical stacks, with the load balancer pointing at one",
+    "An immediate return to the previous stack"
+  ]
+}

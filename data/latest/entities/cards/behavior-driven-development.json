@@ -1,0 +1,17 @@
+{
+  "id": "behavior-driven-development",
+  "term": "Behavior-Driven Development",
+  "aliases": [
+    "BDD"
+  ],
+  "difficulty": "intermediate",
+  "definition": "Behavior-driven development describes expected behavior in examples phrased in the language of the problem, often given-when-then. The examples are executable specifications. The emphasis is on the behavior a stakeholder would recognize, not on the structure of the code.",
+  "categories": [
+    "software-engineering",
+    "testing"
+  ],
+  "examples": [
+    "Given an empty cart, when an item is added, then the total is the item's price",
+    "A scenario shared by a developer and a product owner"
+  ]
+}

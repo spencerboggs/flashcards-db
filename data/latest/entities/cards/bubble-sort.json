@@ -1,0 +1,21 @@
+{
+  "id": "bubble-sort",
+  "term": "Bubble Sort",
+  "aliases": [],
+  "difficulty": "fundamental",
+  "definition": "Bubble sort walks the list repeatedly and swaps neighbors that are out of order. Each pass moves the next extreme element to its final end. It is easy to see and rarely used for real data, because it stays quadratic unless the input is already nearly sorted and the implementation stops early.",
+  "categories": [
+    "algorithms"
+  ],
+  "details": [
+    "The usual implementation is stable.",
+    "A pass with no swaps means the list is sorted and later passes can be skipped."
+  ],
+  "complexity": {
+    "time": "O(n^2) worst and average. O(n) best case if it stops when a pass makes no swaps.",
+    "space": "O(1) extra space."
+  },
+  "examples": [
+    "A classroom demonstration of swapping neighbors"
+  ]
+}

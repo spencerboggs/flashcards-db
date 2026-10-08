@@ -1,0 +1,15 @@
+{
+  "id": "vector-database",
+  "term": "Vector Database",
+  "aliases": [],
+  "difficulty": "intermediate",
+  "definition": "A vector database stores embeddings and finds the ones nearest to a query vector. Nearest-neighbor search is the operation, often approximate so it stays fast at large scale. It is the usual index behind similarity search and behind the retrieval step of retrieval-augmented generation.",
+  "categories": [
+    "databases",
+    "machine-learning"
+  ],
+  "examples": [
+    "Finding documents whose embeddings are closest to a question",
+    "An index of image embeddings for visual search"
+  ]
+}

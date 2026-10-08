@@ -1,0 +1,14 @@
+{
+  "id": "technical-debt",
+  "term": "Technical Debt",
+  "aliases": [],
+  "difficulty": "fundamental",
+  "definition": "Technical debt is the extra cost of future change caused by a shortcut taken now. The shortcut may have been a deliberate trade for speed. The debt comes due as slower, riskier changes until the shortcut is repaired.",
+  "categories": [
+    "software-engineering"
+  ],
+  "examples": [
+    "A copied block of logic that must be fixed in several places",
+    "A missing test around a module everyone is afraid to touch"
+  ]
+}

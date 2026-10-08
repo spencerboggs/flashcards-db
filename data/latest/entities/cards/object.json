@@ -1,0 +1,15 @@
+{
+  "id": "object",
+  "term": "Object",
+  "aliases": [],
+  "difficulty": "fundamental",
+  "definition": "An object is a value that bundles state with the operations that use that state. It has an identity, so two objects can carry the same data and still be different objects. In class-based languages, an object is created from a class.",
+  "categories": [
+    "object-oriented-programming"
+  ],
+  "prompt": "What is an object in object-oriented programming?",
+  "examples": [
+    "One particular user, distinct from another user with the same name",
+    "A window on screen with its own position and size"
+  ]
+}

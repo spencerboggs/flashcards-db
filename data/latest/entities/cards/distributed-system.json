@@ -1,0 +1,14 @@
+{
+  "id": "distributed-system",
+  "term": "Distributed System",
+  "aliases": [],
+  "difficulty": "fundamental",
+  "definition": "A distributed system is a system whose parts run on multiple computers and cooperate by sending messages. The parts fail independently, and the network between them is slow and sometimes broken. Those two facts are what make it different from one program on one machine.",
+  "categories": [
+    "distributed-systems"
+  ],
+  "examples": [
+    "A web tier plus a separate database",
+    "A storage system spread across a cluster"
+  ]
+}

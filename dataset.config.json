@@ -1,0 +1,13 @@
+{
+  "name": "CS Flashcards",
+  "description": "Short, original flashcards for computer science fundamentals and nearby fields. Written for recall. Nothing is imported from other datasets.",
+  "datasetVersion": "0.1.0",
+  "schemaVersion": "1.0.0",
+  "repository": "spencerboggs/flashcards-db",
+  "defaultBranch": "main",
+  "license": {
+    "code": "MIT",
+    "data": "original",
+    "notes": "Card text is written for this database. No third-party datasets are imported."
+  }
+}

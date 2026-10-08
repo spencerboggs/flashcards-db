@@ -1,0 +1,14 @@
+{
+  "id": "unit-test",
+  "term": "Unit Test",
+  "aliases": [],
+  "difficulty": "fundamental",
+  "definition": "A unit test checks one small piece of code, apart from the rest of the system. Collaborators are replaced or kept trivial so a failure points at that piece. It should be fast enough to run on every change.",
+  "categories": [
+    "testing"
+  ],
+  "examples": [
+    "A test of a function that computes a total",
+    "A test that passes a fake repository into one class"
+  ]
+}

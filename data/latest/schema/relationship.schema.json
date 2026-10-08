@@ -1,0 +1,33 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "relationship.schema.json",
+  "title": "Relationship",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "from",
+    "type",
+    "to"
+  ],
+  "properties": {
+    "from": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$",
+      "maxLength": 96
+    },
+    "type": {
+      "enum": [
+        "prerequisite",
+        "uses",
+        "based-on",
+        "related-to",
+        "contrasts"
+      ]
+    },
+    "to": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$",
+      "maxLength": 96
+    }
+  }
+}

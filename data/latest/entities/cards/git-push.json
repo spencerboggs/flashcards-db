@@ -1,0 +1,15 @@
+{
+  "id": "git-push",
+  "term": "Push",
+  "aliases": [],
+  "difficulty": "fundamental",
+  "definition": "Git push uploads local commits to a remote and moves the remote branch to include them. The remote rejects the push when the remote branch contains commits the local branch does not have, and a pull is needed first. A force push overwrites that check and can discard other people's commits.",
+  "categories": [
+    "version-control"
+  ],
+  "prompt": "What does git push do?",
+  "examples": [
+    "Publishing a feature branch to origin",
+    "Updating origin/main after a local merge"
+  ]
+}

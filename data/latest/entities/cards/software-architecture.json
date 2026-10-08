@@ -1,0 +1,17 @@
+{
+  "id": "software-architecture",
+  "term": "Software Architecture",
+  "aliases": [
+    "Architecture"
+  ],
+  "difficulty": "fundamental",
+  "definition": "Software architecture is the set of structural decisions that are expensive to change: the major parts, their responsibilities, and how they communicate. It is chosen so the system can meet its quality needs, such as change, scale, and failure. Later design fills in the parts the architecture only outlines.",
+  "categories": [
+    "software-engineering"
+  ],
+  "prompt": "What is software architecture?",
+  "examples": [
+    "A decision to split the system into independently deployed services",
+    "A decision that all clients talk to one API gateway"
+  ]
+}

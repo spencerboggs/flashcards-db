@@ -1,0 +1,14 @@
+{
+  "id": "maintainability",
+  "term": "Maintainability",
+  "aliases": [],
+  "difficulty": "fundamental",
+  "definition": "Maintainability is how easily a system can be understood, fixed, and changed. Clear boundaries, tests, and names are what make a change local and checkable. A system can be correct today and still be hard to maintain.",
+  "categories": [
+    "software-engineering"
+  ],
+  "examples": [
+    "A module small enough to change with confidence",
+    "A test that fails when a later edit breaks a rule"
+  ]
+}

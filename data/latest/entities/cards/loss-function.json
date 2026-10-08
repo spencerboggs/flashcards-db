@@ -1,0 +1,15 @@
+{
+  "id": "loss-function",
+  "term": "Loss Function",
+  "aliases": [],
+  "difficulty": "fundamental",
+  "definition": "A loss function measures how wrong a prediction is compared with the target. Training changes parameters to make the loss smaller. The choice of loss states what kind of mistake the model should care about.",
+  "categories": [
+    "machine-learning",
+    "mathematics"
+  ],
+  "examples": [
+    "Squared error for a numeric prediction",
+    "Cross-entropy for a classification"
+  ]
+}

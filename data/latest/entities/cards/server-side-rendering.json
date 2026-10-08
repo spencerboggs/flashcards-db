@@ -1,0 +1,16 @@
+{
+  "id": "server-side-rendering",
+  "term": "Server-Side Rendering",
+  "aliases": [
+    "SSR"
+  ],
+  "difficulty": "intermediate",
+  "definition": "Server-side rendering builds the HTML for a page on the server for each request, and sends that HTML to the browser. The user sees content without waiting for client-side code to assemble it. The server does the work on every request, unless a cache stores the result.",
+  "categories": [
+    "web"
+  ],
+  "examples": [
+    "A page whose HTML already contains the article text",
+    "A server rendering a template with the user's data"
+  ]
+}

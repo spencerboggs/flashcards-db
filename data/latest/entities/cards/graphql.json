@@ -1,0 +1,14 @@
+{
+  "id": "graphql",
+  "term": "GraphQL",
+  "aliases": [],
+  "difficulty": "intermediate",
+  "definition": "GraphQL is a query language for APIs in which the client asks for a specific shape of data from a schema. One request can name the fields and the related objects it wants. The server resolves that selection, so clients avoid both a fixed payload and a separate endpoint for every shape.",
+  "categories": [
+    "web"
+  ],
+  "examples": [
+    "A query that asks for a user's name and the titles of their orders",
+    "A schema that defines the types a client may request"
+  ]
+}

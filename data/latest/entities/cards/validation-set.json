@@ -1,0 +1,14 @@
+{
+  "id": "validation-set",
+  "term": "Validation Set",
+  "aliases": [],
+  "difficulty": "fundamental",
+  "definition": "A validation set is data held out from training and used to choose hyperparameters and to notice overfitting. It is looked at repeatedly during development, so it influences decisions. It is not a pure estimate of final performance, because those decisions were tuned to it.",
+  "categories": [
+    "machine-learning"
+  ],
+  "examples": [
+    "A split used to pick a learning rate",
+    "The curve watched to decide when to stop training"
+  ]
+}

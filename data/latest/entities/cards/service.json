@@ -1,0 +1,16 @@
+{
+  "id": "service",
+  "term": "Service",
+  "aliases": [],
+  "difficulty": "fundamental",
+  "definition": "A service is a program that performs one job and is reached over the network through an API. Other software depends on that API rather than on the service's code. It can be deployed and scaled on its own schedule when it is a separate process.",
+  "categories": [
+    "distributed-systems",
+    "web"
+  ],
+  "prompt": "What is a service in a distributed system?",
+  "examples": [
+    "An authentication service",
+    "A billing service called by the order flow"
+  ]
+}

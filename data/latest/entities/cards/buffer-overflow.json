@@ -1,0 +1,15 @@
+{
+  "id": "buffer-overflow",
+  "term": "Buffer Overflow",
+  "aliases": [],
+  "difficulty": "intermediate",
+  "definition": "A buffer overflow writes past the end of a fixed block of memory and overwrites whatever follows it. The risk is corrupted data or, in an unsafe language, a change in what the program does next. The defense is bounds checking, a memory-safe language, and compiler protections that block the write.",
+  "categories": [
+    "computer-architecture",
+    "security"
+  ],
+  "examples": [
+    "A bounds-checked copy into a fixed buffer",
+    "Code written in a language that refuses an out-of-range write"
+  ]
+}

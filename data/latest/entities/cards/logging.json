@@ -1,0 +1,15 @@
+{
+  "id": "logging",
+  "term": "Logging",
+  "aliases": [],
+  "difficulty": "fundamental",
+  "definition": "Logging records discrete events as timestamped messages, so a later reader can reconstruct what a process did. A log line should say what happened and identify the request, and it should not contain secrets. Volume and retention are part of the design, because logs have a cost.",
+  "categories": [
+    "infrastructure",
+    "software-engineering"
+  ],
+  "examples": [
+    "A line for each failed payment, with an id and a reason",
+    "A request id included on every line from that request"
+  ]
+}

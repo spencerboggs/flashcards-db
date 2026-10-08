@@ -1,0 +1,17 @@
+{
+  "id": "asymmetric-encryption",
+  "term": "Asymmetric Encryption",
+  "aliases": [
+    "Public-Key Encryption"
+  ],
+  "difficulty": "fundamental",
+  "definition": "Asymmetric encryption uses a key pair. Data encrypted with the public key is decrypted with the private key, so anyone can encrypt to a recipient and only the recipient can read it. It is slower than symmetric encryption and is usually used to protect a symmetric key rather than a large payload.",
+  "categories": [
+    "cryptography",
+    "security"
+  ],
+  "examples": [
+    "RSA",
+    "Elliptic-curve encryption of a session key"
+  ]
+}

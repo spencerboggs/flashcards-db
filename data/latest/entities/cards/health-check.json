@@ -1,0 +1,15 @@
+{
+  "id": "health-check",
+  "term": "Health Check",
+  "aliases": [],
+  "difficulty": "fundamental",
+  "definition": "A health check is a probe that reports whether an instance should receive traffic. A load balancer or scheduler uses the answer to add or remove the instance. A check that only tests that the process is running can say yes while the instance cannot actually serve.",
+  "categories": [
+    "distributed-systems",
+    "infrastructure"
+  ],
+  "examples": [
+    "An HTTP endpoint that checks the database connection",
+    "A readiness check that stays negative until startup finishes"
+  ]
+}

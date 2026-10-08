@@ -1,0 +1,19 @@
+{
+  "id": "kruskal",
+  "term": "Kruskal's Algorithm",
+  "aliases": [
+    "Kruskal"
+  ],
+  "difficulty": "intermediate",
+  "definition": "Kruskal's algorithm builds a minimum spanning tree by considering edges from lightest to heaviest and keeping an edge when its endpoints are not already connected. Union-find answers that connection test. Skipping an edge that would close a cycle is what keeps the result a tree.",
+  "categories": [
+    "algorithms"
+  ],
+  "complexity": {
+    "time": "O(E log E) to sort the edges, which dominates the nearly constant union-find operations.",
+    "space": "O(V) for the union-find structure."
+  },
+  "examples": [
+    "Laying cable by always adding the cheapest link that joins two separate sites"
+  ]
+}

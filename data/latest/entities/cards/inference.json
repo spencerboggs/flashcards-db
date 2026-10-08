@@ -1,0 +1,15 @@
+{
+  "id": "inference",
+  "term": "Inference",
+  "aliases": [],
+  "difficulty": "fundamental",
+  "definition": "Inference uses a trained model to make a prediction on an input, without updating the model's parameters. It is the model's ordinary use after training. Its cost and latency are properties of the model and the hardware, separate from how long training took.",
+  "categories": [
+    "machine-learning"
+  ],
+  "prompt": "What is inference in machine learning?",
+  "examples": [
+    "Classifying one uploaded image",
+    "Generating the next tokens of a reply"
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "id": "dns",
+  "term": "DNS",
+  "aliases": [
+    "Domain Name System"
+  ],
+  "difficulty": "fundamental",
+  "definition": "DNS translates human-readable names into the addresses and other records programs actually connect to. Resolution walks a hierarchy of servers, from the root toward the server responsible for that name. A record has a time to live, after which the answer is looked up again.",
+  "categories": [
+    "networking",
+    "web"
+  ],
+  "details": [
+    "An A record holds an IPv4 address and an AAAA record an IPv6 address. A CNAME is an alias to another name."
+  ],
+  "examples": [
+    "Turning a site name into an IP address",
+    "A mail exchanger record for a domain"
+  ]
+}

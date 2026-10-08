@@ -1,0 +1,14 @@
+{
+  "id": "unsupervised-learning",
+  "term": "Unsupervised Learning",
+  "aliases": [],
+  "difficulty": "fundamental",
+  "definition": "Unsupervised learning looks for structure in data that has no labels. Clustering and dimensionality reduction are typical tasks. There is no single correct answer to compare against, so evaluation is less direct than in supervised learning.",
+  "categories": [
+    "machine-learning"
+  ],
+  "examples": [
+    "Grouping customers by purchasing behavior",
+    "Finding topics in a collection of documents"
+  ]
+}

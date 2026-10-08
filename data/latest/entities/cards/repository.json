@@ -1,0 +1,17 @@
+{
+  "id": "repository",
+  "term": "Repository",
+  "aliases": [
+    "Repo"
+  ],
+  "difficulty": "fundamental",
+  "definition": "A repository is the stored project: its files, its commits, and the references such as branches and tags. In Git it can be a working copy plus the history, or a bare copy that has only the history. Cloning copies that history to another place.",
+  "categories": [
+    "version-control"
+  ],
+  "prompt": "What is a version-control repository?",
+  "examples": [
+    "A project's .git directory and working tree",
+    "A bare repository on a server that people push to"
+  ]
+}

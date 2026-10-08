@@ -1,0 +1,16 @@
+{
+  "id": "virtualization",
+  "term": "Virtualization",
+  "aliases": [],
+  "difficulty": "intermediate",
+  "definition": "Virtualization lets a hypervisor run guest operating systems on one physical machine, giving each guest the illusion of its own hardware. A virtual machine is one such guest. Guests are isolated from each other more strongly than containers, which share the host kernel.",
+  "categories": [
+    "computer-architecture",
+    "infrastructure",
+    "operating-systems"
+  ],
+  "examples": [
+    "Several guest operating systems on one server",
+    "A hypervisor trapping a guest's privileged instruction"
+  ]
+}

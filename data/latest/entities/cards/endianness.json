@@ -1,0 +1,15 @@
+{
+  "id": "endianness",
+  "term": "Endianness",
+  "aliases": [],
+  "difficulty": "intermediate",
+  "definition": "Endianness is the order of the bytes that make up a multi-byte number. Big-endian stores the most significant byte first. Little-endian stores the least significant byte first. Two systems must agree on the order when they exchange raw binary numbers.",
+  "categories": [
+    "computer-architecture",
+    "programming"
+  ],
+  "examples": [
+    "A 32-bit integer written to a file",
+    "A network protocol that specifies network byte order"
+  ]
+}

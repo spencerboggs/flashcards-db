@@ -1,0 +1,15 @@
+{
+  "id": "hyperparameter",
+  "term": "Hyperparameter",
+  "aliases": [],
+  "difficulty": "intermediate",
+  "definition": "A hyperparameter is a choice made before training, not a value the training loop learns. Learning rate, tree depth, and the width of a layer are hyperparameters. They are chosen with validation data, not by fitting them on the training set alone.",
+  "categories": [
+    "machine-learning"
+  ],
+  "examples": [
+    "A learning rate",
+    "The number of layers in a network",
+    "A regularization strength"
+  ]
+}

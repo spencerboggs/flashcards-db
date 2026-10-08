@@ -1,0 +1,22 @@
+{
+  "id": "quick-sort",
+  "term": "Quick Sort",
+  "aliases": [],
+  "difficulty": "fundamental",
+  "definition": "Quick sort picks a pivot, partitions the other elements into those less than the pivot and those greater, and sorts the two sides. Average cost is n log n when pivots split the input reasonably evenly. A pivot that is always the extreme element degrades the sort to quadratic time.",
+  "categories": [
+    "algorithms"
+  ],
+  "details": [
+    "The typical in-place version is not stable.",
+    "Choosing the pivot at random, or as the median of a few samples, makes the bad split unlikely."
+  ],
+  "complexity": {
+    "time": "Average O(n log n). Worst case O(n^2).",
+    "space": "O(log n) average stack space for the recursive form, O(n) in the worst case."
+  },
+  "examples": [
+    "The default sort in several standard libraries",
+    "Sorting numbers in memory where extra allocation should stay small"
+  ]
+}

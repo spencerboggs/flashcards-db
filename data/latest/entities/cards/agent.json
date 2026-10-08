@@ -1,0 +1,15 @@
+{
+  "id": "agent",
+  "term": "Agent",
+  "aliases": [],
+  "difficulty": "intermediate",
+  "definition": "An agent, in this sense, is a loop in which a model chooses actions, observes their results, and continues until a goal is met or a limit is reached. Tool calling is the usual way it acts. The loop needs a budget, because nothing inside the model guarantees that it will stop.",
+  "categories": [
+    "machine-learning"
+  ],
+  "prompt": "What is an agent built on a language model?",
+  "examples": [
+    "A loop that searches, reads a result, and searches again",
+    "A coding assistant that edits a file and then runs a test"
+  ]
+}

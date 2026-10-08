@@ -1,0 +1,14 @@
+{
+  "id": "circuit-breaker",
+  "term": "Circuit Breaker",
+  "aliases": [],
+  "difficulty": "intermediate",
+  "definition": "A circuit breaker stops calling a dependency that is failing, for a period, instead of waiting on every request. While it is open, callers fail fast or take a fallback. After a pause it allows a trial request, and it closes again if that request succeeds.",
+  "categories": [
+    "distributed-systems"
+  ],
+  "examples": [
+    "Skipping a down recommendation service and showing a default list",
+    "A client that fails fast instead of piling up timeouts"
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "id": "call-stack",
+  "term": "Call Stack",
+  "aliases": [],
+  "difficulty": "fundamental",
+  "definition": "The call stack stores one frame per active function call: a return address, saved registers, parameters, and local variables. A call pushes a frame and a return pops it, so calls finish in the reverse of the order they started. Running out of stack space is a stack overflow.",
+  "categories": [
+    "computer-architecture",
+    "operating-systems",
+    "programming"
+  ],
+  "details": [
+    "People say 'the stack' for this region. It is one use of the stack data structure, not the definition of that structure."
+  ],
+  "examples": [
+    "Nested function calls",
+    "Local variables that disappear when the function returns"
+  ]
+}

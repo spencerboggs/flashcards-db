@@ -1,0 +1,17 @@
+{
+  "id": "server-side-request-forgery",
+  "term": "Server-Side Request Forgery",
+  "aliases": [
+    "SSRF"
+  ],
+  "difficulty": "intermediate",
+  "definition": "Server-side request forgery happens when a server fetches a URL that an outsider supplied. The risk is the server reaching an internal system the outsider could not call directly. The defense is to allow only expected destinations and to refuse addresses that are internal or link-local.",
+  "categories": [
+    "security",
+    "web"
+  ],
+  "examples": [
+    "A webhook URL checked against an allowlist",
+    "A fetcher that will not call internal addresses"
+  ]
+}

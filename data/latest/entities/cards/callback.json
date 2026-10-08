@@ -1,0 +1,14 @@
+{
+  "id": "callback",
+  "term": "Callback",
+  "aliases": [],
+  "difficulty": "fundamental",
+  "definition": "A callback is a function passed into another function so it can be called later, when a result is ready or an event happens. The caller decides what to do; the callee decides when. It is the basic way to continue after asynchronous work.",
+  "categories": [
+    "programming"
+  ],
+  "examples": [
+    "A function run when a timer fires",
+    "A comparison function passed to a sort"
+  ]
+}

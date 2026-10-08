@@ -1,0 +1,18 @@
+{
+  "id": "recursion",
+  "term": "Recursion",
+  "aliases": [],
+  "difficulty": "fundamental",
+  "definition": "Recursion is when a function solves a problem by calling itself on a smaller input. A base case must stop the calls, or they continue until the call stack runs out. Each call has its own parameters and local variables.",
+  "categories": [
+    "algorithms",
+    "programming"
+  ],
+  "details": [
+    "The depth of recursion is limited by the call stack. A deep recursion can be rewritten as a loop with an explicit stack."
+  ],
+  "examples": [
+    "Walking a directory tree",
+    "Computing a factorial from the factorial of a smaller number"
+  ]
+}

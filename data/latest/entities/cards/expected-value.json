@@ -1,0 +1,15 @@
+{
+  "id": "expected-value",
+  "term": "Expected Value",
+  "aliases": [],
+  "difficulty": "intermediate",
+  "definition": "The expected value of a random quantity is the average it would approach over many trials, weighted by probability. It is the sum of each outcome times the probability of that outcome. Average-case cost of an algorithm is an expected value over its inputs or its random choices.",
+  "categories": [
+    "algorithms",
+    "mathematics"
+  ],
+  "examples": [
+    "The average number of comparisons in a randomized quicksort",
+    "The long-run average payout of a die roll"
+  ]
+}

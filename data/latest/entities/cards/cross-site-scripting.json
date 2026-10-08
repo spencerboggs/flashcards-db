@@ -1,0 +1,17 @@
+{
+  "id": "cross-site-scripting",
+  "term": "Cross-Site Scripting",
+  "aliases": [
+    "XSS"
+  ],
+  "difficulty": "intermediate",
+  "definition": "Cross-site scripting happens when a page treats untrusted text as code and the browser runs it in the user's session with that site. The risk is a script that can act as the user. The defense is to encode text for the context it is inserted into, and to rely on a framework's escaping rather than inserting raw markup.",
+  "categories": [
+    "security",
+    "web"
+  ],
+  "examples": [
+    "Text inserted as text, not as HTML",
+    "A framework that escapes values in a template by default"
+  ]
+}

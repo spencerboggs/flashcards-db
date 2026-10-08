@@ -1,0 +1,15 @@
+{
+  "id": "virtual-memory",
+  "term": "Virtual Memory",
+  "aliases": [],
+  "difficulty": "intermediate",
+  "definition": "Virtual memory gives each process its own address space, translated to physical memory by the hardware and the operating system. A page that is not in RAM can live on disk and be loaded when used. Processes cannot read each other's memory just by guessing an address.",
+  "categories": [
+    "computer-architecture",
+    "operating-systems"
+  ],
+  "examples": [
+    "Two processes both using address 0x4000 for different data",
+    "A page moved to disk because RAM is full"
+  ]
+}

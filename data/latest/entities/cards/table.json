@@ -1,0 +1,17 @@
+{
+  "id": "table",
+  "term": "Table",
+  "aliases": [
+    "Relation"
+  ],
+  "difficulty": "fundamental",
+  "definition": "A table is a relation: a named set of rows that all have the same columns. Each row is one record, and each column is one attribute. The table does not promise an order unless a query asks for one.",
+  "categories": [
+    "databases"
+  ],
+  "prompt": "What is a table in a relational database?",
+  "examples": [
+    "A users table",
+    "An orders table with one row per order"
+  ]
+}

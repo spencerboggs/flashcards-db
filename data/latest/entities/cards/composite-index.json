@@ -1,0 +1,16 @@
+{
+  "id": "composite-index",
+  "term": "Composite Index",
+  "aliases": [],
+  "difficulty": "intermediate",
+  "definition": "A composite index is an index on several columns in a stated order. A query can use it for a prefix of that order: the leading column, or the leading columns together. A filter on a later column alone does not get the index's full benefit.",
+  "categories": [
+    "databases"
+  ],
+  "details": [
+    "An index on (last_name, first_name) serves a search by last name, and a search by both. It does not efficiently serve a search by first name alone."
+  ],
+  "examples": [
+    "An index on (customer_id, created_at) for one customer's recent orders"
+  ]
+}

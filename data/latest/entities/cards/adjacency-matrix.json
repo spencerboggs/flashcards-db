@@ -1,0 +1,19 @@
+{
+  "id": "adjacency-matrix",
+  "term": "Adjacency Matrix",
+  "aliases": [],
+  "difficulty": "fundamental",
+  "definition": "An adjacency matrix stores a graph as a table indexed by vertex pairs. The cell for (u, v) says whether that edge exists, or what it weighs. Checking one edge is constant time, and the table uses space proportional to the square of the vertex count, so it suits dense graphs.",
+  "categories": [
+    "algorithms",
+    "data-structures"
+  ],
+  "complexity": {
+    "time": "Edge lookup is O(1). Listing all neighbors of a vertex is O(V).",
+    "space": "O(V^2)."
+  },
+  "examples": [
+    "A small densely connected network",
+    "Floyd-Warshall, which updates a matrix of distances"
+  ]
+}

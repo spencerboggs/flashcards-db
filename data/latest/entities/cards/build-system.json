@@ -1,0 +1,15 @@
+{
+  "id": "build-system",
+  "term": "Build System",
+  "aliases": [],
+  "difficulty": "fundamental",
+  "definition": "A build system turns source into artifacts by running the right tools in the right order. It tracks which inputs each output depends on, so a change rebuilds only what is affected. Make, and the build tools behind compiled languages, are build systems.",
+  "categories": [
+    "infrastructure",
+    "software-engineering"
+  ],
+  "examples": [
+    "Recompiling only the files that changed",
+    "Producing a packaged artifact from source and assets"
+  ]
+}

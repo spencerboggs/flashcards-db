@@ -1,0 +1,18 @@
+{
+  "id": "radix-sort",
+  "term": "Radix Sort",
+  "aliases": [],
+  "difficulty": "intermediate",
+  "definition": "Radix sort orders integers or fixed-length strings one digit position at a time, using a stable sort such as counting sort for each position. Starting from the least significant digit produces a correct order of the whole key. It is not a comparison sort, and it needs keys that split into digits.",
+  "categories": [
+    "algorithms"
+  ],
+  "complexity": {
+    "time": "O(d * (n + k)), where d is the number of digits and k is the digit alphabet size.",
+    "space": "O(n + k) for the stable digit sort."
+  },
+  "examples": [
+    "Sorting fixed-length identifiers",
+    "Sorting 32-bit integers four bits at a time"
+  ]
+}

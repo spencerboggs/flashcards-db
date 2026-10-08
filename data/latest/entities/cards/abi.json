@@ -1,0 +1,17 @@
+{
+  "id": "abi",
+  "term": "ABI",
+  "aliases": [
+    "Application Binary Interface"
+  ],
+  "difficulty": "advanced",
+  "definition": "An ABI is the binary contract for calling compiled code: how arguments are passed, how values are returned, how the stack is laid out, and how names are encoded. Separately compiled units can be linked only if they share an ABI. It is a binary agreement, distinct from the source-level API.",
+  "categories": [
+    "computer-architecture",
+    "programming-languages"
+  ],
+  "examples": [
+    "The calling convention of a system ABI",
+    "Two compilers producing code that can call each other"
+  ]
+}

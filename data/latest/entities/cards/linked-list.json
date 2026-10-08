@@ -1,0 +1,22 @@
+{
+  "id": "linked-list",
+  "term": "Linked List",
+  "aliases": [],
+  "difficulty": "fundamental",
+  "definition": "A linked list stores each element in a node that points at the next node. The list itself holds only the first node, and reaching the element at position k takes k steps. Inserting or removing a node is constant time when you already hold the neighboring node.",
+  "categories": [
+    "data-structures"
+  ],
+  "details": [
+    "There is no index access in constant time. Use a list when you splice nodes you already have, not when you need random access.",
+    "A singly linked list can only move forward."
+  ],
+  "complexity": {
+    "time": "Access by position is O(n). Insert or delete at a known node is O(1).",
+    "space": "O(n) space for the elements themselves."
+  },
+  "examples": [
+    "A playlist where songs are spliced in without shifting later songs",
+    "A free list of reusable blocks inside an allocator"
+  ]
+}

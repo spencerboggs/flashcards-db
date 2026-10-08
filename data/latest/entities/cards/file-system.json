@@ -1,0 +1,14 @@
+{
+  "id": "file-system",
+  "term": "File System",
+  "aliases": [],
+  "difficulty": "fundamental",
+  "definition": "A file system organizes data on storage as files and directories and records where each file's bytes live. It handles names, permissions, and allocation of blocks. Different file systems make different tradeoffs about crash recovery, large files, and metadata.",
+  "categories": [
+    "operating-systems"
+  ],
+  "examples": [
+    "A directory tree of source files",
+    "A journal that limits damage after a crash"
+  ]
+}

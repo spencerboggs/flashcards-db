@@ -1,0 +1,15 @@
+{
+  "id": "connection-pool",
+  "term": "Connection Pool",
+  "aliases": [],
+  "difficulty": "fundamental",
+  "definition": "A connection pool keeps a set of open database connections and lends them to requests. Opening a connection is expensive, so reusing one avoids that cost on every query. The pool's size limits how many queries run at once, and a request must return its connection when it finishes.",
+  "categories": [
+    "databases",
+    "web"
+  ],
+  "examples": [
+    "A web server lending a connection per request",
+    "A pool that waits when every connection is already checked out"
+  ]
+}

@@ -1,0 +1,1297 @@
+relationships:
+  - from: "binary-tree"
+    type: based-on
+    to: "tree"
+  - from: "binary-search-tree"
+    type: based-on
+    to: "binary-tree"
+  - from: "avl-tree"
+    type: based-on
+    to: "binary-search-tree"
+  - from: "red-black-tree"
+    type: based-on
+    to: "binary-search-tree"
+  - from: "trie"
+    type: based-on
+    to: "tree"
+  - from: "dynamic-array"
+    type: based-on
+    to: "array"
+  - from: "doubly-linked-list"
+    type: based-on
+    to: "linked-list"
+  - from: "call-stack"
+    type: based-on
+    to: "stack"
+  - from: "directed-graph"
+    type: based-on
+    to: "graph"
+  - from: "undirected-graph"
+    type: based-on
+    to: "graph"
+  - from: "weighted-graph"
+    type: based-on
+    to: "graph"
+  - from: "ipv4"
+    type: based-on
+    to: "ip"
+  - from: "ipv6"
+    type: based-on
+    to: "ip"
+  - from: "websocket"
+    type: based-on
+    to: "http"
+  - from: "dijkstra"
+    type: based-on
+    to: "shortest-path"
+  - from: "dijkstra"
+    type: based-on
+    to: "greedy-algorithm"
+  - from: "bellman-ford"
+    type: based-on
+    to: "shortest-path"
+  - from: "floyd-warshall"
+    type: based-on
+    to: "shortest-path"
+  - from: "floyd-warshall"
+    type: based-on
+    to: "dynamic-programming"
+  - from: "a-star"
+    type: based-on
+    to: "dijkstra"
+  - from: "kruskal"
+    type: based-on
+    to: "minimum-spanning-tree"
+  - from: "kruskal"
+    type: based-on
+    to: "greedy-algorithm"
+  - from: "prim"
+    type: based-on
+    to: "minimum-spanning-tree"
+  - from: "prim"
+    type: based-on
+    to: "greedy-algorithm"
+  - from: "merge-sort"
+    type: based-on
+    to: "divide-and-conquer"
+  - from: "quick-sort"
+    type: based-on
+    to: "divide-and-conquer"
+  - from: "binary-search"
+    type: based-on
+    to: "divide-and-conquer"
+  - from: "password-hashing"
+    type: based-on
+    to: "cryptographic-hash"
+  - from: "certificate"
+    type: based-on
+    to: "public-key"
+  - from: "fine-tuning"
+    type: based-on
+    to: "training"
+  - from: "closure"
+    type: based-on
+    to: "scope"
+  - from: "microservice"
+    type: based-on
+    to: "service"
+  - from: "priority-queue"
+    type: uses
+    to: "heap"
+  - from: "heap-sort"
+    type: uses
+    to: "heap"
+  - from: "breadth-first-search"
+    type: uses
+    to: "queue"
+  - from: "depth-first-search"
+    type: uses
+    to: "stack"
+  - from: "hash-table"
+    type: uses
+    to: "hashing"
+  - from: "dijkstra"
+    type: uses
+    to: "priority-queue"
+  - from: "prim"
+    type: uses
+    to: "priority-queue"
+  - from: "kruskal"
+    type: uses
+    to: "union-find"
+  - from: "radix-sort"
+    type: uses
+    to: "counting-sort"
+  - from: "topological-sort"
+    type: uses
+    to: "depth-first-search"
+  - from: "https"
+    type: uses
+    to: "tls"
+  - from: "https"
+    type: uses
+    to: "http"
+  - from: "tls"
+    type: uses
+    to: "symmetric-encryption"
+  - from: "tls"
+    type: uses
+    to: "certificate"
+  - from: "quic"
+    type: uses
+    to: "udp"
+  - from: "tcp"
+    type: uses
+    to: "socket"
+  - from: "udp"
+    type: uses
+    to: "socket"
+  - from: "ethernet"
+    type: uses
+    to: "mac-address"
+  - from: "digital-signature"
+    type: uses
+    to: "private-key"
+  - from: "asymmetric-encryption"
+    type: uses
+    to: "public-key"
+  - from: "password-hashing"
+    type: uses
+    to: "salt"
+  - from: "public-key-infrastructure"
+    type: uses
+    to: "certificate"
+  - from: "virtual-memory"
+    type: uses
+    to: "page"
+  - from: "retrieval-augmented-generation"
+    type: uses
+    to: "vector-database"
+  - from: "retrieval-augmented-generation"
+    type: uses
+    to: "large-language-model"
+  - from: "vector-database"
+    type: uses
+    to: "embedding"
+  - from: "shader"
+    type: uses
+    to: "gpu"
+  - from: "rasterization"
+    type: uses
+    to: "frame-buffer"
+  - from: "breadth-first-search"
+    type: prerequisite
+    to: "graph"
+  - from: "depth-first-search"
+    type: prerequisite
+    to: "graph"
+  - from: "binary-search"
+    type: prerequisite
+    to: "array"
+  - from: "dijkstra"
+    type: prerequisite
+    to: "weighted-graph"
+  - from: "topological-sort"
+    type: prerequisite
+    to: "directed-graph"
+  - from: "dynamic-programming"
+    type: prerequisite
+    to: "recursion"
+  - from: "memoization"
+    type: prerequisite
+    to: "recursion"
+  - from: "recursion"
+    type: prerequisite
+    to: "call-stack"
+  - from: "async-await"
+    type: prerequisite
+    to: "promise"
+  - from: "method"
+    type: prerequisite
+    to: "function"
+  - from: "inheritance"
+    type: prerequisite
+    to: "class"
+  - from: "method-overriding"
+    type: prerequisite
+    to: "inheritance"
+  - from: "polymorphism"
+    type: prerequisite
+    to: "class"
+  - from: "page-fault"
+    type: prerequisite
+    to: "virtual-memory"
+  - from: "sql-injection"
+    type: prerequisite
+    to: "sql"
+  - from: "gradient-descent"
+    type: prerequisite
+    to: "loss-function"
+  - from: "backpropagation"
+    type: prerequisite
+    to: "gradient-descent"
+  - from: "overfitting"
+    type: prerequisite
+    to: "training"
+  - from: "transformer"
+    type: prerequisite
+    to: "attention"
+  - from: "large-language-model"
+    type: prerequisite
+    to: "transformer"
+  - from: "tokenization"
+    type: prerequisite
+    to: "token"
+  - from: "fine-tuning"
+    type: prerequisite
+    to: "training"
+  - from: "type-checking"
+    type: prerequisite
+    to: "type-system"
+  - from: "parser"
+    type: prerequisite
+    to: "lexer"
+  - from: "semantic-analysis"
+    type: prerequisite
+    to: "parser"
+  - from: "git-pull"
+    type: prerequisite
+    to: "git-fetch"
+  - from: "continuous-delivery"
+    type: prerequisite
+    to: "continuous-integration"
+  - from: "continuous-deployment"
+    type: prerequisite
+    to: "continuous-delivery"
+  - from: "container"
+    type: prerequisite
+    to: "process"
+  - from: "kubernetes"
+    type: prerequisite
+    to: "container"
+  - from: "neural-network"
+    type: prerequisite
+    to: "activation-function"
+  - from: "argument"
+    type: contrasts
+    to: "parameter"
+  - from: "dynamic-typing"
+    type: contrasts
+    to: "static-typing"
+  - from: "strong-typing"
+    type: contrasts
+    to: "weak-typing"
+  - from: "queue"
+    type: contrasts
+    to: "stack"
+  - from: "array"
+    type: contrasts
+    to: "linked-list"
+  - from: "breadth-first-search"
+    type: contrasts
+    to: "depth-first-search"
+  - from: "compiler"
+    type: contrasts
+    to: "interpreter"
+  - from: "ahead-of-time-compilation"
+    type: contrasts
+    to: "just-in-time-compilation"
+  - from: "authentication"
+    type: contrasts
+    to: "authorization"
+  - from: "digital-signature"
+    type: contrasts
+    to: "encryption"
+  - from: "cryptographic-hash"
+    type: contrasts
+    to: "hashing"
+  - from: "asymmetric-encryption"
+    type: contrasts
+    to: "symmetric-encryption"
+  - from: "private-key"
+    type: contrasts
+    to: "public-key"
+  - from: "process"
+    type: contrasts
+    to: "thread"
+  - from: "concurrency"
+    type: contrasts
+    to: "parallelism"
+  - from: "mutex"
+    type: contrasts
+    to: "semaphore"
+  - from: "deadlock"
+    type: contrasts
+    to: "starvation"
+  - from: "heap"
+    type: contrasts
+    to: "memory-heap"
+  - from: "call-stack"
+    type: contrasts
+    to: "memory-heap"
+  - from: "tcp"
+    type: contrasts
+    to: "udp"
+  - from: "ipv4"
+    type: contrasts
+    to: "ipv6"
+  - from: "network-switch"
+    type: contrasts
+    to: "router"
+  - from: "frame"
+    type: contrasts
+    to: "packet"
+  - from: "proxy"
+    type: contrasts
+    to: "reverse-proxy"
+  - from: "git-merge"
+    type: contrasts
+    to: "rebase"
+  - from: "git-fetch"
+    type: contrasts
+    to: "git-pull"
+  - from: "cohesion"
+    type: contrasts
+    to: "coupling"
+  - from: "microservice"
+    type: contrasts
+    to: "monolith"
+  - from: "eventual-consistency"
+    type: contrasts
+    to: "strong-consistency"
+  - from: "denormalization"
+    type: contrasts
+    to: "normalization"
+  - from: "foreign-key"
+    type: contrasts
+    to: "primary-key"
+  - from: "overfitting"
+    type: contrasts
+    to: "underfitting"
+  - from: "inference"
+    type: contrasts
+    to: "training"
+  - from: "hyperparameter"
+    type: contrasts
+    to: "model-parameter"
+  - from: "test-set"
+    type: contrasts
+    to: "validation-set"
+  - from: "supervised-learning"
+    type: contrasts
+    to: "unsupervised-learning"
+  - from: "method-overloading"
+    type: contrasts
+    to: "method-overriding"
+  - from: "composition"
+    type: contrasts
+    to: "inheritance"
+  - from: "abstraction"
+    type: contrasts
+    to: "encapsulation"
+  - from: "abstract-class"
+    type: contrasts
+    to: "interface"
+  - from: "aggregation"
+    type: contrasts
+    to: "composition"
+  - from: "mock"
+    type: contrasts
+    to: "stub"
+  - from: "integration-test"
+    type: contrasts
+    to: "unit-test"
+  - from: "blue-green-deployment"
+    type: contrasts
+    to: "canary-deployment"
+  - from: "container"
+    type: contrasts
+    to: "virtualization"
+  - from: "client"
+    type: contrasts
+    to: "server"
+  - from: "backend"
+    type: contrasts
+    to: "frontend"
+  - from: "rest"
+    type: contrasts
+    to: "rpc"
+  - from: "graphql"
+    type: contrasts
+    to: "rest"
+  - from: "acid"
+    type: contrasts
+    to: "cap-theorem"
+  - from: "availability"
+    type: contrasts
+    to: "reliability"
+  - from: "big-o"
+    type: contrasts
+    to: "big-theta"
+  - from: "big-omega"
+    type: contrasts
+    to: "big-theta"
+  - from: "binary-search"
+    type: contrasts
+    to: "linear-search"
+  - from: "adjacency-list"
+    type: contrasts
+    to: "adjacency-matrix"
+  - from: "command-injection"
+    type: contrasts
+    to: "sql-injection"
+  - from: "continuous-delivery"
+    type: contrasts
+    to: "continuous-deployment"
+  - from: "server-side-rendering"
+    type: contrasts
+    to: "static-generation"
+  - from: "iteration"
+    type: contrasts
+    to: "recursion"
+  - from: "expression"
+    type: contrasts
+    to: "statement"
+  - from: "nosql"
+    type: contrasts
+    to: "relational-database"
+  - from: "class"
+    type: contrasts
+    to: "object"
+  - from: "class"
+    type: contrasts
+    to: "instance"
+  - from: "pointer"
+    type: contrasts
+    to: "reference-type"
+  - from: "dynamic-programming"
+    type: related-to
+    to: "memoization"
+  - from: "callback"
+    type: related-to
+    to: "promise"
+  - from: "error-handling"
+    type: related-to
+    to: "exception"
+  - from: "module"
+    type: related-to
+    to: "package"
+  - from: "library"
+    type: related-to
+    to: "package"
+  - from: "api"
+    type: related-to
+    to: "sdk"
+  - from: "single-responsibility-principle"
+    type: related-to
+    to: "solid"
+  - from: "open-closed-principle"
+    type: related-to
+    to: "solid"
+  - from: "liskov-substitution-principle"
+    type: related-to
+    to: "solid"
+  - from: "interface-segregation-principle"
+    type: related-to
+    to: "solid"
+  - from: "dependency-inversion-principle"
+    type: related-to
+    to: "solid"
+  - from: "dependency-injection"
+    type: related-to
+    to: "dependency-inversion-principle"
+  - from: "refactoring"
+    type: related-to
+    to: "technical-debt"
+  - from: "code-smell"
+    type: related-to
+    to: "refactoring"
+  - from: "backward-compatibility"
+    type: related-to
+    to: "semantic-versioning"
+  - from: "logging"
+    type: related-to
+    to: "observability"
+  - from: "metrics"
+    type: related-to
+    to: "observability"
+  - from: "observability"
+    type: related-to
+    to: "tracing"
+  - from: "alerting"
+    type: related-to
+    to: "monitoring"
+  - from: "fault-tolerance"
+    type: related-to
+    to: "replication"
+  - from: "idempotency"
+    type: related-to
+    to: "retry"
+  - from: "backoff"
+    type: related-to
+    to: "retry"
+  - from: "message-queue"
+    type: related-to
+    to: "publish-subscribe"
+  - from: "event-driven-architecture"
+    type: related-to
+    to: "publish-subscribe"
+  - from: "circuit-breaker"
+    type: related-to
+    to: "retry"
+  - from: "cookie"
+    type: related-to
+    to: "session"
+  - from: "authentication"
+    type: related-to
+    to: "session"
+  - from: "authorization"
+    type: related-to
+    to: "least-privilege"
+  - from: "activation-function"
+    type: related-to
+    to: "neural-network"
+  - from: "agent"
+    type: related-to
+    to: "tool-calling"
+  - from: "large-language-model"
+    type: related-to
+    to: "prompt"
+  - from: "context-window"
+    type: related-to
+    to: "token"
+  - from: "lexer"
+    type: related-to
+    to: "tokenization"
+  - from: "compiler"
+    type: related-to
+    to: "intermediate-representation"
+  - from: "abi"
+    type: related-to
+    to: "calling-convention"
+  - from: "index"
+    type: related-to
+    to: "query-planner"
+  - from: "acid"
+    type: related-to
+    to: "transaction"
+  - from: "orm"
+    type: related-to
+    to: "sql"
+  - from: "partitioning"
+    type: related-to
+    to: "sharding"
+  - from: "load-balancer"
+    type: related-to
+    to: "scalability"
+  - from: "health-check"
+    type: related-to
+    to: "load-balancer"
+  - from: "cache"
+    type: related-to
+    to: "memory-hierarchy"
+  - from: "cache"
+    type: related-to
+    to: "cdn"
+  - from: "instruction"
+    type: related-to
+    to: "instruction-set-architecture"
+  - from: "assembly"
+    type: related-to
+    to: "machine-code"
+  - from: "branch-prediction"
+    type: related-to
+    to: "instruction-pipeline"
+  - from: "kernel"
+    type: related-to
+    to: "system-call"
+  - from: "race-condition"
+    type: related-to
+    to: "synchronization"
+  - from: "deadlock"
+    type: related-to
+    to: "synchronization"
+  - from: "hardware-multithreading"
+    type: related-to
+    to: "thread"
+  - from: "context-switch"
+    type: related-to
+    to: "interrupt"
+  - from: "json"
+    type: related-to
+    to: "serialization"
+  - from: "http"
+    type: related-to
+    to: "middleware"
+  - from: "http"
+    type: related-to
+    to: "webhook"
+  - from: "container"
+    type: related-to
+    to: "container-image"
+  - from: "deployment"
+    type: related-to
+    to: "infrastructure-as-code"
+  - from: "blue-green-deployment"
+    type: related-to
+    to: "deployment"
+  - from: "canary-deployment"
+    type: related-to
+    to: "deployment"
+  - from: "linux"
+    type: related-to
+    to: "operating-system"
+  - from: "linux"
+    type: related-to
+    to: "shell"
+  - from: "environment-variable"
+    type: related-to
+    to: "process"
+  - from: "rasterization"
+    type: related-to
+    to: "rendering"
+  - from: "shader"
+    type: related-to
+    to: "texture"
+  - from: "binary-search"
+    type: related-to
+    to: "logarithm"
+  - from: "hashing"
+    type: related-to
+    to: "modulo"
+  - from: "boolean"
+    type: related-to
+    to: "boolean-logic"
+  - from: "null"
+    type: related-to
+    to: "pointer"
+  - from: "generic"
+    type: related-to
+    to: "type-system"
+  - from: "mock"
+    type: related-to
+    to: "test-double"
+  - from: "stub"
+    type: related-to
+    to: "test-double"
+  - from: "fixture"
+    type: related-to
+    to: "unit-test"
+  - from: "code-coverage"
+    type: related-to
+    to: "unit-test"
+  - from: "test-driven-development"
+    type: related-to
+    to: "unit-test"
+  - from: "code-review"
+    type: related-to
+    to: "pull-request"
+  - from: "branch"
+    type: related-to
+    to: "commit"
+  - from: "git"
+    type: related-to
+    to: "repository"
+  - from: "build-system"
+    type: related-to
+    to: "continuous-integration"
+  - from: "mutex"
+    type: related-to
+    to: "synchronization"
+  - from: "monitor"
+    type: related-to
+    to: "mutex"
+  - from: "page"
+    type: related-to
+    to: "virtual-memory"
+  - from: "garbage-collection"
+    type: related-to
+    to: "memory-allocation"
+  - from: "memory-allocation"
+    type: related-to
+    to: "memory-heap"
+  - from: "garbage-collection"
+    type: related-to
+    to: "memory-heap"
+  - from: "compiler"
+    type: related-to
+    to: "runtime"
+  - from: "bytecode"
+    type: related-to
+    to: "virtual-machine-runtime"
+  - from: "abstract-syntax-tree"
+    type: related-to
+    to: "parser"
+  - from: "semantic-analysis"
+    type: related-to
+    to: "type-checking"
+  - from: "hash-table"
+    type: related-to
+    to: "set"
+  - from: "adjacency-list"
+    type: related-to
+    to: "graph"
+  - from: "adjacency-matrix"
+    type: related-to
+    to: "graph"
+  - from: "composite-index"
+    type: related-to
+    to: "index"
+  - from: "database-lock"
+    type: related-to
+    to: "transaction"
+  - from: "isolation"
+    type: related-to
+    to: "transaction"
+  - from: "migration"
+    type: related-to
+    to: "schema"
+  - from: "connection-pool"
+    type: related-to
+    to: "database"
+  - from: "join"
+    type: related-to
+    to: "relational-database"
+  - from: "foreign-key"
+    type: related-to
+    to: "primary-key"
+  - from: "client"
+    type: related-to
+    to: "client-server"
+  - from: "client-server"
+    type: related-to
+    to: "server"
+  - from: "consensus"
+    type: related-to
+    to: "leader-election"
+  - from: "consensus"
+    type: related-to
+    to: "strong-consistency"
+  - from: "distributed-transaction"
+    type: related-to
+    to: "transaction"
+  - from: "circuit-breaker"
+    type: related-to
+    to: "rate-limiting"
+  - from: "authentication"
+    type: related-to
+    to: "multi-factor-authentication"
+  - from: "accounting"
+    type: related-to
+    to: "authentication"
+  - from: "cia-triad"
+    type: related-to
+    to: "encryption"
+  - from: "attack-surface"
+    type: related-to
+    to: "threat-model"
+  - from: "risk"
+    type: related-to
+    to: "vulnerability"
+  - from: "defense-in-depth"
+    type: related-to
+    to: "least-privilege"
+  - from: "least-privilege"
+    type: related-to
+    to: "sandboxing"
+  - from: "encryption"
+    type: related-to
+    to: "secrets-management"
+  - from: "attack-surface"
+    type: related-to
+    to: "firewall"
+  - from: "buffer-overflow"
+    type: related-to
+    to: "pointer"
+  - from: "file-system"
+    type: related-to
+    to: "path-traversal"
+  - from: "cookie"
+    type: related-to
+    to: "cross-site-request-forgery"
+  - from: "cookie"
+    type: related-to
+    to: "cross-site-scripting"
+  - from: "cookie"
+    type: related-to
+    to: "cors"
+  - from: "load-balancer"
+    type: related-to
+    to: "reverse-proxy"
+  - from: "nat"
+    type: related-to
+    to: "router"
+  - from: "arp"
+    type: related-to
+    to: "mac-address"
+  - from: "cidr"
+    type: related-to
+    to: "subnet"
+  - from: "quic"
+    type: related-to
+    to: "tls"
+  - from: "dns"
+    type: related-to
+    to: "ip"
+  - from: "file-descriptor"
+    type: related-to
+    to: "file-system"
+  - from: "inter-process-communication"
+    type: related-to
+    to: "pipe"
+  - from: "port"
+    type: related-to
+    to: "socket"
+  - from: "scheduling"
+    type: related-to
+    to: "thread"
+  - from: "context-switch"
+    type: related-to
+    to: "scheduling"
+  - from: "gpu"
+    type: related-to
+    to: "simd"
+  - from: "cpu"
+    type: related-to
+    to: "register"
+  - from: "alu"
+    type: related-to
+    to: "cpu"
+  - from: "cache"
+    type: related-to
+    to: "ram"
+  - from: "endianness"
+    type: related-to
+    to: "machine-code"
+  - from: "data-type"
+    type: related-to
+    to: "floating-point"
+  - from: "serialization"
+    type: related-to
+    to: "unicode"
+  - from: "constant"
+    type: related-to
+    to: "immutability"
+  - from: "class"
+    type: related-to
+    to: "constructor"
+  - from: "instance"
+    type: related-to
+    to: "object"
+  - from: "function"
+    type: related-to
+    to: "return-value"
+  - from: "function"
+    type: related-to
+    to: "parameter"
+  - from: "library"
+    type: related-to
+    to: "module"
+  - from: "interface"
+    type: related-to
+    to: "polymorphism"
+  - from: "big-o"
+    type: related-to
+    to: "expected-value"
+  - from: "matrix"
+    type: related-to
+    to: "shader"
+  - from: "big-o"
+    type: related-to
+    to: "logarithm"
+  - from: "merge-sort"
+    type: related-to
+    to: "sort-stability"
+  - from: "bubble-sort"
+    type: related-to
+    to: "insertion-sort"
+  - from: "insertion-sort"
+    type: related-to
+    to: "selection-sort"
+  - from: "backtracking"
+    type: related-to
+    to: "recursion"
+  - from: "sliding-window"
+    type: related-to
+    to: "two-pointers"
+  - from: "array"
+    type: related-to
+    to: "prefix-sum"
+  - from: "bit-manipulation"
+    type: related-to
+    to: "modulo"
+  - from: "dynamic-programming"
+    type: related-to
+    to: "greedy-algorithm"
+  - from: "a-star"
+    type: related-to
+    to: "breadth-first-search"
+  - from: "minimum-spanning-tree"
+    type: related-to
+    to: "shortest-path"
+  - from: "graph"
+    type: related-to
+    to: "union-find"
+  - from: "avl-tree"
+    type: related-to
+    to: "red-black-tree"
+  - from: "deque"
+    type: related-to
+    to: "queue"
+  - from: "tree"
+    type: related-to
+    to: "trie"
+  - from: "regression-test"
+    type: related-to
+    to: "unit-test"
+  - from: "end-to-end-test"
+    type: related-to
+    to: "smoke-test"
+  - from: "fuzz-testing"
+    type: related-to
+    to: "property-based-testing"
+  - from: "behavior-driven-development"
+    type: related-to
+    to: "test-driven-development"
+  - from: "api"
+    type: related-to
+    to: "api-design"
+  - from: "api"
+    type: related-to
+    to: "documentation"
+  - from: "maintainability"
+    type: related-to
+    to: "refactoring"
+  - from: "modularity"
+    type: related-to
+    to: "separation-of-concerns"
+  - from: "cohesion"
+    type: related-to
+    to: "single-responsibility-principle"
+  - from: "code-smell"
+    type: related-to
+    to: "dry"
+  - from: "kiss"
+    type: related-to
+    to: "yagni"
+  - from: "dependency-management"
+    type: related-to
+    to: "package"
+  - from: "requirements"
+    type: related-to
+    to: "specification"
+  - from: "software-architecture"
+    type: related-to
+    to: "software-design"
+  - from: "requirements"
+    type: related-to
+    to: "software-development-lifecycle"
+  - from: "commit"
+    type: related-to
+    to: "git-stash"
+  - from: "cherry-pick"
+    type: related-to
+    to: "commit"
+  - from: "commit"
+    type: related-to
+    to: "git-tag"
+  - from: "git-merge"
+    type: related-to
+    to: "merge-conflict"
+  - from: "gitignore"
+    type: related-to
+    to: "repository"
+  - from: "git-lfs"
+    type: related-to
+    to: "repository"
+  - from: "git-push"
+    type: related-to
+    to: "git-remote"
+  - from: "git-merge"
+    type: related-to
+    to: "pull-request"
+  - from: "branch"
+    type: related-to
+    to: "rebase"
+  - from: "kernel"
+    type: related-to
+    to: "operating-system"
+  - from: "process"
+    type: related-to
+    to: "signal"
+  - from: "mutex"
+    type: related-to
+    to: "semaphore"
+  - from: "scheduling"
+    type: related-to
+    to: "starvation"
+  - from: "parallelism"
+    type: related-to
+    to: "simd"
+  - from: "concurrency"
+    type: related-to
+    to: "thread"
+  - from: "file-system"
+    type: related-to
+    to: "operating-system"
+  - from: "ram"
+    type: related-to
+    to: "virtual-memory"
+  - from: "cpu"
+    type: related-to
+    to: "instruction-pipeline"
+  - from: "operating-system"
+    type: related-to
+    to: "virtualization"
+  - from: "dhcp"
+    type: related-to
+    to: "ip"
+  - from: "firewall"
+    type: related-to
+    to: "port"
+  - from: "http"
+    type: related-to
+    to: "proxy"
+  - from: "http"
+    type: related-to
+    to: "web-server"
+  - from: "backend"
+    type: related-to
+    to: "frontend"
+  - from: "graphql"
+    type: related-to
+    to: "rest"
+  - from: "cors"
+    type: related-to
+    to: "web-server"
+  - from: "frontend"
+    type: related-to
+    to: "server-side-rendering"
+  - from: "static-generation"
+    type: related-to
+    to: "web-server"
+  - from: "container-image"
+    type: related-to
+    to: "container-registry"
+  - from: "kubernetes"
+    type: related-to
+    to: "load-balancer"
+  - from: "logging"
+    type: related-to
+    to: "tracing"
+  - from: "metrics"
+    type: related-to
+    to: "monitoring"
+  - from: "deployment"
+    type: related-to
+    to: "health-check"
+  - from: "gpu"
+    type: related-to
+    to: "rendering"
+  - from: "frame-buffer"
+    type: related-to
+    to: "pixel"
+  - from: "pixel"
+    type: related-to
+    to: "rgb"
+  - from: "pixel"
+    type: related-to
+    to: "resolution"
+  - from: "anti-aliasing"
+    type: related-to
+    to: "rasterization"
+  - from: "matrix"
+    type: related-to
+    to: "rendering"
+  - from: "label"
+    type: related-to
+    to: "supervised-learning"
+  - from: "feature"
+    type: related-to
+    to: "ml-dataset"
+  - from: "ml-model"
+    type: related-to
+    to: "model-parameter"
+  - from: "hyperparameter"
+    type: related-to
+    to: "validation-set"
+  - from: "overfitting"
+    type: related-to
+    to: "regularization"
+  - from: "ml-model"
+    type: related-to
+    to: "underfitting"
+  - from: "reinforcement-learning"
+    type: related-to
+    to: "supervised-learning"
+  - from: "ml-dataset"
+    type: related-to
+    to: "unsupervised-learning"
+  - from: "model-evaluation"
+    type: related-to
+    to: "test-set"
+  - from: "embedding"
+    type: related-to
+    to: "neural-network"
+  - from: "attention"
+    type: related-to
+    to: "transformer"
+  - from: "fine-tuning"
+    type: related-to
+    to: "ml-model"
+  - from: "context-window"
+    type: related-to
+    to: "prompt"
+  - from: "loss-function"
+    type: related-to
+    to: "training"
+  - from: "interpreter"
+    type: related-to
+    to: "runtime"
+  - from: "lexer"
+    type: related-to
+    to: "parser"
+  - from: "bytecode"
+    type: related-to
+    to: "just-in-time-compilation"
+  - from: "ahead-of-time-compilation"
+    type: related-to
+    to: "machine-code"
+  - from: "abstract-syntax-tree"
+    type: related-to
+    to: "semantic-analysis"
+  - from: "memory-allocation"
+    type: related-to
+    to: "pointer"
+  - from: "query"
+    type: related-to
+    to: "sql"
+  - from: "row"
+    type: related-to
+    to: "table"
+  - from: "column"
+    type: related-to
+    to: "table"
+  - from: "relational-database"
+    type: related-to
+    to: "schema"
+  - from: "replication"
+    type: related-to
+    to: "sharding"
+  - from: "nosql"
+    type: related-to
+    to: "sharding"
+  - from: "database"
+    type: related-to
+    to: "sql"
+  - from: "distributed-system"
+    type: related-to
+    to: "network"
+  - from: "api"
+    type: related-to
+    to: "service"
+  - from: "microservice"
+    type: related-to
+    to: "monolith"
+  - from: "event-driven-architecture"
+    type: related-to
+    to: "message-queue"
+  - from: "availability"
+    type: related-to
+    to: "rate-limiting"
+  - from: "cap-theorem"
+    type: related-to
+    to: "strong-consistency"
+  - from: "eventual-consistency"
+    type: related-to
+    to: "replication"
+  - from: "client-server"
+    type: related-to
+    to: "http"
+  - from: "fault-tolerance"
+    type: related-to
+    to: "reliability"
+  - from: "monitoring"
+    type: related-to
+    to: "observability"
+  - from: "availability"
+    type: related-to
+    to: "health-check"
+  - from: "encryption"
+    type: related-to
+    to: "tls"
+  - from: "cryptographic-hash"
+    type: related-to
+    to: "password-hashing"
+  - from: "password-hashing"
+    type: related-to
+    to: "salt"
+  - from: "certificate"
+    type: related-to
+    to: "public-key"
+  - from: "digital-signature"
+    type: related-to
+    to: "private-key"
+  - from: "symmetric-encryption"
+    type: related-to
+    to: "tls"
+  - from: "cross-site-request-forgery"
+    type: related-to
+    to: "cross-site-scripting"
+  - from: "firewall"
+    type: related-to
+    to: "server-side-request-forgery"
+  - from: "command-injection"
+    type: related-to
+    to: "sql-injection"
+  - from: "process"
+    type: related-to
+    to: "sandboxing"
+  - from: "risk"
+    type: related-to
+    to: "threat-model"
+  - from: "availability"
+    type: related-to
+    to: "cia-triad"
+  - from: "accounting"
+    type: related-to
+    to: "logging"
+  - from: "attack-surface"
+    type: related-to
+    to: "vulnerability"
+  - from: "defense-in-depth"
+    type: related-to
+    to: "firewall"
+  - from: "algorithm"
+    type: related-to
+    to: "big-o"
+  - from: "data-type"
+    type: related-to
+    to: "type-system"
+  - from: "primitive-type"
+    type: related-to
+    to: "reference-type"
+  - from: "constant"
+    type: related-to
+    to: "variable"
+  - from: "function"
+    type: related-to
+    to: "method"
+  - from: "closure"
+    type: related-to
+    to: "scope"
+  - from: "async-await"
+    type: related-to
+    to: "callback"
+  - from: "data-type"
+    type: related-to
+    to: "unicode"
+  - from: "hash-table"
+    type: related-to
+    to: "modulo"
+  - from: "algorithm"
+    type: related-to
+    to: "expected-value"
+  - from: "bit-manipulation"
+    type: related-to
+    to: "boolean-logic"

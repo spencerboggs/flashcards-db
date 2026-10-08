@@ -1,0 +1,20 @@
+{
+  "id": "hashing",
+  "term": "Hashing",
+  "aliases": [],
+  "difficulty": "fundamental",
+  "definition": "Hashing maps a key to a fixed-size value, called a hash, so the key can be placed or found without scanning a whole collection. A good hash for a hash table spreads keys evenly across slots. This is a different requirement from a cryptographic hash, which must also be hard to reverse and hard to collide on purpose.",
+  "categories": [
+    "algorithms",
+    "data-structures"
+  ],
+  "prompt": "What is hashing in data structures?",
+  "details": [
+    "Equal keys must hash to the same slot, and the equality test still has to confirm a match.",
+    "A hash that depends on a memory address changes between runs and cannot be stored as a durable key."
+  ],
+  "examples": [
+    "Choosing the slot for a key in a hash table",
+    "A checksum that detects accidental corruption of a file"
+  ]
+}

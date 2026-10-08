@@ -1,0 +1,16 @@
+{
+  "id": "continuous-delivery",
+  "term": "Continuous Delivery",
+  "aliases": [],
+  "difficulty": "intermediate",
+  "definition": "Continuous delivery keeps the main branch in a state that can be released at any time. An automated pipeline produces a releasable artifact after the tests pass. Releasing that artifact can still be a human decision.",
+  "categories": [
+    "infrastructure",
+    "software-engineering",
+    "version-control"
+  ],
+  "examples": [
+    "A build that produces a versioned artifact ready for production",
+    "A release that is a button press rather than a fresh build"
+  ]
+}

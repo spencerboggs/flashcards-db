@@ -1,0 +1,15 @@
+{
+  "id": "git-stash",
+  "term": "Stash",
+  "aliases": [],
+  "difficulty": "fundamental",
+  "definition": "Git stash sets aside uncommitted changes and restores a clean working tree. The saved changes can be reapplied later. It is a shelf for work in progress, not a commit on a branch.",
+  "categories": [
+    "version-control"
+  ],
+  "prompt": "What does git stash do?",
+  "examples": [
+    "Shelving a half-finished edit to check out another branch",
+    "Reapplying that edit when you return"
+  ]
+}

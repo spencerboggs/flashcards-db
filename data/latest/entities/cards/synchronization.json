@@ -1,0 +1,15 @@
+{
+  "id": "synchronization",
+  "term": "Synchronization",
+  "aliases": [],
+  "difficulty": "fundamental",
+  "definition": "Synchronization coordinates concurrent threads so shared data is only used in safe orders. Locks, semaphores, and atomic operations are the tools. The goal is to allow concurrency without races, and without holding exclusion longer than the shared update requires.",
+  "categories": [
+    "operating-systems",
+    "programming"
+  ],
+  "examples": [
+    "A mutex around an update of a shared map",
+    "A barrier that waits until every worker finishes a phase"
+  ]
+}

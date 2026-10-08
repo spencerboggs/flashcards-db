@@ -1,0 +1,16 @@
+{
+  "id": "idempotency",
+  "term": "Idempotency",
+  "aliases": [],
+  "difficulty": "intermediate",
+  "definition": "An operation is idempotent when doing it several times has the same effect as doing it once. Retries are then safe: a lost response does not become a double charge or a double insert. The operation has to be designed that way; repeating an ordinary insert is not idempotent.",
+  "categories": [
+    "distributed-systems",
+    "software-engineering",
+    "web"
+  ],
+  "examples": [
+    "Setting a record to a value, which can be repeated",
+    "A payment request carrying an idempotency key so a retry does not charge twice"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "id": "library",
+  "term": "Library",
+  "aliases": [],
+  "difficulty": "fundamental",
+  "definition": "A library is code written to be called by other programs, not to run as a program of its own. It offers functions or types for a particular job. An application imports it or links against it.",
+  "categories": [
+    "programming"
+  ],
+  "prompt": "What is a library in programming?",
+  "examples": [
+    "A library of date functions",
+    "A compression library called by a server"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "id": "publish-subscribe",
+  "term": "Publish-Subscribe",
+  "aliases": [
+    "Pub/Sub"
+  ],
+  "difficulty": "intermediate",
+  "definition": "Publish-subscribe delivers each published message to every subscriber of a topic, and the publisher does not name the subscribers. Adding a subscriber does not require changing the publisher. Delivery is usually asynchronous, and ordering guarantees depend on the system.",
+  "categories": [
+    "distributed-systems"
+  ],
+  "examples": [
+    "An order-placed event read by billing and by shipping",
+    "A topic that any number of workers can subscribe to"
+  ]
+}

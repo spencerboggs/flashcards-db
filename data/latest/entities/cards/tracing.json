@@ -1,0 +1,16 @@
+{
+  "id": "tracing",
+  "term": "Tracing",
+  "aliases": [],
+  "difficulty": "intermediate",
+  "definition": "Tracing follows one request as it moves through services. A trace is the whole path, and a span is one step on that path, with a duration and a parent. It is how you find which hop made a particular request slow.",
+  "categories": [
+    "distributed-systems",
+    "infrastructure"
+  ],
+  "prompt": "What is tracing in a distributed system?",
+  "examples": [
+    "A trace of one checkout across the API, the payment service, and the database",
+    "A span for a single query"
+  ]
+}

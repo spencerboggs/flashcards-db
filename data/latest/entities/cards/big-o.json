@@ -1,0 +1,21 @@
+{
+  "id": "big-o",
+  "term": "Big-O",
+  "aliases": [
+    "O Notation"
+  ],
+  "difficulty": "fundamental",
+  "definition": "Big-O describes an upper bound on how a cost grows as the input grows. Engineers usually state the worst-case cost this way, ignoring constant factors and lower-order terms. It is an upper bound, so a tighter description may exist.",
+  "categories": [
+    "algorithms",
+    "mathematics"
+  ],
+  "details": [
+    "People often say O when they mean a tight bound. Big-Theta is the notation for a bound that is both upper and lower.",
+    "O(2n) and O(n) are the same class. The constant factor is dropped."
+  ],
+  "examples": [
+    "Linear search is O(n)",
+    "A doubly nested loop over the same n items is O(n^2)"
+  ]
+}

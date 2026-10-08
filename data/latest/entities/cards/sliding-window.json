@@ -1,0 +1,18 @@
+{
+  "id": "sliding-window",
+  "term": "Sliding Window",
+  "aliases": [],
+  "difficulty": "intermediate",
+  "definition": "A sliding window keeps a contiguous segment of a sequence and updates the answer as the segment moves, instead of recomputing it from scratch. Growing or shrinking the ends by one element updates a running aggregate. Many substring and subarray problems that look quadratic become linear this way.",
+  "categories": [
+    "algorithms"
+  ],
+  "complexity": {
+    "time": "Often O(n), when each index enters and leaves the window at most once.",
+    "space": "Often O(1) or O(k) for the state inside the window."
+  },
+  "examples": [
+    "The maximum sum of any subarray of length k",
+    "The longest substring with no repeated character"
+  ]
+}

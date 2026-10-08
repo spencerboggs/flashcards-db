@@ -1,0 +1,18 @@
+{
+  "id": "rebase",
+  "term": "Rebase",
+  "aliases": [],
+  "difficulty": "intermediate",
+  "definition": "A rebase replays a series of commits onto a new base, creating new commits with new hashes. The branch then looks as if it was started from that new base. Rewriting commits that other people already have forces them to reconcile the rewritten history.",
+  "categories": [
+    "version-control"
+  ],
+  "prompt": "What does git rebase do?",
+  "details": [
+    "Rebase rewrites history. Do not rebase commits that have been shared, unless everyone using them expects the rewrite."
+  ],
+  "examples": [
+    "Replaying a feature branch onto the latest main",
+    "Squashing several local commits before they are shared"
+  ]
+}

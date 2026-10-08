@@ -1,0 +1,14 @@
+{
+  "id": "primitive-type",
+  "term": "Primitive Type",
+  "aliases": [],
+  "difficulty": "fundamental",
+  "definition": "A primitive type is a basic type built into the language, such as an integer, a floating-point number, a boolean, or a character. Its values are usually stored directly, rather than as a pointer to a separate object. Which types count as primitive depends on the language.",
+  "categories": [
+    "programming"
+  ],
+  "examples": [
+    "A 64-bit integer",
+    "A boolean true or false"
+  ]
+}

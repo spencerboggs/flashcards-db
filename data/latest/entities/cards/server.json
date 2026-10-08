@@ -1,0 +1,16 @@
+{
+  "id": "server",
+  "term": "Server",
+  "aliases": [],
+  "difficulty": "fundamental",
+  "definition": "A server is a program that waits for requests and responds to them. It typically holds data or performs an action on behalf of many clients. The same machine can run several servers, distinguished by port or by host name.",
+  "categories": [
+    "distributed-systems",
+    "networking",
+    "web"
+  ],
+  "examples": [
+    "A web server answering HTTP",
+    "A database server answering queries"
+  ]
+}

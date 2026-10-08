@@ -1,0 +1,14 @@
+{
+  "id": "coupling",
+  "term": "Coupling",
+  "aliases": [],
+  "difficulty": "fundamental",
+  "definition": "Coupling is the degree to which one module depends on the internals of another. Tight coupling means a change in one forces changes in the other. Loose coupling, usually through a small interface, lets each side change on its own.",
+  "categories": [
+    "software-engineering"
+  ],
+  "examples": [
+    "A caller that constructs a concrete database class, coupled to that class",
+    "A caller that depends only on an interface, coupled to the contract"
+  ]
+}

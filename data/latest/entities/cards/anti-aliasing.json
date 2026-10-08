@@ -1,0 +1,14 @@
+{
+  "id": "anti-aliasing",
+  "term": "Anti-Aliasing",
+  "aliases": [],
+  "difficulty": "intermediate",
+  "definition": "Anti-aliasing reduces the jagged edges that appear when a continuous edge is forced onto a pixel grid. It blends coverage at the boundary instead of painting each pixel fully inside or fully outside. The cost is extra samples or extra work per pixel.",
+  "categories": [
+    "computer-graphics"
+  ],
+  "examples": [
+    "A diagonal line that looks smooth rather than stair-stepped",
+    "Multisample anti-aliasing on a triangle edge"
+  ]
+}

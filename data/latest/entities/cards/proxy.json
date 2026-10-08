@@ -1,0 +1,17 @@
+{
+  "id": "proxy",
+  "term": "Proxy",
+  "aliases": [
+    "Forward Proxy"
+  ],
+  "difficulty": "fundamental",
+  "definition": "A proxy is an intermediary that makes a request on a client's behalf. The client talks to the proxy, and the proxy talks to the origin server. Proxies are used for caching, filtering, and hiding the client's address from the origin.",
+  "categories": [
+    "networking",
+    "web"
+  ],
+  "examples": [
+    "A corporate proxy that clients must use to reach the web",
+    "A caching proxy in front of a slow origin"
+  ]
+}

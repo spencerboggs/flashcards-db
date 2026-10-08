@@ -1,0 +1,14 @@
+{
+  "id": "merge-conflict",
+  "term": "Merge Conflict",
+  "aliases": [],
+  "difficulty": "fundamental",
+  "definition": "A merge conflict happens when two commits changed the same part of a file and Git cannot combine them automatically. Git marks the conflicting regions and waits for a person to choose the result. Resolving it means editing the file to the intended contents and recording that choice.",
+  "categories": [
+    "version-control"
+  ],
+  "examples": [
+    "Two branches editing the same function",
+    "A generated lockfile changed on both sides"
+  ]
+}

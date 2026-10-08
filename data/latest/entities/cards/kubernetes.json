@@ -1,0 +1,15 @@
+{
+  "id": "kubernetes",
+  "term": "Kubernetes",
+  "aliases": [],
+  "difficulty": "intermediate",
+  "definition": "Kubernetes is a system that runs containers across a cluster of machines. You declare the desired state, such as how many copies of a service should run, and it starts, restarts, and places containers to match. It also provides service discovery and load balancing among those copies.",
+  "categories": [
+    "distributed-systems",
+    "infrastructure"
+  ],
+  "examples": [
+    "A deployment asking for three replicas",
+    "A replacement container started when one stops"
+  ]
+}

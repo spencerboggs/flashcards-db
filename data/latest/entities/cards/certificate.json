@@ -1,0 +1,16 @@
+{
+  "id": "certificate",
+  "term": "Certificate",
+  "aliases": [],
+  "difficulty": "intermediate",
+  "definition": "A certificate binds a name to a public key and is signed by an issuer. A verifier who trusts the issuer can trust that binding. On the web, a server's certificate says which name its key belongs to, and the client checks that the name matches the site it asked for.",
+  "categories": [
+    "cryptography",
+    "networking",
+    "security"
+  ],
+  "examples": [
+    "A certificate for a website's name",
+    "A signature from a certificate authority on that certificate"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "id": "rgb",
+  "term": "RGB",
+  "aliases": [
+    "RGB Color"
+  ],
+  "difficulty": "fundamental",
+  "definition": "RGB represents a color as three intensities: red, green, and blue. Each channel is a number, often from 0 to 255 in an 8-bit image, or a floating-point value in a renderer. Adding light works in RGB; mixing paint does not follow the same arithmetic.",
+  "categories": [
+    "computer-graphics"
+  ],
+  "examples": [
+    "White as full red, green, and blue",
+    "A pixel stored as three bytes"
+  ]
+}

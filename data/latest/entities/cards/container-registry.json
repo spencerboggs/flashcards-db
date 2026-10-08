@@ -1,0 +1,14 @@
+{
+  "id": "container-registry",
+  "term": "Container Registry",
+  "aliases": [],
+  "difficulty": "fundamental",
+  "definition": "A container registry stores images and serves them to the machines that run containers. A deploy pulls an image by name and tag, or by digest. The registry is the distribution point, not the place the container runs.",
+  "categories": [
+    "infrastructure"
+  ],
+  "examples": [
+    "A CI job pushing an image after a successful build",
+    "A cluster pulling that image onto a node"
+  ]
+}

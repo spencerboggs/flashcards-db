@@ -1,0 +1,14 @@
+{
+  "id": "parameter",
+  "term": "Parameter",
+  "aliases": [],
+  "difficulty": "fundamental",
+  "definition": "A parameter is a name in a function definition for a value the caller supplies. Inside the function it behaves like a local variable whose starting value came from the call. The parameter is the slot; the argument is what is placed in the slot.",
+  "categories": [
+    "programming"
+  ],
+  "examples": [
+    "The width and height of a function that computes an area",
+    "An optional parameter with a default"
+  ]
+}

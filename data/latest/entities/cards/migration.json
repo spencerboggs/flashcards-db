@@ -1,0 +1,16 @@
+{
+  "id": "migration",
+  "term": "Migration",
+  "aliases": [],
+  "difficulty": "fundamental",
+  "definition": "A migration is a versioned change to a database schema, or to data that must move with that change. Migrations are applied in order so every environment can reach the same schema. A migration that rewrites a large table needs a plan that does not stop the application for the whole rewrite.",
+  "categories": [
+    "databases",
+    "software-engineering"
+  ],
+  "prompt": "What is a database migration?",
+  "examples": [
+    "Adding a column",
+    "Backfilling a new column and then enforcing it as not null"
+  ]
+}

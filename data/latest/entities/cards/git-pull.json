@@ -1,0 +1,15 @@
+{
+  "id": "git-pull",
+  "term": "Pull",
+  "aliases": [],
+  "difficulty": "fundamental",
+  "definition": "Git pull downloads new commits from a remote and integrates them into the current branch. It is a fetch followed by a merge, or by a rebase when configured that way. Unlike fetch alone, it changes the branch you are on.",
+  "categories": [
+    "version-control"
+  ],
+  "prompt": "What does git pull do?",
+  "examples": [
+    "Updating a local main branch with commits from origin",
+    "Pulling with rebase so the local commits are replayed on top"
+  ]
+}

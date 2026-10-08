@@ -1,0 +1,15 @@
+{
+  "id": "calling-convention",
+  "term": "Calling Convention",
+  "aliases": [],
+  "difficulty": "advanced",
+  "definition": "A calling convention is the part of an ABI that says how a function is called: which registers hold arguments, who saves which registers, and how the stack is cleaned up. Caller and callee must agree, or the arguments are read from the wrong place. It is a binary rule, not a feature of the source language's syntax.",
+  "categories": [
+    "computer-architecture",
+    "programming-languages"
+  ],
+  "examples": [
+    "The first few arguments passed in registers",
+    "A callee-saved register that a function must restore"
+  ]
+}

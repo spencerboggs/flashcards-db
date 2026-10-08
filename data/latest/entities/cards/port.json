@@ -1,0 +1,15 @@
+{
+  "id": "port",
+  "term": "Port",
+  "aliases": [],
+  "difficulty": "fundamental",
+  "definition": "A port is a number that selects which application on a host a TCP or UDP packet belongs to. The host is selected by the IP address; the port selects the socket on that host. Well-known ports are conventions, such as 443 for HTTPS, not a property of the protocol.",
+  "categories": [
+    "networking"
+  ],
+  "prompt": "What is a network port?",
+  "examples": [
+    "Port 443 for HTTPS",
+    "Two services on one machine, distinguished by port"
+  ]
+}

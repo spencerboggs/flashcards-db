@@ -1,0 +1,15 @@
+{
+  "id": "sql-injection",
+  "term": "SQL Injection",
+  "aliases": [],
+  "difficulty": "intermediate",
+  "definition": "SQL injection happens when untrusted text is concatenated into a query and changes the query's structure. The risk is reading or changing data the caller should not reach. The defense is to keep the statement fixed and send values as parameters, so they cannot change the statement.",
+  "categories": [
+    "databases",
+    "security"
+  ],
+  "examples": [
+    "A query written with placeholders and bound values",
+    "An API that never builds SQL by gluing input into the statement"
+  ]
+}

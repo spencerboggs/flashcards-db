@@ -1,0 +1,16 @@
+{
+  "id": "large-language-model",
+  "term": "Large Language Model",
+  "aliases": [
+    "LLM"
+  ],
+  "difficulty": "fundamental",
+  "definition": "A large language model is a large neural network, usually a transformer, trained to predict text. Given a prompt, it produces a distribution over the next token and samples or searches from it, repeating to form a reply. Its knowledge is whatever was in the training data and the prompt, and it can state false things fluently.",
+  "categories": [
+    "machine-learning"
+  ],
+  "examples": [
+    "A model completing a prompt with the next tokens",
+    "A chatbot built on a text-prediction model"
+  ]
+}

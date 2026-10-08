@@ -1,0 +1,14 @@
+{
+  "id": "regression-test",
+  "term": "Regression Test",
+  "aliases": [],
+  "difficulty": "fundamental",
+  "definition": "A regression test checks that a behavior which used to work still works, especially a bug that was fixed. It stays in the suite so the same defect is not reintroduced. Any test can serve this role once it pins down a behavior.",
+  "categories": [
+    "testing"
+  ],
+  "examples": [
+    "A test added with a bug fix",
+    "A suite run before every release"
+  ]
+}

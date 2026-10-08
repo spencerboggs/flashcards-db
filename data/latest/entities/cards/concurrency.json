@@ -1,0 +1,15 @@
+{
+  "id": "concurrency",
+  "term": "Concurrency",
+  "aliases": [],
+  "difficulty": "fundamental",
+  "definition": "Concurrency is dealing with several tasks whose execution overlaps in time. They may take turns on one processor, or they may run truly in parallel. The hard part is shared state and the ordering of their steps, not the number of processors.",
+  "categories": [
+    "operating-systems",
+    "programming"
+  ],
+  "examples": [
+    "A server with many requests in flight on one machine",
+    "An application that downloads data while the user keeps typing"
+  ]
+}

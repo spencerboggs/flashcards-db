@@ -1,0 +1,17 @@
+[
+  "behavior-driven-development",
+  "code-coverage",
+  "dependency-injection",
+  "end-to-end-test",
+  "fixture",
+  "fuzz-testing",
+  "integration-test",
+  "mock",
+  "property-based-testing",
+  "regression-test",
+  "smoke-test",
+  "stub",
+  "test-double",
+  "test-driven-development",
+  "unit-test"
+]

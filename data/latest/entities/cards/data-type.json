@@ -1,0 +1,14 @@
+{
+  "id": "data-type",
+  "term": "Data Type",
+  "aliases": [],
+  "difficulty": "fundamental",
+  "definition": "A data type classifies values and says which operations are allowed on them. Integers, floating-point numbers, booleans, and text are common examples. The type tells the compiler or the runtime how to store a value and what it may do with it.",
+  "categories": [
+    "programming"
+  ],
+  "examples": [
+    "An integer, which supports arithmetic",
+    "A string, which supports concatenation and indexing"
+  ]
+}

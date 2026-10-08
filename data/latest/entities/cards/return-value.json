@@ -1,0 +1,14 @@
+{
+  "id": "return-value",
+  "term": "Return Value",
+  "aliases": [],
+  "difficulty": "fundamental",
+  "definition": "A return value is the result a function hands back to its caller. The call itself takes on that value, so the caller can store it or pass it on. A function can also return nothing and be called only for its effect.",
+  "categories": [
+    "programming"
+  ],
+  "examples": [
+    "A function returning a computed total",
+    "A function whose only job is to write a file"
+  ]
+}

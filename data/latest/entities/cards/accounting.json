@@ -1,0 +1,17 @@
+{
+  "id": "accounting",
+  "term": "Accounting",
+  "aliases": [
+    "Audit Logging"
+  ],
+  "difficulty": "fundamental",
+  "definition": "Accounting, in security, is recording who did what, and when, so actions can be reviewed later. It is the third part of authentication, authorization, and accounting. The record is only useful if it is kept where the actor cannot quietly alter it.",
+  "categories": [
+    "security"
+  ],
+  "prompt": "What is accounting in security?",
+  "examples": [
+    "A log of administrative changes with the actor's identity",
+    "A record of access to a sensitive record"
+  ]
+}

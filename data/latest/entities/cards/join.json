@@ -1,0 +1,18 @@
+{
+  "id": "join",
+  "term": "Join",
+  "aliases": [],
+  "difficulty": "fundamental",
+  "definition": "A join combines rows from two tables by a related value, usually a foreign key matching a primary key. An inner join keeps only pairs that match. A left join keeps every row of the left table and fills nulls when the right side has no match.",
+  "categories": [
+    "databases"
+  ],
+  "prompt": "What is a join in SQL?",
+  "details": [
+    "A right join keeps every row of the right table. A full join keeps rows from both sides. A cross join pairs every row of one table with every row of the other."
+  ],
+  "examples": [
+    "Orders joined to customers on customer id",
+    "Users left-joined to profiles so users without a profile still appear"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "id": "alerting",
+  "term": "Alerting",
+  "aliases": [],
+  "difficulty": "fundamental",
+  "definition": "Alerting notifies a person when a monitoring rule says something needs attention. A useful alert is actionable and rare enough to be believed. An alert that fires constantly, or that nobody can act on, trains people to ignore alerts.",
+  "categories": [
+    "infrastructure"
+  ],
+  "examples": [
+    "A page when the error budget is being burned quickly",
+    "A ticket when disk space will run out within a day"
+  ]
+}

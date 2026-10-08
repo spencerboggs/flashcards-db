@@ -1,0 +1,17 @@
+{
+  "id": "reference-type",
+  "term": "Reference Type",
+  "aliases": [],
+  "difficulty": "fundamental",
+  "definition": "A reference type is a type whose variable holds a reference to a value stored elsewhere, not the value's own bytes. Two variables can refer to the same object, so a change through one is visible through the other. Objects and arrays are reference types in many languages.",
+  "categories": [
+    "programming"
+  ],
+  "details": [
+    "Assigning a reference copies the reference, not the object. A later mutation is shared; a later reassignment of one variable is not."
+  ],
+  "examples": [
+    "Two variables pointing at the same list",
+    "Passing an object into a function that mutates it"
+  ]
+}

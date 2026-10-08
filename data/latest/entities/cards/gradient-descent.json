@@ -1,0 +1,18 @@
+{
+  "id": "gradient-descent",
+  "term": "Gradient Descent",
+  "aliases": [],
+  "difficulty": "intermediate",
+  "definition": "Gradient descent updates parameters by stepping them in the direction that reduces the loss. The gradient says which way is up; the step goes the opposite way, scaled by the learning rate. Stochastic gradient descent estimates that gradient from a small batch of examples rather than the whole dataset.",
+  "categories": [
+    "machine-learning",
+    "mathematics"
+  ],
+  "details": [
+    "A learning rate that is too large diverges. One that is too small makes training very slow."
+  ],
+  "examples": [
+    "A weight updated by a small step against its gradient",
+    "A mini-batch standing in for the full dataset"
+  ]
+}

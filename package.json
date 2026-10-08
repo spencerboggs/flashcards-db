@@ -1,0 +1,34 @@
+{
+  "name": "flashcards-db",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Flashcard dataset of computer science fundamentals.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/spencerboggs/flashcards-db.git"
+  },
+  "type": "module",
+  "license": "MIT",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "validate": "tsx src/cli/index.ts validate",
+    "validate:output": "tsx src/cli/index.ts validate --check-output",
+    "build:data": "tsx src/cli/index.ts build",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "check": "npm run typecheck && npm test && npm run validate:output"
+  },
+  "dependencies": {
+    "yaml": "^2.9.1",
+    "zod": "^4.6.5"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.3",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2",
+    "vitest": "^5.0.2"
+  }
+}

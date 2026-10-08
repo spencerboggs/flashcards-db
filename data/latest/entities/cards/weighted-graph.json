@@ -1,0 +1,15 @@
+{
+  "id": "weighted-graph",
+  "term": "Weighted Graph",
+  "aliases": [],
+  "difficulty": "fundamental",
+  "definition": "A weighted graph attaches a number to each edge, usually a cost, length, or capacity. Paths are compared by combining the weights along them, most often by adding. Shortest-path and spanning-tree algorithms need those weights.",
+  "categories": [
+    "algorithms",
+    "data-structures"
+  ],
+  "examples": [
+    "Road lengths between cities",
+    "The latency of a link between two servers"
+  ]
+}

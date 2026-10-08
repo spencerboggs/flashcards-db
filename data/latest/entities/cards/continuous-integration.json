@@ -1,0 +1,18 @@
+{
+  "id": "continuous-integration",
+  "term": "Continuous Integration",
+  "aliases": [
+    "CI"
+  ],
+  "difficulty": "fundamental",
+  "definition": "Continuous integration is the practice of merging work into a shared branch often, and automatically building and testing each change. Failures show up against a small change instead of against a long-lived branch. The shared branch is expected to stay in a working state.",
+  "categories": [
+    "infrastructure",
+    "software-engineering",
+    "version-control"
+  ],
+  "examples": [
+    "A pipeline that runs tests on every pull request",
+    "A broken build that blocks the merge"
+  ]
+}

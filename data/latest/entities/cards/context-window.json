@@ -1,0 +1,14 @@
+{
+  "id": "context-window",
+  "term": "Context Window",
+  "aliases": [],
+  "difficulty": "fundamental",
+  "definition": "The context window is the maximum number of tokens a model can take into account at once, including the prompt and the generated output. Text beyond that window is not visible to the model unless something else brings it back in. Longer windows cost more compute and memory.",
+  "categories": [
+    "machine-learning"
+  ],
+  "examples": [
+    "A model that can see 8,000 tokens of conversation",
+    "A document truncated because it does not fit"
+  ]
+}

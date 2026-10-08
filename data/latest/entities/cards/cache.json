@@ -1,0 +1,22 @@
+{
+  "id": "cache",
+  "term": "Cache",
+  "aliases": [
+    "Caching"
+  ],
+  "difficulty": "fundamental",
+  "definition": "A cache stores a copy of data closer to where it is used, so a repeated access avoids a slower source. A hit is a use of that copy; a miss fetches from the slower source and usually fills the cache. Caches help only when the same data, or nearby data, is used again soon.",
+  "categories": [
+    "computer-architecture",
+    "databases",
+    "web"
+  ],
+  "details": [
+    "A CPU cache copies memory. A database or HTTP cache copies query results or responses. The idea is the same.",
+    "Invalidation is the hard part: a cached copy must not be served after the source has changed, or the system must accept that it might be."
+  ],
+  "examples": [
+    "An L1 cache in front of main memory",
+    "A cached result of an expensive query"
+  ]
+}

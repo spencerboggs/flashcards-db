@@ -1,0 +1,15 @@
+{
+  "id": "database-lock",
+  "term": "Lock",
+  "aliases": [],
+  "difficulty": "intermediate",
+  "definition": "A database lock reserves a row, a range, or a table so concurrent transactions do not make conflicting changes. A writer typically takes an exclusive lock; readers may share. Locks held in inconsistent orders are a common cause of deadlock.",
+  "categories": [
+    "databases"
+  ],
+  "prompt": "What is a database lock?",
+  "examples": [
+    "A row lock during an update",
+    "A lock that makes a second transaction wait"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "id": "memory-allocation",
+  "term": "Memory Allocation",
+  "aliases": [],
+  "difficulty": "fundamental",
+  "definition": "Memory allocation reserves a block of the heap for a new object and returns a pointer to it. The allocator tracks which ranges are free and which are in use. Freeing returns a block to that pool; in a garbage-collected language the collector does the return.",
+  "categories": [
+    "operating-systems",
+    "programming-languages"
+  ],
+  "examples": [
+    "malloc or new returning a block",
+    "An allocator splitting a free range to satisfy a request"
+  ]
+}

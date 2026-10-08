@@ -1,0 +1,17 @@
+{
+  "id": "client",
+  "term": "Client",
+  "aliases": [],
+  "difficulty": "fundamental",
+  "definition": "A client is the program that initiates a request. It asks for work or data and consumes the response. A browser is a client of a web server, and a web server can itself be a client of a database.",
+  "categories": [
+    "distributed-systems",
+    "networking",
+    "web"
+  ],
+  "examples": [
+    "A browser",
+    "A mobile app calling an API",
+    "A service calling another service"
+  ]
+}

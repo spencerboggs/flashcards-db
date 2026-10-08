@@ -1,0 +1,16 @@
+{
+  "id": "method",
+  "term": "Method",
+  "aliases": [],
+  "difficulty": "fundamental",
+  "definition": "A method is a function attached to an object or a class. It usually reads or changes that object through a reference called this or self. The call reads as a request to the object rather than as a free function.",
+  "categories": [
+    "object-oriented-programming",
+    "programming"
+  ],
+  "prompt": "What is a method in programming?",
+  "examples": [
+    "A list method that appends an item",
+    "An account method that applies a payment"
+  ]
+}

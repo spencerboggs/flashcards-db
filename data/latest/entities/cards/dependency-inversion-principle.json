@@ -1,0 +1,17 @@
+{
+  "id": "dependency-inversion-principle",
+  "term": "Dependency Inversion Principle",
+  "aliases": [
+    "DIP"
+  ],
+  "difficulty": "intermediate",
+  "definition": "The dependency inversion principle says high-level code should depend on abstractions, not on concrete low-level classes. The concrete class depends on that abstraction as well and is supplied from outside. Dependency injection is a common way to wire the concrete class in.",
+  "categories": [
+    "object-oriented-programming",
+    "software-engineering"
+  ],
+  "examples": [
+    "Business logic that calls a Repository interface, with a database class implementing it",
+    "A notifier interface, with email and SMS as interchangeable implementations"
+  ]
+}

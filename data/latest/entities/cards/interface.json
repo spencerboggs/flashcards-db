@@ -1,0 +1,16 @@
+{
+  "id": "interface",
+  "term": "Interface",
+  "aliases": [],
+  "difficulty": "fundamental",
+  "definition": "An interface is a contract that names the operations a type must provide, without including that type's data. Callers depend on the interface and work with any value that meets it. Some languages also allow a default implementation for a method on the interface.",
+  "categories": [
+    "object-oriented-programming",
+    "programming"
+  ],
+  "prompt": "What is an interface in programming?",
+  "examples": [
+    "A readable type that only requires a read method",
+    "A comparable type that only requires an ordering method"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "id": "activation-function",
+  "term": "Activation Function",
+  "aliases": [],
+  "difficulty": "intermediate",
+  "definition": "An activation function is the nonlinearity applied to a layer's weighted sum. It lets the network represent relationships that are not straight lines. ReLU, which outputs zero for negative inputs and the input otherwise, is the common choice in hidden layers.",
+  "categories": [
+    "machine-learning"
+  ],
+  "examples": [
+    "ReLU in a hidden layer",
+    "A softmax that turns scores into a distribution over classes"
+  ]
+}

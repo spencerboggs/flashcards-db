@@ -1,0 +1,15 @@
+{
+  "id": "nosql",
+  "term": "NoSQL",
+  "aliases": [],
+  "difficulty": "intermediate",
+  "definition": "NoSQL is a loose name for databases that are not the relational model: documents, key-value pairs, wide columns, or graphs. They usually trade some of the relational guarantees or query flexibility for a particular access pattern or for easier horizontal scaling. It is a family of models, not one product.",
+  "categories": [
+    "databases"
+  ],
+  "examples": [
+    "A document store of JSON objects",
+    "A key-value store used as a cache or a session store",
+    "A graph store of people and relationships"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "id": "network-switch",
+  "term": "Switch",
+  "aliases": [],
+  "difficulty": "fundamental",
+  "definition": "A switch forwards frames inside one local network, using MAC addresses to choose the outgoing port. It learns which address is behind which port by watching traffic. Unlike a router, it does not route packets between IP networks.",
+  "categories": [
+    "networking"
+  ],
+  "prompt": "What is a network switch?",
+  "examples": [
+    "An office switch connecting many computers on one LAN",
+    "A frame delivered only to the port that leads to its destination"
+  ]
+}

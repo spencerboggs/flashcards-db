@@ -1,0 +1,15 @@
+{
+  "id": "commit",
+  "term": "Commit",
+  "aliases": [],
+  "difficulty": "fundamental",
+  "definition": "A commit is one recorded snapshot in the history, with a message, an author, a timestamp, and pointers to its parent commits. Changing a commit does not edit it in place; it creates a new commit with a new identity. The identity is a hash of the contents, so two clones agree on what that commit is.",
+  "categories": [
+    "version-control"
+  ],
+  "prompt": "What is a Git commit?",
+  "examples": [
+    "A snapshot with the message 'Fix the empty-cart total'",
+    "A merge commit with two parents"
+  ]
+}

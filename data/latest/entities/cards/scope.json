@@ -1,0 +1,18 @@
+{
+  "id": "scope",
+  "term": "Scope",
+  "aliases": [],
+  "difficulty": "fundamental",
+  "definition": "Scope is the region of a program where a name is visible. With lexical scope, the usual rule, a name is visible in the block where it is declared and in blocks nested inside that one. Code outside that region cannot use the name.",
+  "categories": [
+    "programming"
+  ],
+  "prompt": "What is scope in a program?",
+  "details": [
+    "An inner binding can shadow an outer one of the same name. Inside the inner block, the outer name is hidden."
+  ],
+  "examples": [
+    "A loop variable that exists only inside the loop",
+    "A function parameter that is invisible to other functions"
+  ]
+}

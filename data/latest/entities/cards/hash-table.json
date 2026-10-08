@@ -1,0 +1,26 @@
+{
+  "id": "hash-table",
+  "term": "Hash Table",
+  "aliases": [
+    "Hash Map",
+    "Dictionary",
+    "Map"
+  ],
+  "difficulty": "fundamental",
+  "definition": "A hash table stores values under keys and finds a key by hashing it to a slot. With a good hash and a moderate load, lookup, insert, and delete average constant time. A run of collisions in one slot degrades that slot toward a linear scan.",
+  "categories": [
+    "data-structures"
+  ],
+  "details": [
+    "The load factor is the number of keys divided by the number of slots. Growing the table and rehashing keeps the load factor down.",
+    "Keys need a stable hash and an equality test. Mutable keys that change hash after insertion are lost."
+  ],
+  "complexity": {
+    "time": "Average lookup, insert, and delete are O(1). Worst case is O(n) when many keys land in one slot.",
+    "space": "O(n) for the entries, plus the slot array."
+  },
+  "examples": [
+    "A dictionary from user id to account",
+    "Counting how many times each word appears"
+  ]
+}

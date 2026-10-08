@@ -1,0 +1,16 @@
+{
+  "id": "package",
+  "term": "Package",
+  "aliases": [],
+  "difficulty": "fundamental",
+  "definition": "A package is a versioned bundle of code that a project can depend on. It usually contains modules plus metadata such as a name and a version. A package manager downloads it and records the dependency.",
+  "categories": [
+    "programming",
+    "software-engineering"
+  ],
+  "prompt": "What is a package in programming?",
+  "examples": [
+    "A released library pinned to version 2.1.0",
+    "A package manifest listing dependencies"
+  ]
+}

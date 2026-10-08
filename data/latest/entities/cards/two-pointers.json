@@ -1,0 +1,18 @@
+{
+  "id": "two-pointers",
+  "term": "Two Pointers",
+  "aliases": [],
+  "difficulty": "intermediate",
+  "definition": "Two pointers scan a sequence with two indexes that move according to a rule, instead of a nested loop over every pair. On a sorted array they often start at opposite ends and move inward. Each step discards a whole set of pairs that cannot be the answer.",
+  "categories": [
+    "algorithms"
+  ],
+  "complexity": {
+    "time": "Often O(n) after the input is sorted, or O(n) on an already ordered sequence.",
+    "space": "O(1) extra space besides the input."
+  },
+  "examples": [
+    "Finding two numbers in a sorted array that add up to a target",
+    "Checking whether a string is a palindrome from the outside inward"
+  ]
+}

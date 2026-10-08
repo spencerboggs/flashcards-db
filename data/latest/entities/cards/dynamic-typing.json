@@ -1,0 +1,15 @@
+{
+  "id": "dynamic-typing",
+  "term": "Dynamic Typing",
+  "aliases": [],
+  "difficulty": "fundamental",
+  "definition": "Dynamic typing checks types when the code runs. A variable can hold values of different types at different times, and a mismatch becomes an error at the bad operation. The source usually does not declare types.",
+  "categories": [
+    "programming",
+    "programming-languages"
+  ],
+  "examples": [
+    "A variable that first holds a number and later a string",
+    "A missing method that fails only when that line runs"
+  ]
+}

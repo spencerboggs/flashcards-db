@@ -1,0 +1,12 @@
+{
+  "id": "weak-typing",
+  "term": "Weak Typing",
+  "aliases": [],
+  "difficulty": "intermediate",
+  "definition": "Weak typing is an informal label for a language that converts values automatically so an operation can proceed. That convenience can hide mistakes, such as treating a number as text. Like strong typing, it is a loose description rather than a precise rule.",
+  "categories": [
+    "programming",
+    "programming-languages"
+  ],
+  "prompt": "What does weak typing mean?"
+}

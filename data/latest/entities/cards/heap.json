@@ -1,0 +1,25 @@
+{
+  "id": "heap",
+  "term": "Heap",
+  "aliases": [
+    "Binary Heap"
+  ],
+  "difficulty": "fundamental",
+  "definition": "A heap is a complete binary tree that keeps its smallest element, or its largest, at the root. Every parent is ordered against its children, but siblings are not ordered against each other. The shape supports finding the extreme element immediately and inserting in logarithmic time.",
+  "categories": [
+    "data-structures"
+  ],
+  "prompt": "What is a heap as a data structure?",
+  "details": [
+    "This is not the memory heap, which is the region used for dynamic allocation. The two ideas only share a name.",
+    "In an array, the children of index i are at 2i+1 and 2i+2 when the root is at index 0."
+  ],
+  "complexity": {
+    "time": "Find-min is O(1). Insert and remove-min are O(log n). Building a heap from n items is O(n).",
+    "space": "O(n) space for the elements themselves."
+  },
+  "examples": [
+    "The pending event with the soonest time",
+    "Selecting the k smallest items without fully sorting"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "id": "container",
+  "term": "Container",
+  "aliases": [],
+  "difficulty": "fundamental",
+  "definition": "A container is a process, or a small group of processes, isolated with operating-system features such as namespaces and resource limits. It shares the host kernel and does not boot its own. An image supplies the filesystem and the starting command.",
+  "categories": [
+    "infrastructure",
+    "operating-systems"
+  ],
+  "examples": [
+    "An application process with its own filesystem view",
+    "Several containers on one machine, each with a limited CPU share"
+  ]
+}

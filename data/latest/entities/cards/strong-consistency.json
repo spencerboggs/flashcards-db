@@ -1,0 +1,15 @@
+{
+  "id": "strong-consistency",
+  "term": "Strong Consistency",
+  "aliases": [],
+  "difficulty": "intermediate",
+  "definition": "Strong consistency means a read returns the most recent write that succeeded, so clients do not observe stale or divergent values. The strict form is linearizability: operations appear to happen in one order that respects real time. Providing it across a partition often means refusing some requests rather than answering with a stale value.",
+  "categories": [
+    "databases",
+    "distributed-systems"
+  ],
+  "examples": [
+    "A read-after-write that always sees the write",
+    "A leader that serves reads only when it is sure it is still leader"
+  ]
+}

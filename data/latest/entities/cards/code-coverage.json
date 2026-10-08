@@ -1,0 +1,14 @@
+{
+  "id": "code-coverage",
+  "term": "Code Coverage",
+  "aliases": [],
+  "difficulty": "fundamental",
+  "definition": "Code coverage measures which parts of the code ran during tests: lines, branches, or paths. A high number means the tests executed that code, not that they checked the right things. A low number on a critical branch is a prompt to add a test.",
+  "categories": [
+    "testing"
+  ],
+  "examples": [
+    "Line coverage of a module",
+    "Branch coverage showing an error path never ran"
+  ]
+}

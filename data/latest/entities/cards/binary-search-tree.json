@@ -1,0 +1,25 @@
+{
+  "id": "binary-search-tree",
+  "term": "Binary Search Tree",
+  "aliases": [
+    "BST"
+  ],
+  "difficulty": "fundamental",
+  "definition": "A binary search tree is a binary tree kept in order: every value in a node's left subtree is less than the node, and every value in the right subtree is greater. Search, insert, and delete follow one path from the root. That path stays short only while the tree stays balanced.",
+  "categories": [
+    "algorithms",
+    "data-structures"
+  ],
+  "details": [
+    "Inserting values in sorted order can stretch the tree into a chain. Every operation is then linear.",
+    "Equal keys need a chosen rule: forbid them, keep them on one side, or store a count in the node."
+  ],
+  "complexity": {
+    "time": "Search, insert, and delete are O(h), where h is the height. That is O(log n) when balanced and O(n) in the worst case.",
+    "space": "O(n) space for the elements themselves."
+  },
+  "examples": [
+    "An ordered set of timestamps",
+    "A map from names to values kept in key order"
+  ]
+}

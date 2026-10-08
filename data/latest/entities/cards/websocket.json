@@ -1,0 +1,15 @@
+{
+  "id": "websocket",
+  "term": "WebSocket",
+  "aliases": [],
+  "difficulty": "intermediate",
+  "definition": "A WebSocket is a long-lived, two-way channel between a client and a server, opened by upgrading an HTTP connection. Either side can send a message without waiting for a request. It suits data that keeps arriving, rather than a single response.",
+  "categories": [
+    "networking",
+    "web"
+  ],
+  "examples": [
+    "A live feed of events to a browser",
+    "A chat connection that stays open"
+  ]
+}

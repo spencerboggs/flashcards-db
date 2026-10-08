@@ -1,0 +1,17 @@
+{
+  "id": "selection-sort",
+  "term": "Selection Sort",
+  "aliases": [],
+  "difficulty": "fundamental",
+  "definition": "Selection sort repeatedly finds the smallest remaining element and swaps it into the next output position. It does about n-squared comparisons regardless of the input order. The usual in-place version is not stable, because a swap can move an equal element past another.",
+  "categories": [
+    "algorithms"
+  ],
+  "complexity": {
+    "time": "O(n^2) in the best, average, and worst cases.",
+    "space": "O(1) extra space."
+  },
+  "examples": [
+    "A teaching sort that makes the 'pick the next minimum' step obvious"
+  ]
+}

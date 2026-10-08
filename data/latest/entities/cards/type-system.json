@@ -1,0 +1,15 @@
+{
+  "id": "type-system",
+  "term": "Type System",
+  "aliases": [],
+  "difficulty": "fundamental",
+  "definition": "A type system is the set of rules a language uses to classify values and reject operations that do not make sense for them. Checking can happen before the program runs, while it runs, or both. Stricter rules catch more mistakes early and usually require more information in the source.",
+  "categories": [
+    "programming",
+    "programming-languages"
+  ],
+  "examples": [
+    "Rejecting an attempt to add a number to a list",
+    "Inferring that a variable holds a string from how it is used"
+  ]
+}

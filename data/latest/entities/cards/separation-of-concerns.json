@@ -1,0 +1,14 @@
+{
+  "id": "separation-of-concerns",
+  "term": "Separation of Concerns",
+  "aliases": [],
+  "difficulty": "fundamental",
+  "definition": "Separation of concerns puts different responsibilities in different parts of the system. Presentation, business rules, and storage are the usual split. Each part can change for its own reasons without taking on the others' details.",
+  "categories": [
+    "software-engineering"
+  ],
+  "examples": [
+    "A template that renders HTML and a separate function that computes the numbers",
+    "Validation kept out of the database driver"
+  ]
+}

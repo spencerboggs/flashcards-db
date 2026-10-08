@@ -1,0 +1,15 @@
+{
+  "id": "middleware",
+  "term": "Middleware",
+  "aliases": [],
+  "difficulty": "fundamental",
+  "definition": "Middleware is code in a request pipeline that runs before or after the main handler. Each layer can read or modify the request or the response, or stop the pipeline. Authentication, logging, and compression are often middleware.",
+  "categories": [
+    "web"
+  ],
+  "prompt": "What is middleware in a web application?",
+  "examples": [
+    "A layer that rejects a request with no session",
+    "A layer that logs each request and then calls the next layer"
+  ]
+}

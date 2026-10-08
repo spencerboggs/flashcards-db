@@ -1,0 +1,22 @@
+{
+  "id": "tls",
+  "term": "TLS",
+  "aliases": [
+    "Transport Layer Security"
+  ],
+  "difficulty": "intermediate",
+  "definition": "TLS is a protocol that authenticates the other party, usually the server, and encrypts the bytes of a connection. A handshake agrees on keys and checks a certificate; application data sent afterward is protected. HTTPS is HTTP running over TLS.",
+  "categories": [
+    "cryptography",
+    "networking",
+    "security",
+    "web"
+  ],
+  "details": [
+    "The certificate tells the client which name the server claims. The client trusts it only if a certificate it already trusts signed that claim, directly or through a chain."
+  ],
+  "examples": [
+    "The security layer under HTTPS",
+    "A mail submission connection protected the same way"
+  ]
+}

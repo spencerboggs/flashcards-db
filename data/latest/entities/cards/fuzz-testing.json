@@ -1,0 +1,17 @@
+{
+  "id": "fuzz-testing",
+  "term": "Fuzz Testing",
+  "aliases": [
+    "Fuzzing"
+  ],
+  "difficulty": "intermediate",
+  "definition": "Fuzz testing feeds a program unexpected or mutated inputs and watches for crashes, hangs, or assertion failures. The inputs are generated or altered automatically, not written as examples. It is aimed at finding inputs the author did not think of, especially in parsers.",
+  "categories": [
+    "security",
+    "testing"
+  ],
+  "examples": [
+    "Mutated files fed to a parser",
+    "Random bytes sent to a decoder"
+  ]
+}

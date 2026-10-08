@@ -1,0 +1,15 @@
+{
+  "id": "context-switch",
+  "term": "Context Switch",
+  "aliases": [],
+  "difficulty": "intermediate",
+  "definition": "A context switch saves the processor state of the running thread and restores the state of another, so the processor can run that other thread. The saved state includes registers and the instruction pointer. Switches are necessary for sharing a processor, and they cost time that does no application work.",
+  "categories": [
+    "computer-architecture",
+    "operating-systems"
+  ],
+  "examples": [
+    "The scheduler pausing one process to run another",
+    "Switching from a user thread into the kernel on a system call"
+  ]
+}

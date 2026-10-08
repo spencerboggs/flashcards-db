@@ -1,0 +1,15 @@
+{
+  "id": "register",
+  "term": "Register",
+  "aliases": [],
+  "difficulty": "fundamental",
+  "definition": "A register is a small, very fast storage slot inside the CPU. Instructions operate on registers and move data between registers and memory. There are few of them, and the compiler or the assembly programmer decides what lives there.",
+  "categories": [
+    "computer-architecture"
+  ],
+  "prompt": "What is a CPU register?",
+  "examples": [
+    "A register holding the current loop index",
+    "The stack pointer register"
+  ]
+}

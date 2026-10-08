@@ -1,0 +1,16 @@
+{
+  "id": "boolean-logic",
+  "term": "Boolean Logic",
+  "aliases": [
+    "Boolean Algebra"
+  ],
+  "difficulty": "fundamental",
+  "definition": "Boolean logic is the algebra of true and false. And is true only when both inputs are true, or is true when at least one input is true, and not reverses a value. Programs use it in conditions, and processors use the same operations on bits.",
+  "categories": [
+    "mathematics",
+    "programming"
+  ],
+  "details": [
+    "De Morgan's laws: not (A and B) is (not A) or (not B), and not (A or B) is (not A) and (not B)."
+  ]
+}

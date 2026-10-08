@@ -1,0 +1,21 @@
+[
+  "branch",
+  "cherry-pick",
+  "commit",
+  "continuous-delivery",
+  "continuous-integration",
+  "git",
+  "git-fetch",
+  "git-lfs",
+  "git-merge",
+  "git-pull",
+  "git-push",
+  "git-remote",
+  "git-stash",
+  "git-tag",
+  "gitignore",
+  "merge-conflict",
+  "pull-request",
+  "rebase",
+  "repository"
+]

@@ -1,0 +1,22 @@
+{
+  "id": "insertion-sort",
+  "term": "Insertion Sort",
+  "aliases": [],
+  "difficulty": "fundamental",
+  "definition": "Insertion sort grows a sorted prefix by taking the next element and inserting it into the position where it belongs. Nearly sorted input is cheap, because each element only moves a short distance. The worst case, reverse-sorted input, compares every pair.",
+  "categories": [
+    "algorithms"
+  ],
+  "details": [
+    "The usual implementation is stable.",
+    "It is often used for the tiny partitions inside a faster sort."
+  ],
+  "complexity": {
+    "time": "O(n^2) worst and average. O(n) when the input is already sorted.",
+    "space": "O(1) extra space."
+  },
+  "examples": [
+    "Sorting a hand of cards",
+    "Cleaning up a list that is already almost in order"
+  ]
+}

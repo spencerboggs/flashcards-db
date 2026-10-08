@@ -1,0 +1,16 @@
+{
+  "id": "semantic-versioning",
+  "term": "Semantic Versioning",
+  "aliases": [
+    "SemVer"
+  ],
+  "difficulty": "fundamental",
+  "definition": "Semantic versioning numbers releases as major.minor.patch. The patch number changes for compatible fixes, the minor number for compatible additions, and the major number when existing callers must change. The scheme only works if the project actually treats those categories honestly.",
+  "categories": [
+    "software-engineering"
+  ],
+  "examples": [
+    "1.2.3 to 1.2.4 for a bug fix",
+    "1.4.0 to 2.0.0 when an existing function is removed"
+  ]
+}

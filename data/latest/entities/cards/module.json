@@ -1,0 +1,15 @@
+{
+  "id": "module",
+  "term": "Module",
+  "aliases": [],
+  "difficulty": "fundamental",
+  "definition": "A module is a unit of code with its own scope. It exports some names and hides the rest, and it is usually a file or a small group of files. Other code uses it only through the names it exports.",
+  "categories": [
+    "programming"
+  ],
+  "prompt": "What is a module in programming?",
+  "examples": [
+    "A file that exports a date parser and hides its helpers",
+    "A math module that exports only its public functions"
+  ]
+}

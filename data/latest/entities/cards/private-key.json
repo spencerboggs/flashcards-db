@@ -1,0 +1,15 @@
+{
+  "id": "private-key",
+  "term": "Private Key",
+  "aliases": [],
+  "difficulty": "fundamental",
+  "definition": "A private key is the half of a key pair that must stay secret. It decrypts what the public key encrypted and it creates signatures. Anyone who obtains it can impersonate the owner, so storage and access to it are the sensitive part of the pair.",
+  "categories": [
+    "cryptography",
+    "security"
+  ],
+  "examples": [
+    "A key kept on a server and used to sign tokens",
+    "A key that decrypts a message encrypted to its public pair"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "id": "signal",
+  "term": "Signal",
+  "aliases": [],
+  "difficulty": "intermediate",
+  "definition": "A signal is a short asynchronous notification delivered to a process, such as a request to terminate or a notice that a child has exited. The process can catch some signals and run a handler, and it cannot catch others. A signal is not a message with a payload of application data.",
+  "categories": [
+    "operating-systems"
+  ],
+  "prompt": "What is a signal to a process?",
+  "examples": [
+    "SIGTERM asking a process to shut down",
+    "SIGINT from a terminal interrupt"
+  ]
+}

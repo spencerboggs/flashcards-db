@@ -1,0 +1,15 @@
+{
+  "id": "transaction",
+  "term": "Transaction",
+  "aliases": [],
+  "difficulty": "fundamental",
+  "definition": "A transaction is a group of reads and writes that the database treats as one unit. Either all of the writes are committed, or none of them are. Other transactions see the group according to the isolation level, not as a partial mix.",
+  "categories": [
+    "databases"
+  ],
+  "prompt": "What is a database transaction?",
+  "examples": [
+    "Debiting one account and crediting another, together",
+    "Inserting an order and its line items, or inserting neither"
+  ]
+}

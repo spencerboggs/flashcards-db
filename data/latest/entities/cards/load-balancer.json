@@ -1,0 +1,21 @@
+{
+  "id": "load-balancer",
+  "term": "Load Balancer",
+  "aliases": [
+    "Load Balancing"
+  ],
+  "difficulty": "fundamental",
+  "definition": "A load balancer spreads incoming requests across several instances of a service. It sends each request to a healthy instance, using a rule such as round robin or fewest connections. When an instance fails its health check, the balancer stops sending it work.",
+  "categories": [
+    "distributed-systems",
+    "infrastructure",
+    "networking"
+  ],
+  "details": [
+    "A layer-4 balancer forwards connections using addresses and ports. A layer-7 balancer can look at the HTTP request and route on the path or host."
+  ],
+  "examples": [
+    "Several web servers behind one address",
+    "Removing an instance that fails its health check"
+  ]
+}

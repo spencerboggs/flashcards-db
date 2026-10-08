@@ -1,0 +1,17 @@
+{
+  "id": "rpc",
+  "term": "RPC",
+  "aliases": [
+    "Remote Procedure Call"
+  ],
+  "difficulty": "fundamental",
+  "definition": "RPC, remote procedure call, invokes a procedure on another machine as if it were a local call. The arguments are sent over the network and the result comes back. The call can fail because of the network even when the procedure itself is correct, which a local call would not do.",
+  "categories": [
+    "distributed-systems",
+    "web"
+  ],
+  "examples": [
+    "A generated client that calls a named method on a service",
+    "A request that names a procedure and its arguments"
+  ]
+}

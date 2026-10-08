@@ -1,0 +1,14 @@
+{
+  "id": "resolution",
+  "term": "Resolution",
+  "aliases": [],
+  "difficulty": "fundamental",
+  "definition": "Resolution is the number of pixels in each dimension of an image or a display. A higher resolution can show finer detail and costs more memory and more work to render. It is a count of samples, not a physical size, unless a pixel density is also given.",
+  "categories": [
+    "computer-graphics"
+  ],
+  "examples": [
+    "1920 by 1080",
+    "A render target smaller than the window, scaled up"
+  ]
+}

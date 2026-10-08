@@ -1,0 +1,18 @@
+{
+  "id": "doubly-linked-list",
+  "term": "Doubly Linked List",
+  "aliases": [],
+  "difficulty": "fundamental",
+  "definition": "A doubly linked list gives each node a pointer to the next node and a pointer to the previous one. The list can be walked in either direction, and a known node can be removed without first searching for its predecessor. The extra pointer costs memory on every node.",
+  "categories": [
+    "data-structures"
+  ],
+  "complexity": {
+    "time": "Access by position is O(n). Insert or delete at a known node is O(1).",
+    "space": "O(n), with two pointers per node."
+  },
+  "examples": [
+    "A browser history that moves backward and forward",
+    "An ordered queue of tasks where any known task can be removed"
+  ]
+}

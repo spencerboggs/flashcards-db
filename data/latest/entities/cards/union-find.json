@@ -1,0 +1,24 @@
+{
+  "id": "union-find",
+  "term": "Union-Find",
+  "aliases": [
+    "Disjoint Set"
+  ],
+  "difficulty": "intermediate",
+  "definition": "Union-find keeps a partition of elements into disjoint groups. Find reports which group an element is in, and union merges two groups. With path compression and union by rank, each operation is nearly constant time.",
+  "categories": [
+    "algorithms",
+    "data-structures"
+  ],
+  "details": [
+    "Path compression makes every node on a find path point closer to the root. Union by rank attaches the shorter tree under the taller one."
+  ],
+  "complexity": {
+    "time": "Each operation is nearly O(1), specifically inverse-Ackermann amortized time.",
+    "space": "O(n) space for the elements themselves."
+  },
+  "examples": [
+    "Kruskal's algorithm, merging components as edges are added",
+    "Checking whether two cells of a maze are already connected"
+  ]
+}

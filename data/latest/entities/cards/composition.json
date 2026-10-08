@@ -1,0 +1,14 @@
+{
+  "id": "composition",
+  "term": "Composition",
+  "aliases": [],
+  "difficulty": "fundamental",
+  "definition": "Composition builds an object by giving it other objects as parts, and the whole owns those parts. When the whole goes away, the parts go with it. Behavior is reused by containing a collaborator instead of inheriting from it.",
+  "categories": [
+    "object-oriented-programming"
+  ],
+  "examples": [
+    "A car that contains an engine it owns",
+    "A service object that contains the repository it uses"
+  ]
+}

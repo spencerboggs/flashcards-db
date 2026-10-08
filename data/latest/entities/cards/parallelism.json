@@ -1,0 +1,16 @@
+{
+  "id": "parallelism",
+  "term": "Parallelism",
+  "aliases": [],
+  "difficulty": "fundamental",
+  "definition": "Parallelism is actually executing several operations at the same time, on multiple processors or cores. It is a way to finish a divisible amount of work sooner. A concurrent design can run on one processor; a parallel execution cannot.",
+  "categories": [
+    "computer-architecture",
+    "operating-systems",
+    "programming"
+  ],
+  "examples": [
+    "Four cores each sorting a quarter of an array",
+    "A GPU applying one operation to many pixels at once"
+  ]
+}

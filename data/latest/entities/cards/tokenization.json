@@ -1,0 +1,18 @@
+{
+  "id": "tokenization",
+  "term": "Tokenization",
+  "aliases": [],
+  "difficulty": "fundamental",
+  "definition": "Tokenization splits input into the tokens a model or a parser will process. For a language model, a tokenizer maps text to integer ids from a fixed vocabulary, often by merging frequent character sequences. The same text can be a different number of tokens under a different tokenizer.",
+  "categories": [
+    "machine-learning",
+    "programming-languages"
+  ],
+  "details": [
+    "A compiler's lexer is also a tokenizer. It splits source into tokens such as identifiers and operators, which is a different vocabulary from a language model's."
+  ],
+  "examples": [
+    "Splitting a sentence into subword pieces",
+    "Mapping each piece to an integer id"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "id": "schema",
+  "term": "Schema",
+  "aliases": [],
+  "difficulty": "fundamental",
+  "definition": "A schema is the structure of the data: the tables, columns, types, and constraints. It is separate from the rows stored in that structure. Changing the schema is a migration, not an ordinary write.",
+  "categories": [
+    "databases"
+  ],
+  "prompt": "What is a database schema?",
+  "examples": [
+    "The definition of the users table",
+    "A constraint that email values are unique"
+  ]
+}

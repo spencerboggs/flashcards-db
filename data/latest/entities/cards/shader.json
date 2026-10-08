@@ -1,0 +1,14 @@
+{
+  "id": "shader",
+  "term": "Shader",
+  "aliases": [],
+  "difficulty": "intermediate",
+  "definition": "A shader is a program that runs on the GPU as part of drawing. A vertex shader transforms each vertex, and a fragment shader computes the color of a pixel-sized piece of a surface. Shaders are where lighting and materials are calculated.",
+  "categories": [
+    "computer-graphics"
+  ],
+  "examples": [
+    "A fragment shader that samples a texture",
+    "A vertex shader that applies a camera transform"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "id": "memory-hierarchy",
+  "term": "Memory Hierarchy",
+  "aliases": [],
+  "difficulty": "fundamental",
+  "definition": "The memory hierarchy is the stack of stores from fastest and smallest to slowest and largest: registers, caches, main memory, then disk. Each level holds copies or overflow from the level above it. Programs run fast when the data they touch stays in a fast level.",
+  "categories": [
+    "computer-architecture"
+  ],
+  "examples": [
+    "Registers, then L1, L2, and L3 cache, then RAM, then SSD",
+    "A working set that fits in cache and one that does not"
+  ]
+}

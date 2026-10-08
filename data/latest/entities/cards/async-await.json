@@ -1,0 +1,17 @@
+{
+  "id": "async-await",
+  "term": "Async/Await",
+  "aliases": [],
+  "difficulty": "intermediate",
+  "definition": "Async/await is syntax for asynchronous code that reads as a sequence of steps. An async function can pause at await until a promise settles, then continue with the result. The pause suspends that function; it does not block the whole thread on the wait.",
+  "categories": [
+    "programming"
+  ],
+  "details": [
+    "The function returns a promise of its own. A failure in an awaited promise rejects that returned promise unless it is handled."
+  ],
+  "examples": [
+    "Awaiting a database query before using the rows",
+    "Awaiting two independent requests one after another"
+  ]
+}

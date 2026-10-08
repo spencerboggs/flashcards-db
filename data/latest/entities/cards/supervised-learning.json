@@ -1,0 +1,14 @@
+{
+  "id": "supervised-learning",
+  "term": "Supervised Learning",
+  "aliases": [],
+  "difficulty": "fundamental",
+  "definition": "Supervised learning trains a model on examples that include the correct answer, called a label. The model learns to map inputs to labels. Classification and regression are the common forms.",
+  "categories": [
+    "machine-learning"
+  ],
+  "examples": [
+    "Mail labeled spam or not spam",
+    "House features paired with a sale price"
+  ]
+}

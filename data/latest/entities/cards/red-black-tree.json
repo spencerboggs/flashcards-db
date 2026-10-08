@@ -1,0 +1,18 @@
+{
+  "id": "red-black-tree",
+  "term": "Red-Black Tree",
+  "aliases": [],
+  "difficulty": "intermediate",
+  "definition": "A red-black tree is a binary search tree whose nodes are colored so the tree stays approximately balanced. No red node has a red child, and every path from the root to a leaf has the same number of black nodes. The longest path is at most twice the shortest, so operations stay logarithmic, with fewer rotations on insert than an AVL tree.",
+  "categories": [
+    "data-structures"
+  ],
+  "complexity": {
+    "time": "Search, insert, and delete are O(log n) in the worst case.",
+    "space": "O(n) space for the elements themselves."
+  },
+  "examples": [
+    "The ordered map in several standard libraries",
+    "A scheduler's ordered set of timers"
+  ]
+}

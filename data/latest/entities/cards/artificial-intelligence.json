@@ -1,0 +1,16 @@
+{
+  "id": "artificial-intelligence",
+  "term": "Artificial Intelligence",
+  "aliases": [
+    "AI"
+  ],
+  "difficulty": "fundamental",
+  "definition": "Artificial intelligence is the effort to build systems that perform tasks we associate with judgment, perception, or language. It includes both hand-written rules and systems that learn from data. In current practice, most of the progress people mean by the term comes from machine learning.",
+  "categories": [
+    "artificial-intelligence"
+  ],
+  "examples": [
+    "A system that transcribes speech",
+    "A program that plays a game by search"
+  ]
+}

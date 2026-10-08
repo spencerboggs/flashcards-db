@@ -1,0 +1,20 @@
+{
+  "id": "dijkstra",
+  "term": "Dijkstra's Algorithm",
+  "aliases": [
+    "Dijkstra"
+  ],
+  "difficulty": "intermediate",
+  "definition": "Dijkstra's algorithm finds shortest paths from one source in a graph with non-negative edge weights. It grows a set of settled vertices, always settling next the unsettled vertex with the smallest known distance, which a priority queue can supply. A negative edge can make a settled distance wrong, so the algorithm does not allow them.",
+  "categories": [
+    "algorithms"
+  ],
+  "complexity": {
+    "time": "O((V + E) log V) with a binary heap.",
+    "space": "O(V) for distances and the queue."
+  },
+  "examples": [
+    "Driving directions on roads with non-negative lengths",
+    "Least-cost routing when no link has a negative cost"
+  ]
+}

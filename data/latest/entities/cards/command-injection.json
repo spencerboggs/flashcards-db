@@ -1,0 +1,14 @@
+{
+  "id": "command-injection",
+  "term": "Command Injection",
+  "aliases": [],
+  "difficulty": "intermediate",
+  "definition": "Command injection happens when untrusted text is placed into a shell command and the shell interprets it as syntax. The risk is the program running commands its author did not write. The defense is to avoid a shell and to pass the program and its arguments as separate values.",
+  "categories": [
+    "security"
+  ],
+  "examples": [
+    "Starting a process with an argument array rather than a shell string",
+    "Refusing to pass user input through a command interpreter"
+  ]
+}

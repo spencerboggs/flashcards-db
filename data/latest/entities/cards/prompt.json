@@ -1,0 +1,15 @@
+{
+  "id": "prompt",
+  "term": "Prompt",
+  "aliases": [],
+  "difficulty": "fundamental",
+  "definition": "A prompt is the input text given to a language model to steer what it produces. Instructions, examples, and the user's question are all part of the prompt. Changing the prompt changes the output without changing the model's parameters.",
+  "categories": [
+    "machine-learning"
+  ],
+  "prompt": "What is a prompt for a language model?",
+  "examples": [
+    "An instruction followed by a question",
+    "A few examples of the desired format, then a new case"
+  ]
+}

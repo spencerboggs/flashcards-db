@@ -1,0 +1,18 @@
+{
+  "id": "priority-queue",
+  "term": "Priority Queue",
+  "aliases": [],
+  "difficulty": "fundamental",
+  "definition": "A priority queue is a collection that removes the element with the highest priority, rather than the oldest or the newest. Insert and remove-highest are the operations. A binary heap is the usual implementation.",
+  "categories": [
+    "data-structures"
+  ],
+  "complexity": {
+    "time": "With a binary heap, insert and remove-highest are O(log n). Peek is O(1).",
+    "space": "O(n) space for the elements themselves."
+  },
+  "examples": [
+    "Tasks served by urgency instead of arrival time",
+    "The frontier of Dijkstra's algorithm"
+  ]
+}

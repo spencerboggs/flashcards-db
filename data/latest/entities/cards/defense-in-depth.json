@@ -1,0 +1,14 @@
+{
+  "id": "defense-in-depth",
+  "term": "Defense in Depth",
+  "aliases": [],
+  "difficulty": "fundamental",
+  "definition": "Defense in depth uses more than one independent control so a single failure does not fully expose the system. A check at the edge and a check at the data store are two layers. The layers have to be able to fail separately; two copies of the same check are not two layers.",
+  "categories": [
+    "security"
+  ],
+  "examples": [
+    "A network rule plus an authorization check in the application",
+    "Encryption plus access control"
+  ]
+}

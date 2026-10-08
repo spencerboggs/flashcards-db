@@ -1,0 +1,20 @@
+{
+  "id": "serialization",
+  "term": "Serialization",
+  "aliases": [
+    "Deserialization"
+  ],
+  "difficulty": "fundamental",
+  "definition": "Serialization turns an in-memory value into bytes or text that can be stored or sent. Deserialization rebuilds a value from that representation. Both sides must share a format, or the rebuilt value will be wrong or rejected.",
+  "categories": [
+    "distributed-systems",
+    "programming"
+  ],
+  "details": [
+    "Untrusted serialized data should be treated as input, not as a trusted object graph. Rebuilding arbitrary objects from it is a common source of bugs."
+  ],
+  "examples": [
+    "Encoding an order as JSON to send to another service",
+    "Writing a struct to a file and reading it back"
+  ]
+}

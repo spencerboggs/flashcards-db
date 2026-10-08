@@ -1,0 +1,14 @@
+{
+  "id": "integration-test",
+  "term": "Integration Test",
+  "aliases": [],
+  "difficulty": "fundamental",
+  "definition": "An integration test checks that several real parts work together. It might use a database, a queue, or two modules with their real boundary. Failures are broader than a unit test, and the test is usually slower.",
+  "categories": [
+    "testing"
+  ],
+  "examples": [
+    "A test that saves a row and reads it back through the repository",
+    "A test of a service calling its real database"
+  ]
+}

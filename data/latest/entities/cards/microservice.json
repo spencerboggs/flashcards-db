@@ -1,0 +1,15 @@
+{
+  "id": "microservice",
+  "term": "Microservice",
+  "aliases": [],
+  "difficulty": "intermediate",
+  "definition": "A microservice architecture splits an application into many services, each owning one capability and deployed independently. Teams can release their service without releasing the others. The cost is operational: network calls, partial failure, and data that is no longer in one database.",
+  "categories": [
+    "distributed-systems",
+    "software-engineering"
+  ],
+  "examples": [
+    "Separate services for catalog, cart, and payment",
+    "A release of one service that does not redeploy the rest"
+  ]
+}

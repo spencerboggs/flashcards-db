@@ -1,0 +1,15 @@
+{
+  "id": "deadlock",
+  "term": "Deadlock",
+  "aliases": [],
+  "difficulty": "intermediate",
+  "definition": "A deadlock is a set of threads or transactions that are all waiting, each holding a resource another one needs, so none can proceed. It requires mutual exclusion, hold-and-wait, no preemption of the resources, and a circular wait. Breaking any one of those conditions prevents that deadlock.",
+  "categories": [
+    "databases",
+    "operating-systems"
+  ],
+  "examples": [
+    "Thread A holding lock 1 and waiting for lock 2, while thread B does the opposite",
+    "Two database transactions locking rows in opposite orders"
+  ]
+}

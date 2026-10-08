@@ -1,0 +1,14 @@
+{
+  "id": "smoke-test",
+  "term": "Smoke Test",
+  "aliases": [],
+  "difficulty": "fundamental",
+  "definition": "A smoke test is a shallow check that a build is alive enough to test further. It does not try to cover behavior in depth. A failed smoke test means stop and look, because the basics are already broken.",
+  "categories": [
+    "testing"
+  ],
+  "examples": [
+    "A process that starts and answers a health check",
+    "A script that signs in and loads the home view"
+  ]
+}

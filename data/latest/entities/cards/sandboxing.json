@@ -1,0 +1,15 @@
+{
+  "id": "sandboxing",
+  "term": "Sandboxing",
+  "aliases": [],
+  "difficulty": "intermediate",
+  "definition": "Sandboxing runs code with a restricted set of privileges, so a mistake or a hostile input is confined. The sandbox decides which files, network calls, and system calls are allowed. It is the containment used for untrusted documents, plugins, and multi-tenant workloads.",
+  "categories": [
+    "operating-systems",
+    "security"
+  ],
+  "examples": [
+    "A browser renderer process with limited system access",
+    "A build job that cannot reach the production network"
+  ]
+}

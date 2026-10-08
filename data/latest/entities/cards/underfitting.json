@@ -1,0 +1,14 @@
+{
+  "id": "underfitting",
+  "term": "Underfitting",
+  "aliases": [],
+  "difficulty": "fundamental",
+  "definition": "Underfitting is when a model is too simple, or too weakly trained, to capture the pattern in the data. Both training and validation error stay high. The remedy is a more suitable model or more training, not more regularization.",
+  "categories": [
+    "machine-learning"
+  ],
+  "examples": [
+    "A straight line fit to data that clearly curves",
+    "A model whose training accuracy never rises"
+  ]
+}

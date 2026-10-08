@@ -1,0 +1,16 @@
+{
+  "id": "inter-process-communication",
+  "term": "Inter-Process Communication",
+  "aliases": [
+    "IPC"
+  ],
+  "difficulty": "intermediate",
+  "definition": "Inter-process communication is how separate processes exchange data. Common mechanisms are pipes, sockets, message queues, and shared memory. Shared memory is fast and requires synchronization; message mechanisms copy data and keep the processes isolated.",
+  "categories": [
+    "operating-systems"
+  ],
+  "examples": [
+    "A pipe between a parent process and a child",
+    "Two processes communicating over a local socket"
+  ]
+}

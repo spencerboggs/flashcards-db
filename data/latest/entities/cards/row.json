@@ -1,0 +1,18 @@
+{
+  "id": "row",
+  "term": "Row",
+  "aliases": [
+    "Record",
+    "Tuple"
+  ],
+  "difficulty": "fundamental",
+  "definition": "A row is one record in a table, a single tuple of values, one for each column. It is the unit that a primary key identifies. Two rows can hold the same values only if the table's constraints allow it.",
+  "categories": [
+    "databases"
+  ],
+  "prompt": "What is a row in a relational database?",
+  "examples": [
+    "One user",
+    "One line item of an order"
+  ]
+}

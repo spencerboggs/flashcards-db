@@ -1,0 +1,19 @@
+{
+  "id": "floating-point",
+  "term": "Floating Point",
+  "aliases": [],
+  "difficulty": "fundamental",
+  "definition": "A floating-point number approximates a real number with a sign, a significand, and an exponent. It covers a huge range of magnitudes, but many decimal fractions, including 0.1, are not exact. Equality tests and sums of money need care because of that rounding.",
+  "categories": [
+    "computer-architecture",
+    "programming"
+  ],
+  "details": [
+    "Special values include infinity and not-a-number. Not-a-number is not equal to itself.",
+    "Integers beyond the significand's width cannot all be represented exactly."
+  ],
+  "examples": [
+    "A graphics coordinate",
+    "A scientific measurement with a large exponent"
+  ]
+}

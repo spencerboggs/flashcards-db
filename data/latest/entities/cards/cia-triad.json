@@ -1,0 +1,15 @@
+{
+  "id": "cia-triad",
+  "term": "CIA Triad",
+  "aliases": [],
+  "difficulty": "fundamental",
+  "definition": "The CIA triad names three security goals: confidentiality, integrity, and availability. Confidentiality means the wrong party cannot read the data. Integrity means it cannot be changed without detection. Availability means the legitimate party can get to it when needed.",
+  "categories": [
+    "security"
+  ],
+  "examples": [
+    "Encryption supporting confidentiality",
+    "A signature supporting integrity",
+    "Redundancy supporting availability"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "id": "deployment",
+  "term": "Deployment",
+  "aliases": [],
+  "difficulty": "fundamental",
+  "definition": "A deployment is the act of putting a built version of software into an environment where it runs. It is distinct from the build that produced the artifact. A successful deployment leaves the new version serving traffic, or leaves the previous version in place if it aborts.",
+  "categories": [
+    "infrastructure",
+    "software-engineering"
+  ],
+  "examples": [
+    "Releasing a new image to production",
+    "Shipping a build to a staging environment first"
+  ]
+}

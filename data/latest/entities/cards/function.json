@@ -1,0 +1,14 @@
+{
+  "id": "function",
+  "term": "Function",
+  "aliases": [],
+  "difficulty": "fundamental",
+  "definition": "A function is a named block of code with inputs, a body, and usually a result. Calling it runs that body with the arguments from the call. One definition can be reused instead of copying the steps.",
+  "categories": [
+    "programming"
+  ],
+  "examples": [
+    "A function that returns the larger of two numbers",
+    "A function that formats a date"
+  ]
+}

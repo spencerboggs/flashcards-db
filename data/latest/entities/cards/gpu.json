@@ -1,0 +1,17 @@
+{
+  "id": "gpu",
+  "term": "GPU",
+  "aliases": [
+    "Graphics Processing Unit"
+  ],
+  "difficulty": "fundamental",
+  "definition": "A GPU is a processor built to run a huge number of similar operations at once. It was designed for graphics and is also used for other data-parallel work, including training neural networks. It is fast at that parallel work and poor at long chains of unpredictable branches.",
+  "categories": [
+    "computer-architecture",
+    "computer-graphics"
+  ],
+  "examples": [
+    "Shading every pixel of a frame",
+    "Multiplying large matrices"
+  ]
+}

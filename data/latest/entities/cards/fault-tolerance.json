@@ -1,0 +1,14 @@
+{
+  "id": "fault-tolerance",
+  "term": "Fault Tolerance",
+  "aliases": [],
+  "difficulty": "intermediate",
+  "definition": "Fault tolerance is continuing to provide the service when parts fail. It requires redundancy: another copy, or another instance, that can take the work. The system has to detect the failure and stop using the failed part.",
+  "categories": [
+    "distributed-systems"
+  ],
+  "examples": [
+    "A replica promoted when the primary stops responding",
+    "A request retried on a different instance"
+  ]
+}

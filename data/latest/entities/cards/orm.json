@@ -1,0 +1,17 @@
+{
+  "id": "orm",
+  "term": "ORM",
+  "aliases": [
+    "Object-Relational Mapping"
+  ],
+  "difficulty": "intermediate",
+  "definition": "An ORM maps rows to objects and lets application code read and write those objects instead of writing every SQL statement by hand. The mapping is convenient and can hide the queries it generates. Knowing the generated SQL still matters, because the cost is the database's cost, not the object's.",
+  "categories": [
+    "databases",
+    "programming"
+  ],
+  "examples": [
+    "Loading a user object that came from the users table",
+    "A save that becomes an insert or an update"
+  ]
+}

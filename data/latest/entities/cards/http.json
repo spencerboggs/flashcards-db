@@ -1,0 +1,21 @@
+{
+  "id": "http",
+  "term": "HTTP",
+  "aliases": [
+    "Hypertext Transfer Protocol"
+  ],
+  "difficulty": "fundamental",
+  "definition": "HTTP is a request-response protocol for transferring resources, used by browsers and by APIs. A request names a method and a target; a response carries a status code and a body. The protocol itself does not remember the client between requests; any session state is added by the application.",
+  "categories": [
+    "networking",
+    "web"
+  ],
+  "details": [
+    "GET is for reading and is meant to be safe. PUT and DELETE are meant to be idempotent. POST is the method for actions that are not necessarily either.",
+    "Status classes: 2xx success, 3xx redirection, 4xx client error, 5xx server error."
+  ],
+  "examples": [
+    "A browser fetching a page",
+    "A client posting JSON to an API"
+  ]
+}

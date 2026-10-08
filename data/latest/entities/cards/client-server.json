@@ -1,0 +1,16 @@
+{
+  "id": "client-server",
+  "term": "Client-Server",
+  "aliases": [],
+  "difficulty": "fundamental",
+  "definition": "Client-server is an arrangement where clients request work and a server performs it and responds. The server holds the shared resource or the authority. Many clients share one server, or a tier of servers.",
+  "categories": [
+    "distributed-systems",
+    "networking",
+    "web"
+  ],
+  "examples": [
+    "Browsers requesting pages from a web server",
+    "Applications querying a database server"
+  ]
+}

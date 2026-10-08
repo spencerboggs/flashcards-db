@@ -1,0 +1,15 @@
+{
+  "id": "web-server",
+  "term": "Web Server",
+  "aliases": [],
+  "difficulty": "fundamental",
+  "definition": "A web server accepts HTTP connections and returns responses. It may serve files itself or forward requests to an application. The term is the program, not the machine it runs on.",
+  "categories": [
+    "networking",
+    "web"
+  ],
+  "examples": [
+    "A server that returns static files",
+    "A server that forwards dynamic requests to an application process"
+  ]
+}

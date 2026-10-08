@@ -1,0 +1,14 @@
+{
+  "id": "runtime",
+  "term": "Runtime",
+  "aliases": [],
+  "difficulty": "fundamental",
+  "definition": "The runtime is the support code that a program needs while it is executing: memory allocation, garbage collection, scheduling of tasks, and the standard library's ties to the operating system. Compiled machine code still has a runtime. It is not the same thing as the compiler, which has already finished.",
+  "categories": [
+    "programming-languages"
+  ],
+  "examples": [
+    "A garbage collector running during a program",
+    "The scheduler behind async tasks"
+  ]
+}

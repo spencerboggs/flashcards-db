@@ -1,0 +1,15 @@
+{
+  "id": "cherry-pick",
+  "term": "Cherry-pick",
+  "aliases": [],
+  "difficulty": "intermediate",
+  "definition": "Cherry-pick copies one commit's change onto the current branch as a new commit. The new commit has a different hash and the current branch as its parent. It is how a single fix moves to a release branch without merging everything else.",
+  "categories": [
+    "version-control"
+  ],
+  "prompt": "What does git cherry-pick do?",
+  "examples": [
+    "Copying one bug fix onto a release branch",
+    "Replaying a commit that landed on the wrong branch"
+  ]
+}

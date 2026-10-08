@@ -1,0 +1,15 @@
+{
+  "id": "distributed-transaction",
+  "term": "Distributed Transaction",
+  "aliases": [],
+  "difficulty": "advanced",
+  "definition": "A distributed transaction is a transaction whose writes span more than one service or database. Two-phase commit coordinates them: every participant prepares, then all commit, or all abort. It is often avoided, because a slow or failed participant blocks the others, in favor of smaller local transactions plus compensation.",
+  "categories": [
+    "databases",
+    "distributed-systems"
+  ],
+  "examples": [
+    "Two databases committing one logical update together",
+    "A saga that undoes an earlier step when a later step fails"
+  ]
+}

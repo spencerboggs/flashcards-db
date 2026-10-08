@@ -1,0 +1,14 @@
+{
+  "id": "abstract-class",
+  "term": "Abstract Class",
+  "aliases": [],
+  "difficulty": "intermediate",
+  "definition": "An abstract class is a class that cannot be instantiated on its own and exists to be extended. It can hold fields and implemented methods, and it can declare methods that subclasses must implement. It sits between a concrete class and a pure interface.",
+  "categories": [
+    "object-oriented-programming"
+  ],
+  "examples": [
+    "A Shape class with a position field and an abstract area method",
+    "A base parser that implements shared bookkeeping and leaves one method abstract"
+  ]
+}

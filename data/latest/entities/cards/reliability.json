@@ -1,0 +1,15 @@
+{
+  "id": "reliability",
+  "term": "Reliability",
+  "aliases": [],
+  "difficulty": "fundamental",
+  "definition": "Reliability is the likelihood that a system does what it is supposed to do, correctly, for a period of time. A system can be up and still unreliable if its answers are wrong. Measuring it means defining the failure, not only the uptime.",
+  "categories": [
+    "distributed-systems",
+    "software-engineering"
+  ],
+  "examples": [
+    "A payment call that either charges once or fails cleanly",
+    "A storage system that does not lose an acknowledged write"
+  ]
+}

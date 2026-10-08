@@ -1,0 +1,15 @@
+{
+  "id": "replication",
+  "term": "Replication",
+  "aliases": [],
+  "difficulty": "intermediate",
+  "definition": "Replication keeps copies of the same data on more than one node. It is used for failover and to spread reads. The copies can lag, so a read of a replica may not yet show the latest write, depending on the consistency the system provides.",
+  "categories": [
+    "databases",
+    "distributed-systems"
+  ],
+  "examples": [
+    "A primary database with replicas that take over if it fails",
+    "Read queries sent to a replica"
+  ]
+}

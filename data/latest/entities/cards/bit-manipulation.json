@@ -1,0 +1,20 @@
+{
+  "id": "bit-manipulation",
+  "term": "Bit Manipulation",
+  "aliases": [],
+  "difficulty": "intermediate",
+  "definition": "Bit manipulation changes a number by operating on its individual bits. And, or, and xor combine two bit patterns; shifts move bits left or right; a mask isolates the bits you care about. Programs use it for flags, sets of small integers, and arithmetic that stays inside one machine word.",
+  "categories": [
+    "algorithms",
+    "computer-architecture",
+    "programming"
+  ],
+  "details": [
+    "Shifting left by k multiplies an unsigned value by 2^k. An arithmetic right shift fills with the sign bit; a logical right shift fills with zero.",
+    "Xor of a value with itself is zero, and xor with zero leaves a value unchanged."
+  ],
+  "examples": [
+    "A permissions word where each bit is one permission",
+    "Testing whether the kth bit of a number is set"
+  ]
+}

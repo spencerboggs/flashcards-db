@@ -1,0 +1,16 @@
+{
+  "id": "dhcp",
+  "term": "DHCP",
+  "aliases": [
+    "Dynamic Host Configuration Protocol"
+  ],
+  "difficulty": "fundamental",
+  "definition": "DHCP assigns a host its IP configuration when it joins a network: an address, a subnet mask, a gateway, and usually DNS servers. The assignment is a lease that expires and can be renewed. It saves every machine from being configured by hand.",
+  "categories": [
+    "networking"
+  ],
+  "examples": [
+    "A laptop receiving an address when it joins a network",
+    "A lease that is renewed before it expires"
+  ]
+}

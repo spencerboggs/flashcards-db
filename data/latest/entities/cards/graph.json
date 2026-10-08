@@ -1,0 +1,24 @@
+{
+  "id": "graph",
+  "term": "Graph",
+  "aliases": [],
+  "difficulty": "fundamental",
+  "definition": "A graph is a set of vertices connected by edges. An edge says that two vertices are related. Graphs model networks, dependencies, and any problem whose structure is connections rather than a hierarchy.",
+  "categories": [
+    "algorithms",
+    "data-structures",
+    "mathematics"
+  ],
+  "prompt": "What is a graph as a data structure?",
+  "details": [
+    "A tree is a graph with no cycles and exactly one path between any two vertices, once a root is chosen.",
+    "A graph may be directed, undirected, weighted, or any mix of those."
+  ],
+  "complexity": {
+    "space": "O(V + E) in an adjacency list, or O(V^2) in a matrix. V is vertices and E is edges."
+  },
+  "examples": [
+    "Cities connected by roads",
+    "Tasks connected by 'must happen before' links"
+  ]
+}

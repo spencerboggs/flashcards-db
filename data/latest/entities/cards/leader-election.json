@@ -1,0 +1,14 @@
+{
+  "id": "leader-election",
+  "term": "Leader Election",
+  "aliases": [],
+  "difficulty": "advanced",
+  "definition": "Leader election chooses one node in a group to coordinate, so the others do not all try to write at once. The leader stays leader until it fails or cannot be reached, and then the remaining nodes elect another. A split view of who is leader is the failure the algorithm has to prevent.",
+  "categories": [
+    "distributed-systems"
+  ],
+  "examples": [
+    "A database primary chosen by the replicas",
+    "A Raft term in which one node is leader"
+  ]
+}

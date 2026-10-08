@@ -1,0 +1,15 @@
+{
+  "id": "rendering",
+  "term": "Rendering",
+  "aliases": [],
+  "difficulty": "fundamental",
+  "definition": "Rendering turns a description of a scene into an image. The description names geometry, materials, lights, and a camera; the image is the grid of colors a viewer sees. Real-time rendering keeps up with interaction, and offline rendering spends longer for a single picture.",
+  "categories": [
+    "computer-graphics"
+  ],
+  "prompt": "What is rendering in computer graphics?",
+  "examples": [
+    "A game drawing a frame",
+    "A ray tracer producing one image of a scene"
+  ]
+}

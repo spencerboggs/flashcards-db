@@ -1,0 +1,15 @@
+{
+  "id": "event-driven-architecture",
+  "term": "Event-Driven Architecture",
+  "aliases": [],
+  "difficulty": "intermediate",
+  "definition": "An event-driven architecture has components react to events instead of calling each other for every step. A producer records that something happened, and consumers respond. The producer does not need to know who consumes the event, and a failed consumer can catch up from the log.",
+  "categories": [
+    "distributed-systems",
+    "software-engineering"
+  ],
+  "examples": [
+    "A payment service reacting to an order-placed event",
+    "A projection that updates a read model from a stream of events"
+  ]
+}

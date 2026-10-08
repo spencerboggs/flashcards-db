@@ -1,0 +1,23 @@
+{
+  "id": "prefix-sum",
+  "term": "Prefix Sum",
+  "aliases": [
+    "Prefix Sums"
+  ],
+  "difficulty": "intermediate",
+  "definition": "A prefix sum array stores the sum of every element up to each index. After that array is built, the sum of any contiguous range is the difference of two prefix values. Building it is linear, and each later range query is constant time.",
+  "categories": [
+    "algorithms"
+  ],
+  "details": [
+    "With prefix[0] = 0 and prefix[i] equal to the sum of the first i elements, the sum from index l through r is prefix[r + 1] - prefix[l]."
+  ],
+  "complexity": {
+    "time": "O(n) to build. O(1) per range sum afterward.",
+    "space": "O(n) for the prefix array."
+  },
+  "examples": [
+    "Many range-sum queries on an array that does not change",
+    "Counting how many items fall in a score band"
+  ]
+}

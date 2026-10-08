@@ -1,0 +1,15 @@
+{
+  "id": "authorization",
+  "term": "Authorization",
+  "aliases": [],
+  "difficulty": "fundamental",
+  "definition": "Authorization decides what an already identified party is allowed to do. It runs after authentication: knowing who someone is does not by itself grant access. The check is against permissions, roles, or a policy for the specific action and resource.",
+  "categories": [
+    "security",
+    "web"
+  ],
+  "examples": [
+    "Allowing the owner of a document to edit it",
+    "Refusing a signed-in user who is not an administrator"
+  ]
+}

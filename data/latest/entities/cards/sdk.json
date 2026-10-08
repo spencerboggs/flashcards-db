@@ -1,0 +1,16 @@
+{
+  "id": "sdk",
+  "term": "SDK",
+  "aliases": [
+    "Software Development Kit"
+  ],
+  "difficulty": "fundamental",
+  "definition": "An SDK is a kit for building software on a platform: libraries, tools, and documentation shipped together. It is aimed at developers, not at the end users of the platform. The application calls the libraries the kit contains.",
+  "categories": [
+    "programming"
+  ],
+  "examples": [
+    "A mobile platform kit with libraries and a simulator",
+    "A kit for calling a vendor's HTTP API"
+  ]
+}

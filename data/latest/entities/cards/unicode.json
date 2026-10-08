@@ -1,0 +1,18 @@
+{
+  "id": "unicode",
+  "term": "Unicode",
+  "aliases": [],
+  "difficulty": "fundamental",
+  "definition": "Unicode assigns a code point, a number, to almost every written character. Stored text is those numbers encoded as bytes, most often with UTF-8. A character a person sees is not always one code point, and a code point is not always one byte.",
+  "categories": [
+    "programming"
+  ],
+  "details": [
+    "UTF-8 uses one byte for ASCII and up to four bytes for other characters. Slicing a string by bytes can cut a character in half.",
+    "Comparing text sometimes requires a normalized form, because one character can be encoded as one code point or as a base plus a combining mark."
+  ],
+  "examples": [
+    "A name containing an accented letter",
+    "An emoji stored as more than one code point"
+  ]
+}

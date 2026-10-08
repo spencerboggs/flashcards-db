@@ -1,0 +1,17 @@
+{
+  "id": "exception",
+  "term": "Exception",
+  "aliases": [],
+  "difficulty": "fundamental",
+  "definition": "An exception is a signal that an operation failed and cannot finish normally. Raising it jumps to the nearest handler for that failure and unwinds the calls in between. The failure path stays separate from the path where the operation succeeds.",
+  "categories": [
+    "programming"
+  ],
+  "details": [
+    "An unhandled exception stops the current unit of work. A handler can recover, record the failure, or raise a different exception."
+  ],
+  "examples": [
+    "Opening a file that is not there",
+    "Dividing by zero in a language that reports it this way"
+  ]
+}

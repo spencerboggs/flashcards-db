@@ -1,0 +1,17 @@
+{
+  "id": "infrastructure-as-code",
+  "term": "Infrastructure as Code",
+  "aliases": [
+    "IaC"
+  ],
+  "difficulty": "intermediate",
+  "definition": "Infrastructure as code describes servers, networks, and policies in files that a tool applies, instead of changing them by hand. The files are reviewed and versioned like application code. Applying the same files again converges the real infrastructure toward that description.",
+  "categories": [
+    "infrastructure",
+    "software-engineering"
+  ],
+  "examples": [
+    "A file that declares a database and its network rules",
+    "A review of an infrastructure change before it is applied"
+  ]
+}

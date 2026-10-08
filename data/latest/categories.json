@@ -1,0 +1,158 @@
+[
+  {
+    "id": "programming",
+    "name": "Programming",
+    "summary": "How programs are written, structured, and executed.",
+    "parent": null,
+    "children": [
+      "object-oriented-programming"
+    ]
+  },
+  {
+    "id": "object-oriented-programming",
+    "name": "Object-Oriented Programming",
+    "summary": "How programs are organized as objects with their own data and behavior.",
+    "parent": "programming",
+    "children": []
+  },
+  {
+    "id": "data-structures",
+    "name": "Data Structures",
+    "summary": "Ways of organizing data so it can be stored and retrieved efficiently.",
+    "parent": null,
+    "children": []
+  },
+  {
+    "id": "algorithms",
+    "name": "Algorithms",
+    "summary": "Procedures for solving problems, and how their cost is described.",
+    "parent": null,
+    "children": []
+  },
+  {
+    "id": "programming-languages",
+    "name": "Programming Languages",
+    "summary": "How languages, compilers, and runtimes represent and execute programs.",
+    "parent": null,
+    "children": []
+  },
+  {
+    "id": "software-engineering",
+    "name": "Software Engineering",
+    "summary": "How software is designed, changed, and kept reliable over time.",
+    "parent": null,
+    "children": [
+      "testing",
+      "version-control"
+    ]
+  },
+  {
+    "id": "testing",
+    "name": "Testing",
+    "summary": "How a program's behavior is checked before and after a change.",
+    "parent": "software-engineering",
+    "children": []
+  },
+  {
+    "id": "version-control",
+    "name": "Version Control",
+    "summary": "How the history of a codebase is recorded, branched, and shared.",
+    "parent": "software-engineering",
+    "children": []
+  },
+  {
+    "id": "operating-systems",
+    "name": "Operating Systems",
+    "summary": "How a computer runs programs and shares its hardware among them.",
+    "parent": null,
+    "children": []
+  },
+  {
+    "id": "computer-architecture",
+    "name": "Computer Architecture",
+    "summary": "How processors, memory, and instructions are organized in hardware.",
+    "parent": null,
+    "children": []
+  },
+  {
+    "id": "networking",
+    "name": "Networking",
+    "summary": "How computers address each other and exchange data.",
+    "parent": null,
+    "children": []
+  },
+  {
+    "id": "web",
+    "name": "Web",
+    "summary": "How browsers, servers, and HTTP APIs fit together.",
+    "parent": null,
+    "children": []
+  },
+  {
+    "id": "databases",
+    "name": "Databases",
+    "summary": "How durable data is modeled, stored, and queried.",
+    "parent": null,
+    "children": []
+  },
+  {
+    "id": "distributed-systems",
+    "name": "Distributed Systems",
+    "summary": "How several computers cooperate to do one job.",
+    "parent": null,
+    "children": []
+  },
+  {
+    "id": "security",
+    "name": "Security",
+    "summary": "How a system stays confidential, intact, and available.",
+    "parent": null,
+    "children": [
+      "cryptography"
+    ]
+  },
+  {
+    "id": "cryptography",
+    "name": "Cryptography",
+    "summary": "How information is hidden, authenticated, and checked for tampering.",
+    "parent": "security",
+    "children": []
+  },
+  {
+    "id": "artificial-intelligence",
+    "name": "Artificial Intelligence",
+    "summary": "How computers perform tasks that usually require judgment or learning.",
+    "parent": null,
+    "children": [
+      "machine-learning"
+    ]
+  },
+  {
+    "id": "machine-learning",
+    "name": "Machine Learning",
+    "summary": "How models learn patterns from examples and are then used to predict.",
+    "parent": "artificial-intelligence",
+    "children": []
+  },
+  {
+    "id": "mathematics",
+    "name": "Mathematics",
+    "summary": "The mathematics used directly in computer science and engineering.",
+    "parent": null,
+    "children": []
+  },
+  {
+    "id": "computer-graphics",
+    "name": "Computer Graphics",
+    "summary": "How images, geometry, and scenes are represented and drawn.",
+    "parent": null,
+    "children": []
+  },
+  {
+    "id": "infrastructure",
+    "name": "Infrastructure",
+    "summary": "How software is built, deployed, and operated in production.",
+    "parent": null,
+    "children": []
+  }
+]

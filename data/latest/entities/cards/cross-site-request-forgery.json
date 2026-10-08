@@ -1,0 +1,17 @@
+{
+  "id": "cross-site-request-forgery",
+  "term": "Cross-Site Request Forgery",
+  "aliases": [
+    "CSRF"
+  ],
+  "difficulty": "intermediate",
+  "definition": "Cross-site request forgery happens when a browser attaches a user's credentials, such as a cookie, to a request the user did not intend, initiated from another site. The risk is an action performed while the user is signed in. The defense is a secret the other site cannot read, together with SameSite cookies on the session.",
+  "categories": [
+    "security",
+    "web"
+  ],
+  "examples": [
+    "A state-changing request that requires a per-session token",
+    "A session cookie marked SameSite"
+  ]
+}

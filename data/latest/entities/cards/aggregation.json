@@ -1,0 +1,14 @@
+{
+  "id": "aggregation",
+  "term": "Aggregation",
+  "aliases": [],
+  "difficulty": "intermediate",
+  "definition": "Aggregation is a has-a relationship in which the contained object can outlive the container. The container uses the part and does not own its lifetime. It is a weaker link than composition.",
+  "categories": [
+    "object-oriented-programming"
+  ],
+  "examples": [
+    "A university that aggregates students who exist independently",
+    "A playlist that refers to songs stored elsewhere"
+  ]
+}

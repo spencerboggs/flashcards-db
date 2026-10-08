@@ -1,0 +1,18 @@
+{
+  "id": "cdn",
+  "term": "CDN",
+  "aliases": [
+    "Content Delivery Network"
+  ],
+  "difficulty": "fundamental",
+  "definition": "A CDN stores copies of content at many locations and serves a user from a nearby one. The origin is contacted when the nearby copy misses or expires. It cuts latency for static content and absorbs load that would otherwise hit the origin.",
+  "categories": [
+    "infrastructure",
+    "networking",
+    "web"
+  ],
+  "examples": [
+    "An image served from a location near the user",
+    "A cached copy of a script that many pages share"
+  ]
+}

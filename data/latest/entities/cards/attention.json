@@ -1,0 +1,15 @@
+{
+  "id": "attention",
+  "term": "Attention",
+  "aliases": [],
+  "difficulty": "intermediate",
+  "definition": "Attention computes, for each item in a sequence, a weighted mix of the other items. The weights say how much that item should depend on each of the others for this layer. It is the operation a transformer uses to move information between tokens.",
+  "categories": [
+    "machine-learning"
+  ],
+  "prompt": "What is attention in a neural network?",
+  "examples": [
+    "A translation model focusing on the source word being translated",
+    "A token attending to an earlier token that names its subject"
+  ]
+}

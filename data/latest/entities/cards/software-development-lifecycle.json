@@ -1,0 +1,16 @@
+{
+  "id": "software-development-lifecycle",
+  "term": "Software Development Lifecycle",
+  "aliases": [
+    "SDLC"
+  ],
+  "difficulty": "fundamental",
+  "definition": "The software development lifecycle is the path a system takes from a need, through design, building, testing, and release, and on into maintenance. Different processes order those activities differently: a single pass, or many short iterations. The lifecycle is the set of activities, not one particular process diagram.",
+  "categories": [
+    "software-engineering"
+  ],
+  "examples": [
+    "An iteration that ships a small change from requirement to release",
+    "A maintenance release that fixes a defect in a system already in use"
+  ]
+}

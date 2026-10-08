@@ -1,0 +1,15 @@
+{
+  "id": "ml-dataset",
+  "term": "Dataset",
+  "aliases": [],
+  "difficulty": "fundamental",
+  "definition": "A dataset is the collection of examples a model is trained or evaluated on. How it was gathered, and what it leaves out, shows up in the model's behavior. Splitting it into training, validation, and test portions is what makes evaluation honest.",
+  "categories": [
+    "machine-learning"
+  ],
+  "prompt": "What is a dataset in machine learning?",
+  "examples": [
+    "A table of labeled emails",
+    "A set of images with captions"
+  ]
+}

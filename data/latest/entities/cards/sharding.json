@@ -1,0 +1,15 @@
+{
+  "id": "sharding",
+  "term": "Sharding",
+  "aliases": [],
+  "difficulty": "intermediate",
+  "definition": "Sharding splits a dataset across nodes by a key, so each node holds a subset of the rows. It scales writes and storage past one machine. A query that does not include the shard key may have to visit every shard, and re-sharding moves data.",
+  "categories": [
+    "databases",
+    "distributed-systems"
+  ],
+  "examples": [
+    "Users divided by user id across ten databases",
+    "A query for one user that hits only that user's shard"
+  ]
+}

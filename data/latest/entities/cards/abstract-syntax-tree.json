@@ -1,0 +1,16 @@
+{
+  "id": "abstract-syntax-tree",
+  "term": "Abstract Syntax Tree",
+  "aliases": [
+    "AST"
+  ],
+  "difficulty": "intermediate",
+  "definition": "An abstract syntax tree is the tree a parser produces, with a node for each construct and children for its parts. It omits purely syntactic punctuation. Later phases, such as type checking and code generation, walk this tree rather than the source text.",
+  "categories": [
+    "programming-languages"
+  ],
+  "examples": [
+    "A node for a function call with child nodes for the arguments",
+    "A binary node for an addition"
+  ]
+}

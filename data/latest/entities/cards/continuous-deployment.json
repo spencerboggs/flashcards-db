@@ -1,0 +1,15 @@
+{
+  "id": "continuous-deployment",
+  "term": "Continuous Deployment",
+  "aliases": [],
+  "difficulty": "intermediate",
+  "definition": "Continuous deployment goes one step past continuous delivery: every change that passes the pipeline is deployed to production automatically. There is no separate human release step. It requires a pipeline trustworthy enough that a passing build is safe to ship.",
+  "categories": [
+    "infrastructure",
+    "software-engineering"
+  ],
+  "examples": [
+    "A merge to main that reaches production without a release meeting",
+    "An automatic rollback when health checks fail after a deploy"
+  ]
+}

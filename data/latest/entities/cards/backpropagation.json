@@ -1,0 +1,14 @@
+{
+  "id": "backpropagation",
+  "term": "Backpropagation",
+  "aliases": [],
+  "difficulty": "intermediate",
+  "definition": "Backpropagation computes the gradient of the loss with respect to each parameter by the chain rule, starting at the output and moving back through the layers. It is how a deep network knows which way to adjust an early weight. It is a way to compute the gradient, not a separate learning rule from gradient descent.",
+  "categories": [
+    "machine-learning"
+  ],
+  "examples": [
+    "Gradients flowing from a classification loss back to the first layer",
+    "A framework recording operations so it can differentiate them"
+  ]
+}

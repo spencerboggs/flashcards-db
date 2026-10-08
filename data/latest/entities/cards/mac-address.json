@@ -1,0 +1,16 @@
+{
+  "id": "mac-address",
+  "term": "MAC Address",
+  "aliases": [
+    "Hardware Address"
+  ],
+  "difficulty": "fundamental",
+  "definition": "A MAC address is the link-layer address of a network interface, used to deliver a frame across one local network. It is not used to route a packet across the internet; the IP address is. Switches learn which MAC address sits on which port.",
+  "categories": [
+    "networking"
+  ],
+  "examples": [
+    "The address of a laptop's network interface",
+    "A switch forwarding a frame to the port that last sent that address"
+  ]
+}

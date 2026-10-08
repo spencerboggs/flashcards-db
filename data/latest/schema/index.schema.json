@@ -1,0 +1,28 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "index.schema.json",
+  "title": "Index entry",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "id",
+    "type",
+    "name"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$",
+      "maxLength": 96
+    },
+    "type": {
+      "enum": [
+        "card",
+        "category"
+      ]
+    },
+    "name": {
+      "type": "string"
+    }
+  }
+}

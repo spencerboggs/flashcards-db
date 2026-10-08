@@ -1,0 +1,14 @@
+{
+  "id": "backoff",
+  "term": "Backoff",
+  "aliases": [],
+  "difficulty": "intermediate",
+  "definition": "Backoff waits between retries, and usually waits longer after each failure. The delay gives an overloaded dependency time to recover. Adding jitter, a random spread around the delay, keeps many clients from retrying at the same moment.",
+  "categories": [
+    "distributed-systems"
+  ],
+  "examples": [
+    "Waits of 100 ms, then 200 ms, then 400 ms",
+    "Jitter so a fleet of clients does not retry in lockstep"
+  ]
+}

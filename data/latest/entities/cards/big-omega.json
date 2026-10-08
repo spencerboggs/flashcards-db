@@ -1,0 +1,17 @@
+{
+  "id": "big-omega",
+  "term": "Big-Omega",
+  "aliases": [
+    "Omega Notation"
+  ],
+  "difficulty": "intermediate",
+  "definition": "Big-Omega describes a lower bound on how a cost grows. It says the cost is at least on the order of the stated function. A matching Big-O and Big-Omega together are a Big-Theta bound.",
+  "categories": [
+    "algorithms",
+    "mathematics"
+  ],
+  "examples": [
+    "Any comparison sort is Omega(n log n) in the worst case",
+    "Reading n inputs is Omega(n)"
+  ]
+}

@@ -1,0 +1,4327 @@
+[
+  {
+    "id": "a-star",
+    "term": "A*",
+    "aliases": [
+      "A Star"
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "algorithms"
+    ]
+  },
+  {
+    "id": "abi",
+    "term": "ABI",
+    "aliases": [
+      "Application Binary Interface"
+    ],
+    "difficulty": "advanced",
+    "categories": [
+      "computer-architecture",
+      "programming-languages"
+    ]
+  },
+  {
+    "id": "abstract-class",
+    "term": "Abstract Class",
+    "aliases": [],
+    "difficulty": "intermediate",
+    "categories": [
+      "object-oriented-programming"
+    ]
+  },
+  {
+    "id": "abstract-syntax-tree",
+    "term": "Abstract Syntax Tree",
+    "aliases": [
+      "AST"
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "programming-languages"
+    ]
+  },
+  {
+    "id": "abstraction",
+    "term": "Abstraction",
+    "aliases": [],
+    "difficulty": "fundamental",
+    "categories": [
+      "object-oriented-programming",
+      "software-engineering"
+    ]
+  },
+  {
+    "id": "accounting",
+    "term": "Accounting",
+    "aliases": [
+      "Audit Logging"
+    ],
+    "difficulty": "fundamental",
+    "categories": [
+      "security"
+    ]
+  },
+  {
+    "id": "acid",
+    "term": "ACID",
+    "aliases": [],
+    "difficulty": "fundamental",
+    "categories": [
+      "databases"
+    ]
+  },
+  {
+    "id": "activation-function",
+    "term": "Activation Function",
+    "aliases": [],
+    "difficulty": "intermediate",
+    "categories": [
+      "machine-learning"
+    ]
+  },
+  {
+    "id": "adjacency-list",
+    "term": "Adjacency List",
+    "aliases": [],
+    "difficulty": "fundamental",
+    "categories": [
+      "algorithms",
+      "data-structures"
+    ]
+  },
+  {
+    "id": "adjacency-matrix",
+    "term": "Adjacency Matrix",
+    "aliases": [],
+    "difficulty": "fundamental",
+    "categories": [
+      "algorithms",
+      "data-structures"
+    ]
+  },
+  {
+    "id": "agent",
+    "term": "Agent",
+    "aliases": [],
+    "difficulty": "intermediate",
+    "categories": [
+      "machine-learning"
+    ]
+  },
+  {
+    "id": "aggregation",
+    "term": "Aggregation",
+    "aliases": [],
+    "difficulty": "intermediate",
+    "categories": [
+      "object-oriented-programming"
+    ]
+  },
+  {
+    "id": "ahead-of-time-compilation",
+    "term": "Ahead-of-Time Compilation",
+    "aliases": [
+      "AOT"
+    ],
+    "difficulty": "fundamental",
+    "categories": [
+      "programming-languages"
+    ]
+  },
+  {
+    "id": "alerting",
+    "term": "Alerting",
+    "aliases": [],
+    "difficulty": "fundamental",
+    "categories": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "algorithm",
+    "term": "Algorithm",
+    "aliases": [],
+    "difficulty": "fundamental",
+    "categories": [
+      "algorithms"
+    ]
+  },
+  {
+    "id": "alu",
+    "term": "ALU",
+    "aliases": [
+      "Arithmetic Logic Unit"
+    ],
+    "difficulty": "fundamental",
+    "categories": [
+      "computer-architecture"
+    ]
+  },
+  {
+    "id": "anti-aliasing",
+    "term": "Anti-Aliasing",
+    "aliases": [],
+    "difficulty": "intermediate",
+    "categories": [
+      "computer-graphics"
+    ]
+  },
+  {
+    "id": "api",
+    "term": "API",
+    "aliases": [
+      "Application Programming Interface"
+    ],
+    "difficulty": "fundamental",
+    "categories": [
+      "programming",
+      "software-engineering",
+      "web"
+    ]
+  },
+  {
+    "id": "api-design",
+    "term": "API Design",
+    "aliases": [],
+    "difficulty": "intermediate",
+    "categories": [
+      "programming",
+      "software-engineering",
+      "web"
+    ]
+  },
+  {
+    "id": "argument",
+    "term": "Argument",
+    "aliases": [],
+    "difficulty": "fundamental",
+    "categories": [
+      "programming"
+    ]
+  },
+  {
+    "id": "arp",
+    "term": "ARP",
+    "aliases": [
+      "Address Resolution Protocol"
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "networking"
+    ]
+  },
+  {
+    "id": "array",
+    "term": "Array",
+    "aliases": [],
+    "difficulty": "fundamental",
+    "categories": [
+      "data-structures"
+    ]
+  },
+  {
+    "id": "artificial-intelligence",
+    "term": "Artificial Intelligence",
+    "aliases": [
+      "AI"
+    ],
+    "difficulty": "fundamental",
+    "categories": [
+      "artificial-intelligence"
+    ]
+  },
+  {
+    "id": "assembly",
+    "term": "Assembly",
+    "aliases": [
+      "Assembly Language"
+    ],
+    "difficulty": "fundamental",
+    "categories": [
+      "computer-architecture",
+      "programming-languages"
+    ]
+  },
+  {
+    "id": "asymmetric-encryption",
+    "term": "Asymmetric Encryption",
+    "aliases": [
+      "Public-Key Encryption"
+    ],
+    "difficulty": "fundamental",
+    "categories": [
+      "cryptography",
+      "security"
+    ]
+  },
+  {
+    "id": "async-await",
+    "term": "Async/Await",
+    "aliases": [],
+    "difficulty": "intermediate",
+    "categories": [
+      "programming"
+    ]
+  },
+  {
+    "id": "attack-surface",
+    "term": "Attack Surface",
+    "aliases": [],
+    "difficulty": "fundamental",
+    "categories": [
+      "security"
+    ]
+  },
+  {
+    "id": "attention",
+    "term": "Attention",
+    "aliases": [],
+    "difficulty": "intermediate",
+    "categories": [
+      "machine-learning"
+    ]
+  },
+  {
+    "id": "authentication",
+    "term": "Authentication",
+    "aliases": [],
+    "difficulty": "fundamental",
+    "categories": [
+      "security",
+      "web"
+    ]
+  },
+  {
+    "id": "authorization",
+    "term": "Authorization",
+    "aliases": [],
+    "difficulty": "fundamental",
+    "categories": [
+      "security",
+      "web"
+    ]
+  },
+  {
+    "id": "availability",
+    "term": "Availability",
+    "aliases": [],
+    "difficulty": "fundamental",
+    "categories": [
+      "distributed-systems",
+      "software-engineering"
+    ]
+  },
+  {
+    "id": "avl-tree",
+    "term": "AVL Tree",
+    "aliases": [
+      "AVL"
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "data-structures"
+    ]
+  },
+  {
+    "id": "backend",
+    "term": "Backend",
+    "aliases": [],
+    "difficulty": "fundamental",
+    "categories": [
+      "web"
+    ]
+  },
+  {
+    "id": "backoff",
+    "term": "Backoff",
+    "aliases": [],
+    "difficulty": "intermediate",
+    "categories": [
+      "distributed-systems"
+    ]
+  },
+  {
+    "id": "backpropagation",
+    "term": "Backpropagation",
+    "aliases": [],
+    "difficulty": "intermediate",
+    "categories": [
+      "machine-learning"
+    ]
+  },
+  {
+    "id": "backtracking",
+    "term": "Backtracking",
+    "aliases": [],
+    "difficulty": "intermediate",
+    "categories": [
+      "algorithms"
+    ]
+  },
+  {
+    "id": "backward-compatibility",
+    "term": "Backward Compatibility",
+    "aliases": [],
+    "difficulty": "fundamental",
+    "categories": [
+      "programming",
+      "software-engineering"
+    ]
+  },
+  {
+    "id": "behavior-driven-development",
+    "term": "Behavior-Driven Development",
+    "aliases": [
+      "BDD"
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "software-engineering",
+      "testing"
+    ]
+  },
+  {
+    "id": "bellman-ford",
+    "term": "Bellman-Ford",
+    "aliases": [],
+    "difficulty": "intermediate",
+    "categories": [
+      "algorithms"
+    ]
+  },
+  {
+    "id": "big-o",
+    "term": "Big-O",
+    "aliases": [
+      "O Notation"
+    ],
+    "difficulty": "fundamental",
+    "categories": [
+      "algorithms",
+      "mathematics"
+    ]
+  },
+  {
+    "id": "big-omega",
+    "term": "Big-Omega",
+    "aliases": [
+      "Omega Notation"
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "algorithms",
+      "mathematics"
+    ]
+  },
+  {
+    "id": "big-theta",
+    "term": "Big-Theta",
+    "aliases": [
+      "Theta Notation"
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "algorithms",
+      "mathematics"
+    ]
+  },
+  {
+    "id": "binary-search",
+    "term": "Binary Search",
+    "aliases": [],
+    "difficulty": "fundamental",
+    "categories": [
+      "algorithms"
+    ]
+  },
+  {
+    "id": "binary-search-tree",
+    "term": "Binary Search Tree",
+    "aliases": [
+      "BST"
+    ],
+    "difficulty": "fundamental",
+    "categories": [
+      "algorithms",
+      "data-structures"
+    ]
+  },
+  {
+    "id": "binary-tree",
+    "term": "Binary Tree",
+    "aliases": [],
+    "difficulty": "fundamental",
+    "categories": [
+      "data-structures"
+    ]
+  },
+  {
+    "id": "bit-manipulation",
+    "term": "Bit Manipulation",
+    "aliases": [],
+    "difficulty": "intermediate",
+    "categories": [
+      "algorithms",
+      "computer-architecture",
+      "programming"
+    ]
+  },
+  {
+    "id": "blue-green-deployment",
+    "term": "Blue-Green Deployment",
+    "aliases": [],
+    "difficulty": "intermediate",
+    "categories": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "boolean",
+    "term": "Boolean",
+    "aliases": [],
+    "difficulty": "fundamental",
+    "categories": [
+      "programming"
+    ]
+  },
+  {
+    "id": "boolean-logic",
+    "term": "Boolean Logic",
+    "aliases": [
+      "Boolean Algebra"
+    ],
+    "difficulty": "fundamental",
+    "categories": [
+      "mathematics",
+      "programming"
+    ]
+  },
+  {
+    "id": "branch",
+    "term": "Branch",
+    "aliases": [],
+    "difficulty": "fundamental",
+    "categories": [
+      "version-control"
+    ]
+  },
+  {
+    "id": "branch-prediction",
+    "term": "Branch Prediction",
+    "aliases": [],
+    "difficulty": "intermediate",
+    "categories": [
+      "computer-architecture"
+    ]
+  },
+  {
+    "id": "breadth-first-search",
+    "term": "Breadth-First Search",
+    "aliases": [
+      "BFS"
+    ],
+    "difficulty": "fundamental",
+    "categories": [
+      "algorithms",
+      "data-structures"
+    ]
+  },
+  {
+    "id": "bubble-sort",
+    "term": "Bubble Sort",
+    "aliases": [],
+    "difficulty": "fundamental",
+    "categories": [
+      "algorithms"
+    ]
+  },
+  {
+    "id": "buffer-overflow",
+    "term": "Buffer Overflow",
+    "aliases": [],
+    "difficulty": "intermediate",
+    "categories": [
+      "computer-architecture",
+      "security"
+    ]
+  },
+  {
+    "id": "build-system",
+    "term": "Build System",
+    "aliases": [],
+    "difficulty": "fundamental",
+    "categories": [
+      "infrastructure",
+      "software-engineering"
+    ]
+  },
+  {
+    "id": "bytecode",
+    "term": "Bytecode",
+    "aliases": [],
+    "difficulty": "fundamental",
+    "categories": [
+      "programming-languages"
+    ]
+  },
+  {
+    "id": "cache",
+    "term": "Cache",
+    "aliases": [
+      "Caching"
+    ],
+    "difficulty": "fundamental",
+    "categories": [
+      "computer-architecture",
+      "databases",
+      "web"
+    ]
+  },
+  {
+    "id": "call-stack",
+    "term": "Call Stack",
+    "aliases": [],
+    "difficulty": "fundamental",
+    "categories": [
+      "computer-architecture",
+      "operating-systems",
+      "programming"
+    ]
+  },
+  {
+    "id": "callback",
+    "term": "Callback",
+    "aliases": [],
+    "difficulty": "fundamental",
+    "categories": [
+      "programming"
+    ]
+  },
+  {
+    "id": "calling-convention",
+    "term": "Calling Convention",
+    "aliases": [],
+    "difficulty": "advanced",
+    "categories": [
+      "computer-architecture",
+      "programming-languages"
+    ]
+  },
+  {
+    "id": "canary-deployment",
+    "term": "Canary Deployment",
+    "aliases": [
+      "Canary Release"
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "cap-theorem",
+    "term": "CAP Theorem",
+    "aliases": [
+      "CAP"
+    ],
+    "difficulty": "advanced",
+    "categories": [
+      "distributed-systems"
+    ]
+  },
+  {
+    "id": "cdn",
+    "term": "CDN",
+    "aliases": [
+      "Content Delivery Network"
+    ],
+    "difficulty": "fundamental",
+    "categories": [
+      "infrastructure",
+      "networking",
+      "web"
+    ]
+  },
+  {
+    "id": "certificate",
+    "term": "Certificate",
+    "aliases": [],
+    "difficulty": "intermediate",
+    "categories": [
+      "cryptography",
+      "networking",
+      "security"
+    ]
+  },
+  {
+    "id": "cherry-pick",
+    "term": "Cherry-pick",
+    "aliases": [],
+    "difficulty": "intermediate",
+    "categories": [
+      "version-control"
+    ]
+  },
+  {
+    "id": "cia-triad",
+    "term": "CIA Triad",
+    "aliases": [],
+    "difficulty": "fundamental",
+    "categories": [
+      "security"
+    ]
+  },
+  {
+    "id": "cidr",
+    "term": "CIDR",
+    "aliases": [
+      "Classless Inter-Domain Routing"
+    ],
+    "difficulty": "fundamental",
+    "categories": [
+      "networking"
+    ]
+  },
+  {
+    "id": "circuit-breaker",
+    "term": "Circuit Breaker",
+    "aliases": [],
+    "difficulty": "intermediate",
+    "categories": [
+      "distributed-systems"
+    ]
+  },
+  {
+    "id": "class",
+    "term": "Class",
+    "aliases": [],
+    "difficulty": "fundamental",
+    "categories": [
+      "object-oriented-programming"
+    ]
+  },
+  {
+    "id": "client",
+    "term": "Client",
+    "aliases": [],
+    "difficulty": "fundamental",
+    "categories": [
+      "distributed-systems",
+      "networking",
+      "web"
+    ]
+  },
+  {
+    "id": "client-server",
+    "term": "Client-Server",
+    "aliases": [],
+    "difficulty": "fundamental",
+    "categories": [
+      "distributed-systems",
+      "networking",
+      "web"
+    ]
+  },
+  {
+    "id": "closure",
+    "term": "Closure",
+    "aliases": [],
+    "difficulty": "intermediate",
+    "categories": [
+      "programming"
+    ]
+  },
+  {
+    "id": "code-coverage",
+    "term": "Code Coverage",
+    "aliases": [],
+    "difficulty": "fundamental",
+    "categories": [
+      "testing"
+    ]
+  },
+  {
+    "id": "code-review",
+    "term": "Code Review",
+    "aliases": [],
+    "difficulty": "fundamental",
+    "categories": [
+      "software-engineering"
+    ]
+  },
+  {
+    "id": "code-smell",
+    "term": "Code Smell",
+    "aliases": [],
+    "difficulty": "fundamental",
+    "categories": [
+      "software-engineering"
+    ]
+  },
+  {
+    "id": "cohesion",
+    "term": "Cohesion",
+    "aliases": [],
+    "difficulty": "fundamental",
+    "categories": [
+      "software-engineering"
+    ]
+  },
+  {
+    "id": "column",
+    "term": "Column",
+    "aliases": [
+      "Field",
+      "Attribute"
+    ],
+    "difficulty": "fundamental",
+    "categories": [
+      "databases"
+    ]
+  },
+  {
+    "id": "command-injection",
+    "term": "Command Injection",
+    "aliases": [],
+    "difficulty": "intermediate",
+    "categories": [
+      "security"
+    ]
+  },
+  {
+    "id": "commit",
+    "term": "Commit",
+    "aliases": [],
+    "difficulty": "fundamental",
+    "categories": [
+      "version-control"
+    ]
+  },
+  {
+    "id": "compiler",
+    "term": "Compiler",
+    "aliases": [],
+    "difficulty": "fundamental",
+    "categories": [
+      "programming-languages"
+    ]
+  },
+  {
+    "id": "composite-index",
+    "term": "Composite Index",
+    "aliases": [],
+    "difficulty": "intermediate",
+    "categories": [
+      "databases"
+    ]
+  },
+  {
+    "id": "composition",
+    "term": "Composition",
+    "aliases": [],
+    "difficulty": "fundamental",
+    "categories": [
+      "object-oriented-programming"
+    ]
+  },
+  {
+    "id": "concurrency",
+    "term": "Concurrency",
+    "aliases": [],
+    "difficulty": "fundamental",
+    "categories": [
+      "operating-systems",
+      "programming"
+    ]
+  },
+  {
+    "id": "connection-pool",
+    "term": "Connection Pool",
+    "aliases": [],
+    "difficulty": "fundamental",
+    "categories": [
+      "databases",
+      "web"
+    ]
+  },
+  {
+    "id": "consensus",
+    "term": "Consensus",
+    "aliases": [],
+    "difficulty": "advanced",
+    "categories": [
+      "distributed-systems"
+    ]
+  },
+  {
+    "id": "constant",
+    "term": "Constant",
+    "aliases": [],
+    "difficulty": "fundamental",
+    "categories": [
+      "programming"
+    ]
+  },
+  {
+    "id": "constructor",
+    "term": "Constructor",
+    "aliases": [],
+    "difficulty": "fundamental",
+    "categories": [
+      "object-oriented-programming"
+    ]
+  },
+  {
+    "id": "container",
+    "term": "Container",
+    "aliases": [],
+    "difficulty": "fundamental",
+    "categories": [
+      "infrastructure",
+      "operating-systems"
+    ]
+  },
+  {
+    "id": "container-image",
+    "term": "Container Image",
+    "aliases": [],
+    "difficulty": "fundamental",
+    "categories": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "container-registry",
+    "term": "Container Registry",
+    "aliases": [],
+    "difficulty": "fundamental",
+    "categories": [
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "context-switch",
+    "term": "Context Switch",
+    "aliases": [],
+    "difficulty": "intermediate",
+    "categories": [
+      "computer-architecture",
+      "operating-systems"
+    ]
+  },
+  {
+    "id": "context-window",
+    "term": "Context Window",
+    "aliases": [],
+    "difficulty": "fundamental",
+    "categories": [
+      "machine-learning"
+    ]
+  },
+  {
+    "id": "continuous-delivery",
+    "term": "Continuous Delivery",
+    "aliases": [],
+    "difficulty": "intermediate",
+    "categories": [
+      "infrastructure",
+      "software-engineering",
+      "version-control"
+    ]
+  },
+  {
+    "id": "continuous-deployment",
+    "term": "Continuous Deployment",
+    "aliases": [],
+    "difficulty": "intermediate",
+    "categories": [
+      "infrastructure",
+      "software-engineering"
+    ]
+  },
+  {
+    "id": "continuous-integration",
+    "term": "Continuous Integration",
+    "aliases": [
+      "CI"
+    ],
+    "difficulty": "fundamental",
+    "categories": [
+      "infrastructure",
+      "software-engineering",
+      "version-control"
+    ]
+  },
+  {
+    "id": "cookie",
+    "term": "Cookie",
+    "aliases": [],
+    "difficulty": "fundamental",
+    "categories": [
+      "security",
+      "web"
+    ]
+  },
+  {
+    "id": "cors",
+    "term": "CORS",
+    "aliases": [
+      "Cross-Origin Resource Sharing"
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "security",
+      "web"
+    ]
+  },
+  {
+    "id": "counting-sort",
+    "term": "Counting Sort",
+    "aliases": [],
+    "difficulty": "intermediate",
+    "categories": [
+      "algorithms"
+    ]
+  },
+  {
+    "id": "coupling",
+    "term": "Coupling",
+    "aliases": [],
+    "difficulty": "fundamental",
+    "categories": [
+      "software-engineering"
+    ]
+  },
+  {
+    "id": "cpu",
+    "term": "CPU",
+    "aliases": [
+      "Central Processing Unit"
+    ],
+    "difficulty": "fundamental",
+    "categories": [
+      "computer-architecture"
+    ]
+  },
+  {
+    "id": "cross-site-request-forgery",
+    "term": "Cross-Site Request Forgery",
+    "aliases": [
+      "CSRF"
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "security",
+      "web"
+    ]
+  },
+  {
+    "id": "cross-site-scripting",
+    "term": "Cross-Site Scripting",
+    "aliases": [
+      "XSS"
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "security",
+      "web"
+    ]
+  },
+  {
+    "id": "cryptographic-hash",
+    "term": "Cryptographic Hash",
+    "aliases": [
+      "Cryptographic Hash Function"
+    ],
+    "difficulty": "fundamental",
+    "categories": [
+      "cryptography",
+      "security"
+    ]
+  },
+  {
+    "id": "data-type",
+    "term": "Data Type",
+    "aliases": [],
+    "difficulty": "fundamental",
+    "categories": [
+      "programming"
+    ]
+  },
+  {
+    "id": "database",
+    "term": "Database",
+    "aliases": [],
+    "difficulty": "fundamental",
+    "categories": [
+      "databases"
+    ]
+  },
+  {
+    "id": "database-lock",
+    "term": "Lock",
+    "aliases": [],
+    "difficulty": "intermediate",
+    "categories": [
+      "databases"
+    ]
+  },
+  {
+    "id": "deadlock",
+    "term": "Deadlock",
+    "aliases": [],
+    "difficulty": "intermediate",
+    "categories": [
+      "databases",
+      "operating-systems"
+    ]
+  },
+  {
+    "id": "defense-in-depth",
+    "term": "Defense in Depth",
+    "aliases": [],
+    "difficulty": "fundamental",
+    "categories": [
+      "security"
+    ]
+  },
+  {
+    "id": "denormalization",
+    "term": "Denormalization",
+    "aliases": [],
+    "difficulty": "intermediate",
+    "categories": [
+      "databases"
+    ]
+  },
+  {
+    "id": "dependency-injection",
+    "term": "Dependency Injection",
+    "aliases": [],
+    "difficulty": "intermediate",
+    "categories": [
+      "object-oriented-programming",
+      "software-engineering",
+      "testing"
+    ]
+  },
+  {
+    "id": "dependency-inversion-principle",
+    "term": "Dependency Inversion Principle",
+    "aliases": [
+      "DIP"
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "object-oriented-programming",
+      "software-engineering"
+    ]
+  },
+  {
+    "id": "dependency-management",
+    "term": "Dependency Management",
+    "aliases": [],
+    "difficulty": "fundamental",
+    "categories": [
+      "programming",
+      "software-engineering"
+    ]
+  },
+  {
+    "id": "deployment",
+    "term": "Deployment",
+    "aliases": [],
+    "difficulty": "fundamental",
+    "categories": [
+      "infrastructure",
+      "software-engineering"
+    ]
+  },
+  {
+    "id": "depth-first-search",
+    "term": "Depth-First Search",
+    "aliases": [
+      "DFS"
+    ],
+    "difficulty": "fundamental",
+    "categories": [
+      "algorithms",
+      "data-structures"
+    ]
+  },
+  {
+    "id": "deque",
+    "term": "Deque",
+    "aliases": [
+      "Double-Ended Queue"
+    ],
+    "difficulty": "fundamental",
+    "categories": [
+      "data-structures"
+    ]
+  },
+  {
+    "id": "dhcp",
+    "term": "DHCP",
+    "aliases": [
+      "Dynamic Host Configuration Protocol"
+    ],
+    "difficulty": "fundamental",
+    "categories": [
+      "networking"
+    ]
+  },
+  {
+    "id": "digital-signature",
+    "term": "Digital Signature",
+    "aliases": [],
+    "difficulty": "intermediate",
+    "categories": [
+      "cryptography",
+      "security"
+    ]
+  },
+  {
+    "id": "dijkstra",
+    "term": "Dijkstra's Algorithm",
+    "aliases": [
+      "Dijkstra"
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "algorithms"
+    ]
+  },
+  {
+    "id": "directed-graph",
+    "term": "Directed Graph",
+    "aliases": [
+      "Digraph"
+    ],
+    "difficulty": "fundamental",
+    "categories": [
+      "algorithms",
+      "data-structures"
+    ]
+  },
+  {
+    "id": "distributed-system",
+    "term": "Distributed System",
+    "aliases": [],
+    "difficulty": "fundamental",
+    "categories": [
+      "distributed-systems"
+    ]
+  },
+  {
+    "id": "distributed-transaction",
+    "term": "Distributed Transaction",
+    "aliases": [],
+    "difficulty": "advanced",
+    "categories": [
+      "databases",
+      "distributed-systems"
+    ]
+  },
+  {
+    "id": "divide-and-conquer",
+    "term": "Divide and Conquer",
+    "aliases": [],
+    "difficulty": "fundamental",
+    "categories": [
+      "algorithms"
+    ]
+  },
+  {
+    "id": "dns",
+    "term": "DNS",
+    "aliases": [
+      "Domain Name System"
+    ],
+    "difficulty": "fundamental",
+    "categories": [
+      "networking",
+      "web"
+    ]
+  },
+  {
+    "id": "documentation",
+    "term": "Documentation",
+    "aliases": [],
+    "difficulty": "fundamental",
+    "categories": [
+      "software-engineering"
+    ]
+  },
+  {
+    "id": "doubly-linked-list",
+    "term": "Doubly Linked List",
+    "aliases": [],
+    "difficulty": "fundamental",
+    "categories": [
+      "data-structures"
+    ]
+  },
+  {
+    "id": "dry",
+    "term": "DRY",
+    "aliases": [
+      "Don't Repeat Yourself"
+    ],
+    "difficulty": "fundamental",
+    "categories": [
+      "software-engineering"
+    ]
+  },
+  {
+    "id": "dynamic-array",
+    "term": "Dynamic Array",
+    "aliases": [
+      "Growable Array",
+      "Array List"
+    ],
+    "difficulty": "fundamental",
+    "categories": [
+      "data-structures"
+    ]
+  },
+  {
+    "id": "dynamic-programming",
+    "term": "Dynamic Programming",
+    "aliases": [
+      "DP"
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "algorithms"
+    ]
+  },
+  {
+    "id": "dynamic-typing",
+    "term": "Dynamic Typing",
+    "aliases": [],
+    "difficulty": "fundamental",
+    "categories": [
+      "programming",
+      "programming-languages"
+    ]
+  },
+  {
+    "id": "embedding",
+    "term": "Embedding",
+    "aliases": [],
+    "difficulty": "intermediate",
+    "categories": [
+      "machine-learning"
+    ]
+  },
+  {
+    "id": "encapsulation",
+    "term": "Encapsulation",
+    "aliases": [],
+    "difficulty": "fundamental",
+    "categories": [
+      "object-oriented-programming"
+    ]
+  },
+  {
+    "id": "encryption",
+    "term": "Encryption",
+    "aliases": [],
+    "difficulty": "fundamental",
+    "categories": [
+      "cryptography",
+      "security"
+    ]
+  },
+  {
+    "id": "end-to-end-test",
+    "term": "End-to-End Test",
+    "aliases": [
+      "E2E Test"
+    ],
+    "difficulty": "fundamental",
+    "categories": [
+      "testing"
+    ]
+  },
+  {
+    "id": "endianness",
+    "term": "Endianness",
+    "aliases": [],
+    "difficulty": "intermediate",
+    "categories": [
+      "computer-architecture",
+      "programming"
+    ]
+  },
+  {
+    "id": "environment-variable",
+    "term": "Environment Variable",
+    "aliases": [],
+    "difficulty": "fundamental",
+    "categories": [
+      "infrastructure",
+      "operating-systems",
+      "programming"
+    ]
+  },
+  {
+    "id": "error-handling",
+    "term": "Error Handling",
+    "aliases": [],
+    "difficulty": "fundamental",
+    "categories": [
+      "programming"
+    ]
+  },
+  {
+    "id": "ethernet",
+    "term": "Ethernet",
+    "aliases": [],
+    "difficulty": "fundamental",
+    "categories": [
+      "networking"
+    ]
+  },
+  {
+    "id": "event-driven-architecture",
+    "term": "Event-Driven Architecture",
+    "aliases": [],
+    "difficulty": "intermediate",
+    "categories": [
+      "distributed-systems",
+      "software-engineering"
+    ]
+  },
+  {
+    "id": "eventual-consistency",
+    "term": "Eventual Consistency",
+    "aliases": [],
+    "difficulty": "intermediate",
+    "categories": [
+      "databases",
+      "distributed-systems"
+    ]
+  },
+  {
+    "id": "exception",
+    "term": "Exception",
+    "aliases": [],
+    "difficulty": "fundamental",
+    "categories": [
+      "programming"
+    ]
+  },
+  {
+    "id": "expected-value",
+    "term": "Expected Value",
+    "aliases": [],
+    "difficulty": "intermediate",
+    "categories": [
+      "algorithms",
+      "mathematics"
+    ]
+  },
+  {
+    "id": "expression",
+    "term": "Expression",
+    "aliases": [],
+    "difficulty": "fundamental",
+    "categories": [
+      "programming"
+    ]
+  },
+  {
+    "id": "fault-tolerance",
+    "term": "Fault Tolerance",
+    "aliases": [],
+    "difficulty": "intermediate",
+    "categories": [
+      "distributed-systems"
+    ]
+  },
+  {
+    "id": "feature",
+    "term": "Feature",
+    "aliases": [],
+    "difficulty": "fundamental",
+    "categories": [
+      "machine-learning"
+    ]
+  },
+  {
+    "id": "file-descriptor",
+    "term": "File Descriptor",
+    "aliases": [
+      "FD"
+    ],
+    "difficulty": "fundamental",
+    "categories": [
+      "operating-systems"
+    ]
+  },
+  {
+    "id": "file-system",
+    "term": "File System",
+    "aliases": [],
+    "difficulty": "fundamental",
+    "categories": [
+      "operating-systems"
+    ]
+  },
+  {
+    "id": "fine-tuning",
+    "term": "Fine-Tuning",
+    "aliases": [],
+    "difficulty": "intermediate",
+    "categories": [
+      "machine-learning"
+    ]
+  },
+  {
+    "id": "firewall",
+    "term": "Firewall",
+    "aliases": [],
+    "difficulty": "fundamental",
+    "categories": [
+      "networking",
+      "security"
+    ]
+  },
+  {
+    "id": "fixture",
+    "term": "Fixture",
+    "aliases": [],
+    "difficulty": "fundamental",
+    "categories": [
+      "testing"
+    ]
+  },
+  {
+    "id": "floating-point",
+    "term": "Floating Point",
+    "aliases": [],
+    "difficulty": "fundamental",
+    "categories": [
+      "computer-architecture",
+      "programming"
+    ]
+  },
+  {
+    "id": "floyd-warshall",
+    "term": "Floyd-Warshall",
+    "aliases": [],
+    "difficulty": "intermediate",
+    "categories": [
+      "algorithms"
+    ]
+  },
+  {
+    "id": "foreign-key",
+    "term": "Foreign Key",
+    "aliases": [],
+    "difficulty": "fundamental",
+    "categories": [
+      "databases"
+    ]
+  },
+  {
+    "id": "frame",
+    "term": "Frame",
+    "aliases": [],
+    "difficulty": "fundamental",
+    "categories": [
+      "networking"
+    ]
+  },
+  {
+    "id": "frame-buffer",
+    "term": "Frame Buffer",
+    "aliases": [],
+    "difficulty": "fundamental",
+    "categories": [
+      "computer-graphics"
+    ]
+  },
+  {
+    "id": "frontend",
+    "term": "Frontend",
+    "aliases": [],
+    "difficulty": "fundamental",
+    "categories": [
+      "web"
+    ]
+  },
+  {
+    "id": "function",
+    "term": "Function",
+    "aliases": [],
+    "difficulty": "fundamental",
+    "categories": [
+      "programming"
+    ]
+  },
+  {
+    "id": "fuzz-testing",
+    "term": "Fuzz Testing",
+    "aliases": [
+      "Fuzzing"
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "security",
+      "testing"
+    ]
+  },
+  {
+    "id": "garbage-collection",
+    "term": "Garbage Collection",
+    "aliases": [],
+    "difficulty": "intermediate",
+    "categories": [
+      "operating-systems",
+      "programming-languages"
+    ]
+  },
+  {
+    "id": "generic",
+    "term": "Generic",
+    "aliases": [
+      "Parametric Polymorphism"
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "programming",
+      "programming-languages"
+    ]
+  },
+  {
+    "id": "git",
+    "term": "Git",
+    "aliases": [],
+    "difficulty": "fundamental",
+    "categories": [
+      "version-control"
+    ]
+  },
+  {
+    "id": "git-fetch",
+    "term": "Fetch",
+    "aliases": [],
+    "difficulty": "fundamental",
+    "categories": [
+      "version-control"
+    ]
+  },
+  {
+    "id": "git-lfs",
+    "term": "Git LFS",
+    "aliases": [
+      "Git Large File Storage"
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "version-control"
+    ]
+  },
+  {
+    "id": "git-merge",
+    "term": "Merge",
+    "aliases": [],
+    "difficulty": "fundamental",
+    "categories": [
+      "version-control"
+    ]
+  },
+  {
+    "id": "git-pull",
+    "term": "Pull",
+    "aliases": [],
+    "difficulty": "fundamental",
+    "categories": [
+      "version-control"
+    ]
+  },
+  {
+    "id": "git-push",
+    "term": "Push",
+    "aliases": [],
+    "difficulty": "fundamental",
+    "categories": [
+      "version-control"
+    ]
+  },
+  {
+    "id": "git-remote",
+    "term": "Remote",
+    "aliases": [],
+    "difficulty": "fundamental",
+    "categories": [
+      "version-control"
+    ]
+  },
+  {
+    "id": "git-stash",
+    "term": "Stash",
+    "aliases": [],
+    "difficulty": "fundamental",
+    "categories": [
+      "version-control"
+    ]
+  },
+  {
+    "id": "git-tag",
+    "term": "Tag",
+    "aliases": [],
+    "difficulty": "fundamental",
+    "categories": [
+      "version-control"
+    ]
+  },
+  {
+    "id": "gitignore",
+    "term": ".gitignore",
+    "aliases": [],
+    "difficulty": "fundamental",
+    "categories": [
+      "version-control"
+    ]
+  },
+  {
+    "id": "gpu",
+    "term": "GPU",
+    "aliases": [
+      "Graphics Processing Unit"
+    ],
+    "difficulty": "fundamental",
+    "categories": [
+      "computer-architecture",
+      "computer-graphics"
+    ]
+  },
+  {
+    "id": "gradient-descent",
+    "term": "Gradient Descent",
+    "aliases": [],
+    "difficulty": "intermediate",
+    "categories": [
+      "machine-learning",
+      "mathematics"
+    ]
+  },
+  {
+    "id": "graph",
+    "term": "Graph",
+    "aliases": [],
+    "difficulty": "fundamental",
+    "categories": [
+      "algorithms",
+      "data-structures",
+      "mathematics"
+    ]
+  },
+  {
+    "id": "graphql",
+    "term": "GraphQL",
+    "aliases": [],
+    "difficulty": "intermediate",
+    "categories": [
+      "web"
+    ]
+  },
+  {
+    "id": "greedy-algorithm",
+    "term": "Greedy Algorithm",
+    "aliases": [],
+    "difficulty": "intermediate",
+    "categories": [
+      "algorithms"
+    ]
+  },
+  {
+    "id": "hardware-multithreading",
+    "term": "Hardware Multithreading",
+    "aliases": [],
+    "difficulty": "advanced",
+    "categories": [
+      "computer-architecture"
+    ]
+  },
+  {
+    "id": "hash-table",
+    "term": "Hash Table",
+    "aliases": [
+      "Hash Map",
+      "Dictionary",
+      "Map"
+    ],
+    "difficulty": "fundamental",
+    "categories": [
+      "data-structures"
+    ]
+  },
+  {
+    "id": "hashing",
+    "term": "Hashing",
+    "aliases": [],
+    "difficulty": "fundamental",
+    "categories": [
+      "algorithms",
+      "data-structures"
+    ]
+  },
+  {
+    "id": "health-check",
+    "term": "Health Check",
+    "aliases": [],
+    "difficulty": "fundamental",
+    "categories": [
+      "distributed-systems",
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "heap",
+    "term": "Heap",
+    "aliases": [
+      "Binary Heap"
+    ],
+    "difficulty": "fundamental",
+    "categories": [
+      "data-structures"
+    ]
+  },
+  {
+    "id": "heap-sort",
+    "term": "Heap Sort",
+    "aliases": [],
+    "difficulty": "fundamental",
+    "categories": [
+      "algorithms"
+    ]
+  },
+  {
+    "id": "http",
+    "term": "HTTP",
+    "aliases": [
+      "Hypertext Transfer Protocol"
+    ],
+    "difficulty": "fundamental",
+    "categories": [
+      "networking",
+      "web"
+    ]
+  },
+  {
+    "id": "https",
+    "term": "HTTPS",
+    "aliases": [],
+    "difficulty": "fundamental",
+    "categories": [
+      "networking",
+      "security",
+      "web"
+    ]
+  },
+  {
+    "id": "hyperparameter",
+    "term": "Hyperparameter",
+    "aliases": [],
+    "difficulty": "intermediate",
+    "categories": [
+      "machine-learning"
+    ]
+  },
+  {
+    "id": "idempotency",
+    "term": "Idempotency",
+    "aliases": [],
+    "difficulty": "intermediate",
+    "categories": [
+      "distributed-systems",
+      "software-engineering",
+      "web"
+    ]
+  },
+  {
+    "id": "immutability",
+    "term": "Immutability",
+    "aliases": [],
+    "difficulty": "fundamental",
+    "categories": [
+      "programming"
+    ]
+  },
+  {
+    "id": "index",
+    "term": "Index",
+    "aliases": [],
+    "difficulty": "fundamental",
+    "categories": [
+      "databases"
+    ]
+  },
+  {
+    "id": "inference",
+    "term": "Inference",
+    "aliases": [],
+    "difficulty": "fundamental",
+    "categories": [
+      "machine-learning"
+    ]
+  },
+  {
+    "id": "infrastructure-as-code",
+    "term": "Infrastructure as Code",
+    "aliases": [
+      "IaC"
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "infrastructure",
+      "software-engineering"
+    ]
+  },
+  {
+    "id": "inheritance",
+    "term": "Inheritance",
+    "aliases": [],
+    "difficulty": "fundamental",
+    "categories": [
+      "object-oriented-programming"
+    ]
+  },
+  {
+    "id": "insertion-sort",
+    "term": "Insertion Sort",
+    "aliases": [],
+    "difficulty": "fundamental",
+    "categories": [
+      "algorithms"
+    ]
+  },
+  {
+    "id": "instance",
+    "term": "Instance",
+    "aliases": [],
+    "difficulty": "fundamental",
+    "categories": [
+      "object-oriented-programming"
+    ]
+  },
+  {
+    "id": "instruction",
+    "term": "Instruction",
+    "aliases": [],
+    "difficulty": "fundamental",
+    "categories": [
+      "computer-architecture"
+    ]
+  },
+  {
+    "id": "instruction-pipeline",
+    "term": "Instruction Pipeline",
+    "aliases": [
+      "CPU Pipeline"
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "computer-architecture"
+    ]
+  },
+  {
+    "id": "instruction-set-architecture",
+    "term": "Instruction Set Architecture",
+    "aliases": [
+      "ISA"
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "computer-architecture"
+    ]
+  },
+  {
+    "id": "integration-test",
+    "term": "Integration Test",
+    "aliases": [],
+    "difficulty": "fundamental",
+    "categories": [
+      "testing"
+    ]
+  },
+  {
+    "id": "inter-process-communication",
+    "term": "Inter-Process Communication",
+    "aliases": [
+      "IPC"
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "operating-systems"
+    ]
+  },
+  {
+    "id": "interface",
+    "term": "Interface",
+    "aliases": [],
+    "difficulty": "fundamental",
+    "categories": [
+      "object-oriented-programming",
+      "programming"
+    ]
+  },
+  {
+    "id": "interface-segregation-principle",
+    "term": "Interface Segregation Principle",
+    "aliases": [
+      "ISP"
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "object-oriented-programming"
+    ]
+  },
+  {
+    "id": "intermediate-representation",
+    "term": "Intermediate Representation",
+    "aliases": [
+      "IR"
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "programming-languages"
+    ]
+  },
+  {
+    "id": "interpreter",
+    "term": "Interpreter",
+    "aliases": [],
+    "difficulty": "fundamental",
+    "categories": [
+      "programming-languages"
+    ]
+  },
+  {
+    "id": "interrupt",
+    "term": "Interrupt",
+    "aliases": [],
+    "difficulty": "intermediate",
+    "categories": [
+      "computer-architecture",
+      "operating-systems"
+    ]
+  },
+  {
+    "id": "ip",
+    "term": "IP",
+    "aliases": [
+      "Internet Protocol"
+    ],
+    "difficulty": "fundamental",
+    "categories": [
+      "networking"
+    ]
+  },
+  {
+    "id": "ipv4",
+    "term": "IPv4",
+    "aliases": [],
+    "difficulty": "fundamental",
+    "categories": [
+      "networking"
+    ]
+  },
+  {
+    "id": "ipv6",
+    "term": "IPv6",
+    "aliases": [],
+    "difficulty": "fundamental",
+    "categories": [
+      "networking"
+    ]
+  },
+  {
+    "id": "isolation",
+    "term": "Isolation",
+    "aliases": [],
+    "difficulty": "intermediate",
+    "categories": [
+      "databases"
+    ]
+  },
+  {
+    "id": "iteration",
+    "term": "Iteration",
+    "aliases": [],
+    "difficulty": "fundamental",
+    "categories": [
+      "algorithms",
+      "programming"
+    ]
+  },
+  {
+    "id": "join",
+    "term": "Join",
+    "aliases": [],
+    "difficulty": "fundamental",
+    "categories": [
+      "databases"
+    ]
+  },
+  {
+    "id": "json",
+    "term": "JSON",
+    "aliases": [
+      "JavaScript Object Notation"
+    ],
+    "difficulty": "fundamental",
+    "categories": [
+      "programming",
+      "web"
+    ]
+  },
+  {
+    "id": "just-in-time-compilation",
+    "term": "Just-in-Time Compilation",
+    "aliases": [
+      "JIT"
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "programming-languages"
+    ]
+  },
+  {
+    "id": "kernel",
+    "term": "Kernel",
+    "aliases": [],
+    "difficulty": "fundamental",
+    "categories": [
+      "operating-systems"
+    ]
+  },
+  {
+    "id": "kiss",
+    "term": "KISS",
+    "aliases": [
+      "Keep It Simple"
+    ],
+    "difficulty": "fundamental",
+    "categories": [
+      "software-engineering"
+    ]
+  },
+  {
+    "id": "kruskal",
+    "term": "Kruskal's Algorithm",
+    "aliases": [
+      "Kruskal"
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "algorithms"
+    ]
+  },
+  {
+    "id": "kubernetes",
+    "term": "Kubernetes",
+    "aliases": [],
+    "difficulty": "intermediate",
+    "categories": [
+      "distributed-systems",
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "label",
+    "term": "Label",
+    "aliases": [],
+    "difficulty": "fundamental",
+    "categories": [
+      "machine-learning"
+    ]
+  },
+  {
+    "id": "large-language-model",
+    "term": "Large Language Model",
+    "aliases": [
+      "LLM"
+    ],
+    "difficulty": "fundamental",
+    "categories": [
+      "machine-learning"
+    ]
+  },
+  {
+    "id": "leader-election",
+    "term": "Leader Election",
+    "aliases": [],
+    "difficulty": "advanced",
+    "categories": [
+      "distributed-systems"
+    ]
+  },
+  {
+    "id": "least-privilege",
+    "term": "Least Privilege",
+    "aliases": [
+      "Principle of Least Privilege"
+    ],
+    "difficulty": "fundamental",
+    "categories": [
+      "security"
+    ]
+  },
+  {
+    "id": "lexer",
+    "term": "Lexer",
+    "aliases": [
+      "Tokenizer",
+      "Lexical Analyzer"
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "programming-languages"
+    ]
+  },
+  {
+    "id": "library",
+    "term": "Library",
+    "aliases": [],
+    "difficulty": "fundamental",
+    "categories": [
+      "programming"
+    ]
+  },
+  {
+    "id": "linear-search",
+    "term": "Linear Search",
+    "aliases": [],
+    "difficulty": "fundamental",
+    "categories": [
+      "algorithms"
+    ]
+  },
+  {
+    "id": "linked-list",
+    "term": "Linked List",
+    "aliases": [],
+    "difficulty": "fundamental",
+    "categories": [
+      "data-structures"
+    ]
+  },
+  {
+    "id": "linux",
+    "term": "Linux",
+    "aliases": [],
+    "difficulty": "fundamental",
+    "categories": [
+      "infrastructure",
+      "operating-systems"
+    ]
+  },
+  {
+    "id": "liskov-substitution-principle",
+    "term": "Liskov Substitution Principle",
+    "aliases": [
+      "LSP"
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "object-oriented-programming"
+    ]
+  },
+  {
+    "id": "load-balancer",
+    "term": "Load Balancer",
+    "aliases": [
+      "Load Balancing"
+    ],
+    "difficulty": "fundamental",
+    "categories": [
+      "distributed-systems",
+      "infrastructure",
+      "networking"
+    ]
+  },
+  {
+    "id": "logarithm",
+    "term": "Logarithm",
+    "aliases": [],
+    "difficulty": "fundamental",
+    "categories": [
+      "algorithms",
+      "mathematics"
+    ]
+  },
+  {
+    "id": "logging",
+    "term": "Logging",
+    "aliases": [],
+    "difficulty": "fundamental",
+    "categories": [
+      "infrastructure",
+      "software-engineering"
+    ]
+  },
+  {
+    "id": "loss-function",
+    "term": "Loss Function",
+    "aliases": [],
+    "difficulty": "fundamental",
+    "categories": [
+      "machine-learning",
+      "mathematics"
+    ]
+  },
+  {
+    "id": "mac-address",
+    "term": "MAC Address",
+    "aliases": [
+      "Hardware Address"
+    ],
+    "difficulty": "fundamental",
+    "categories": [
+      "networking"
+    ]
+  },
+  {
+    "id": "machine-code",
+    "term": "Machine Code",
+    "aliases": [],
+    "difficulty": "fundamental",
+    "categories": [
+      "computer-architecture",
+      "programming-languages"
+    ]
+  },
+  {
+    "id": "machine-learning",
+    "term": "Machine Learning",
+    "aliases": [],
+    "difficulty": "fundamental",
+    "categories": [
+      "machine-learning"
+    ]
+  },
+  {
+    "id": "maintainability",
+    "term": "Maintainability",
+    "aliases": [],
+    "difficulty": "fundamental",
+    "categories": [
+      "software-engineering"
+    ]
+  },
+  {
+    "id": "matrix",
+    "term": "Matrix",
+    "aliases": [],
+    "difficulty": "intermediate",
+    "categories": [
+      "computer-graphics",
+      "machine-learning",
+      "mathematics"
+    ]
+  },
+  {
+    "id": "memoization",
+    "term": "Memoization",
+    "aliases": [],
+    "difficulty": "intermediate",
+    "categories": [
+      "algorithms",
+      "programming"
+    ]
+  },
+  {
+    "id": "memory-allocation",
+    "term": "Memory Allocation",
+    "aliases": [],
+    "difficulty": "fundamental",
+    "categories": [
+      "operating-systems",
+      "programming-languages"
+    ]
+  },
+  {
+    "id": "memory-heap",
+    "term": "Memory Heap",
+    "aliases": [],
+    "difficulty": "fundamental",
+    "categories": [
+      "operating-systems",
+      "programming-languages"
+    ]
+  },
+  {
+    "id": "memory-hierarchy",
+    "term": "Memory Hierarchy",
+    "aliases": [],
+    "difficulty": "fundamental",
+    "categories": [
+      "computer-architecture"
+    ]
+  },
+  {
+    "id": "merge-conflict",
+    "term": "Merge Conflict",
+    "aliases": [],
+    "difficulty": "fundamental",
+    "categories": [
+      "version-control"
+    ]
+  },
+  {
+    "id": "merge-sort",
+    "term": "Merge Sort",
+    "aliases": [],
+    "difficulty": "fundamental",
+    "categories": [
+      "algorithms"
+    ]
+  },
+  {
+    "id": "message-queue",
+    "term": "Message Queue",
+    "aliases": [],
+    "difficulty": "intermediate",
+    "categories": [
+      "distributed-systems"
+    ]
+  },
+  {
+    "id": "method",
+    "term": "Method",
+    "aliases": [],
+    "difficulty": "fundamental",
+    "categories": [
+      "object-oriented-programming",
+      "programming"
+    ]
+  },
+  {
+    "id": "method-overloading",
+    "term": "Method Overloading",
+    "aliases": [],
+    "difficulty": "fundamental",
+    "categories": [
+      "object-oriented-programming"
+    ]
+  },
+  {
+    "id": "method-overriding",
+    "term": "Method Overriding",
+    "aliases": [],
+    "difficulty": "fundamental",
+    "categories": [
+      "object-oriented-programming"
+    ]
+  },
+  {
+    "id": "metrics",
+    "term": "Metrics",
+    "aliases": [],
+    "difficulty": "fundamental",
+    "categories": [
+      "infrastructure",
+      "software-engineering"
+    ]
+  },
+  {
+    "id": "microservice",
+    "term": "Microservice",
+    "aliases": [],
+    "difficulty": "intermediate",
+    "categories": [
+      "distributed-systems",
+      "software-engineering"
+    ]
+  },
+  {
+    "id": "middleware",
+    "term": "Middleware",
+    "aliases": [],
+    "difficulty": "fundamental",
+    "categories": [
+      "web"
+    ]
+  },
+  {
+    "id": "migration",
+    "term": "Migration",
+    "aliases": [],
+    "difficulty": "fundamental",
+    "categories": [
+      "databases",
+      "software-engineering"
+    ]
+  },
+  {
+    "id": "minimum-spanning-tree",
+    "term": "Minimum Spanning Tree",
+    "aliases": [
+      "MST"
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "algorithms"
+    ]
+  },
+  {
+    "id": "ml-dataset",
+    "term": "Dataset",
+    "aliases": [],
+    "difficulty": "fundamental",
+    "categories": [
+      "machine-learning"
+    ]
+  },
+  {
+    "id": "ml-model",
+    "term": "Model",
+    "aliases": [
+      "Machine Learning Model"
+    ],
+    "difficulty": "fundamental",
+    "categories": [
+      "machine-learning"
+    ]
+  },
+  {
+    "id": "mock",
+    "term": "Mock",
+    "aliases": [],
+    "difficulty": "intermediate",
+    "categories": [
+      "testing"
+    ]
+  },
+  {
+    "id": "model-evaluation",
+    "term": "Model Evaluation",
+    "aliases": [],
+    "difficulty": "fundamental",
+    "categories": [
+      "machine-learning"
+    ]
+  },
+  {
+    "id": "model-parameter",
+    "term": "Model Parameter",
+    "aliases": [],
+    "difficulty": "fundamental",
+    "categories": [
+      "machine-learning"
+    ]
+  },
+  {
+    "id": "modularity",
+    "term": "Modularity",
+    "aliases": [],
+    "difficulty": "fundamental",
+    "categories": [
+      "programming",
+      "software-engineering"
+    ]
+  },
+  {
+    "id": "module",
+    "term": "Module",
+    "aliases": [],
+    "difficulty": "fundamental",
+    "categories": [
+      "programming"
+    ]
+  },
+  {
+    "id": "modulo",
+    "term": "Modulo",
+    "aliases": [
+      "Modulus"
+    ],
+    "difficulty": "fundamental",
+    "categories": [
+      "mathematics",
+      "programming"
+    ]
+  },
+  {
+    "id": "monitor",
+    "term": "Monitor",
+    "aliases": [],
+    "difficulty": "intermediate",
+    "categories": [
+      "operating-systems",
+      "programming"
+    ]
+  },
+  {
+    "id": "monitoring",
+    "term": "Monitoring",
+    "aliases": [],
+    "difficulty": "fundamental",
+    "categories": [
+      "infrastructure",
+      "software-engineering"
+    ]
+  },
+  {
+    "id": "monolith",
+    "term": "Monolith",
+    "aliases": [],
+    "difficulty": "fundamental",
+    "categories": [
+      "distributed-systems",
+      "software-engineering"
+    ]
+  },
+  {
+    "id": "multi-factor-authentication",
+    "term": "Multi-Factor Authentication",
+    "aliases": [
+      "MFA",
+      "Two-Factor Authentication"
+    ],
+    "difficulty": "fundamental",
+    "categories": [
+      "security"
+    ]
+  },
+  {
+    "id": "mutex",
+    "term": "Mutex",
+    "aliases": [
+      "Mutual Exclusion Lock"
+    ],
+    "difficulty": "fundamental",
+    "categories": [
+      "operating-systems",
+      "programming"
+    ]
+  },
+  {
+    "id": "nat",
+    "term": "NAT",
+    "aliases": [
+      "Network Address Translation"
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "networking"
+    ]
+  },
+  {
+    "id": "network",
+    "term": "Network",
+    "aliases": [],
+    "difficulty": "fundamental",
+    "categories": [
+      "networking"
+    ]
+  },
+  {
+    "id": "network-switch",
+    "term": "Switch",
+    "aliases": [],
+    "difficulty": "fundamental",
+    "categories": [
+      "networking"
+    ]
+  },
+  {
+    "id": "neural-network",
+    "term": "Neural Network",
+    "aliases": [],
+    "difficulty": "fundamental",
+    "categories": [
+      "machine-learning"
+    ]
+  },
+  {
+    "id": "normalization",
+    "term": "Normalization",
+    "aliases": [],
+    "difficulty": "intermediate",
+    "categories": [
+      "databases"
+    ]
+  },
+  {
+    "id": "nosql",
+    "term": "NoSQL",
+    "aliases": [],
+    "difficulty": "intermediate",
+    "categories": [
+      "databases"
+    ]
+  },
+  {
+    "id": "null",
+    "term": "Null",
+    "aliases": [
+      "Nil"
+    ],
+    "difficulty": "fundamental",
+    "categories": [
+      "programming"
+    ]
+  },
+  {
+    "id": "object",
+    "term": "Object",
+    "aliases": [],
+    "difficulty": "fundamental",
+    "categories": [
+      "object-oriented-programming"
+    ]
+  },
+  {
+    "id": "observability",
+    "term": "Observability",
+    "aliases": [],
+    "difficulty": "intermediate",
+    "categories": [
+      "infrastructure",
+      "software-engineering"
+    ]
+  },
+  {
+    "id": "open-closed-principle",
+    "term": "Open-Closed Principle",
+    "aliases": [
+      "OCP"
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "object-oriented-programming",
+      "software-engineering"
+    ]
+  },
+  {
+    "id": "operating-system",
+    "term": "Operating System",
+    "aliases": [],
+    "difficulty": "fundamental",
+    "categories": [
+      "operating-systems"
+    ]
+  },
+  {
+    "id": "orm",
+    "term": "ORM",
+    "aliases": [
+      "Object-Relational Mapping"
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "databases",
+      "programming"
+    ]
+  },
+  {
+    "id": "overfitting",
+    "term": "Overfitting",
+    "aliases": [],
+    "difficulty": "fundamental",
+    "categories": [
+      "machine-learning"
+    ]
+  },
+  {
+    "id": "package",
+    "term": "Package",
+    "aliases": [],
+    "difficulty": "fundamental",
+    "categories": [
+      "programming",
+      "software-engineering"
+    ]
+  },
+  {
+    "id": "packet",
+    "term": "Packet",
+    "aliases": [],
+    "difficulty": "fundamental",
+    "categories": [
+      "networking"
+    ]
+  },
+  {
+    "id": "page",
+    "term": "Page",
+    "aliases": [],
+    "difficulty": "intermediate",
+    "categories": [
+      "operating-systems"
+    ]
+  },
+  {
+    "id": "page-fault",
+    "term": "Page Fault",
+    "aliases": [],
+    "difficulty": "intermediate",
+    "categories": [
+      "operating-systems"
+    ]
+  },
+  {
+    "id": "parallelism",
+    "term": "Parallelism",
+    "aliases": [],
+    "difficulty": "fundamental",
+    "categories": [
+      "computer-architecture",
+      "operating-systems",
+      "programming"
+    ]
+  },
+  {
+    "id": "parameter",
+    "term": "Parameter",
+    "aliases": [],
+    "difficulty": "fundamental",
+    "categories": [
+      "programming"
+    ]
+  },
+  {
+    "id": "parser",
+    "term": "Parser",
+    "aliases": [],
+    "difficulty": "intermediate",
+    "categories": [
+      "programming-languages"
+    ]
+  },
+  {
+    "id": "partitioning",
+    "term": "Partitioning",
+    "aliases": [],
+    "difficulty": "intermediate",
+    "categories": [
+      "databases"
+    ]
+  },
+  {
+    "id": "password-hashing",
+    "term": "Password Hashing",
+    "aliases": [],
+    "difficulty": "intermediate",
+    "categories": [
+      "cryptography",
+      "security"
+    ]
+  },
+  {
+    "id": "path-traversal",
+    "term": "Path Traversal",
+    "aliases": [],
+    "difficulty": "intermediate",
+    "categories": [
+      "security"
+    ]
+  },
+  {
+    "id": "pipe",
+    "term": "Pipe",
+    "aliases": [],
+    "difficulty": "fundamental",
+    "categories": [
+      "operating-systems"
+    ]
+  },
+  {
+    "id": "pixel",
+    "term": "Pixel",
+    "aliases": [],
+    "difficulty": "fundamental",
+    "categories": [
+      "computer-graphics"
+    ]
+  },
+  {
+    "id": "pointer",
+    "term": "Pointer",
+    "aliases": [],
+    "difficulty": "fundamental",
+    "categories": [
+      "computer-architecture",
+      "programming"
+    ]
+  },
+  {
+    "id": "polymorphism",
+    "term": "Polymorphism",
+    "aliases": [],
+    "difficulty": "fundamental",
+    "categories": [
+      "object-oriented-programming"
+    ]
+  },
+  {
+    "id": "port",
+    "term": "Port",
+    "aliases": [],
+    "difficulty": "fundamental",
+    "categories": [
+      "networking"
+    ]
+  },
+  {
+    "id": "prefix-sum",
+    "term": "Prefix Sum",
+    "aliases": [
+      "Prefix Sums"
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "algorithms"
+    ]
+  },
+  {
+    "id": "prim",
+    "term": "Prim's Algorithm",
+    "aliases": [
+      "Prim"
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "algorithms"
+    ]
+  },
+  {
+    "id": "primary-key",
+    "term": "Primary Key",
+    "aliases": [],
+    "difficulty": "fundamental",
+    "categories": [
+      "databases"
+    ]
+  },
+  {
+    "id": "primitive-type",
+    "term": "Primitive Type",
+    "aliases": [],
+    "difficulty": "fundamental",
+    "categories": [
+      "programming"
+    ]
+  },
+  {
+    "id": "priority-queue",
+    "term": "Priority Queue",
+    "aliases": [],
+    "difficulty": "fundamental",
+    "categories": [
+      "data-structures"
+    ]
+  },
+  {
+    "id": "private-key",
+    "term": "Private Key",
+    "aliases": [],
+    "difficulty": "fundamental",
+    "categories": [
+      "cryptography",
+      "security"
+    ]
+  },
+  {
+    "id": "process",
+    "term": "Process",
+    "aliases": [],
+    "difficulty": "fundamental",
+    "categories": [
+      "infrastructure",
+      "operating-systems"
+    ]
+  },
+  {
+    "id": "promise",
+    "term": "Promise",
+    "aliases": [
+      "Future"
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "programming"
+    ]
+  },
+  {
+    "id": "prompt",
+    "term": "Prompt",
+    "aliases": [],
+    "difficulty": "fundamental",
+    "categories": [
+      "machine-learning"
+    ]
+  },
+  {
+    "id": "property-based-testing",
+    "term": "Property-Based Testing",
+    "aliases": [],
+    "difficulty": "intermediate",
+    "categories": [
+      "testing"
+    ]
+  },
+  {
+    "id": "proxy",
+    "term": "Proxy",
+    "aliases": [
+      "Forward Proxy"
+    ],
+    "difficulty": "fundamental",
+    "categories": [
+      "networking",
+      "web"
+    ]
+  },
+  {
+    "id": "public-key",
+    "term": "Public Key",
+    "aliases": [],
+    "difficulty": "fundamental",
+    "categories": [
+      "cryptography",
+      "security"
+    ]
+  },
+  {
+    "id": "public-key-infrastructure",
+    "term": "Public-Key Infrastructure",
+    "aliases": [
+      "PKI"
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "cryptography",
+      "security"
+    ]
+  },
+  {
+    "id": "publish-subscribe",
+    "term": "Publish-Subscribe",
+    "aliases": [
+      "Pub/Sub"
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "distributed-systems"
+    ]
+  },
+  {
+    "id": "pull-request",
+    "term": "Pull Request",
+    "aliases": [
+      "Merge Request"
+    ],
+    "difficulty": "fundamental",
+    "categories": [
+      "software-engineering",
+      "version-control"
+    ]
+  },
+  {
+    "id": "query",
+    "term": "Query",
+    "aliases": [],
+    "difficulty": "fundamental",
+    "categories": [
+      "databases"
+    ]
+  },
+  {
+    "id": "query-planner",
+    "term": "Query Planner",
+    "aliases": [
+      "Query Optimizer"
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "databases"
+    ]
+  },
+  {
+    "id": "queue",
+    "term": "Queue",
+    "aliases": [
+      "FIFO"
+    ],
+    "difficulty": "fundamental",
+    "categories": [
+      "data-structures"
+    ]
+  },
+  {
+    "id": "quic",
+    "term": "QUIC",
+    "aliases": [],
+    "difficulty": "intermediate",
+    "categories": [
+      "networking",
+      "web"
+    ]
+  },
+  {
+    "id": "quick-sort",
+    "term": "Quick Sort",
+    "aliases": [],
+    "difficulty": "fundamental",
+    "categories": [
+      "algorithms"
+    ]
+  },
+  {
+    "id": "race-condition",
+    "term": "Race Condition",
+    "aliases": [],
+    "difficulty": "intermediate",
+    "categories": [
+      "operating-systems",
+      "programming"
+    ]
+  },
+  {
+    "id": "radix-sort",
+    "term": "Radix Sort",
+    "aliases": [],
+    "difficulty": "intermediate",
+    "categories": [
+      "algorithms"
+    ]
+  },
+  {
+    "id": "ram",
+    "term": "RAM",
+    "aliases": [
+      "Main Memory",
+      "Random-Access Memory"
+    ],
+    "difficulty": "fundamental",
+    "categories": [
+      "computer-architecture"
+    ]
+  },
+  {
+    "id": "rasterization",
+    "term": "Rasterization",
+    "aliases": [],
+    "difficulty": "intermediate",
+    "categories": [
+      "computer-graphics"
+    ]
+  },
+  {
+    "id": "rate-limiting",
+    "term": "Rate Limiting",
+    "aliases": [],
+    "difficulty": "intermediate",
+    "categories": [
+      "distributed-systems",
+      "security",
+      "web"
+    ]
+  },
+  {
+    "id": "rebase",
+    "term": "Rebase",
+    "aliases": [],
+    "difficulty": "intermediate",
+    "categories": [
+      "version-control"
+    ]
+  },
+  {
+    "id": "recursion",
+    "term": "Recursion",
+    "aliases": [],
+    "difficulty": "fundamental",
+    "categories": [
+      "algorithms",
+      "programming"
+    ]
+  },
+  {
+    "id": "red-black-tree",
+    "term": "Red-Black Tree",
+    "aliases": [],
+    "difficulty": "intermediate",
+    "categories": [
+      "data-structures"
+    ]
+  },
+  {
+    "id": "refactoring",
+    "term": "Refactoring",
+    "aliases": [],
+    "difficulty": "fundamental",
+    "categories": [
+      "software-engineering"
+    ]
+  },
+  {
+    "id": "reference-type",
+    "term": "Reference Type",
+    "aliases": [],
+    "difficulty": "fundamental",
+    "categories": [
+      "programming"
+    ]
+  },
+  {
+    "id": "register",
+    "term": "Register",
+    "aliases": [],
+    "difficulty": "fundamental",
+    "categories": [
+      "computer-architecture"
+    ]
+  },
+  {
+    "id": "regression-test",
+    "term": "Regression Test",
+    "aliases": [],
+    "difficulty": "fundamental",
+    "categories": [
+      "testing"
+    ]
+  },
+  {
+    "id": "regularization",
+    "term": "Regularization",
+    "aliases": [],
+    "difficulty": "intermediate",
+    "categories": [
+      "machine-learning"
+    ]
+  },
+  {
+    "id": "reinforcement-learning",
+    "term": "Reinforcement Learning",
+    "aliases": [],
+    "difficulty": "intermediate",
+    "categories": [
+      "machine-learning"
+    ]
+  },
+  {
+    "id": "relational-database",
+    "term": "Relational Database",
+    "aliases": [],
+    "difficulty": "fundamental",
+    "categories": [
+      "databases"
+    ]
+  },
+  {
+    "id": "reliability",
+    "term": "Reliability",
+    "aliases": [],
+    "difficulty": "fundamental",
+    "categories": [
+      "distributed-systems",
+      "software-engineering"
+    ]
+  },
+  {
+    "id": "rendering",
+    "term": "Rendering",
+    "aliases": [],
+    "difficulty": "fundamental",
+    "categories": [
+      "computer-graphics"
+    ]
+  },
+  {
+    "id": "replication",
+    "term": "Replication",
+    "aliases": [],
+    "difficulty": "intermediate",
+    "categories": [
+      "databases",
+      "distributed-systems"
+    ]
+  },
+  {
+    "id": "repository",
+    "term": "Repository",
+    "aliases": [
+      "Repo"
+    ],
+    "difficulty": "fundamental",
+    "categories": [
+      "version-control"
+    ]
+  },
+  {
+    "id": "requirements",
+    "term": "Requirements",
+    "aliases": [],
+    "difficulty": "fundamental",
+    "categories": [
+      "software-engineering"
+    ]
+  },
+  {
+    "id": "resolution",
+    "term": "Resolution",
+    "aliases": [],
+    "difficulty": "fundamental",
+    "categories": [
+      "computer-graphics"
+    ]
+  },
+  {
+    "id": "rest",
+    "term": "REST",
+    "aliases": [
+      "Representational State Transfer"
+    ],
+    "difficulty": "fundamental",
+    "categories": [
+      "distributed-systems",
+      "web"
+    ]
+  },
+  {
+    "id": "retrieval-augmented-generation",
+    "term": "Retrieval-Augmented Generation",
+    "aliases": [
+      "RAG"
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "databases",
+      "machine-learning"
+    ]
+  },
+  {
+    "id": "retry",
+    "term": "Retry",
+    "aliases": [],
+    "difficulty": "fundamental",
+    "categories": [
+      "distributed-systems",
+      "web"
+    ]
+  },
+  {
+    "id": "return-value",
+    "term": "Return Value",
+    "aliases": [],
+    "difficulty": "fundamental",
+    "categories": [
+      "programming"
+    ]
+  },
+  {
+    "id": "reverse-proxy",
+    "term": "Reverse Proxy",
+    "aliases": [],
+    "difficulty": "fundamental",
+    "categories": [
+      "infrastructure",
+      "networking",
+      "web"
+    ]
+  },
+  {
+    "id": "rgb",
+    "term": "RGB",
+    "aliases": [
+      "RGB Color"
+    ],
+    "difficulty": "fundamental",
+    "categories": [
+      "computer-graphics"
+    ]
+  },
+  {
+    "id": "risk",
+    "term": "Risk",
+    "aliases": [],
+    "difficulty": "fundamental",
+    "categories": [
+      "security",
+      "software-engineering"
+    ]
+  },
+  {
+    "id": "router",
+    "term": "Router",
+    "aliases": [],
+    "difficulty": "fundamental",
+    "categories": [
+      "networking"
+    ]
+  },
+  {
+    "id": "row",
+    "term": "Row",
+    "aliases": [
+      "Record",
+      "Tuple"
+    ],
+    "difficulty": "fundamental",
+    "categories": [
+      "databases"
+    ]
+  },
+  {
+    "id": "rpc",
+    "term": "RPC",
+    "aliases": [
+      "Remote Procedure Call"
+    ],
+    "difficulty": "fundamental",
+    "categories": [
+      "distributed-systems",
+      "web"
+    ]
+  },
+  {
+    "id": "runtime",
+    "term": "Runtime",
+    "aliases": [],
+    "difficulty": "fundamental",
+    "categories": [
+      "programming-languages"
+    ]
+  },
+  {
+    "id": "salt",
+    "term": "Salt",
+    "aliases": [],
+    "difficulty": "intermediate",
+    "categories": [
+      "cryptography",
+      "security"
+    ]
+  },
+  {
+    "id": "sandboxing",
+    "term": "Sandboxing",
+    "aliases": [],
+    "difficulty": "intermediate",
+    "categories": [
+      "operating-systems",
+      "security"
+    ]
+  },
+  {
+    "id": "scalability",
+    "term": "Scalability",
+    "aliases": [],
+    "difficulty": "fundamental",
+    "categories": [
+      "distributed-systems",
+      "software-engineering"
+    ]
+  },
+  {
+    "id": "scheduling",
+    "term": "Scheduling",
+    "aliases": [],
+    "difficulty": "intermediate",
+    "categories": [
+      "operating-systems"
+    ]
+  },
+  {
+    "id": "schema",
+    "term": "Schema",
+    "aliases": [],
+    "difficulty": "fundamental",
+    "categories": [
+      "databases"
+    ]
+  },
+  {
+    "id": "scope",
+    "term": "Scope",
+    "aliases": [],
+    "difficulty": "fundamental",
+    "categories": [
+      "programming"
+    ]
+  },
+  {
+    "id": "sdk",
+    "term": "SDK",
+    "aliases": [
+      "Software Development Kit"
+    ],
+    "difficulty": "fundamental",
+    "categories": [
+      "programming"
+    ]
+  },
+  {
+    "id": "secrets-management",
+    "term": "Secrets Management",
+    "aliases": [],
+    "difficulty": "fundamental",
+    "categories": [
+      "infrastructure",
+      "security"
+    ]
+  },
+  {
+    "id": "selection-sort",
+    "term": "Selection Sort",
+    "aliases": [],
+    "difficulty": "fundamental",
+    "categories": [
+      "algorithms"
+    ]
+  },
+  {
+    "id": "semantic-analysis",
+    "term": "Semantic Analysis",
+    "aliases": [],
+    "difficulty": "intermediate",
+    "categories": [
+      "programming-languages"
+    ]
+  },
+  {
+    "id": "semantic-versioning",
+    "term": "Semantic Versioning",
+    "aliases": [
+      "SemVer"
+    ],
+    "difficulty": "fundamental",
+    "categories": [
+      "software-engineering"
+    ]
+  },
+  {
+    "id": "semaphore",
+    "term": "Semaphore",
+    "aliases": [],
+    "difficulty": "intermediate",
+    "categories": [
+      "operating-systems"
+    ]
+  },
+  {
+    "id": "separation-of-concerns",
+    "term": "Separation of Concerns",
+    "aliases": [],
+    "difficulty": "fundamental",
+    "categories": [
+      "software-engineering"
+    ]
+  },
+  {
+    "id": "serialization",
+    "term": "Serialization",
+    "aliases": [
+      "Deserialization"
+    ],
+    "difficulty": "fundamental",
+    "categories": [
+      "distributed-systems",
+      "programming"
+    ]
+  },
+  {
+    "id": "server",
+    "term": "Server",
+    "aliases": [],
+    "difficulty": "fundamental",
+    "categories": [
+      "distributed-systems",
+      "networking",
+      "web"
+    ]
+  },
+  {
+    "id": "server-side-rendering",
+    "term": "Server-Side Rendering",
+    "aliases": [
+      "SSR"
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "web"
+    ]
+  },
+  {
+    "id": "server-side-request-forgery",
+    "term": "Server-Side Request Forgery",
+    "aliases": [
+      "SSRF"
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "security",
+      "web"
+    ]
+  },
+  {
+    "id": "service",
+    "term": "Service",
+    "aliases": [],
+    "difficulty": "fundamental",
+    "categories": [
+      "distributed-systems",
+      "web"
+    ]
+  },
+  {
+    "id": "session",
+    "term": "Session",
+    "aliases": [],
+    "difficulty": "fundamental",
+    "categories": [
+      "security",
+      "web"
+    ]
+  },
+  {
+    "id": "set",
+    "term": "Set",
+    "aliases": [],
+    "difficulty": "fundamental",
+    "categories": [
+      "data-structures",
+      "mathematics"
+    ]
+  },
+  {
+    "id": "shader",
+    "term": "Shader",
+    "aliases": [],
+    "difficulty": "intermediate",
+    "categories": [
+      "computer-graphics"
+    ]
+  },
+  {
+    "id": "sharding",
+    "term": "Sharding",
+    "aliases": [],
+    "difficulty": "intermediate",
+    "categories": [
+      "databases",
+      "distributed-systems"
+    ]
+  },
+  {
+    "id": "shell",
+    "term": "Shell",
+    "aliases": [],
+    "difficulty": "fundamental",
+    "categories": [
+      "infrastructure",
+      "operating-systems",
+      "programming"
+    ]
+  },
+  {
+    "id": "shortest-path",
+    "term": "Shortest Path",
+    "aliases": [],
+    "difficulty": "fundamental",
+    "categories": [
+      "algorithms"
+    ]
+  },
+  {
+    "id": "signal",
+    "term": "Signal",
+    "aliases": [],
+    "difficulty": "intermediate",
+    "categories": [
+      "operating-systems"
+    ]
+  },
+  {
+    "id": "simd",
+    "term": "SIMD",
+    "aliases": [
+      "Single Instruction, Multiple Data"
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "computer-architecture"
+    ]
+  },
+  {
+    "id": "single-responsibility-principle",
+    "term": "Single Responsibility Principle",
+    "aliases": [
+      "SRP"
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "object-oriented-programming",
+      "software-engineering"
+    ]
+  },
+  {
+    "id": "sliding-window",
+    "term": "Sliding Window",
+    "aliases": [],
+    "difficulty": "intermediate",
+    "categories": [
+      "algorithms"
+    ]
+  },
+  {
+    "id": "smoke-test",
+    "term": "Smoke Test",
+    "aliases": [],
+    "difficulty": "fundamental",
+    "categories": [
+      "testing"
+    ]
+  },
+  {
+    "id": "socket",
+    "term": "Socket",
+    "aliases": [],
+    "difficulty": "fundamental",
+    "categories": [
+      "networking",
+      "operating-systems"
+    ]
+  },
+  {
+    "id": "software-architecture",
+    "term": "Software Architecture",
+    "aliases": [
+      "Architecture"
+    ],
+    "difficulty": "fundamental",
+    "categories": [
+      "software-engineering"
+    ]
+  },
+  {
+    "id": "software-design",
+    "term": "Software Design",
+    "aliases": [
+      "Design"
+    ],
+    "difficulty": "fundamental",
+    "categories": [
+      "software-engineering"
+    ]
+  },
+  {
+    "id": "software-development-lifecycle",
+    "term": "Software Development Lifecycle",
+    "aliases": [
+      "SDLC"
+    ],
+    "difficulty": "fundamental",
+    "categories": [
+      "software-engineering"
+    ]
+  },
+  {
+    "id": "solid",
+    "term": "SOLID",
+    "aliases": [],
+    "difficulty": "intermediate",
+    "categories": [
+      "object-oriented-programming",
+      "software-engineering"
+    ]
+  },
+  {
+    "id": "sort-stability",
+    "term": "Sort Stability",
+    "aliases": [],
+    "difficulty": "fundamental",
+    "categories": [
+      "algorithms"
+    ]
+  },
+  {
+    "id": "specification",
+    "term": "Specification",
+    "aliases": [],
+    "difficulty": "fundamental",
+    "categories": [
+      "software-engineering"
+    ]
+  },
+  {
+    "id": "sql",
+    "term": "SQL",
+    "aliases": [
+      "Structured Query Language"
+    ],
+    "difficulty": "fundamental",
+    "categories": [
+      "databases"
+    ]
+  },
+  {
+    "id": "sql-injection",
+    "term": "SQL Injection",
+    "aliases": [],
+    "difficulty": "intermediate",
+    "categories": [
+      "databases",
+      "security"
+    ]
+  },
+  {
+    "id": "stack",
+    "term": "Stack",
+    "aliases": [
+      "LIFO"
+    ],
+    "difficulty": "fundamental",
+    "categories": [
+      "data-structures"
+    ]
+  },
+  {
+    "id": "starvation",
+    "term": "Starvation",
+    "aliases": [],
+    "difficulty": "intermediate",
+    "categories": [
+      "operating-systems"
+    ]
+  },
+  {
+    "id": "statement",
+    "term": "Statement",
+    "aliases": [],
+    "difficulty": "fundamental",
+    "categories": [
+      "programming"
+    ]
+  },
+  {
+    "id": "static-generation",
+    "term": "Static Generation",
+    "aliases": [
+      "Static Site Generation"
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "web"
+    ]
+  },
+  {
+    "id": "static-typing",
+    "term": "Static Typing",
+    "aliases": [],
+    "difficulty": "fundamental",
+    "categories": [
+      "programming",
+      "programming-languages"
+    ]
+  },
+  {
+    "id": "strong-consistency",
+    "term": "Strong Consistency",
+    "aliases": [],
+    "difficulty": "intermediate",
+    "categories": [
+      "databases",
+      "distributed-systems"
+    ]
+  },
+  {
+    "id": "strong-typing",
+    "term": "Strong Typing",
+    "aliases": [],
+    "difficulty": "intermediate",
+    "categories": [
+      "programming",
+      "programming-languages"
+    ]
+  },
+  {
+    "id": "stub",
+    "term": "Stub",
+    "aliases": [],
+    "difficulty": "intermediate",
+    "categories": [
+      "testing"
+    ]
+  },
+  {
+    "id": "subnet",
+    "term": "Subnet",
+    "aliases": [],
+    "difficulty": "fundamental",
+    "categories": [
+      "networking"
+    ]
+  },
+  {
+    "id": "supervised-learning",
+    "term": "Supervised Learning",
+    "aliases": [],
+    "difficulty": "fundamental",
+    "categories": [
+      "machine-learning"
+    ]
+  },
+  {
+    "id": "symmetric-encryption",
+    "term": "Symmetric Encryption",
+    "aliases": [],
+    "difficulty": "fundamental",
+    "categories": [
+      "cryptography",
+      "security"
+    ]
+  },
+  {
+    "id": "synchronization",
+    "term": "Synchronization",
+    "aliases": [],
+    "difficulty": "fundamental",
+    "categories": [
+      "operating-systems",
+      "programming"
+    ]
+  },
+  {
+    "id": "system-call",
+    "term": "System Call",
+    "aliases": [],
+    "difficulty": "fundamental",
+    "categories": [
+      "operating-systems"
+    ]
+  },
+  {
+    "id": "table",
+    "term": "Table",
+    "aliases": [
+      "Relation"
+    ],
+    "difficulty": "fundamental",
+    "categories": [
+      "databases"
+    ]
+  },
+  {
+    "id": "tcp",
+    "term": "TCP",
+    "aliases": [
+      "Transmission Control Protocol"
+    ],
+    "difficulty": "fundamental",
+    "categories": [
+      "networking"
+    ]
+  },
+  {
+    "id": "technical-debt",
+    "term": "Technical Debt",
+    "aliases": [],
+    "difficulty": "fundamental",
+    "categories": [
+      "software-engineering"
+    ]
+  },
+  {
+    "id": "test-double",
+    "term": "Test Double",
+    "aliases": [],
+    "difficulty": "fundamental",
+    "categories": [
+      "testing"
+    ]
+  },
+  {
+    "id": "test-driven-development",
+    "term": "Test-Driven Development",
+    "aliases": [
+      "TDD"
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "software-engineering",
+      "testing"
+    ]
+  },
+  {
+    "id": "test-set",
+    "term": "Test Set",
+    "aliases": [],
+    "difficulty": "fundamental",
+    "categories": [
+      "machine-learning"
+    ]
+  },
+  {
+    "id": "texture",
+    "term": "Texture",
+    "aliases": [],
+    "difficulty": "fundamental",
+    "categories": [
+      "computer-graphics"
+    ]
+  },
+  {
+    "id": "thread",
+    "term": "Thread",
+    "aliases": [],
+    "difficulty": "fundamental",
+    "categories": [
+      "operating-systems"
+    ]
+  },
+  {
+    "id": "threat-model",
+    "term": "Threat Model",
+    "aliases": [],
+    "difficulty": "intermediate",
+    "categories": [
+      "security"
+    ]
+  },
+  {
+    "id": "tls",
+    "term": "TLS",
+    "aliases": [
+      "Transport Layer Security"
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "cryptography",
+      "networking",
+      "security",
+      "web"
+    ]
+  },
+  {
+    "id": "token",
+    "term": "Token",
+    "aliases": [],
+    "difficulty": "fundamental",
+    "categories": [
+      "machine-learning"
+    ]
+  },
+  {
+    "id": "tokenization",
+    "term": "Tokenization",
+    "aliases": [],
+    "difficulty": "fundamental",
+    "categories": [
+      "machine-learning",
+      "programming-languages"
+    ]
+  },
+  {
+    "id": "tool-calling",
+    "term": "Tool Calling",
+    "aliases": [],
+    "difficulty": "intermediate",
+    "categories": [
+      "machine-learning",
+      "programming"
+    ]
+  },
+  {
+    "id": "topological-sort",
+    "term": "Topological Sort",
+    "aliases": [],
+    "difficulty": "intermediate",
+    "categories": [
+      "algorithms"
+    ]
+  },
+  {
+    "id": "tracing",
+    "term": "Tracing",
+    "aliases": [],
+    "difficulty": "intermediate",
+    "categories": [
+      "distributed-systems",
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "training",
+    "term": "Training",
+    "aliases": [],
+    "difficulty": "fundamental",
+    "categories": [
+      "machine-learning"
+    ]
+  },
+  {
+    "id": "transaction",
+    "term": "Transaction",
+    "aliases": [],
+    "difficulty": "fundamental",
+    "categories": [
+      "databases"
+    ]
+  },
+  {
+    "id": "transformer",
+    "term": "Transformer",
+    "aliases": [],
+    "difficulty": "intermediate",
+    "categories": [
+      "machine-learning"
+    ]
+  },
+  {
+    "id": "tree",
+    "term": "Tree",
+    "aliases": [],
+    "difficulty": "fundamental",
+    "categories": [
+      "data-structures"
+    ]
+  },
+  {
+    "id": "trie",
+    "term": "Trie",
+    "aliases": [
+      "Prefix Tree"
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "data-structures"
+    ]
+  },
+  {
+    "id": "two-pointers",
+    "term": "Two Pointers",
+    "aliases": [],
+    "difficulty": "intermediate",
+    "categories": [
+      "algorithms"
+    ]
+  },
+  {
+    "id": "type-checking",
+    "term": "Type Checking",
+    "aliases": [],
+    "difficulty": "intermediate",
+    "categories": [
+      "programming-languages"
+    ]
+  },
+  {
+    "id": "type-system",
+    "term": "Type System",
+    "aliases": [],
+    "difficulty": "fundamental",
+    "categories": [
+      "programming",
+      "programming-languages"
+    ]
+  },
+  {
+    "id": "udp",
+    "term": "UDP",
+    "aliases": [
+      "User Datagram Protocol"
+    ],
+    "difficulty": "fundamental",
+    "categories": [
+      "networking"
+    ]
+  },
+  {
+    "id": "underfitting",
+    "term": "Underfitting",
+    "aliases": [],
+    "difficulty": "fundamental",
+    "categories": [
+      "machine-learning"
+    ]
+  },
+  {
+    "id": "undirected-graph",
+    "term": "Undirected Graph",
+    "aliases": [],
+    "difficulty": "fundamental",
+    "categories": [
+      "algorithms",
+      "data-structures"
+    ]
+  },
+  {
+    "id": "unicode",
+    "term": "Unicode",
+    "aliases": [],
+    "difficulty": "fundamental",
+    "categories": [
+      "programming"
+    ]
+  },
+  {
+    "id": "union-find",
+    "term": "Union-Find",
+    "aliases": [
+      "Disjoint Set"
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "algorithms",
+      "data-structures"
+    ]
+  },
+  {
+    "id": "unit-test",
+    "term": "Unit Test",
+    "aliases": [],
+    "difficulty": "fundamental",
+    "categories": [
+      "testing"
+    ]
+  },
+  {
+    "id": "unsupervised-learning",
+    "term": "Unsupervised Learning",
+    "aliases": [],
+    "difficulty": "fundamental",
+    "categories": [
+      "machine-learning"
+    ]
+  },
+  {
+    "id": "validation-set",
+    "term": "Validation Set",
+    "aliases": [],
+    "difficulty": "fundamental",
+    "categories": [
+      "machine-learning"
+    ]
+  },
+  {
+    "id": "variable",
+    "term": "Variable",
+    "aliases": [],
+    "difficulty": "fundamental",
+    "categories": [
+      "programming"
+    ]
+  },
+  {
+    "id": "vector-database",
+    "term": "Vector Database",
+    "aliases": [],
+    "difficulty": "intermediate",
+    "categories": [
+      "databases",
+      "machine-learning"
+    ]
+  },
+  {
+    "id": "virtual-machine-runtime",
+    "term": "Virtual Machine",
+    "aliases": [],
+    "difficulty": "fundamental",
+    "categories": [
+      "programming-languages"
+    ]
+  },
+  {
+    "id": "virtual-memory",
+    "term": "Virtual Memory",
+    "aliases": [],
+    "difficulty": "intermediate",
+    "categories": [
+      "computer-architecture",
+      "operating-systems"
+    ]
+  },
+  {
+    "id": "virtualization",
+    "term": "Virtualization",
+    "aliases": [],
+    "difficulty": "intermediate",
+    "categories": [
+      "computer-architecture",
+      "infrastructure",
+      "operating-systems"
+    ]
+  },
+  {
+    "id": "vulnerability",
+    "term": "Vulnerability",
+    "aliases": [],
+    "difficulty": "fundamental",
+    "categories": [
+      "security"
+    ]
+  },
+  {
+    "id": "weak-typing",
+    "term": "Weak Typing",
+    "aliases": [],
+    "difficulty": "intermediate",
+    "categories": [
+      "programming",
+      "programming-languages"
+    ]
+  },
+  {
+    "id": "web-server",
+    "term": "Web Server",
+    "aliases": [],
+    "difficulty": "fundamental",
+    "categories": [
+      "networking",
+      "web"
+    ]
+  },
+  {
+    "id": "webhook",
+    "term": "Webhook",
+    "aliases": [],
+    "difficulty": "fundamental",
+    "categories": [
+      "distributed-systems",
+      "web"
+    ]
+  },
+  {
+    "id": "websocket",
+    "term": "WebSocket",
+    "aliases": [],
+    "difficulty": "intermediate",
+    "categories": [
+      "networking",
+      "web"
+    ]
+  },
+  {
+    "id": "weighted-graph",
+    "term": "Weighted Graph",
+    "aliases": [],
+    "difficulty": "fundamental",
+    "categories": [
+      "algorithms",
+      "data-structures"
+    ]
+  },
+  {
+    "id": "yagni",
+    "term": "YAGNI",
+    "aliases": [
+      "You Aren't Gonna Need It"
+    ],
+    "difficulty": "fundamental",
+    "categories": [
+      "software-engineering"
+    ]
+  }
+]

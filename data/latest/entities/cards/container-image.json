@@ -1,0 +1,15 @@
+{
+  "id": "container-image",
+  "term": "Container Image",
+  "aliases": [],
+  "difficulty": "fundamental",
+  "definition": "A container image is a filesystem snapshot plus metadata, including the command to run, used to start a container. Images are built in layers and identified by a digest of their contents. A running container adds a writable layer on top; the image itself stays unchanged.",
+  "categories": [
+    "infrastructure"
+  ],
+  "prompt": "What is a container image?",
+  "examples": [
+    "An image tagged as a particular release",
+    "A digest that identifies the exact bytes that were deployed"
+  ]
+}

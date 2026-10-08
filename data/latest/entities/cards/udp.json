@@ -1,0 +1,17 @@
+{
+  "id": "udp",
+  "term": "UDP",
+  "aliases": [
+    "User Datagram Protocol"
+  ],
+  "difficulty": "fundamental",
+  "definition": "UDP is a transport protocol that sends datagrams without setting up a connection and without retransmission or ordering. A datagram can be lost, duplicated, or arrive out of order, and the application deals with that if it cares. The lack of that machinery is why it is used where freshness matters more than a perfect copy.",
+  "categories": [
+    "networking"
+  ],
+  "examples": [
+    "A live video stream",
+    "A DNS query",
+    "A game update that is useless if it arrives late"
+  ]
+}

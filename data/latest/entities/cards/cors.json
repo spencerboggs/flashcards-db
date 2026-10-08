@@ -1,0 +1,17 @@
+{
+  "id": "cors",
+  "term": "CORS",
+  "aliases": [
+    "Cross-Origin Resource Sharing"
+  ],
+  "difficulty": "intermediate",
+  "definition": "CORS is the browser rule for when a page from one origin may read a response from another origin. The browser asks, through headers, and the server answers whether that origin is allowed. It is a browser protection, not a boundary the server can rely on, because a non-browser client ignores it.",
+  "categories": [
+    "security",
+    "web"
+  ],
+  "examples": [
+    "A page on one site reading an API on another",
+    "A response header that names the allowed origin"
+  ]
+}

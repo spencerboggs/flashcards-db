@@ -1,0 +1,15 @@
+{
+  "id": "index",
+  "term": "Index",
+  "aliases": [],
+  "difficulty": "fundamental",
+  "definition": "An index is a side structure that lets the database find rows by a key without scanning the whole table. It speeds reads that match the key and slows writes, which must update the index too. An index on the wrong columns, or one that the query cannot use, only adds cost.",
+  "categories": [
+    "databases"
+  ],
+  "prompt": "What is a database index?",
+  "examples": [
+    "An index on users.email for login lookups",
+    "A primary-key index the engine maintains automatically"
+  ]
+}

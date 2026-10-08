@@ -1,0 +1,16 @@
+{
+  "id": "alu",
+  "term": "ALU",
+  "aliases": [
+    "Arithmetic Logic Unit"
+  ],
+  "difficulty": "fundamental",
+  "definition": "The arithmetic logic unit is the part of the processor that computes: addition, subtraction, comparisons, and bitwise operations. The rest of the CPU feeds it operands from registers and writes the result back. It does not fetch instructions or talk to main memory by itself.",
+  "categories": [
+    "computer-architecture"
+  ],
+  "examples": [
+    "Adding two registers",
+    "Computing a bitwise and of two values"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "id": "rate-limiting",
+  "term": "Rate Limiting",
+  "aliases": [],
+  "difficulty": "intermediate",
+  "definition": "Rate limiting caps how often a client may call a service in a window of time. Excess requests are rejected or delayed. It protects capacity and limits the damage of a buggy or abusive client.",
+  "categories": [
+    "distributed-systems",
+    "security",
+    "web"
+  ],
+  "examples": [
+    "An API that allows one hundred requests per minute per key",
+    "A login endpoint that slows repeated attempts"
+  ]
+}

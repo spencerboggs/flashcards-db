@@ -1,0 +1,18 @@
+{
+  "id": "binary-tree",
+  "term": "Binary Tree",
+  "aliases": [],
+  "difficulty": "fundamental",
+  "definition": "A binary tree is a tree in which each node has at most two children, usually called left and right. The shape alone does not say how values are ordered. It is the shape used by search trees, heaps, and expression trees.",
+  "categories": [
+    "data-structures"
+  ],
+  "complexity": {
+    "time": "Visiting every node is O(n).",
+    "space": "O(n) space for the elements themselves."
+  },
+  "examples": [
+    "An expression tree for 1 + 2 * 3",
+    "A tournament bracket"
+  ]
+}

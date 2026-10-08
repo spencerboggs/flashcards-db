@@ -1,0 +1,26 @@
+{
+  "id": "breadth-first-search",
+  "term": "Breadth-First Search",
+  "aliases": [
+    "BFS"
+  ],
+  "difficulty": "fundamental",
+  "definition": "Breadth-first search explores a graph in layers, visiting every neighbor of the current layer before going deeper. It uses a queue so the oldest discovered vertex is expanded next. On an unweighted graph, the first time it reaches a vertex is along a shortest path by number of edges.",
+  "categories": [
+    "algorithms",
+    "data-structures"
+  ],
+  "details": [
+    "A seen set is required, or a cycle makes the search run forever.",
+    "On a tree there is no cycle, but the seen set still avoids nothing extra if each node has one parent."
+  ],
+  "complexity": {
+    "time": "O(V + E) with an adjacency list.",
+    "space": "O(V) for the queue and the seen set."
+  },
+  "examples": [
+    "The fewest hops between two people in a social graph",
+    "Spreading a flood fill one ring at a time"
+  ],
+  "sketch": "queue = [start]\nseen = {start}\nwhile queue is not empty:\n  node = queue.pop_front()\n  for next in neighbors(node):\n    if next not in seen:\n      seen.add(next)\n      queue.push_back(next)"
+}

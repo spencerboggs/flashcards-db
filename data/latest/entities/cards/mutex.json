@@ -1,0 +1,17 @@
+{
+  "id": "mutex",
+  "term": "Mutex",
+  "aliases": [
+    "Mutual Exclusion Lock"
+  ],
+  "difficulty": "fundamental",
+  "definition": "A mutex is a lock that only one thread may hold at a time. A thread that locks it excludes the others from the protected section until it unlocks. The mutex is owned by the thread that locked it, which is the usual difference from a binary semaphore.",
+  "categories": [
+    "operating-systems",
+    "programming"
+  ],
+  "examples": [
+    "Protecting a shared counter",
+    "Guarding a list that several threads push onto"
+  ]
+}

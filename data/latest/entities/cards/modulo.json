@@ -1,0 +1,17 @@
+{
+  "id": "modulo",
+  "term": "Modulo",
+  "aliases": [
+    "Modulus"
+  ],
+  "difficulty": "fundamental",
+  "definition": "The modulo operation returns the remainder after division. Programs use it to wrap a number into a fixed range, such as a circular buffer or a hash bucket. Languages disagree on the sign of the remainder when the dividend is negative.",
+  "categories": [
+    "mathematics",
+    "programming"
+  ],
+  "examples": [
+    "Turning any integer into an index inside a fixed array",
+    "Alternating between two choices with remainder 2"
+  ]
+}

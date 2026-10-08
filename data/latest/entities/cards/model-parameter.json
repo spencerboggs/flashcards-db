@@ -1,0 +1,15 @@
+{
+  "id": "model-parameter",
+  "term": "Model Parameter",
+  "aliases": [],
+  "difficulty": "fundamental",
+  "definition": "A parameter is a number inside a model that training adjusts, such as a weight in a network. The set of parameters is what distinguishes a trained model from the architecture alone. At inference the parameters stay fixed.",
+  "categories": [
+    "machine-learning"
+  ],
+  "prompt": "What is a parameter in a machine learning model?",
+  "examples": [
+    "A weight on a connection in a network",
+    "The coefficients of a linear model"
+  ]
+}

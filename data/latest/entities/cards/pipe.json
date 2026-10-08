@@ -1,0 +1,15 @@
+{
+  "id": "pipe",
+  "term": "Pipe",
+  "aliases": [],
+  "difficulty": "fundamental",
+  "definition": "A pipe is a one-way byte stream between processes. One end writes and the other reads, and the kernel buffers the bytes in between. A shell pipeline connects the output of one program to the input of the next with pipes.",
+  "categories": [
+    "operating-systems"
+  ],
+  "prompt": "What is a pipe between processes?",
+  "examples": [
+    "The connection inside ls | grep",
+    "A parent reading the standard output of a child"
+  ]
+}

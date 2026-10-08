@@ -1,0 +1,14 @@
+{
+  "id": "code-smell",
+  "term": "Code Smell",
+  "aliases": [],
+  "difficulty": "fundamental",
+  "definition": "A code smell is a surface sign that the design may be weak, not a defect by itself. A very long method, or a type that is modified for many unrelated reasons, is a smell. It is a prompt to look, not a proof that the code is wrong.",
+  "categories": [
+    "software-engineering"
+  ],
+  "examples": [
+    "A function with dozens of parameters",
+    "Duplicated logic that has already started to drift apart"
+  ]
+}

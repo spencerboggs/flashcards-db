@@ -1,0 +1,14 @@
+{
+  "id": "constructor",
+  "term": "Constructor",
+  "aliases": [],
+  "difficulty": "fundamental",
+  "definition": "A constructor is the procedure that runs when a new instance is created. It sets the instance's starting fields and can reject input that would make an invalid object. After it returns, the caller holds a usable instance.",
+  "categories": [
+    "object-oriented-programming"
+  ],
+  "examples": [
+    "A User constructor that requires a non-empty email",
+    "A connection constructor that opens the underlying socket"
+  ]
+}

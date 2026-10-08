@@ -1,0 +1,17 @@
+{
+  "id": "big-theta",
+  "term": "Big-Theta",
+  "aliases": [
+    "Theta Notation"
+  ],
+  "difficulty": "intermediate",
+  "definition": "Big-Theta describes a tight bound: the cost grows no faster and no slower than the stated function, up to a constant factor. It is both an upper bound and a lower bound. When people say an algorithm 'is' n log n, this is the claim they usually mean.",
+  "categories": [
+    "algorithms",
+    "mathematics"
+  ],
+  "examples": [
+    "Merge sort is Theta(n log n) in the worst case",
+    "A single loop from 1 to n is Theta(n)"
+  ]
+}

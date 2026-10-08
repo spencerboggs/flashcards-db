@@ -1,0 +1,15 @@
+{
+  "id": "metrics",
+  "term": "Metrics",
+  "aliases": [],
+  "difficulty": "fundamental",
+  "definition": "Metrics are numeric measurements taken over time, such as a count of requests, a gauge of queue depth, or a histogram of latency. They are aggregated, so they stay cheap at high volume. They show trends and are a weak tool for explaining one individual failure.",
+  "categories": [
+    "infrastructure",
+    "software-engineering"
+  ],
+  "examples": [
+    "A counter of HTTP responses by status code",
+    "A histogram of how long queries take"
+  ]
+}

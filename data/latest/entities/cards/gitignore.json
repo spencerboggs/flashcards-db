@@ -1,0 +1,14 @@
+{
+  "id": "gitignore",
+  "term": ".gitignore",
+  "aliases": [],
+  "difficulty": "fundamental",
+  "definition": "A .gitignore file lists patterns of files that Git should not report as untracked. It does not remove a file that is already tracked; the file has to be untracked first. Typical entries are build output, dependencies, and local secrets.",
+  "categories": [
+    "version-control"
+  ],
+  "examples": [
+    "Ignoring a build directory",
+    "Ignoring local environment files that contain secrets"
+  ]
+}

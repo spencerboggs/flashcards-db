@@ -1,0 +1,19 @@
+{
+  "id": "tcp",
+  "term": "TCP",
+  "aliases": [
+    "Transmission Control Protocol"
+  ],
+  "difficulty": "fundamental",
+  "definition": "TCP is a transport protocol that delivers a reliable, ordered byte stream between two endpoints. It retransmits lost data, acknowledges what arrived, and controls how fast it sends so it does not overrun the receiver or the network. A connection is set up before data flows and torn down afterward.",
+  "categories": [
+    "networking"
+  ],
+  "details": [
+    "Congestion control reduces the sending rate when the network is overloaded, separately from flow control, which protects the receiver's buffer."
+  ],
+  "examples": [
+    "A file download that arrives complete and in order",
+    "An HTTP request carried over a TCP connection"
+  ]
+}

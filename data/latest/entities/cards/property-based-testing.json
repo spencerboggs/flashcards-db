@@ -1,0 +1,14 @@
+{
+  "id": "property-based-testing",
+  "term": "Property-Based Testing",
+  "aliases": [],
+  "difficulty": "intermediate",
+  "definition": "Property-based testing generates many inputs and checks a property that should hold for all of them, instead of listing individual examples. When an input fails, the tool tries to shrink it to a smaller failing case. The property is the specification; the examples are produced by the tool.",
+  "categories": [
+    "testing"
+  ],
+  "examples": [
+    "Encoding and then decoding yields the original value",
+    "Sorting a list produces a list of the same length"
+  ]
+}

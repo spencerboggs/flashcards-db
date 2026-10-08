@@ -1,0 +1,22 @@
+{
+  "id": "memoization",
+  "term": "Memoization",
+  "aliases": [],
+  "difficulty": "intermediate",
+  "definition": "Memoization caches the result of a function under its arguments and returns the cached result on a later call with the same arguments. It turns an exponential recursion with overlapping subproblems into a much smaller number of real calls. It is the top-down form of dynamic programming.",
+  "categories": [
+    "algorithms",
+    "programming"
+  ],
+  "details": [
+    "It helps only when the same arguments recur. A function whose arguments are almost always new just fills the cache.",
+    "The cache key has to include every input the result depends on."
+  ],
+  "complexity": {
+    "space": "Proportional to the number of distinct argument combinations that are stored."
+  },
+  "examples": [
+    "Caching Fibonacci results so each n is computed once",
+    "Caching the best score for each subarray in a recursion"
+  ]
+}

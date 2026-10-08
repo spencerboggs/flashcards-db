@@ -1,0 +1,14 @@
+{
+  "id": "test-double",
+  "term": "Test Double",
+  "aliases": [],
+  "difficulty": "fundamental",
+  "definition": "A test double is a stand-in for a collaborator, used so a test can control that collaborator's behavior. Mocks, stubs, and fakes are kinds of doubles. The double replaces the real dependency at the boundary the test cares about.",
+  "categories": [
+    "testing"
+  ],
+  "examples": [
+    "A fake clock that returns a fixed time",
+    "A substitute for a payment service"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "id": "documentation",
+  "term": "Documentation",
+  "aliases": [],
+  "difficulty": "fundamental",
+  "definition": "Documentation is writing that explains a system to a reader who is not currently inside the code. Reference documentation says what each part does; a guide says how to accomplish a task. It stays useful only when it is updated with the behavior it describes.",
+  "categories": [
+    "software-engineering"
+  ],
+  "examples": [
+    "A reference page for each public function",
+    "A guide that walks through the first successful call to an API"
+  ]
+}

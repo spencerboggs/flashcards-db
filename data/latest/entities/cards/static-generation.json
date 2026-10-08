@@ -1,0 +1,16 @@
+{
+  "id": "static-generation",
+  "term": "Static Generation",
+  "aliases": [
+    "Static Site Generation"
+  ],
+  "difficulty": "intermediate",
+  "definition": "Static generation builds HTML ahead of time, at build or on a schedule, and serves the finished files. A request does not run application code to assemble the page. It fits content that is the same for many users, and it is a poor fit for a page that must be different for each request.",
+  "categories": [
+    "web"
+  ],
+  "examples": [
+    "A documentation site built into HTML files",
+    "A blog post rendered once when it is published"
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "id": "normalization",
+  "term": "Normalization",
+  "aliases": [],
+  "difficulty": "intermediate",
+  "definition": "Normalization organizes a relational schema so each fact is stored once, by splitting data into tables related by keys. Higher normal forms remove particular kinds of redundancy and the update anomalies that come with it. The usual stopping point for transactional schemas is third normal form or Boyce-Codd normal form.",
+  "categories": [
+    "databases"
+  ],
+  "prompt": "What is normalization in a relational database?",
+  "details": [
+    "This is not feature scaling in machine learning, which is also called normalization.",
+    "First normal form requires atomic column values. Later forms remove dependencies that are not on the key."
+  ],
+  "examples": [
+    "Moving a customer's address out of every order row into a customer table",
+    "A schema in which changing a product name updates one row"
+  ]
+}

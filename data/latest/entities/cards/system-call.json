@@ -1,0 +1,15 @@
+{
+  "id": "system-call",
+  "term": "System Call",
+  "aliases": [],
+  "difficulty": "fundamental",
+  "definition": "A system call is the controlled entry from a user program into the kernel. The program asks for a privileged action, such as reading a file or creating a process, and the kernel checks the request and does it. Crossing that boundary is more expensive than an ordinary function call.",
+  "categories": [
+    "operating-systems"
+  ],
+  "examples": [
+    "read and write",
+    "fork, or the call that creates a process",
+    "A request for more memory from the operating system"
+  ]
+}

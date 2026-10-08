@@ -1,0 +1,12 @@
+{
+  "id": "strong-typing",
+  "term": "Strong Typing",
+  "aliases": [],
+  "difficulty": "intermediate",
+  "definition": "Strong typing is an informal label for a language that refuses implicit conversions which would change a value's meaning or lose information. Adding a number to a string is an error unless the program converts one of them on purpose. The label is not a formal standard, and real languages fall on a spectrum.",
+  "categories": [
+    "programming",
+    "programming-languages"
+  ],
+  "prompt": "What does strong typing mean?"
+}

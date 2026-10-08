@@ -1,0 +1,16 @@
+{
+  "id": "ip",
+  "term": "IP",
+  "aliases": [
+    "Internet Protocol"
+  ],
+  "difficulty": "fundamental",
+  "definition": "IP is the network protocol that addresses machines and routes packets between networks. A packet carries a source and a destination IP address, and routers forward it toward the destination. IP does not guarantee delivery, order, or that the payload arrives only once.",
+  "categories": [
+    "networking"
+  ],
+  "examples": [
+    "A packet routed across several networks",
+    "An address that identifies a host on the internet"
+  ]
+}

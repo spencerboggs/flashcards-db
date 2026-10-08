@@ -1,0 +1,2277 @@
+[
+  {
+    "id": "a-star",
+    "type": "card",
+    "name": "A*"
+  },
+  {
+    "id": "abi",
+    "type": "card",
+    "name": "ABI"
+  },
+  {
+    "id": "abstract-class",
+    "type": "card",
+    "name": "Abstract Class"
+  },
+  {
+    "id": "abstract-syntax-tree",
+    "type": "card",
+    "name": "Abstract Syntax Tree"
+  },
+  {
+    "id": "abstraction",
+    "type": "card",
+    "name": "Abstraction"
+  },
+  {
+    "id": "accounting",
+    "type": "card",
+    "name": "Accounting"
+  },
+  {
+    "id": "acid",
+    "type": "card",
+    "name": "ACID"
+  },
+  {
+    "id": "activation-function",
+    "type": "card",
+    "name": "Activation Function"
+  },
+  {
+    "id": "adjacency-list",
+    "type": "card",
+    "name": "Adjacency List"
+  },
+  {
+    "id": "adjacency-matrix",
+    "type": "card",
+    "name": "Adjacency Matrix"
+  },
+  {
+    "id": "agent",
+    "type": "card",
+    "name": "Agent"
+  },
+  {
+    "id": "aggregation",
+    "type": "card",
+    "name": "Aggregation"
+  },
+  {
+    "id": "ahead-of-time-compilation",
+    "type": "card",
+    "name": "Ahead-of-Time Compilation"
+  },
+  {
+    "id": "alerting",
+    "type": "card",
+    "name": "Alerting"
+  },
+  {
+    "id": "algorithm",
+    "type": "card",
+    "name": "Algorithm"
+  },
+  {
+    "id": "alu",
+    "type": "card",
+    "name": "ALU"
+  },
+  {
+    "id": "anti-aliasing",
+    "type": "card",
+    "name": "Anti-Aliasing"
+  },
+  {
+    "id": "api",
+    "type": "card",
+    "name": "API"
+  },
+  {
+    "id": "api-design",
+    "type": "card",
+    "name": "API Design"
+  },
+  {
+    "id": "argument",
+    "type": "card",
+    "name": "Argument"
+  },
+  {
+    "id": "arp",
+    "type": "card",
+    "name": "ARP"
+  },
+  {
+    "id": "array",
+    "type": "card",
+    "name": "Array"
+  },
+  {
+    "id": "artificial-intelligence",
+    "type": "card",
+    "name": "Artificial Intelligence"
+  },
+  {
+    "id": "assembly",
+    "type": "card",
+    "name": "Assembly"
+  },
+  {
+    "id": "asymmetric-encryption",
+    "type": "card",
+    "name": "Asymmetric Encryption"
+  },
+  {
+    "id": "async-await",
+    "type": "card",
+    "name": "Async/Await"
+  },
+  {
+    "id": "attack-surface",
+    "type": "card",
+    "name": "Attack Surface"
+  },
+  {
+    "id": "attention",
+    "type": "card",
+    "name": "Attention"
+  },
+  {
+    "id": "authentication",
+    "type": "card",
+    "name": "Authentication"
+  },
+  {
+    "id": "authorization",
+    "type": "card",
+    "name": "Authorization"
+  },
+  {
+    "id": "availability",
+    "type": "card",
+    "name": "Availability"
+  },
+  {
+    "id": "avl-tree",
+    "type": "card",
+    "name": "AVL Tree"
+  },
+  {
+    "id": "backend",
+    "type": "card",
+    "name": "Backend"
+  },
+  {
+    "id": "backoff",
+    "type": "card",
+    "name": "Backoff"
+  },
+  {
+    "id": "backpropagation",
+    "type": "card",
+    "name": "Backpropagation"
+  },
+  {
+    "id": "backtracking",
+    "type": "card",
+    "name": "Backtracking"
+  },
+  {
+    "id": "backward-compatibility",
+    "type": "card",
+    "name": "Backward Compatibility"
+  },
+  {
+    "id": "behavior-driven-development",
+    "type": "card",
+    "name": "Behavior-Driven Development"
+  },
+  {
+    "id": "bellman-ford",
+    "type": "card",
+    "name": "Bellman-Ford"
+  },
+  {
+    "id": "big-o",
+    "type": "card",
+    "name": "Big-O"
+  },
+  {
+    "id": "big-omega",
+    "type": "card",
+    "name": "Big-Omega"
+  },
+  {
+    "id": "big-theta",
+    "type": "card",
+    "name": "Big-Theta"
+  },
+  {
+    "id": "binary-search",
+    "type": "card",
+    "name": "Binary Search"
+  },
+  {
+    "id": "binary-search-tree",
+    "type": "card",
+    "name": "Binary Search Tree"
+  },
+  {
+    "id": "binary-tree",
+    "type": "card",
+    "name": "Binary Tree"
+  },
+  {
+    "id": "bit-manipulation",
+    "type": "card",
+    "name": "Bit Manipulation"
+  },
+  {
+    "id": "blue-green-deployment",
+    "type": "card",
+    "name": "Blue-Green Deployment"
+  },
+  {
+    "id": "boolean",
+    "type": "card",
+    "name": "Boolean"
+  },
+  {
+    "id": "boolean-logic",
+    "type": "card",
+    "name": "Boolean Logic"
+  },
+  {
+    "id": "branch",
+    "type": "card",
+    "name": "Branch"
+  },
+  {
+    "id": "branch-prediction",
+    "type": "card",
+    "name": "Branch Prediction"
+  },
+  {
+    "id": "breadth-first-search",
+    "type": "card",
+    "name": "Breadth-First Search"
+  },
+  {
+    "id": "bubble-sort",
+    "type": "card",
+    "name": "Bubble Sort"
+  },
+  {
+    "id": "buffer-overflow",
+    "type": "card",
+    "name": "Buffer Overflow"
+  },
+  {
+    "id": "build-system",
+    "type": "card",
+    "name": "Build System"
+  },
+  {
+    "id": "bytecode",
+    "type": "card",
+    "name": "Bytecode"
+  },
+  {
+    "id": "cache",
+    "type": "card",
+    "name": "Cache"
+  },
+  {
+    "id": "call-stack",
+    "type": "card",
+    "name": "Call Stack"
+  },
+  {
+    "id": "callback",
+    "type": "card",
+    "name": "Callback"
+  },
+  {
+    "id": "calling-convention",
+    "type": "card",
+    "name": "Calling Convention"
+  },
+  {
+    "id": "canary-deployment",
+    "type": "card",
+    "name": "Canary Deployment"
+  },
+  {
+    "id": "cap-theorem",
+    "type": "card",
+    "name": "CAP Theorem"
+  },
+  {
+    "id": "cdn",
+    "type": "card",
+    "name": "CDN"
+  },
+  {
+    "id": "certificate",
+    "type": "card",
+    "name": "Certificate"
+  },
+  {
+    "id": "cherry-pick",
+    "type": "card",
+    "name": "Cherry-pick"
+  },
+  {
+    "id": "cia-triad",
+    "type": "card",
+    "name": "CIA Triad"
+  },
+  {
+    "id": "cidr",
+    "type": "card",
+    "name": "CIDR"
+  },
+  {
+    "id": "circuit-breaker",
+    "type": "card",
+    "name": "Circuit Breaker"
+  },
+  {
+    "id": "class",
+    "type": "card",
+    "name": "Class"
+  },
+  {
+    "id": "client",
+    "type": "card",
+    "name": "Client"
+  },
+  {
+    "id": "client-server",
+    "type": "card",
+    "name": "Client-Server"
+  },
+  {
+    "id": "closure",
+    "type": "card",
+    "name": "Closure"
+  },
+  {
+    "id": "code-coverage",
+    "type": "card",
+    "name": "Code Coverage"
+  },
+  {
+    "id": "code-review",
+    "type": "card",
+    "name": "Code Review"
+  },
+  {
+    "id": "code-smell",
+    "type": "card",
+    "name": "Code Smell"
+  },
+  {
+    "id": "cohesion",
+    "type": "card",
+    "name": "Cohesion"
+  },
+  {
+    "id": "column",
+    "type": "card",
+    "name": "Column"
+  },
+  {
+    "id": "command-injection",
+    "type": "card",
+    "name": "Command Injection"
+  },
+  {
+    "id": "commit",
+    "type": "card",
+    "name": "Commit"
+  },
+  {
+    "id": "compiler",
+    "type": "card",
+    "name": "Compiler"
+  },
+  {
+    "id": "composite-index",
+    "type": "card",
+    "name": "Composite Index"
+  },
+  {
+    "id": "composition",
+    "type": "card",
+    "name": "Composition"
+  },
+  {
+    "id": "concurrency",
+    "type": "card",
+    "name": "Concurrency"
+  },
+  {
+    "id": "connection-pool",
+    "type": "card",
+    "name": "Connection Pool"
+  },
+  {
+    "id": "consensus",
+    "type": "card",
+    "name": "Consensus"
+  },
+  {
+    "id": "constant",
+    "type": "card",
+    "name": "Constant"
+  },
+  {
+    "id": "constructor",
+    "type": "card",
+    "name": "Constructor"
+  },
+  {
+    "id": "container",
+    "type": "card",
+    "name": "Container"
+  },
+  {
+    "id": "container-image",
+    "type": "card",
+    "name": "Container Image"
+  },
+  {
+    "id": "container-registry",
+    "type": "card",
+    "name": "Container Registry"
+  },
+  {
+    "id": "context-switch",
+    "type": "card",
+    "name": "Context Switch"
+  },
+  {
+    "id": "context-window",
+    "type": "card",
+    "name": "Context Window"
+  },
+  {
+    "id": "continuous-delivery",
+    "type": "card",
+    "name": "Continuous Delivery"
+  },
+  {
+    "id": "continuous-deployment",
+    "type": "card",
+    "name": "Continuous Deployment"
+  },
+  {
+    "id": "continuous-integration",
+    "type": "card",
+    "name": "Continuous Integration"
+  },
+  {
+    "id": "cookie",
+    "type": "card",
+    "name": "Cookie"
+  },
+  {
+    "id": "cors",
+    "type": "card",
+    "name": "CORS"
+  },
+  {
+    "id": "counting-sort",
+    "type": "card",
+    "name": "Counting Sort"
+  },
+  {
+    "id": "coupling",
+    "type": "card",
+    "name": "Coupling"
+  },
+  {
+    "id": "cpu",
+    "type": "card",
+    "name": "CPU"
+  },
+  {
+    "id": "cross-site-request-forgery",
+    "type": "card",
+    "name": "Cross-Site Request Forgery"
+  },
+  {
+    "id": "cross-site-scripting",
+    "type": "card",
+    "name": "Cross-Site Scripting"
+  },
+  {
+    "id": "cryptographic-hash",
+    "type": "card",
+    "name": "Cryptographic Hash"
+  },
+  {
+    "id": "data-type",
+    "type": "card",
+    "name": "Data Type"
+  },
+  {
+    "id": "database",
+    "type": "card",
+    "name": "Database"
+  },
+  {
+    "id": "database-lock",
+    "type": "card",
+    "name": "Lock"
+  },
+  {
+    "id": "deadlock",
+    "type": "card",
+    "name": "Deadlock"
+  },
+  {
+    "id": "defense-in-depth",
+    "type": "card",
+    "name": "Defense in Depth"
+  },
+  {
+    "id": "denormalization",
+    "type": "card",
+    "name": "Denormalization"
+  },
+  {
+    "id": "dependency-injection",
+    "type": "card",
+    "name": "Dependency Injection"
+  },
+  {
+    "id": "dependency-inversion-principle",
+    "type": "card",
+    "name": "Dependency Inversion Principle"
+  },
+  {
+    "id": "dependency-management",
+    "type": "card",
+    "name": "Dependency Management"
+  },
+  {
+    "id": "deployment",
+    "type": "card",
+    "name": "Deployment"
+  },
+  {
+    "id": "depth-first-search",
+    "type": "card",
+    "name": "Depth-First Search"
+  },
+  {
+    "id": "deque",
+    "type": "card",
+    "name": "Deque"
+  },
+  {
+    "id": "dhcp",
+    "type": "card",
+    "name": "DHCP"
+  },
+  {
+    "id": "digital-signature",
+    "type": "card",
+    "name": "Digital Signature"
+  },
+  {
+    "id": "dijkstra",
+    "type": "card",
+    "name": "Dijkstra's Algorithm"
+  },
+  {
+    "id": "directed-graph",
+    "type": "card",
+    "name": "Directed Graph"
+  },
+  {
+    "id": "distributed-system",
+    "type": "card",
+    "name": "Distributed System"
+  },
+  {
+    "id": "distributed-transaction",
+    "type": "card",
+    "name": "Distributed Transaction"
+  },
+  {
+    "id": "divide-and-conquer",
+    "type": "card",
+    "name": "Divide and Conquer"
+  },
+  {
+    "id": "dns",
+    "type": "card",
+    "name": "DNS"
+  },
+  {
+    "id": "documentation",
+    "type": "card",
+    "name": "Documentation"
+  },
+  {
+    "id": "doubly-linked-list",
+    "type": "card",
+    "name": "Doubly Linked List"
+  },
+  {
+    "id": "dry",
+    "type": "card",
+    "name": "DRY"
+  },
+  {
+    "id": "dynamic-array",
+    "type": "card",
+    "name": "Dynamic Array"
+  },
+  {
+    "id": "dynamic-programming",
+    "type": "card",
+    "name": "Dynamic Programming"
+  },
+  {
+    "id": "dynamic-typing",
+    "type": "card",
+    "name": "Dynamic Typing"
+  },
+  {
+    "id": "embedding",
+    "type": "card",
+    "name": "Embedding"
+  },
+  {
+    "id": "encapsulation",
+    "type": "card",
+    "name": "Encapsulation"
+  },
+  {
+    "id": "encryption",
+    "type": "card",
+    "name": "Encryption"
+  },
+  {
+    "id": "end-to-end-test",
+    "type": "card",
+    "name": "End-to-End Test"
+  },
+  {
+    "id": "endianness",
+    "type": "card",
+    "name": "Endianness"
+  },
+  {
+    "id": "environment-variable",
+    "type": "card",
+    "name": "Environment Variable"
+  },
+  {
+    "id": "error-handling",
+    "type": "card",
+    "name": "Error Handling"
+  },
+  {
+    "id": "ethernet",
+    "type": "card",
+    "name": "Ethernet"
+  },
+  {
+    "id": "event-driven-architecture",
+    "type": "card",
+    "name": "Event-Driven Architecture"
+  },
+  {
+    "id": "eventual-consistency",
+    "type": "card",
+    "name": "Eventual Consistency"
+  },
+  {
+    "id": "exception",
+    "type": "card",
+    "name": "Exception"
+  },
+  {
+    "id": "expected-value",
+    "type": "card",
+    "name": "Expected Value"
+  },
+  {
+    "id": "expression",
+    "type": "card",
+    "name": "Expression"
+  },
+  {
+    "id": "fault-tolerance",
+    "type": "card",
+    "name": "Fault Tolerance"
+  },
+  {
+    "id": "feature",
+    "type": "card",
+    "name": "Feature"
+  },
+  {
+    "id": "file-descriptor",
+    "type": "card",
+    "name": "File Descriptor"
+  },
+  {
+    "id": "file-system",
+    "type": "card",
+    "name": "File System"
+  },
+  {
+    "id": "fine-tuning",
+    "type": "card",
+    "name": "Fine-Tuning"
+  },
+  {
+    "id": "firewall",
+    "type": "card",
+    "name": "Firewall"
+  },
+  {
+    "id": "fixture",
+    "type": "card",
+    "name": "Fixture"
+  },
+  {
+    "id": "floating-point",
+    "type": "card",
+    "name": "Floating Point"
+  },
+  {
+    "id": "floyd-warshall",
+    "type": "card",
+    "name": "Floyd-Warshall"
+  },
+  {
+    "id": "foreign-key",
+    "type": "card",
+    "name": "Foreign Key"
+  },
+  {
+    "id": "frame",
+    "type": "card",
+    "name": "Frame"
+  },
+  {
+    "id": "frame-buffer",
+    "type": "card",
+    "name": "Frame Buffer"
+  },
+  {
+    "id": "frontend",
+    "type": "card",
+    "name": "Frontend"
+  },
+  {
+    "id": "function",
+    "type": "card",
+    "name": "Function"
+  },
+  {
+    "id": "fuzz-testing",
+    "type": "card",
+    "name": "Fuzz Testing"
+  },
+  {
+    "id": "garbage-collection",
+    "type": "card",
+    "name": "Garbage Collection"
+  },
+  {
+    "id": "generic",
+    "type": "card",
+    "name": "Generic"
+  },
+  {
+    "id": "git",
+    "type": "card",
+    "name": "Git"
+  },
+  {
+    "id": "git-fetch",
+    "type": "card",
+    "name": "Fetch"
+  },
+  {
+    "id": "git-lfs",
+    "type": "card",
+    "name": "Git LFS"
+  },
+  {
+    "id": "git-merge",
+    "type": "card",
+    "name": "Merge"
+  },
+  {
+    "id": "git-pull",
+    "type": "card",
+    "name": "Pull"
+  },
+  {
+    "id": "git-push",
+    "type": "card",
+    "name": "Push"
+  },
+  {
+    "id": "git-remote",
+    "type": "card",
+    "name": "Remote"
+  },
+  {
+    "id": "git-stash",
+    "type": "card",
+    "name": "Stash"
+  },
+  {
+    "id": "git-tag",
+    "type": "card",
+    "name": "Tag"
+  },
+  {
+    "id": "gitignore",
+    "type": "card",
+    "name": ".gitignore"
+  },
+  {
+    "id": "gpu",
+    "type": "card",
+    "name": "GPU"
+  },
+  {
+    "id": "gradient-descent",
+    "type": "card",
+    "name": "Gradient Descent"
+  },
+  {
+    "id": "graph",
+    "type": "card",
+    "name": "Graph"
+  },
+  {
+    "id": "graphql",
+    "type": "card",
+    "name": "GraphQL"
+  },
+  {
+    "id": "greedy-algorithm",
+    "type": "card",
+    "name": "Greedy Algorithm"
+  },
+  {
+    "id": "hardware-multithreading",
+    "type": "card",
+    "name": "Hardware Multithreading"
+  },
+  {
+    "id": "hash-table",
+    "type": "card",
+    "name": "Hash Table"
+  },
+  {
+    "id": "hashing",
+    "type": "card",
+    "name": "Hashing"
+  },
+  {
+    "id": "health-check",
+    "type": "card",
+    "name": "Health Check"
+  },
+  {
+    "id": "heap",
+    "type": "card",
+    "name": "Heap"
+  },
+  {
+    "id": "heap-sort",
+    "type": "card",
+    "name": "Heap Sort"
+  },
+  {
+    "id": "http",
+    "type": "card",
+    "name": "HTTP"
+  },
+  {
+    "id": "https",
+    "type": "card",
+    "name": "HTTPS"
+  },
+  {
+    "id": "hyperparameter",
+    "type": "card",
+    "name": "Hyperparameter"
+  },
+  {
+    "id": "idempotency",
+    "type": "card",
+    "name": "Idempotency"
+  },
+  {
+    "id": "immutability",
+    "type": "card",
+    "name": "Immutability"
+  },
+  {
+    "id": "index",
+    "type": "card",
+    "name": "Index"
+  },
+  {
+    "id": "inference",
+    "type": "card",
+    "name": "Inference"
+  },
+  {
+    "id": "infrastructure-as-code",
+    "type": "card",
+    "name": "Infrastructure as Code"
+  },
+  {
+    "id": "inheritance",
+    "type": "card",
+    "name": "Inheritance"
+  },
+  {
+    "id": "insertion-sort",
+    "type": "card",
+    "name": "Insertion Sort"
+  },
+  {
+    "id": "instance",
+    "type": "card",
+    "name": "Instance"
+  },
+  {
+    "id": "instruction",
+    "type": "card",
+    "name": "Instruction"
+  },
+  {
+    "id": "instruction-pipeline",
+    "type": "card",
+    "name": "Instruction Pipeline"
+  },
+  {
+    "id": "instruction-set-architecture",
+    "type": "card",
+    "name": "Instruction Set Architecture"
+  },
+  {
+    "id": "integration-test",
+    "type": "card",
+    "name": "Integration Test"
+  },
+  {
+    "id": "inter-process-communication",
+    "type": "card",
+    "name": "Inter-Process Communication"
+  },
+  {
+    "id": "interface",
+    "type": "card",
+    "name": "Interface"
+  },
+  {
+    "id": "interface-segregation-principle",
+    "type": "card",
+    "name": "Interface Segregation Principle"
+  },
+  {
+    "id": "intermediate-representation",
+    "type": "card",
+    "name": "Intermediate Representation"
+  },
+  {
+    "id": "interpreter",
+    "type": "card",
+    "name": "Interpreter"
+  },
+  {
+    "id": "interrupt",
+    "type": "card",
+    "name": "Interrupt"
+  },
+  {
+    "id": "ip",
+    "type": "card",
+    "name": "IP"
+  },
+  {
+    "id": "ipv4",
+    "type": "card",
+    "name": "IPv4"
+  },
+  {
+    "id": "ipv6",
+    "type": "card",
+    "name": "IPv6"
+  },
+  {
+    "id": "isolation",
+    "type": "card",
+    "name": "Isolation"
+  },
+  {
+    "id": "iteration",
+    "type": "card",
+    "name": "Iteration"
+  },
+  {
+    "id": "join",
+    "type": "card",
+    "name": "Join"
+  },
+  {
+    "id": "json",
+    "type": "card",
+    "name": "JSON"
+  },
+  {
+    "id": "just-in-time-compilation",
+    "type": "card",
+    "name": "Just-in-Time Compilation"
+  },
+  {
+    "id": "kernel",
+    "type": "card",
+    "name": "Kernel"
+  },
+  {
+    "id": "kiss",
+    "type": "card",
+    "name": "KISS"
+  },
+  {
+    "id": "kruskal",
+    "type": "card",
+    "name": "Kruskal's Algorithm"
+  },
+  {
+    "id": "kubernetes",
+    "type": "card",
+    "name": "Kubernetes"
+  },
+  {
+    "id": "label",
+    "type": "card",
+    "name": "Label"
+  },
+  {
+    "id": "large-language-model",
+    "type": "card",
+    "name": "Large Language Model"
+  },
+  {
+    "id": "leader-election",
+    "type": "card",
+    "name": "Leader Election"
+  },
+  {
+    "id": "least-privilege",
+    "type": "card",
+    "name": "Least Privilege"
+  },
+  {
+    "id": "lexer",
+    "type": "card",
+    "name": "Lexer"
+  },
+  {
+    "id": "library",
+    "type": "card",
+    "name": "Library"
+  },
+  {
+    "id": "linear-search",
+    "type": "card",
+    "name": "Linear Search"
+  },
+  {
+    "id": "linked-list",
+    "type": "card",
+    "name": "Linked List"
+  },
+  {
+    "id": "linux",
+    "type": "card",
+    "name": "Linux"
+  },
+  {
+    "id": "liskov-substitution-principle",
+    "type": "card",
+    "name": "Liskov Substitution Principle"
+  },
+  {
+    "id": "load-balancer",
+    "type": "card",
+    "name": "Load Balancer"
+  },
+  {
+    "id": "logarithm",
+    "type": "card",
+    "name": "Logarithm"
+  },
+  {
+    "id": "logging",
+    "type": "card",
+    "name": "Logging"
+  },
+  {
+    "id": "loss-function",
+    "type": "card",
+    "name": "Loss Function"
+  },
+  {
+    "id": "mac-address",
+    "type": "card",
+    "name": "MAC Address"
+  },
+  {
+    "id": "machine-code",
+    "type": "card",
+    "name": "Machine Code"
+  },
+  {
+    "id": "machine-learning",
+    "type": "card",
+    "name": "Machine Learning"
+  },
+  {
+    "id": "maintainability",
+    "type": "card",
+    "name": "Maintainability"
+  },
+  {
+    "id": "matrix",
+    "type": "card",
+    "name": "Matrix"
+  },
+  {
+    "id": "memoization",
+    "type": "card",
+    "name": "Memoization"
+  },
+  {
+    "id": "memory-allocation",
+    "type": "card",
+    "name": "Memory Allocation"
+  },
+  {
+    "id": "memory-heap",
+    "type": "card",
+    "name": "Memory Heap"
+  },
+  {
+    "id": "memory-hierarchy",
+    "type": "card",
+    "name": "Memory Hierarchy"
+  },
+  {
+    "id": "merge-conflict",
+    "type": "card",
+    "name": "Merge Conflict"
+  },
+  {
+    "id": "merge-sort",
+    "type": "card",
+    "name": "Merge Sort"
+  },
+  {
+    "id": "message-queue",
+    "type": "card",
+    "name": "Message Queue"
+  },
+  {
+    "id": "method",
+    "type": "card",
+    "name": "Method"
+  },
+  {
+    "id": "method-overloading",
+    "type": "card",
+    "name": "Method Overloading"
+  },
+  {
+    "id": "method-overriding",
+    "type": "card",
+    "name": "Method Overriding"
+  },
+  {
+    "id": "metrics",
+    "type": "card",
+    "name": "Metrics"
+  },
+  {
+    "id": "microservice",
+    "type": "card",
+    "name": "Microservice"
+  },
+  {
+    "id": "middleware",
+    "type": "card",
+    "name": "Middleware"
+  },
+  {
+    "id": "migration",
+    "type": "card",
+    "name": "Migration"
+  },
+  {
+    "id": "minimum-spanning-tree",
+    "type": "card",
+    "name": "Minimum Spanning Tree"
+  },
+  {
+    "id": "ml-dataset",
+    "type": "card",
+    "name": "Dataset"
+  },
+  {
+    "id": "ml-model",
+    "type": "card",
+    "name": "Model"
+  },
+  {
+    "id": "mock",
+    "type": "card",
+    "name": "Mock"
+  },
+  {
+    "id": "model-evaluation",
+    "type": "card",
+    "name": "Model Evaluation"
+  },
+  {
+    "id": "model-parameter",
+    "type": "card",
+    "name": "Model Parameter"
+  },
+  {
+    "id": "modularity",
+    "type": "card",
+    "name": "Modularity"
+  },
+  {
+    "id": "module",
+    "type": "card",
+    "name": "Module"
+  },
+  {
+    "id": "modulo",
+    "type": "card",
+    "name": "Modulo"
+  },
+  {
+    "id": "monitor",
+    "type": "card",
+    "name": "Monitor"
+  },
+  {
+    "id": "monitoring",
+    "type": "card",
+    "name": "Monitoring"
+  },
+  {
+    "id": "monolith",
+    "type": "card",
+    "name": "Monolith"
+  },
+  {
+    "id": "multi-factor-authentication",
+    "type": "card",
+    "name": "Multi-Factor Authentication"
+  },
+  {
+    "id": "mutex",
+    "type": "card",
+    "name": "Mutex"
+  },
+  {
+    "id": "nat",
+    "type": "card",
+    "name": "NAT"
+  },
+  {
+    "id": "network",
+    "type": "card",
+    "name": "Network"
+  },
+  {
+    "id": "network-switch",
+    "type": "card",
+    "name": "Switch"
+  },
+  {
+    "id": "neural-network",
+    "type": "card",
+    "name": "Neural Network"
+  },
+  {
+    "id": "normalization",
+    "type": "card",
+    "name": "Normalization"
+  },
+  {
+    "id": "nosql",
+    "type": "card",
+    "name": "NoSQL"
+  },
+  {
+    "id": "null",
+    "type": "card",
+    "name": "Null"
+  },
+  {
+    "id": "object",
+    "type": "card",
+    "name": "Object"
+  },
+  {
+    "id": "observability",
+    "type": "card",
+    "name": "Observability"
+  },
+  {
+    "id": "open-closed-principle",
+    "type": "card",
+    "name": "Open-Closed Principle"
+  },
+  {
+    "id": "operating-system",
+    "type": "card",
+    "name": "Operating System"
+  },
+  {
+    "id": "orm",
+    "type": "card",
+    "name": "ORM"
+  },
+  {
+    "id": "overfitting",
+    "type": "card",
+    "name": "Overfitting"
+  },
+  {
+    "id": "package",
+    "type": "card",
+    "name": "Package"
+  },
+  {
+    "id": "packet",
+    "type": "card",
+    "name": "Packet"
+  },
+  {
+    "id": "page",
+    "type": "card",
+    "name": "Page"
+  },
+  {
+    "id": "page-fault",
+    "type": "card",
+    "name": "Page Fault"
+  },
+  {
+    "id": "parallelism",
+    "type": "card",
+    "name": "Parallelism"
+  },
+  {
+    "id": "parameter",
+    "type": "card",
+    "name": "Parameter"
+  },
+  {
+    "id": "parser",
+    "type": "card",
+    "name": "Parser"
+  },
+  {
+    "id": "partitioning",
+    "type": "card",
+    "name": "Partitioning"
+  },
+  {
+    "id": "password-hashing",
+    "type": "card",
+    "name": "Password Hashing"
+  },
+  {
+    "id": "path-traversal",
+    "type": "card",
+    "name": "Path Traversal"
+  },
+  {
+    "id": "pipe",
+    "type": "card",
+    "name": "Pipe"
+  },
+  {
+    "id": "pixel",
+    "type": "card",
+    "name": "Pixel"
+  },
+  {
+    "id": "pointer",
+    "type": "card",
+    "name": "Pointer"
+  },
+  {
+    "id": "polymorphism",
+    "type": "card",
+    "name": "Polymorphism"
+  },
+  {
+    "id": "port",
+    "type": "card",
+    "name": "Port"
+  },
+  {
+    "id": "prefix-sum",
+    "type": "card",
+    "name": "Prefix Sum"
+  },
+  {
+    "id": "prim",
+    "type": "card",
+    "name": "Prim's Algorithm"
+  },
+  {
+    "id": "primary-key",
+    "type": "card",
+    "name": "Primary Key"
+  },
+  {
+    "id": "primitive-type",
+    "type": "card",
+    "name": "Primitive Type"
+  },
+  {
+    "id": "priority-queue",
+    "type": "card",
+    "name": "Priority Queue"
+  },
+  {
+    "id": "private-key",
+    "type": "card",
+    "name": "Private Key"
+  },
+  {
+    "id": "process",
+    "type": "card",
+    "name": "Process"
+  },
+  {
+    "id": "promise",
+    "type": "card",
+    "name": "Promise"
+  },
+  {
+    "id": "prompt",
+    "type": "card",
+    "name": "Prompt"
+  },
+  {
+    "id": "property-based-testing",
+    "type": "card",
+    "name": "Property-Based Testing"
+  },
+  {
+    "id": "proxy",
+    "type": "card",
+    "name": "Proxy"
+  },
+  {
+    "id": "public-key",
+    "type": "card",
+    "name": "Public Key"
+  },
+  {
+    "id": "public-key-infrastructure",
+    "type": "card",
+    "name": "Public-Key Infrastructure"
+  },
+  {
+    "id": "publish-subscribe",
+    "type": "card",
+    "name": "Publish-Subscribe"
+  },
+  {
+    "id": "pull-request",
+    "type": "card",
+    "name": "Pull Request"
+  },
+  {
+    "id": "query",
+    "type": "card",
+    "name": "Query"
+  },
+  {
+    "id": "query-planner",
+    "type": "card",
+    "name": "Query Planner"
+  },
+  {
+    "id": "queue",
+    "type": "card",
+    "name": "Queue"
+  },
+  {
+    "id": "quic",
+    "type": "card",
+    "name": "QUIC"
+  },
+  {
+    "id": "quick-sort",
+    "type": "card",
+    "name": "Quick Sort"
+  },
+  {
+    "id": "race-condition",
+    "type": "card",
+    "name": "Race Condition"
+  },
+  {
+    "id": "radix-sort",
+    "type": "card",
+    "name": "Radix Sort"
+  },
+  {
+    "id": "ram",
+    "type": "card",
+    "name": "RAM"
+  },
+  {
+    "id": "rasterization",
+    "type": "card",
+    "name": "Rasterization"
+  },
+  {
+    "id": "rate-limiting",
+    "type": "card",
+    "name": "Rate Limiting"
+  },
+  {
+    "id": "rebase",
+    "type": "card",
+    "name": "Rebase"
+  },
+  {
+    "id": "recursion",
+    "type": "card",
+    "name": "Recursion"
+  },
+  {
+    "id": "red-black-tree",
+    "type": "card",
+    "name": "Red-Black Tree"
+  },
+  {
+    "id": "refactoring",
+    "type": "card",
+    "name": "Refactoring"
+  },
+  {
+    "id": "reference-type",
+    "type": "card",
+    "name": "Reference Type"
+  },
+  {
+    "id": "register",
+    "type": "card",
+    "name": "Register"
+  },
+  {
+    "id": "regression-test",
+    "type": "card",
+    "name": "Regression Test"
+  },
+  {
+    "id": "regularization",
+    "type": "card",
+    "name": "Regularization"
+  },
+  {
+    "id": "reinforcement-learning",
+    "type": "card",
+    "name": "Reinforcement Learning"
+  },
+  {
+    "id": "relational-database",
+    "type": "card",
+    "name": "Relational Database"
+  },
+  {
+    "id": "reliability",
+    "type": "card",
+    "name": "Reliability"
+  },
+  {
+    "id": "rendering",
+    "type": "card",
+    "name": "Rendering"
+  },
+  {
+    "id": "replication",
+    "type": "card",
+    "name": "Replication"
+  },
+  {
+    "id": "repository",
+    "type": "card",
+    "name": "Repository"
+  },
+  {
+    "id": "requirements",
+    "type": "card",
+    "name": "Requirements"
+  },
+  {
+    "id": "resolution",
+    "type": "card",
+    "name": "Resolution"
+  },
+  {
+    "id": "rest",
+    "type": "card",
+    "name": "REST"
+  },
+  {
+    "id": "retrieval-augmented-generation",
+    "type": "card",
+    "name": "Retrieval-Augmented Generation"
+  },
+  {
+    "id": "retry",
+    "type": "card",
+    "name": "Retry"
+  },
+  {
+    "id": "return-value",
+    "type": "card",
+    "name": "Return Value"
+  },
+  {
+    "id": "reverse-proxy",
+    "type": "card",
+    "name": "Reverse Proxy"
+  },
+  {
+    "id": "rgb",
+    "type": "card",
+    "name": "RGB"
+  },
+  {
+    "id": "risk",
+    "type": "card",
+    "name": "Risk"
+  },
+  {
+    "id": "router",
+    "type": "card",
+    "name": "Router"
+  },
+  {
+    "id": "row",
+    "type": "card",
+    "name": "Row"
+  },
+  {
+    "id": "rpc",
+    "type": "card",
+    "name": "RPC"
+  },
+  {
+    "id": "runtime",
+    "type": "card",
+    "name": "Runtime"
+  },
+  {
+    "id": "salt",
+    "type": "card",
+    "name": "Salt"
+  },
+  {
+    "id": "sandboxing",
+    "type": "card",
+    "name": "Sandboxing"
+  },
+  {
+    "id": "scalability",
+    "type": "card",
+    "name": "Scalability"
+  },
+  {
+    "id": "scheduling",
+    "type": "card",
+    "name": "Scheduling"
+  },
+  {
+    "id": "schema",
+    "type": "card",
+    "name": "Schema"
+  },
+  {
+    "id": "scope",
+    "type": "card",
+    "name": "Scope"
+  },
+  {
+    "id": "sdk",
+    "type": "card",
+    "name": "SDK"
+  },
+  {
+    "id": "secrets-management",
+    "type": "card",
+    "name": "Secrets Management"
+  },
+  {
+    "id": "selection-sort",
+    "type": "card",
+    "name": "Selection Sort"
+  },
+  {
+    "id": "semantic-analysis",
+    "type": "card",
+    "name": "Semantic Analysis"
+  },
+  {
+    "id": "semantic-versioning",
+    "type": "card",
+    "name": "Semantic Versioning"
+  },
+  {
+    "id": "semaphore",
+    "type": "card",
+    "name": "Semaphore"
+  },
+  {
+    "id": "separation-of-concerns",
+    "type": "card",
+    "name": "Separation of Concerns"
+  },
+  {
+    "id": "serialization",
+    "type": "card",
+    "name": "Serialization"
+  },
+  {
+    "id": "server",
+    "type": "card",
+    "name": "Server"
+  },
+  {
+    "id": "server-side-rendering",
+    "type": "card",
+    "name": "Server-Side Rendering"
+  },
+  {
+    "id": "server-side-request-forgery",
+    "type": "card",
+    "name": "Server-Side Request Forgery"
+  },
+  {
+    "id": "service",
+    "type": "card",
+    "name": "Service"
+  },
+  {
+    "id": "session",
+    "type": "card",
+    "name": "Session"
+  },
+  {
+    "id": "set",
+    "type": "card",
+    "name": "Set"
+  },
+  {
+    "id": "shader",
+    "type": "card",
+    "name": "Shader"
+  },
+  {
+    "id": "sharding",
+    "type": "card",
+    "name": "Sharding"
+  },
+  {
+    "id": "shell",
+    "type": "card",
+    "name": "Shell"
+  },
+  {
+    "id": "shortest-path",
+    "type": "card",
+    "name": "Shortest Path"
+  },
+  {
+    "id": "signal",
+    "type": "card",
+    "name": "Signal"
+  },
+  {
+    "id": "simd",
+    "type": "card",
+    "name": "SIMD"
+  },
+  {
+    "id": "single-responsibility-principle",
+    "type": "card",
+    "name": "Single Responsibility Principle"
+  },
+  {
+    "id": "sliding-window",
+    "type": "card",
+    "name": "Sliding Window"
+  },
+  {
+    "id": "smoke-test",
+    "type": "card",
+    "name": "Smoke Test"
+  },
+  {
+    "id": "socket",
+    "type": "card",
+    "name": "Socket"
+  },
+  {
+    "id": "software-architecture",
+    "type": "card",
+    "name": "Software Architecture"
+  },
+  {
+    "id": "software-design",
+    "type": "card",
+    "name": "Software Design"
+  },
+  {
+    "id": "software-development-lifecycle",
+    "type": "card",
+    "name": "Software Development Lifecycle"
+  },
+  {
+    "id": "solid",
+    "type": "card",
+    "name": "SOLID"
+  },
+  {
+    "id": "sort-stability",
+    "type": "card",
+    "name": "Sort Stability"
+  },
+  {
+    "id": "specification",
+    "type": "card",
+    "name": "Specification"
+  },
+  {
+    "id": "sql",
+    "type": "card",
+    "name": "SQL"
+  },
+  {
+    "id": "sql-injection",
+    "type": "card",
+    "name": "SQL Injection"
+  },
+  {
+    "id": "stack",
+    "type": "card",
+    "name": "Stack"
+  },
+  {
+    "id": "starvation",
+    "type": "card",
+    "name": "Starvation"
+  },
+  {
+    "id": "statement",
+    "type": "card",
+    "name": "Statement"
+  },
+  {
+    "id": "static-generation",
+    "type": "card",
+    "name": "Static Generation"
+  },
+  {
+    "id": "static-typing",
+    "type": "card",
+    "name": "Static Typing"
+  },
+  {
+    "id": "strong-consistency",
+    "type": "card",
+    "name": "Strong Consistency"
+  },
+  {
+    "id": "strong-typing",
+    "type": "card",
+    "name": "Strong Typing"
+  },
+  {
+    "id": "stub",
+    "type": "card",
+    "name": "Stub"
+  },
+  {
+    "id": "subnet",
+    "type": "card",
+    "name": "Subnet"
+  },
+  {
+    "id": "supervised-learning",
+    "type": "card",
+    "name": "Supervised Learning"
+  },
+  {
+    "id": "symmetric-encryption",
+    "type": "card",
+    "name": "Symmetric Encryption"
+  },
+  {
+    "id": "synchronization",
+    "type": "card",
+    "name": "Synchronization"
+  },
+  {
+    "id": "system-call",
+    "type": "card",
+    "name": "System Call"
+  },
+  {
+    "id": "table",
+    "type": "card",
+    "name": "Table"
+  },
+  {
+    "id": "tcp",
+    "type": "card",
+    "name": "TCP"
+  },
+  {
+    "id": "technical-debt",
+    "type": "card",
+    "name": "Technical Debt"
+  },
+  {
+    "id": "test-double",
+    "type": "card",
+    "name": "Test Double"
+  },
+  {
+    "id": "test-driven-development",
+    "type": "card",
+    "name": "Test-Driven Development"
+  },
+  {
+    "id": "test-set",
+    "type": "card",
+    "name": "Test Set"
+  },
+  {
+    "id": "texture",
+    "type": "card",
+    "name": "Texture"
+  },
+  {
+    "id": "thread",
+    "type": "card",
+    "name": "Thread"
+  },
+  {
+    "id": "threat-model",
+    "type": "card",
+    "name": "Threat Model"
+  },
+  {
+    "id": "tls",
+    "type": "card",
+    "name": "TLS"
+  },
+  {
+    "id": "token",
+    "type": "card",
+    "name": "Token"
+  },
+  {
+    "id": "tokenization",
+    "type": "card",
+    "name": "Tokenization"
+  },
+  {
+    "id": "tool-calling",
+    "type": "card",
+    "name": "Tool Calling"
+  },
+  {
+    "id": "topological-sort",
+    "type": "card",
+    "name": "Topological Sort"
+  },
+  {
+    "id": "tracing",
+    "type": "card",
+    "name": "Tracing"
+  },
+  {
+    "id": "training",
+    "type": "card",
+    "name": "Training"
+  },
+  {
+    "id": "transaction",
+    "type": "card",
+    "name": "Transaction"
+  },
+  {
+    "id": "transformer",
+    "type": "card",
+    "name": "Transformer"
+  },
+  {
+    "id": "tree",
+    "type": "card",
+    "name": "Tree"
+  },
+  {
+    "id": "trie",
+    "type": "card",
+    "name": "Trie"
+  },
+  {
+    "id": "two-pointers",
+    "type": "card",
+    "name": "Two Pointers"
+  },
+  {
+    "id": "type-checking",
+    "type": "card",
+    "name": "Type Checking"
+  },
+  {
+    "id": "type-system",
+    "type": "card",
+    "name": "Type System"
+  },
+  {
+    "id": "udp",
+    "type": "card",
+    "name": "UDP"
+  },
+  {
+    "id": "underfitting",
+    "type": "card",
+    "name": "Underfitting"
+  },
+  {
+    "id": "undirected-graph",
+    "type": "card",
+    "name": "Undirected Graph"
+  },
+  {
+    "id": "unicode",
+    "type": "card",
+    "name": "Unicode"
+  },
+  {
+    "id": "union-find",
+    "type": "card",
+    "name": "Union-Find"
+  },
+  {
+    "id": "unit-test",
+    "type": "card",
+    "name": "Unit Test"
+  },
+  {
+    "id": "unsupervised-learning",
+    "type": "card",
+    "name": "Unsupervised Learning"
+  },
+  {
+    "id": "validation-set",
+    "type": "card",
+    "name": "Validation Set"
+  },
+  {
+    "id": "variable",
+    "type": "card",
+    "name": "Variable"
+  },
+  {
+    "id": "vector-database",
+    "type": "card",
+    "name": "Vector Database"
+  },
+  {
+    "id": "virtual-machine-runtime",
+    "type": "card",
+    "name": "Virtual Machine"
+  },
+  {
+    "id": "virtual-memory",
+    "type": "card",
+    "name": "Virtual Memory"
+  },
+  {
+    "id": "virtualization",
+    "type": "card",
+    "name": "Virtualization"
+  },
+  {
+    "id": "vulnerability",
+    "type": "card",
+    "name": "Vulnerability"
+  },
+  {
+    "id": "weak-typing",
+    "type": "card",
+    "name": "Weak Typing"
+  },
+  {
+    "id": "web-server",
+    "type": "card",
+    "name": "Web Server"
+  },
+  {
+    "id": "webhook",
+    "type": "card",
+    "name": "Webhook"
+  },
+  {
+    "id": "websocket",
+    "type": "card",
+    "name": "WebSocket"
+  },
+  {
+    "id": "weighted-graph",
+    "type": "card",
+    "name": "Weighted Graph"
+  },
+  {
+    "id": "yagni",
+    "type": "card",
+    "name": "YAGNI"
+  },
+  {
+    "id": "algorithms",
+    "type": "category",
+    "name": "Algorithms"
+  },
+  {
+    "id": "artificial-intelligence",
+    "type": "category",
+    "name": "Artificial Intelligence"
+  },
+  {
+    "id": "computer-architecture",
+    "type": "category",
+    "name": "Computer Architecture"
+  },
+  {
+    "id": "computer-graphics",
+    "type": "category",
+    "name": "Computer Graphics"
+  },
+  {
+    "id": "cryptography",
+    "type": "category",
+    "name": "Cryptography"
+  },
+  {
+    "id": "data-structures",
+    "type": "category",
+    "name": "Data Structures"
+  },
+  {
+    "id": "databases",
+    "type": "category",
+    "name": "Databases"
+  },
+  {
+    "id": "distributed-systems",
+    "type": "category",
+    "name": "Distributed Systems"
+  },
+  {
+    "id": "infrastructure",
+    "type": "category",
+    "name": "Infrastructure"
+  },
+  {
+    "id": "machine-learning",
+    "type": "category",
+    "name": "Machine Learning"
+  },
+  {
+    "id": "mathematics",
+    "type": "category",
+    "name": "Mathematics"
+  },
+  {
+    "id": "networking",
+    "type": "category",
+    "name": "Networking"
+  },
+  {
+    "id": "object-oriented-programming",
+    "type": "category",
+    "name": "Object-Oriented Programming"
+  },
+  {
+    "id": "operating-systems",
+    "type": "category",
+    "name": "Operating Systems"
+  },
+  {
+    "id": "programming",
+    "type": "category",
+    "name": "Programming"
+  },
+  {
+    "id": "programming-languages",
+    "type": "category",
+    "name": "Programming Languages"
+  },
+  {
+    "id": "security",
+    "type": "category",
+    "name": "Security"
+  },
+  {
+    "id": "software-engineering",
+    "type": "category",
+    "name": "Software Engineering"
+  },
+  {
+    "id": "testing",
+    "type": "category",
+    "name": "Testing"
+  },
+  {
+    "id": "version-control",
+    "type": "category",
+    "name": "Version Control"
+  },
+  {
+    "id": "web",
+    "type": "category",
+    "name": "Web"
+  }
+]

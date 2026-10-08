@@ -1,0 +1,15 @@
+{
+  "id": "specification",
+  "term": "Specification",
+  "aliases": [],
+  "difficulty": "fundamental",
+  "definition": "A specification is a precise description of what will be built, detailed enough to design and test against. It turns a requirement into an agreed behavior, including edge cases. It is more exact than the original need and less concerned with how the code is structured.",
+  "categories": [
+    "software-engineering"
+  ],
+  "prompt": "What is a specification in software engineering?",
+  "examples": [
+    "An API specification that lists each request and response",
+    "A statement of the rounding rule for a money calculation"
+  ]
+}

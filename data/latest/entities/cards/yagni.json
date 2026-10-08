@@ -1,0 +1,16 @@
+{
+  "id": "yagni",
+  "term": "YAGNI",
+  "aliases": [
+    "You Aren't Gonna Need It"
+  ],
+  "difficulty": "fundamental",
+  "definition": "YAGNI, you aren't gonna need it, says not to build a capability until a real requirement calls for it. Speculative features add code that must be maintained and that may guess the future wrong. The missing capability can be added when the need is concrete.",
+  "categories": [
+    "software-engineering"
+  ],
+  "examples": [
+    "Not adding a plugin system for a single known implementation",
+    "Deferring a second database until one is no longer enough"
+  ]
+}

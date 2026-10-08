@@ -1,0 +1,16 @@
+{
+  "id": "dry",
+  "term": "DRY",
+  "aliases": [
+    "Don't Repeat Yourself"
+  ],
+  "difficulty": "fundamental",
+  "definition": "DRY, don't repeat yourself, says a single fact or rule should have one representation in the system. A change to that fact then happens in one place. Applying it to code that merely looks similar, but changes for different reasons, creates coupling rather than removing duplication.",
+  "categories": [
+    "software-engineering"
+  ],
+  "examples": [
+    "One function for a tax rule used by every caller",
+    "A shared constant for a limit that several modules enforce"
+  ]
+}

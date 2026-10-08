@@ -1,0 +1,16 @@
+{
+  "id": "https",
+  "term": "HTTPS",
+  "aliases": [],
+  "difficulty": "fundamental",
+  "definition": "HTTPS is HTTP sent over TLS, so the bytes of the connection are encrypted and the server is authenticated. A network observer can see that a connection exists and roughly how much data moves, not the contents or the URL path. The usual port is 443.",
+  "categories": [
+    "networking",
+    "security",
+    "web"
+  ],
+  "examples": [
+    "A browser loading a site with a locked padlock",
+    "An API call whose body cannot be read on the network"
+  ]
+}

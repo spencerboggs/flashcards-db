@@ -1,0 +1,15 @@
+{
+  "id": "static-typing",
+  "term": "Static Typing",
+  "aliases": [],
+  "difficulty": "fundamental",
+  "definition": "Static typing checks types before the program runs, usually while it is compiled. A mismatch is reported before execution. Types may be written by the programmer or inferred from how values are used.",
+  "categories": [
+    "programming",
+    "programming-languages"
+  ],
+  "examples": [
+    "A compiler error for passing a string to a function that expects an integer",
+    "A local variable whose type is inferred from its initializer"
+  ]
+}

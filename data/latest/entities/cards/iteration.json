@@ -1,0 +1,15 @@
+{
+  "id": "iteration",
+  "term": "Iteration",
+  "aliases": [],
+  "difficulty": "fundamental",
+  "definition": "Iteration repeats a step by looping until a condition fails. The loop keeps its position and other state in variables and returns to the top, instead of calling the function again. It is the usual alternative to recursion for walking a sequence.",
+  "categories": [
+    "algorithms",
+    "programming"
+  ],
+  "examples": [
+    "A for loop over the indexes of an array",
+    "A while loop that reads lines until the input ends"
+  ]
+}

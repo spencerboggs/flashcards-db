@@ -1,0 +1,14 @@
+{
+  "id": "backend",
+  "term": "Backend",
+  "aliases": [],
+  "difficulty": "fundamental",
+  "definition": "The backend is the part of a web application that runs on a server and owns the rules and the data. Clients send it requests and trust its answers. It is where authorization and durable writes belong.",
+  "categories": [
+    "web"
+  ],
+  "examples": [
+    "An API that stores orders",
+    "A server that decides whether a request is allowed"
+  ]
+}

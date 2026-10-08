@@ -1,0 +1,14 @@
+{
+  "id": "test-set",
+  "term": "Test Set",
+  "aliases": [],
+  "difficulty": "fundamental",
+  "definition": "A test set is data held out until the end, used once to estimate how the finished model does on new data. It must not be used to choose the model or the hyperparameters. Using it repeatedly turns it into another validation set and makes the estimate optimistic.",
+  "categories": [
+    "machine-learning"
+  ],
+  "examples": [
+    "A final accuracy number reported on data never used for tuning",
+    "A set collected separately from the training data"
+  ]
+}

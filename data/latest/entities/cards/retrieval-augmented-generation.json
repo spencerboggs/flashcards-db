@@ -1,0 +1,17 @@
+{
+  "id": "retrieval-augmented-generation",
+  "term": "Retrieval-Augmented Generation",
+  "aliases": [
+    "RAG"
+  ],
+  "difficulty": "intermediate",
+  "definition": "Retrieval-augmented generation fetches documents relevant to a query and includes them in the model's prompt before it answers. The model can then use facts it was not trained on, or that would not fit in its weights. The answer is only as current and as relevant as the documents that were retrieved.",
+  "categories": [
+    "databases",
+    "machine-learning"
+  ],
+  "examples": [
+    "A question answered from a company's internal documents",
+    "A search step followed by a prompt that quotes the passages found"
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "id": "dynamic-array",
+  "term": "Dynamic Array",
+  "aliases": [
+    "Growable Array",
+    "Array List"
+  ],
+  "difficulty": "fundamental",
+  "definition": "A dynamic array is an array that grows when it fills up. The implementation allocates a larger block, copies the old elements across, and then continues. Appending is constant time on average because resizing happens rarely and doubles the capacity.",
+  "categories": [
+    "data-structures"
+  ],
+  "details": [
+    "A single append that triggers a resize copies every element, so that one call is linear. Averaged over a long series of appends, each append is constant time.",
+    "Some languages call this a vector or a list. Those names also mean other things."
+  ],
+  "complexity": {
+    "time": "Index access is O(1). Append is amortized O(1). Insert in the middle is O(n).",
+    "space": "O(n), plus unused capacity in the allocated block."
+  },
+  "examples": [
+    "A list of search results that grows as matches are found",
+    "The backing store of a resizable buffer"
+  ]
+}

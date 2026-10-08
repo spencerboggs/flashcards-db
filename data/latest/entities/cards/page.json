@@ -1,0 +1,15 @@
+{
+  "id": "page",
+  "term": "Page",
+  "aliases": [],
+  "difficulty": "intermediate",
+  "definition": "A page is a fixed-size block of virtual memory, and the unit the operating system maps onto physical frames. Common sizes are 4 KiB and larger huge pages. The page table records where each virtual page currently lives.",
+  "categories": [
+    "operating-systems"
+  ],
+  "prompt": "What is a page in virtual memory?",
+  "examples": [
+    "A 4 KiB block mapped to a physical frame",
+    "A page marked not present, so the next access faults"
+  ]
+}

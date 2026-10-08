@@ -1,0 +1,14 @@
+{
+  "id": "sort-stability",
+  "term": "Sort Stability",
+  "aliases": [],
+  "difficulty": "fundamental",
+  "definition": "A sort is stable when items that compare equal keep the order they had in the input. That matters when a later sort should break ties using an earlier key. An unstable sort may swap equal items.",
+  "categories": [
+    "algorithms"
+  ],
+  "examples": [
+    "Sorting people by city after sorting them by name, and keeping names in order within a city",
+    "A UI that sorts by a column without scrambling equal rows"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "id": "starvation",
+  "term": "Starvation",
+  "aliases": [],
+  "difficulty": "intermediate",
+  "definition": "Starvation is when a thread or request is ready to run but waits indefinitely because others keep taking the resource first. The system as a whole is making progress, unlike a deadlock, where nobody in the cycle progresses. Fair scheduling and fair locks are the usual remedies.",
+  "categories": [
+    "operating-systems"
+  ],
+  "examples": [
+    "A low-priority thread that never runs while high-priority work keeps arriving",
+    "A writer that never proceeds because new readers continually arrive"
+  ]
+}

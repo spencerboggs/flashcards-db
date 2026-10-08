@@ -1,0 +1,15 @@
+{
+  "id": "encryption",
+  "term": "Encryption",
+  "aliases": [],
+  "difficulty": "fundamental",
+  "definition": "Encryption transforms data so that only a party with the right key can read it. The unread form is ciphertext; the original is plaintext. It provides confidentiality, and by itself it does not prove who created the message.",
+  "categories": [
+    "cryptography",
+    "security"
+  ],
+  "examples": [
+    "A disk that is unreadable without its key",
+    "A connection whose payload is ciphertext on the wire"
+  ]
+}

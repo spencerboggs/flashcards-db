@@ -1,0 +1,14 @@
+{
+  "id": "cohesion",
+  "term": "Cohesion",
+  "aliases": [],
+  "difficulty": "fundamental",
+  "definition": "Cohesion is how closely the responsibilities inside a module belong together. High cohesion means the module is about one thing. Low cohesion means unrelated jobs were placed together and will change for unrelated reasons.",
+  "categories": [
+    "software-engineering"
+  ],
+  "examples": [
+    "A date module that only deals with dates",
+    "A utilities module that mixes string, file, and network helpers"
+  ]
+}

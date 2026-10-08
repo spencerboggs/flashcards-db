@@ -1,0 +1,17 @@
+{
+  "id": "test-driven-development",
+  "term": "Test-Driven Development",
+  "aliases": [
+    "TDD"
+  ],
+  "difficulty": "intermediate",
+  "definition": "Test-driven development writes a failing test for a behavior before the code that makes it pass, then adjusts the code and cleans it up. The test states the behavior first. The cycle is often described as red, green, refactor.",
+  "categories": [
+    "software-engineering",
+    "testing"
+  ],
+  "examples": [
+    "A failing test for an empty-cart total, followed by the implementation",
+    "A refactor that keeps the same tests passing"
+  ]
+}

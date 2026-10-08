@@ -1,0 +1,22 @@
+{
+  "id": "set",
+  "term": "Set",
+  "aliases": [],
+  "difficulty": "fundamental",
+  "definition": "A set is a collection of distinct elements, with no positions and no duplicates. The operations that matter are adding, removing, and testing membership. A hash table or a balanced tree is the usual implementation.",
+  "categories": [
+    "data-structures",
+    "mathematics"
+  ],
+  "details": [
+    "Putting an element in twice leaves one copy. Order of iteration is not part of the idea, though a particular implementation may define one."
+  ],
+  "complexity": {
+    "time": "Membership is O(1) average with hashing, or O(log n) in a balanced tree.",
+    "space": "O(n) space for the elements themselves."
+  },
+  "examples": [
+    "The set of user ids already processed",
+    "The letters that appear in a word, each once"
+  ]
+}

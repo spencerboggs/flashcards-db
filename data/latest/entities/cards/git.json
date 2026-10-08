@@ -1,0 +1,17 @@
+{
+  "id": "git",
+  "term": "Git",
+  "aliases": [],
+  "difficulty": "fundamental",
+  "definition": "Git is a distributed version-control system. Every clone holds the project's history, not only the latest files. A commit records a snapshot of the tree, and later commits point at their parent commits, forming a graph.",
+  "categories": [
+    "version-control"
+  ],
+  "details": [
+    "The conceptual model is a snapshot plus metadata, not a list of line edits. Storage may compress that snapshot as a delta."
+  ],
+  "examples": [
+    "A local clone with the full history of a repository",
+    "A commit that points at its parent and at a tree of files"
+  ]
+}

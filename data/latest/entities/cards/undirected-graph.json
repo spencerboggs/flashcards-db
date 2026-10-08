@@ -1,0 +1,15 @@
+{
+  "id": "undirected-graph",
+  "term": "Undirected Graph",
+  "aliases": [],
+  "difficulty": "fundamental",
+  "definition": "An undirected graph treats each edge as a two-way connection. If you can go from A to B, you can go from B to A. There is no separate reverse edge.",
+  "categories": [
+    "algorithms",
+    "data-structures"
+  ],
+  "examples": [
+    "Mutual friendships",
+    "Roads that can be traveled in either direction"
+  ]
+}

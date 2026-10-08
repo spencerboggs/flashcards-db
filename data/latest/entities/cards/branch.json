@@ -1,0 +1,15 @@
+{
+  "id": "branch",
+  "term": "Branch",
+  "aliases": [],
+  "difficulty": "fundamental",
+  "definition": "A branch is a named pointer to a commit, and it moves forward as new commits are added on that line of work. It is a label, not a separate copy of the files. Several branches can exist so different lines of work do not have to share a tip.",
+  "categories": [
+    "version-control"
+  ],
+  "prompt": "What is a Git branch?",
+  "examples": [
+    "A feature branch that points at the latest commit of that feature",
+    "The main branch that releases are cut from"
+  ]
+}

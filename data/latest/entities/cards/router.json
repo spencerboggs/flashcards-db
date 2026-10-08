@@ -1,0 +1,14 @@
+{
+  "id": "router",
+  "term": "Router",
+  "aliases": [],
+  "difficulty": "fundamental",
+  "definition": "A router forwards IP packets between networks. It chooses the next hop from a routing table and sends the packet out the corresponding interface. It operates on packets and IP addresses, not on a single local link's frames.",
+  "categories": [
+    "networking"
+  ],
+  "examples": [
+    "The gateway between a home network and an internet provider",
+    "A router choosing the next hop toward a destination prefix"
+  ]
+}

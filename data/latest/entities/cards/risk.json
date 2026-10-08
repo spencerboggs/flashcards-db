@@ -1,0 +1,16 @@
+{
+  "id": "risk",
+  "term": "Risk",
+  "aliases": [],
+  "difficulty": "fundamental",
+  "definition": "Risk combines how likely a harmful event is with how bad it would be. A severe weakness that is unreachable may be a lower risk than a modest weakness on a public endpoint. Prioritizing work means comparing risks, not only listing weaknesses.",
+  "categories": [
+    "security",
+    "software-engineering"
+  ],
+  "prompt": "What is risk in security?",
+  "examples": [
+    "A public endpoint with a known weakness",
+    "A severe bug on a system that is not connected"
+  ]
+}

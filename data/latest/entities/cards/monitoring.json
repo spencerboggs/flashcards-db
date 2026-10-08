@@ -1,0 +1,15 @@
+{
+  "id": "monitoring",
+  "term": "Monitoring",
+  "aliases": [],
+  "difficulty": "fundamental",
+  "definition": "Monitoring collects signals from a running system and checks them against conditions you defined in advance. Dashboards and alerts are how people see the result. It answers known questions, such as whether error rate or latency has crossed a line.",
+  "categories": [
+    "infrastructure",
+    "software-engineering"
+  ],
+  "examples": [
+    "A chart of request latency",
+    "An alert when the error rate exceeds a threshold"
+  ]
+}

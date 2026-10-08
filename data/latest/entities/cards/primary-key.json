@@ -1,0 +1,14 @@
+{
+  "id": "primary-key",
+  "term": "Primary Key",
+  "aliases": [],
+  "difficulty": "fundamental",
+  "definition": "A primary key is the column or columns that uniquely identify each row of a table. The database rejects a second row with the same key, and it rejects null in the key. Other tables refer to that identity with foreign keys.",
+  "categories": [
+    "databases"
+  ],
+  "examples": [
+    "A numeric user id",
+    "A composite key of order id plus line number"
+  ]
+}

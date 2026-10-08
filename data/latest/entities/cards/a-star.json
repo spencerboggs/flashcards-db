@@ -1,0 +1,24 @@
+{
+  "id": "a-star",
+  "term": "A*",
+  "aliases": [
+    "A Star"
+  ],
+  "difficulty": "intermediate",
+  "definition": "A* searches for a shortest path by expanding the vertex with the smallest f, where f is the distance so far plus a heuristic estimate of the distance remaining. When that estimate never overestimates and is consistent, the first time the goal leaves the frontier the path is optimal. The heuristic is what lets it expand fewer vertices than Dijkstra when a goal is known.",
+  "categories": [
+    "algorithms"
+  ],
+  "details": [
+    "An admissible heuristic never overestimates. A consistent heuristic also satisfies the triangle inequality, which keeps the first visit to each vertex optimal.",
+    "A heuristic of zero makes A* behave like Dijkstra."
+  ],
+  "complexity": {
+    "time": "Depends on the heuristic. The worst case is still exponential in the path length; a good heuristic expands far fewer vertices.",
+    "space": "O(V) in the worst case for the frontier and the visited set."
+  },
+  "examples": [
+    "Pathfinding on a map, using straight-line distance as the estimate",
+    "Route finding in a game grid"
+  ]
+}

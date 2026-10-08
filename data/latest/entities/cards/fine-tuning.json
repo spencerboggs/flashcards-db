@@ -1,0 +1,14 @@
+{
+  "id": "fine-tuning",
+  "term": "Fine-Tuning",
+  "aliases": [],
+  "difficulty": "intermediate",
+  "definition": "Fine-tuning continues training a model on a narrower dataset so it performs better at a particular task or style. The starting parameters come from the earlier, broader training. It can specialize the model and can also make it worse at tasks outside the new data.",
+  "categories": [
+    "machine-learning"
+  ],
+  "examples": [
+    "Continuing training on a company's support transcripts",
+    "Adapting a general model to a classification task"
+  ]
+}

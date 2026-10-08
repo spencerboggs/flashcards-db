@@ -1,0 +1,22 @@
+{
+  "id": "topological-sort",
+  "term": "Topological Sort",
+  "aliases": [],
+  "difficulty": "intermediate",
+  "definition": "A topological sort orders the vertices of a directed acyclic graph so every edge points from earlier to later. It is an order in which prerequisite tasks can be done. If the graph has a cycle, no such order exists.",
+  "categories": [
+    "algorithms"
+  ],
+  "details": [
+    "Kahn's algorithm repeatedly removes a vertex with no incoming edges, using a queue. Depth-first search can emit vertices in reverse order of finishing instead.",
+    "Several valid orders may exist when some tasks do not depend on each other."
+  ],
+  "complexity": {
+    "time": "O(V + E).",
+    "space": "O(V)."
+  },
+  "examples": [
+    "Ordering build steps so each step runs after the ones it needs",
+    "Scheduling courses after their prerequisites"
+  ]
+}

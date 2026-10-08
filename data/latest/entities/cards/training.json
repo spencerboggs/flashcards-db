@@ -1,0 +1,15 @@
+{
+  "id": "training",
+  "term": "Training",
+  "aliases": [],
+  "difficulty": "fundamental",
+  "definition": "Training adjusts a model's parameters so its predictions get closer to the objective on a training set. Each step uses the loss to decide how to change the parameters. When training ends, the parameters are what get saved and later used.",
+  "categories": [
+    "machine-learning"
+  ],
+  "prompt": "What is training in machine learning?",
+  "examples": [
+    "A pass over a labeled dataset that updates weights",
+    "Stopping when validation loss stops improving"
+  ]
+}

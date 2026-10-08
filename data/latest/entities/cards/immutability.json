@@ -1,0 +1,17 @@
+{
+  "id": "immutability",
+  "term": "Immutability",
+  "aliases": [],
+  "difficulty": "fundamental",
+  "definition": "An immutable value cannot be changed after it is created. An update produces a new value and leaves the old one alone. Other holders of the original cannot observe a surprise change, which makes sharing safer.",
+  "categories": [
+    "programming"
+  ],
+  "details": [
+    "A language can freeze a binding, freeze an object, or both. Those are different guarantees."
+  ],
+  "examples": [
+    "A string that concatenation does not alter",
+    "A date value whose fields cannot be reassigned"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "id": "modularity",
+  "term": "Modularity",
+  "aliases": [],
+  "difficulty": "fundamental",
+  "definition": "Modularity is dividing a system into parts with clear boundaries, so each part can be understood and changed with limited knowledge of the others. A module hides its internals and publishes an interface. The boundaries are what make independent change possible.",
+  "categories": [
+    "programming",
+    "software-engineering"
+  ],
+  "examples": [
+    "A billing module that other code reaches only through its API",
+    "A parser separated from the code that uses the parsed tree"
+  ]
+}

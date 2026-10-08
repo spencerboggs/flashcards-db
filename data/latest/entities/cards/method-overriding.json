@@ -1,0 +1,17 @@
+{
+  "id": "method-overriding",
+  "term": "Method Overriding",
+  "aliases": [],
+  "difficulty": "fundamental",
+  "definition": "Method overriding replaces a method inherited from a parent with a new implementation in the subclass. The signature stays the same, and a call through the parent type runs the subclass method. That is the mechanism behind subtype polymorphism.",
+  "categories": [
+    "object-oriented-programming"
+  ],
+  "details": [
+    "The subclass method should honor the parent's contract. Doing less, or demanding more from the caller, breaks substitution."
+  ],
+  "examples": [
+    "A subclass logging method that writes JSON instead of plain text",
+    "A shape's area method replaced in Circle and in Rectangle"
+  ]
+}

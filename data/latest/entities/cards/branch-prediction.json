@@ -1,0 +1,14 @@
+{
+  "id": "branch-prediction",
+  "term": "Branch Prediction",
+  "aliases": [],
+  "difficulty": "intermediate",
+  "definition": "Branch prediction guesses which way a conditional branch will go so the pipeline can keep fetching instead of waiting. A correct guess costs nothing extra. A wrong guess flushes the work that was fetched along the wrong path.",
+  "categories": [
+    "computer-architecture"
+  ],
+  "examples": [
+    "Predicting that a loop branch will be taken again",
+    "A misprediction at the end of the loop"
+  ]
+}

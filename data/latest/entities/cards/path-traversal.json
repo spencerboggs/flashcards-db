@@ -1,0 +1,14 @@
+{
+  "id": "path-traversal",
+  "term": "Path Traversal",
+  "aliases": [],
+  "difficulty": "intermediate",
+  "definition": "Path traversal happens when a file path is built from untrusted text and that text contains parent-directory segments. The risk is reading or writing a file outside the directory the program intended. The defense is to resolve the path and reject it unless it stays inside the allowed directory.",
+  "categories": [
+    "security"
+  ],
+  "examples": [
+    "A download handler that confines paths to one folder",
+    "Rejecting a resolved path that escapes the base directory"
+  ]
+}

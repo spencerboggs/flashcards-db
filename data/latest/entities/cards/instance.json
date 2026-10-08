@@ -1,0 +1,15 @@
+{
+  "id": "instance",
+  "term": "Instance",
+  "aliases": [],
+  "difficulty": "fundamental",
+  "definition": "An instance is an object created from a class. The class describes the shape; the instance is one concrete object with its own field values. Two instances of the same class share the method definitions and not the field values.",
+  "categories": [
+    "object-oriented-programming"
+  ],
+  "prompt": "What is an instance in object-oriented programming?",
+  "examples": [
+    "Two Date instances that happen to name the same calendar day",
+    "A new button created from a Button class"
+  ]
+}

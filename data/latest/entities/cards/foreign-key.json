@@ -1,0 +1,14 @@
+{
+  "id": "foreign-key",
+  "term": "Foreign Key",
+  "aliases": [],
+  "difficulty": "fundamental",
+  "definition": "A foreign key is a column whose values must match a key in another table, usually that table's primary key. The database rejects a value that points at a missing row, if the constraint is enforced. It is how tables state a relationship rather than only implying one.",
+  "categories": [
+    "databases"
+  ],
+  "examples": [
+    "An orders.customer_id that must match a customer",
+    "A comment's post id"
+  ]
+}

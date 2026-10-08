@@ -1,0 +1,15 @@
+{
+  "id": "instruction",
+  "term": "Instruction",
+  "aliases": [],
+  "difficulty": "fundamental",
+  "definition": "An instruction is one operation the processor knows how to perform, such as adding two registers or loading a word from memory. A program is a sequence of instructions. The instruction set defines which operations exist and how they are encoded.",
+  "categories": [
+    "computer-architecture"
+  ],
+  "examples": [
+    "An add of two registers",
+    "A conditional branch",
+    "A load from a memory address"
+  ]
+}

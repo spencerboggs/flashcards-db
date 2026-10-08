@@ -1,0 +1,14 @@
+{
+  "id": "statement",
+  "term": "Statement",
+  "aliases": [],
+  "difficulty": "fundamental",
+  "definition": "A statement is a piece of code that performs an action, such as an assignment, a branch, or a loop. Statements run in order and make up the body of a function. An expression often sits inside a statement, and some languages let an expression stand alone as one.",
+  "categories": [
+    "programming"
+  ],
+  "examples": [
+    "An assignment of a computed total",
+    "An if statement that chooses between two blocks"
+  ]
+}

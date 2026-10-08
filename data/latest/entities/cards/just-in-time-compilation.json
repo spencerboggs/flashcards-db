@@ -1,0 +1,16 @@
+{
+  "id": "just-in-time-compilation",
+  "term": "Just-in-Time Compilation",
+  "aliases": [
+    "JIT"
+  ],
+  "difficulty": "intermediate",
+  "definition": "Just-in-time compilation translates code to machine code while the program is running, often after observing which parts are hot. It can optimize using information a static compiler does not have. The cost is compilation time paid during execution.",
+  "categories": [
+    "programming-languages"
+  ],
+  "examples": [
+    "A virtual machine compiling a hot function after it has run many times",
+    "Optimizing a call site once the actual type is known"
+  ]
+}

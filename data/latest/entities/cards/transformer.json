@@ -1,0 +1,15 @@
+{
+  "id": "transformer",
+  "term": "Transformer",
+  "aliases": [],
+  "difficulty": "intermediate",
+  "definition": "A transformer is a neural network architecture built around attention, processing a sequence without stepping through it one token at a time in the core layer. Self-attention lets each token mix information from the others. Large language models are transformers trained to predict text.",
+  "categories": [
+    "machine-learning"
+  ],
+  "prompt": "What is a transformer in machine learning?",
+  "examples": [
+    "A model that attends over a sentence to produce a representation",
+    "The architecture behind current large language models"
+  ]
+}

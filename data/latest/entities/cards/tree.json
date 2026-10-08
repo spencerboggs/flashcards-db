@@ -1,0 +1,18 @@
+{
+  "id": "tree",
+  "term": "Tree",
+  "aliases": [],
+  "difficulty": "fundamental",
+  "definition": "A tree is a collection of nodes where each node has one parent, except the root, and there are no cycles. The parent-to-child links organize data hierarchically. A node's depth is the number of links from the root, and the height is the depth of the deepest leaf.",
+  "categories": [
+    "data-structures"
+  ],
+  "complexity": {
+    "time": "Walking every node is O(n).",
+    "space": "O(n) space for the elements themselves."
+  },
+  "examples": [
+    "A folder hierarchy",
+    "The structure of an expression, with operators as internal nodes"
+  ]
+}

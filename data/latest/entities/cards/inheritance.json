@@ -1,0 +1,14 @@
+{
+  "id": "inheritance",
+  "term": "Inheritance",
+  "aliases": [],
+  "difficulty": "fundamental",
+  "definition": "Inheritance lets a class take the fields and methods of a parent class and add or replace behavior. A subclass is meant to be usable where the parent is expected. Long chains of inheritance become brittle, so reuse is often better done by composition.",
+  "categories": [
+    "object-oriented-programming"
+  ],
+  "examples": [
+    "A SavingsAccount class that extends Account",
+    "A specialized exception type that extends a base exception"
+  ]
+}

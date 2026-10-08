@@ -1,0 +1,16 @@
+{
+  "id": "null",
+  "term": "Null",
+  "aliases": [
+    "Nil"
+  ],
+  "difficulty": "fundamental",
+  "definition": "Null is a value that means there is no object, or no result, where a reference would otherwise be. Reading fields through null is an error in most languages. Some languages use a type that explicitly includes absence, so the missing value is visible to the type checker.",
+  "categories": [
+    "programming"
+  ],
+  "examples": [
+    "A search that finds no match",
+    "An optional profile field the user left empty"
+  ]
+}

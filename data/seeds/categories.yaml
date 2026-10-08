@@ -1,0 +1,93 @@
+# Category tree. Order in this file is the order published in categories.json.
+# A card lists every category that fits. Consumers of a parent also receive
+# cards filed under its children.
+
+categories:
+  - id: programming
+    name: Programming
+    summary: How programs are written, structured, and executed.
+
+  - id: object-oriented-programming
+    name: Object-Oriented Programming
+    parent: programming
+    summary: How programs are organized as objects with their own data and behavior.
+
+  - id: data-structures
+    name: Data Structures
+    summary: Ways of organizing data so it can be stored and retrieved efficiently.
+
+  - id: algorithms
+    name: Algorithms
+    summary: Procedures for solving problems, and how their cost is described.
+
+  - id: programming-languages
+    name: Programming Languages
+    summary: How languages, compilers, and runtimes represent and execute programs.
+
+  - id: software-engineering
+    name: Software Engineering
+    summary: How software is designed, changed, and kept reliable over time.
+
+  - id: testing
+    name: Testing
+    parent: software-engineering
+    summary: How a program's behavior is checked before and after a change.
+
+  - id: version-control
+    name: Version Control
+    parent: software-engineering
+    summary: How the history of a codebase is recorded, branched, and shared.
+
+  - id: operating-systems
+    name: Operating Systems
+    summary: How a computer runs programs and shares its hardware among them.
+
+  - id: computer-architecture
+    name: Computer Architecture
+    summary: How processors, memory, and instructions are organized in hardware.
+
+  - id: networking
+    name: Networking
+    summary: How computers address each other and exchange data.
+
+  - id: web
+    name: Web
+    summary: How browsers, servers, and HTTP APIs fit together.
+
+  - id: databases
+    name: Databases
+    summary: How durable data is modeled, stored, and queried.
+
+  - id: distributed-systems
+    name: Distributed Systems
+    summary: How several computers cooperate to do one job.
+
+  - id: security
+    name: Security
+    summary: How a system stays confidential, intact, and available.
+
+  - id: cryptography
+    name: Cryptography
+    parent: security
+    summary: How information is hidden, authenticated, and checked for tampering.
+
+  - id: artificial-intelligence
+    name: Artificial Intelligence
+    summary: How computers perform tasks that usually require judgment or learning.
+
+  - id: machine-learning
+    name: Machine Learning
+    parent: artificial-intelligence
+    summary: How models learn patterns from examples and are then used to predict.
+
+  - id: mathematics
+    name: Mathematics
+    summary: The mathematics used directly in computer science and engineering.
+
+  - id: computer-graphics
+    name: Computer Graphics
+    summary: How images, geometry, and scenes are represented and drawn.
+
+  - id: infrastructure
+    name: Infrastructure
+    summary: How software is built, deployed, and operated in production.

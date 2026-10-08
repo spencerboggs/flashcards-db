@@ -1,0 +1,15 @@
+{
+  "id": "feature",
+  "term": "Feature",
+  "aliases": [],
+  "difficulty": "fundamental",
+  "definition": "A feature is one input variable the model sees. Choosing and transforming features decides which patterns the model is able to use. A feature that leaks the answer, or that will not be available at prediction time, produces a model that looks better than it is.",
+  "categories": [
+    "machine-learning"
+  ],
+  "prompt": "What is a feature in machine learning?",
+  "examples": [
+    "The number of words in an email",
+    "The age and income columns of a table"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "id": "frontend",
+  "term": "Frontend",
+  "aliases": [],
+  "difficulty": "fundamental",
+  "definition": "The frontend is the part of a web application that runs on the user's side and presents the interface. It talks to the backend over HTTP or a similar protocol. It is responsible for the interaction, not for being the authority on the data.",
+  "categories": [
+    "web"
+  ],
+  "examples": [
+    "A page rendered in a browser",
+    "A client that calls an API and draws the result"
+  ]
+}

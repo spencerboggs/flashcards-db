@@ -1,0 +1,14 @@
+{
+  "id": "mock",
+  "term": "Mock",
+  "aliases": [],
+  "difficulty": "intermediate",
+  "definition": "A mock is a test double that records how it was called and lets the test assert on those calls. It checks the interaction, not only the returned value. Over-specifying calls makes tests break when the collaboration changes in a way the behavior did not.",
+  "categories": [
+    "testing"
+  ],
+  "examples": [
+    "Asserting that a notifier was called once with a given message",
+    "A mock repository that expects a save"
+  ]
+}

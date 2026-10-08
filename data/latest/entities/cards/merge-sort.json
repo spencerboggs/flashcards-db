@@ -1,0 +1,18 @@
+{
+  "id": "merge-sort",
+  "term": "Merge Sort",
+  "aliases": [],
+  "difficulty": "fundamental",
+  "definition": "Merge sort divides a list in half, sorts each half, and merges the two sorted halves by always taking the smaller front item. The split is the divide step and the merge is the combine step. The usual array version is stable and uses extra space proportional to the input.",
+  "categories": [
+    "algorithms"
+  ],
+  "complexity": {
+    "time": "O(n log n) in the best, average, and worst cases.",
+    "space": "O(n) extra space for the usual array merge."
+  },
+  "examples": [
+    "Sorting a large file that does not fit in one pass of memory",
+    "A stable sort of records by a key"
+  ]
+}

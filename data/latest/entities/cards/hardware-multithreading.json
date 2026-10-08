@@ -1,0 +1,16 @@
+{
+  "id": "hardware-multithreading",
+  "term": "Hardware Multithreading",
+  "aliases": [],
+  "difficulty": "advanced",
+  "definition": "Hardware multithreading lets one core keep more than one thread's state and switch between them, often to hide a stall such as a cache miss. The threads share the core's execution units. It is a hardware technique, separate from the operating system scheduling many threads onto many cores.",
+  "categories": [
+    "computer-architecture"
+  ],
+  "details": [
+    "Simultaneous multithreading is the common form, where the threads share a core's execution units in the same cycle."
+  ],
+  "examples": [
+    "A core running two hardware threads so one can proceed while the other waits on memory"
+  ]
+}

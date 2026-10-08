@@ -1,0 +1,17 @@
+{
+  "id": "directed-graph",
+  "term": "Directed Graph",
+  "aliases": [
+    "Digraph"
+  ],
+  "difficulty": "fundamental",
+  "definition": "A directed graph gives each edge a direction, from one vertex to another. A path has to follow that direction. The reverse of an edge is a different edge, and it may not exist.",
+  "categories": [
+    "algorithms",
+    "data-structures"
+  ],
+  "examples": [
+    "Web pages and the links from one page to another",
+    "Course prerequisites that point from a later course to an earlier one"
+  ]
+}

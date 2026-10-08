@@ -1,0 +1,14 @@
+{
+  "id": "embedding",
+  "term": "Embedding",
+  "aliases": [],
+  "difficulty": "intermediate",
+  "definition": "An embedding is a vector that represents an item so that similar items land near each other. The coordinates are learned or computed; they are not a hand-labeled feature list. Search and recommendation use the distance between embeddings as a stand-in for similarity.",
+  "categories": [
+    "machine-learning"
+  ],
+  "examples": [
+    "Word vectors in which related words are nearby",
+    "An image mapped to a vector for similarity search"
+  ]
+}

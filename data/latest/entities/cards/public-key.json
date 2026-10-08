@@ -1,0 +1,15 @@
+{
+  "id": "public-key",
+  "term": "Public Key",
+  "aliases": [],
+  "difficulty": "fundamental",
+  "definition": "A public key is the half of a key pair that may be shared. Others use it to encrypt to the owner or to verify the owner's signatures. It does not have to be kept secret, and it cannot by itself decrypt or sign.",
+  "categories": [
+    "cryptography",
+    "security"
+  ],
+  "examples": [
+    "A key published in a certificate",
+    "A key used to verify a software signature"
+  ]
+}

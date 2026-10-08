@@ -1,0 +1,21 @@
+{
+  "id": "counting-sort",
+  "term": "Counting Sort",
+  "aliases": [],
+  "difficulty": "intermediate",
+  "definition": "Counting sort orders integers that fall in a limited range by counting how many times each value appears, then writing them back out from those counts. It is not a comparison sort, so it can beat the n log n comparison lower bound. The range has to be modest, because the count array is as large as the range.",
+  "categories": [
+    "algorithms"
+  ],
+  "details": [
+    "Implemented by placing values according to prefix sums of the counts, it is stable."
+  ],
+  "complexity": {
+    "time": "O(n + k), where k is the size of the value range.",
+    "space": "O(k) for the counts, plus O(n) if the output is a separate array."
+  },
+  "examples": [
+    "Sorting exam scores that only range from 0 to 100",
+    "Sorting small integers as one pass of radix sort"
+  ]
+}

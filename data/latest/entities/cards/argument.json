@@ -1,0 +1,14 @@
+{
+  "id": "argument",
+  "term": "Argument",
+  "aliases": [],
+  "difficulty": "fundamental",
+  "definition": "An argument is the value passed to a function at a call. It is matched to a parameter by position or by name. Reassigning the parameter does not change the caller's variable, though mutating a shared object is visible to the caller.",
+  "categories": [
+    "programming"
+  ],
+  "examples": [
+    "The two numbers passed to a max function",
+    "A named argument that skips an optional parameter"
+  ]
+}

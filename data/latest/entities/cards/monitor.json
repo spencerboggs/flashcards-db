@@ -1,0 +1,16 @@
+{
+  "id": "monitor",
+  "term": "Monitor",
+  "aliases": [],
+  "difficulty": "intermediate",
+  "definition": "A monitor is a concurrency construct that combines mutual exclusion with the ability to wait for a condition. Only one thread runs inside the monitor at a time, and a thread can wait until another thread signals that the condition holds. It is a higher-level pattern than a bare mutex.",
+  "categories": [
+    "operating-systems",
+    "programming"
+  ],
+  "prompt": "What is a monitor in concurrent programming?",
+  "examples": [
+    "A bounded buffer where producers wait for space and consumers wait for an item",
+    "A lock plus a condition variable around a queue"
+  ]
+}

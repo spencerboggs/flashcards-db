@@ -1,0 +1,15 @@
+{
+  "id": "session",
+  "term": "Session",
+  "aliases": [],
+  "difficulty": "fundamental",
+  "definition": "A session is server-side state that remembers an authenticated user across many requests. The browser typically holds only an identifier, often in a cookie, and sends it back so the server can find that state. Ending the session on the server removes the authority, even if the identifier is still sitting in the browser.",
+  "categories": [
+    "security",
+    "web"
+  ],
+  "examples": [
+    "A login that creates a session and sets a cookie",
+    "A logout that deletes the session"
+  ]
+}

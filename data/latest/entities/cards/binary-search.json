@@ -1,0 +1,23 @@
+{
+  "id": "binary-search",
+  "term": "Binary Search",
+  "aliases": [],
+  "difficulty": "fundamental",
+  "definition": "Binary search finds a target in a sorted array by repeatedly cutting the remaining range in half. Each step compares the middle element and discards the half that cannot contain the target. The input must be sorted, and index access must be constant time.",
+  "categories": [
+    "algorithms"
+  ],
+  "details": [
+    "On duplicates, the basic form may return any match. A left-biased or right-biased version finds the first or last match.",
+    "The middle index is computed as lo + (hi - lo) / 2 so the sum cannot overflow a fixed-width integer."
+  ],
+  "complexity": {
+    "time": "O(log n).",
+    "space": "O(1) for the iterative form. O(log n) if written as recursion."
+  },
+  "examples": [
+    "Looking up a word in a sorted dictionary",
+    "Finding the insertion point for a new key in a sorted array"
+  ],
+  "sketch": "lo, hi = 0, n - 1\nwhile lo <= hi:\n  mid = lo + (hi - lo) // 2\n  if a[mid] == target: return mid\n  if a[mid] < target: lo = mid + 1\n  else: hi = mid - 1\nreturn not found"
+}

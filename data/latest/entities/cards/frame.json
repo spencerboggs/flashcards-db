@@ -1,0 +1,15 @@
+{
+  "id": "frame",
+  "term": "Frame",
+  "aliases": [],
+  "difficulty": "fundamental",
+  "definition": "A frame is the unit of transmission on a single link, at the layer below IP. It carries a packet across one hop and is addressed with link-layer addresses such as MAC addresses. The frame is stripped and rebuilt at each hop; the packet continues.",
+  "categories": [
+    "networking"
+  ],
+  "prompt": "What is a frame in networking?",
+  "examples": [
+    "An Ethernet frame on a local wire",
+    "A frame header that is discarded when the packet is routed onward"
+  ]
+}

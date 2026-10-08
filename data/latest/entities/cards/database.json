@@ -1,0 +1,14 @@
+{
+  "id": "database",
+  "term": "Database",
+  "aliases": [],
+  "difficulty": "fundamental",
+  "definition": "A database is an organized store of data with a way to query and update it, usually used by many programs at once. It handles durability, concurrent access, and structure so each application does not invent those itself. The database management system is the software that provides that store.",
+  "categories": [
+    "databases"
+  ],
+  "examples": [
+    "A store of accounts and orders",
+    "A service that many application instances query"
+  ]
+}

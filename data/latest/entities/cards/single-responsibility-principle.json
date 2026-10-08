@@ -1,0 +1,17 @@
+{
+  "id": "single-responsibility-principle",
+  "term": "Single Responsibility Principle",
+  "aliases": [
+    "SRP"
+  ],
+  "difficulty": "intermediate",
+  "definition": "The single responsibility principle says a module should have one reason to change. The reason is a single kind of stakeholder or concern, not a single method. Mixing unrelated reasons in one module means a change for one concern risks the other.",
+  "categories": [
+    "object-oriented-programming",
+    "software-engineering"
+  ],
+  "examples": [
+    "A class that both calculates pay and writes the payroll file, split into two",
+    "A module that formats a report and does not also fetch the data"
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "id": "generic",
+  "term": "Generic",
+  "aliases": [
+    "Parametric Polymorphism"
+  ],
+  "difficulty": "intermediate",
+  "definition": "A generic is a type or function parameterized by another type. One definition works for many element types, and each use is still checked for consistency. A list of integers and a list of strings can share a single list implementation.",
+  "categories": [
+    "programming",
+    "programming-languages"
+  ],
+  "prompt": "What is a generic type?",
+  "examples": [
+    "A list that can hold any one element type",
+    "A function that returns the first item of any list"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "id": "query-planner",
+  "term": "Query Planner",
+  "aliases": [
+    "Query Optimizer"
+  ],
+  "difficulty": "intermediate",
+  "definition": "The query planner chooses how to execute a query: which indexes to use, in what order to join tables, and how to access each one. It estimates costs from statistics about the data. A bad estimate can pick a slow plan even though a fast one exists.",
+  "categories": [
+    "databases"
+  ],
+  "examples": [
+    "Choosing an index lookup instead of a full scan",
+    "Choosing a join order for three tables"
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "id": "array",
+  "term": "Array",
+  "aliases": [],
+  "difficulty": "fundamental",
+  "definition": "An array stores elements in contiguous positions and identifies each one by an index. Reading or writing an element by index is constant time. Inserting or deleting in the middle shifts the elements that follow, so that cost grows with the length.",
+  "categories": [
+    "data-structures"
+  ],
+  "complexity": {
+    "time": "Index access is O(1). Search is O(n) unless the array is sorted. Insert or delete in the middle is O(n).",
+    "space": "O(n) space for the elements themselves."
+  },
+  "examples": [
+    "A list of the last 100 readings, addressed by position",
+    "The rows of a matrix stored in one contiguous block"
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "id": "stack",
+  "term": "Stack",
+  "aliases": [
+    "LIFO"
+  ],
+  "difficulty": "fundamental",
+  "definition": "A stack is a collection that removes the element added most recently. Push adds to the top and pop removes from the top, both in constant time. It models nested work that must be finished in the reverse of the order it was started.",
+  "categories": [
+    "data-structures"
+  ],
+  "details": [
+    "This is the abstract collection. The call stack is one use of the same rule for function calls."
+  ],
+  "complexity": {
+    "time": "Push and pop are O(1).",
+    "space": "O(n) space for the elements themselves."
+  },
+  "examples": [
+    "Undo, where the latest action is reversed first",
+    "Matching parentheses by pushing opens and popping at closes"
+  ]
+}

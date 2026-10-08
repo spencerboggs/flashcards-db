@@ -1,0 +1,14 @@
+{
+  "id": "bytecode",
+  "term": "Bytecode",
+  "aliases": [],
+  "difficulty": "fundamental",
+  "definition": "Bytecode is an instruction set designed for a virtual machine rather than for a physical CPU. A compiler emits it, and the virtual machine executes it, often with a further just-in-time compilation to machine code. It is portable across machines that provide the same virtual machine.",
+  "categories": [
+    "programming-languages"
+  ],
+  "examples": [
+    "Java bytecode",
+    "Python bytecode executed by its virtual machine"
+  ]
+}

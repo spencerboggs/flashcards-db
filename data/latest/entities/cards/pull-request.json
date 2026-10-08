@@ -1,0 +1,17 @@
+{
+  "id": "pull-request",
+  "term": "Pull Request",
+  "aliases": [
+    "Merge Request"
+  ],
+  "difficulty": "fundamental",
+  "definition": "A pull request is a proposal to merge one branch into another, together with a place to discuss and review the change. The name is common on GitHub; other hosts call the same idea a merge request. Merging the request creates the merge, or fast-forwards the target branch.",
+  "categories": [
+    "software-engineering",
+    "version-control"
+  ],
+  "examples": [
+    "A review of a feature branch before it reaches main",
+    "A discussion attached to a proposed fix"
+  ]
+}

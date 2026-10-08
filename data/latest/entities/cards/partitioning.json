@@ -1,0 +1,18 @@
+{
+  "id": "partitioning",
+  "term": "Partitioning",
+  "aliases": [],
+  "difficulty": "intermediate",
+  "definition": "Partitioning splits one logical table into smaller physical parts, often by a range or a hash of a column. The parts may live on one machine. Queries that match the partition key can skip the other parts; the table still looks like one table to many queries.",
+  "categories": [
+    "databases"
+  ],
+  "prompt": "What is partitioning in a database?",
+  "details": [
+    "Sharding is partitioning spread across nodes so the data no longer fits one machine. Partitioning on one machine is often about manageability and pruning."
+  ],
+  "examples": [
+    "A logs table partitioned by month",
+    "Dropping an old month by dropping one partition"
+  ]
+}

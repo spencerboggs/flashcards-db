@@ -1,0 +1,18 @@
+{
+  "id": "floyd-warshall",
+  "term": "Floyd-Warshall",
+  "aliases": [],
+  "difficulty": "intermediate",
+  "definition": "Floyd-Warshall finds shortest paths between every pair of vertices. It tries every vertex as a possible intermediate stop and updates a distance matrix by dynamic programming. Negative edges are allowed; a negative number on the diagonal of the result means a negative cycle.",
+  "categories": [
+    "algorithms"
+  ],
+  "complexity": {
+    "time": "O(V^3).",
+    "space": "O(V^2) for the distance matrix."
+  },
+  "examples": [
+    "All-pairs distances in a small network",
+    "Choosing a hub that shortens travel between every pair"
+  ]
+}

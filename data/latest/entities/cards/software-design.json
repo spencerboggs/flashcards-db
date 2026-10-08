@@ -1,0 +1,17 @@
+{
+  "id": "software-design",
+  "term": "Software Design",
+  "aliases": [
+    "Design"
+  ],
+  "difficulty": "fundamental",
+  "definition": "Software design is how a component is shaped: its types, its interfaces, and how its responsibilities are divided. It sits under the architecture and is easier to revise than the system's overall structure. Good design makes a change local.",
+  "categories": [
+    "software-engineering"
+  ],
+  "prompt": "What is software design?",
+  "examples": [
+    "The types inside one service and how they call each other",
+    "The choice of a strategy object for a pricing rule"
+  ]
+}

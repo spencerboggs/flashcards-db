@@ -1,0 +1,15 @@
+{
+  "id": "scalability",
+  "term": "Scalability",
+  "aliases": [],
+  "difficulty": "fundamental",
+  "definition": "Scalability is the ability to handle more load by adding resources, without a redesign. Vertical scaling adds capacity to one machine. Horizontal scaling adds more machines, which only works if the work can be split.",
+  "categories": [
+    "distributed-systems",
+    "software-engineering"
+  ],
+  "examples": [
+    "Adding application instances behind a load balancer",
+    "Moving a larger working set onto a machine with more memory"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "id": "type-checking",
+  "term": "Type Checking",
+  "aliases": [],
+  "difficulty": "intermediate",
+  "definition": "Type checking verifies that each operation is used on values of an acceptable type. In a statically typed language it runs before execution and rejects the program otherwise. It is a major part of semantic analysis.",
+  "categories": [
+    "programming-languages"
+  ],
+  "examples": [
+    "Rejecting addition of a number and a string",
+    "Inferring the element type of a generic list from its first use"
+  ]
+}

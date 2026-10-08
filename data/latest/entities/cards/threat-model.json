@@ -1,0 +1,14 @@
+{
+  "id": "threat-model",
+  "term": "Threat Model",
+  "aliases": [],
+  "difficulty": "intermediate",
+  "definition": "A threat model states what you are protecting, who might try to misuse it, and which paths they would use. It is a way to decide which defenses are worth building. A control that does not address a threat in the model is not justified by the model.",
+  "categories": [
+    "security"
+  ],
+  "examples": [
+    "A model that treats the network as hostile and the database host as trusted",
+    "Listing the data an attacker would want from an account system"
+  ]
+}

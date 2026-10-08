@@ -1,0 +1,16 @@
+{
+  "id": "shell",
+  "term": "Shell",
+  "aliases": [],
+  "difficulty": "fundamental",
+  "definition": "A shell is a program that reads commands and runs them, connecting programs with pipes and redirecting their input and output. It is both an interactive prompt and a language for scripts. A script's behavior depends on the shell it is written for.",
+  "categories": [
+    "infrastructure",
+    "operating-systems",
+    "programming"
+  ],
+  "examples": [
+    "An interactive prompt on a server",
+    "A script that loops over files and runs a command on each"
+  ]
+}

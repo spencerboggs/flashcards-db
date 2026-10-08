@@ -1,0 +1,15 @@
+{
+  "id": "socket",
+  "term": "Socket",
+  "aliases": [],
+  "difficulty": "fundamental",
+  "definition": "A socket is an endpoint of network communication, identified by a protocol and, for TCP and UDP, by an IP address and a port. A program sends and receives through the socket the operating system gave it. A TCP connection is a pair of sockets.",
+  "categories": [
+    "networking",
+    "operating-systems"
+  ],
+  "examples": [
+    "A server socket waiting for connections on port 443",
+    "A client socket connected to a remote address and port"
+  ]
+}

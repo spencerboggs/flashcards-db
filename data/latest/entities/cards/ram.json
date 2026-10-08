@@ -1,0 +1,17 @@
+{
+  "id": "ram",
+  "term": "RAM",
+  "aliases": [
+    "Main Memory",
+    "Random-Access Memory"
+  ],
+  "difficulty": "fundamental",
+  "definition": "RAM is the main working memory of the computer, larger and slower than a cache and much faster than disk. It holds the code and data of running programs. It is volatile: its contents are lost when power goes away.",
+  "categories": [
+    "computer-architecture"
+  ],
+  "examples": [
+    "The memory an operating system assigns to a process",
+    "A dataset loaded into memory so later reads do not touch disk"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "id": "packet",
+  "term": "Packet",
+  "aliases": [],
+  "difficulty": "fundamental",
+  "definition": "A packet is a chunk of data carried at the network layer, with a header that includes source and destination addresses. The payload is the data being sent. Packets are routed independently, and a message larger than the path allows is split into several of them.",
+  "categories": [
+    "networking"
+  ],
+  "examples": [
+    "An IP packet carrying part of a download",
+    "A header with a destination IP address"
+  ]
+}

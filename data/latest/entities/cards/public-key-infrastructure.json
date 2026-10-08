@@ -1,0 +1,17 @@
+{
+  "id": "public-key-infrastructure",
+  "term": "Public-Key Infrastructure",
+  "aliases": [
+    "PKI"
+  ],
+  "difficulty": "intermediate",
+  "definition": "Public-key infrastructure is the system of certificates, issuers, and trust decisions that lets parties who have never met rely on each other's public keys. Certificate authorities sign certificates, and verifiers keep a set of root authorities they trust. A chain of signatures from a root down to the server's certificate is what a browser checks.",
+  "categories": [
+    "cryptography",
+    "security"
+  ],
+  "examples": [
+    "A browser trusting a site because a known authority signed its certificate",
+    "An internal authority that issues certificates to services"
+  ]
+}

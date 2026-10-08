@@ -1,0 +1,14 @@
+{
+  "id": "operating-system",
+  "term": "Operating System",
+  "aliases": [],
+  "difficulty": "fundamental",
+  "definition": "An operating system manages hardware and provides the services programs run on: processes, memory, files, and devices. The kernel is the privileged core. The rest of the system, such as shells and libraries, sits on top of it.",
+  "categories": [
+    "operating-systems"
+  ],
+  "examples": [
+    "A desktop system running many applications at once",
+    "A server system scheduling processes and serving files"
+  ]
+}

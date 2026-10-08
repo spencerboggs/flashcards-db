@@ -1,0 +1,15 @@
+{
+  "id": "backtracking",
+  "term": "Backtracking",
+  "aliases": [],
+  "difficulty": "intermediate",
+  "definition": "Backtracking searches by trying a choice, recursing, and undoing that choice when it cannot lead to a solution. It explores a tree of partial solutions and prunes a branch as soon as the partial solution is invalid. It is correct for many combinatorial problems and can still be exponential.",
+  "categories": [
+    "algorithms"
+  ],
+  "examples": [
+    "Placing queens so that no two share a row, column, or diagonal",
+    "Filling a sudoku grid",
+    "Generating permutations"
+  ]
+}

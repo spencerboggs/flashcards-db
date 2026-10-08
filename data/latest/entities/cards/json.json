@@ -1,0 +1,17 @@
+{
+  "id": "json",
+  "term": "JSON",
+  "aliases": [
+    "JavaScript Object Notation"
+  ],
+  "difficulty": "fundamental",
+  "definition": "JSON is a text format for structured data: objects, arrays, strings, numbers, booleans, and null. It is the usual body of an HTTP API. It has no dates, no comments, and no distinction between integers and other numbers; those are conventions layered on top.",
+  "categories": [
+    "programming",
+    "web"
+  ],
+  "examples": [
+    "An object of fields sent as a request body",
+    "An array of records in a response"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "id": "firewall",
+  "term": "Firewall",
+  "aliases": [],
+  "difficulty": "fundamental",
+  "definition": "A firewall filters traffic according to rules, dropping or allowing packets or connections based on attributes such as address, port, and direction. It reduces the set of ways an outsider can reach a service. A rule that allows more than the service needs widens that set again.",
+  "categories": [
+    "networking",
+    "security"
+  ],
+  "examples": [
+    "Allowing only port 443 from the internet",
+    "Blocking outbound traffic except to known destinations"
+  ]
+}

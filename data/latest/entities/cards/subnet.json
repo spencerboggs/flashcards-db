@@ -1,0 +1,14 @@
+{
+  "id": "subnet",
+  "term": "Subnet",
+  "aliases": [],
+  "difficulty": "fundamental",
+  "definition": "A subnet is a range of IP addresses that share a prefix and are treated as one local group for routing. Hosts in the subnet talk directly; traffic for other prefixes goes to a router. The prefix length says how many leading bits are the network portion.",
+  "categories": [
+    "networking"
+  ],
+  "examples": [
+    "A local network of addresses that share the first 24 bits",
+    "A cloud network divided into several subnets"
+  ]
+}

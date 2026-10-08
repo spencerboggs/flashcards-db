@@ -1,0 +1,15 @@
+{
+  "id": "git-merge",
+  "term": "Merge",
+  "aliases": [],
+  "difficulty": "fundamental",
+  "definition": "A merge joins two lines of history. Git finds a common ancestor and combines the changes since then, creating a merge commit when both sides have moved. When both sides changed the same region, the merge stops for a person to resolve the conflict.",
+  "categories": [
+    "version-control"
+  ],
+  "prompt": "What is a merge in Git?",
+  "examples": [
+    "Merging a feature branch into main",
+    "A merge commit with two parents"
+  ]
+}

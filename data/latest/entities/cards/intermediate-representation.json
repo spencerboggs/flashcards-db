@@ -1,0 +1,16 @@
+{
+  "id": "intermediate-representation",
+  "term": "Intermediate Representation",
+  "aliases": [
+    "IR"
+  ],
+  "difficulty": "intermediate",
+  "definition": "An intermediate representation is a form of the program between source and machine code. Compilers optimize and retarget this form so each front end and each back end do not have to know about every other. LLVM IR and compiler-specific bytecode are examples.",
+  "categories": [
+    "programming-languages"
+  ],
+  "examples": [
+    "A three-address form of a function after parsing",
+    "An IR optimized before it is lowered to machine code"
+  ]
+}

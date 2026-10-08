@@ -1,0 +1,17 @@
+{
+  "id": "open-closed-principle",
+  "term": "Open-Closed Principle",
+  "aliases": [
+    "OCP"
+  ],
+  "difficulty": "intermediate",
+  "definition": "The open-closed principle says a unit should be open to extension and closed to modification. New behavior is added by new code, such as a new implementation of an interface, rather than by editing a unit that callers already depend on. Some changes still have to modify existing code; the principle says which way to prefer.",
+  "categories": [
+    "object-oriented-programming",
+    "software-engineering"
+  ],
+  "examples": [
+    "Adding a new exporter by implementing an Exporter interface",
+    "A pricing rule added as a new strategy object"
+  ]
+}

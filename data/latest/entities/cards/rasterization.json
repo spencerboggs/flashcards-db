@@ -1,0 +1,14 @@
+{
+  "id": "rasterization",
+  "term": "Rasterization",
+  "aliases": [],
+  "difficulty": "intermediate",
+  "definition": "Rasterization turns geometric shapes, usually triangles, into the pixels they cover. For each pixel it decides which triangle is in front and what color to write. It is the approach real-time graphics uses, as opposed to casting rays from the camera.",
+  "categories": [
+    "computer-graphics"
+  ],
+  "examples": [
+    "A triangle drawn into a frame buffer",
+    "A depth test that keeps the closest surface"
+  ]
+}

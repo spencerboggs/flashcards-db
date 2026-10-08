@@ -1,0 +1,20 @@
+{
+  "id": "trie",
+  "term": "Trie",
+  "aliases": [
+    "Prefix Tree"
+  ],
+  "difficulty": "intermediate",
+  "definition": "A trie is a tree of strings in which each edge is a character and each path from the root spells a key. Lookup depends on the length of the key, not on how many keys are stored. Shared prefixes share nodes, which also makes prefix queries natural.",
+  "categories": [
+    "data-structures"
+  ],
+  "complexity": {
+    "time": "Lookup, insert, and delete are O(k), where k is the length of the key.",
+    "space": "O(total characters stored), with sharing of common prefixes."
+  },
+  "examples": [
+    "Autocomplete from a dictionary",
+    "A routing table matched by the longest prefix"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "id": "pixel",
+  "term": "Pixel",
+  "aliases": [],
+  "difficulty": "fundamental",
+  "definition": "A pixel is one sample of a picture, a single point in the grid that makes up an image, holding a color. The image's width and height are counts of pixels. A pixel is not a physical dot on every display, which may light several hardware elements to show one pixel.",
+  "categories": [
+    "computer-graphics"
+  ],
+  "examples": [
+    "A 1920 by 1080 image, which has that many pixels",
+    "One pixel storing red, green, and blue values"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "id": "canary-deployment",
+  "term": "Canary Deployment",
+  "aliases": [
+    "Canary Release"
+  ],
+  "difficulty": "intermediate",
+  "definition": "A canary deployment sends a small share of traffic to the new version and watches it before shifting the rest. A problem affects only that share. The rollout grows if the signals stay healthy, and stops if they do not.",
+  "categories": [
+    "infrastructure"
+  ],
+  "examples": [
+    "Five percent of requests routed to a new version",
+    "A rollout halted because the error rate rose"
+  ]
+}

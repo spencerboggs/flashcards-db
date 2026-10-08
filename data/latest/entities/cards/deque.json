@@ -1,0 +1,20 @@
+{
+  "id": "deque",
+  "term": "Deque",
+  "aliases": [
+    "Double-Ended Queue"
+  ],
+  "difficulty": "fundamental",
+  "definition": "A deque is a double-ended queue: elements can be added or removed at either end in constant time. It can act as a stack, a queue, or a window that slides from both sides. A circular buffer or a doubly linked list is the usual backing store.",
+  "categories": [
+    "data-structures"
+  ],
+  "complexity": {
+    "time": "Add and remove at either end are O(1).",
+    "space": "O(n) space for the elements themselves."
+  },
+  "examples": [
+    "A sliding window that drops items from the front and adds at the back",
+    "An undo stack that can also peek at the oldest item"
+  ]
+}

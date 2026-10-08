@@ -1,0 +1,19 @@
+{
+  "id": "cap-theorem",
+  "term": "CAP Theorem",
+  "aliases": [
+    "CAP"
+  ],
+  "difficulty": "advanced",
+  "definition": "The CAP theorem says a distributed store cannot guarantee consistency, availability, and partition tolerance all at once. During a network partition it must choose between answering every request and making every answer reflect the latest write. Real networks partition, so the practical question is how the system behaves while a partition lasts.",
+  "categories": [
+    "distributed-systems"
+  ],
+  "details": [
+    "Consistency in CAP means every read sees the latest write. That is not the C in ACID, which means database constraints."
+  ],
+  "examples": [
+    "A system that rejects writes during a partition so replicas do not diverge",
+    "A system that keeps accepting writes and reconciles them later"
+  ]
+}
